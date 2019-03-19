@@ -1,0 +1,25 @@
+.order-history {
+  display: table;
+  width: 100%;
+
+  &__row {
+    display: table-row;
+  }
+
+  &__col {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px dashed $base-border-color;
+    padding: 10px 10px;
+
+    &--header {
+      border-bottom: 1px solid $base-border-color;
+      font-weight: bold;
+    }
+  }
+
+  &__link {
+    @include link_main;
+  }
+
+}

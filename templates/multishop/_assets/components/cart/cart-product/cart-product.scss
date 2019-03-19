@@ -1,0 +1,29 @@
+.cart-product {
+	@include clearfix;
+	font-size: 0.9rem;
+	
+	&__photo{
+		float: left;
+	}
+
+	&__info {
+		padding-left: 70px;
+	}
+
+	&__brand{
+		color: $base-font-color-secondary;
+	}
+
+	&__title{
+
+	}
+
+	&__link{
+		@include link-second;
+	}
+
+	&__option{
+		color: $base-font-color-secondary;
+	}
+
+}

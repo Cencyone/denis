@@ -1,0 +1,86 @@
+.tree-nav {
+  $nav-vertical-padding: 5px;
+  $nav-border-size: 2px;
+
+  position: relative;
+  padding: $nav-vertical-padding 0;
+  border: $nav-border-size solid $tree-nav-border-color;
+  text-align: left;
+  background: $tree-nav-bg-color;
+  box-shadow: 0 3px 4px $tree-nav-shadow-color;
+
+  &__item {
+    position: relative;
+    padding: 0 5px;
+
+    &--top-drop {
+      position: static;
+    }
+  }
+
+  &__link {
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    padding: 5px 30px 5px 10px;
+    color: $tree-nav-link-color;
+    text-decoration: none;
+  }
+
+  &__item.is-active > &__link {
+    color: $base-font-color-secondary;
+  }
+
+  &__item:hover > &__link {
+    background-color: $tree-nav-link-hover-bg;
+    color: $tree-nav-link-hover-color;
+  }
+
+  &__ico {
+    float: left;
+    margin-top: -1px;
+    margin-right: 4px;
+  }
+
+  &__arrow {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    display: inline-block;
+    fill: $tree-nav-link-color;
+
+    &--right {
+      width: 4px;
+      height: 7px;
+    }
+  }
+  &__item:hover > &__link &__arrow {
+    fill: $tree-nav-link-hover-color;
+  }
+
+  &__drop {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 100%;
+
+    visibility: hidden;
+    opacity: 0;
+    height: 1px;
+    overflow: hidden;
+
+    //Element Modifiers
+    &[data-nav-direction="rtl"] {
+      right: 0;
+      left: auto;
+    }
+  }
+
+  &__item:hover > &__drop {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    overflow: visible;
+  }
+
+}

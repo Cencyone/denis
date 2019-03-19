@@ -1,0 +1,506 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-26 12:48+0300\n"
+"PO-Revision-Date: 2016-10-26 12:48+0300\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/xbanners/admin.php:91
+msgid "The banner was update"
+msgstr "Банер был обновлен"
+
+#: application/modules/xbanners/admin.php:155
+msgid "The banner image was be saved"
+msgstr "Изображение банера было сохранено"
+
+#: application/modules/xbanners/admin.php:206
+msgid "The banner slide was be deleted"
+msgstr "Слайд банера был удален"
+
+#: application/modules/xbanners/admin.php:78
+msgid "scrollSpeed"
+msgstr "Скорость прокрутки(сек)"
+
+#: application/modules/xbanners/src/UrlFinder/Finders/PageCategories.php:26
+msgid "Page Categories"
+msgstr "Категории страниц"
+
+#: application/modules/xbanners/src/UrlFinder/Finders/ProductCategories.php:25
+msgid "Product Categories"
+msgstr "Категории товаров"
+
+#: application/modules/xbanners/src/UrlFinder/Finders/Products.php:25
+msgid "Products"
+msgstr "Товары"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:132
+msgid "Switching banners will be a smooth change rather than scrolling from side to side"
+msgstr "Переключение баннеров будет осуществляться плавным изменением, а не прокруткой из стороны в сторону"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:225
+msgid "touchMove"
+msgstr "Движение по клику"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:165
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:125
+msgid "Slide url. Search to find url to your site page or paste remote one."
+msgstr "Ссылка перехода при клике по слайду."
+
+#: application/modules/xbanners/admin.php:77
+msgid "autoplaySpeed"
+msgstr "Автопрокрутка"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:102
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:136
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:109
+msgid "to"
+msgstr "до"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:52
+msgid "autoplay"
+msgstr "Автопрокрутка"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:64
+msgid "If this option selected banner slides will be scrolled automatically without user actions."
+msgstr "Если этот параметр выбран, слайды будут прокручиваться автоматически без действия пользователя."
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:69
+msgid "autoplaySpeed, (sec)"
+msgstr "Скорость автопрокрутки, (сек)"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:77
+msgid "This option determines automatic scroll speed, time interval through which next slide should be shown."
+msgstr "Этот параметр определяет скорость автоматической прокрутки, интервал времени, через который следующий слайд будет показан."
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:179
+msgid "transition to a new window"
+msgstr "переход на новое окно"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:152
+msgid "Scroll speed(sec)"
+msgstr "Скорость прокрутки(сек)"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:160
+msgid "Speed with which slide will be changed."
+msgstr "Скорость с которой будет изменятся слайд."
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:168
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:127
+msgid "External url must be start with http(s)://"
+msgstr "Внешние URL-адреса должны начинаться с http(s)://"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:225
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:177
+msgid "Description"
+msgstr "Описание"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:238
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:185
+msgid "Slide description text."
+msgstr "Текст описание слайда."
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:12
+msgid "Update banners"
+msgstr "Обновление баннеров"
+
+#: application/modules/xbanners/src/Managers/BannerPageTypesManager.php:63
+msgid "Product brand"
+msgstr "Бренд товара"
+
+#: application/modules/xbanners/src/Managers/BannerPageTypesManager.php:55
+msgid "Page category"
+msgstr "Категория страниц"
+
+#: application/modules/xbanners/src/Managers/BannerPageTypesManager.php:47
+msgid "Product category"
+msgstr "Категория товаров"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:169
+msgid "centerMode"
+msgstr "Показывать с центральным баннером"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:177
+msgid "draggable"
+msgstr "Перетаскивание мышью"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:119
+msgid "fade"
+msgstr "Fade эффект"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:186
+msgid "easing"
+msgstr "Easing эффект"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:138
+msgid "infinite"
+msgstr "Бесконечность прокрутки"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:200
+msgid "pauseOnHover"
+msgstr "Пауза при наведении"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:208
+msgid "pauseOnDotsHover"
+msgstr "Пауза при наведении на буллет"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:217
+msgid "swipe"
+msgstr "Swipe"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:233
+msgid "vertical"
+msgstr "Вертикальная прокрутка"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:241
+msgid "rtl"
+msgstr "Листать справа налево"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:93
+msgid "Permanently active"
+msgstr "Постоянно действующий"
+
+#: application/modules/xbanners/admin.php:90
+msgid "Banner successfully update"
+msgstr "Баннер успешно обновлен"
+
+#: application/modules/xbanners/admin.php:90
+#: application/modules/xbanners/admin.php:154
+#: application/modules/xbanners/admin.php:184
+#: application/modules/xbanners/admin.php:204
+#: application/modules/xbanners/admin.php:249
+msgid "Success"
+msgstr "Успешно"
+
+#: application/modules/xbanners/admin.php:154
+#: application/modules/xbanners/admin.php:249
+msgid "Successfully saved"
+msgstr "Успешно сохранено"
+
+#: application/modules/xbanners/admin.php:184
+msgid "Image successfully deleted"
+msgstr "Изображение успешно удалено"
+
+#: application/modules/xbanners/admin.php:204
+msgid "Banner slide successfully deleted"
+msgstr "Слайд баннера успешно удален"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:205
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:155
+msgid "Show in every page"
+msgstr "Показывать на каждой странице"
+
+#: application/modules/xbanners/assets/admin/banner/edit.tpl:13
+msgid "Back"
+msgstr "Вернуться"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:33
+msgid "Main image"
+msgstr "Основные изображения"
+
+#: application/modules/xbanners/src/Managers/BannerPageTypesManager.php:43
+msgid "Main"
+msgstr "Главная"
+
+#: application/modules/xbanners/src/Managers/BannerPageTypesManager.php:51
+msgid "Product"
+msgstr "Товар"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:10
+msgid "Options"
+msgstr "Настройки"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:62
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:57
+#: application/modules/xbanners/assets/admin/banner/list.tpl:30
+msgid "Size"
+msgstr "Размер баннера"
+
+#: application/modules/xbanners/src/Managers/ImagesManager.php:255
+msgid "You can not upload file with size more than:"
+msgstr "Вы не можете загружать файл размером больше чем:"
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:29
+msgid "Output page"
+msgstr "Страница вывода"
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:28
+msgid "Banner position"
+msgstr "Позиция баннера"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:248
+msgid "transitions1"
+msgstr "переход"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:248
+msgid "transitions2"
+msgstr "перехода"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:248
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:248
+msgid "transitions3"
+msgstr "переходов"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:120
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:93
+msgid "Permanent banner"
+msgstr "Показывать постоянно"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:88
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:80
+msgid "Activity"
+msgstr "Активность"
+
+#: application/modules/xbanners/admin.php:76
+#: application/modules/xbanners/admin.php:124
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:22
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:71
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:66
+msgid "Name"
+msgstr "Название"
+
+#: application/modules/xbanners/admin.php:125
+msgid "URL"
+msgstr "URL-адрес"
+
+#: application/modules/xbanners/admin.php:136
+msgid "Slide must have image"
+msgstr "Слайд должен иметь изображения"
+
+#: application/modules/xbanners/admin.php:136
+#: application/modules/xbanners/admin.php:162
+#: application/modules/xbanners/admin.php:187
+#: application/modules/xbanners/admin.php:209
+#: application/modules/xbanners/admin.php:251
+#: application/modules/xbanners/xbanners.php:148
+msgid "Error"
+msgstr "Ошибка"
+
+#: application/modules/xbanners/admin.php:187
+msgid "Can not delete image"
+msgstr "Невозможно удалить изображения"
+
+#: application/modules/xbanners/admin.php:209
+msgid "Can not delete banner slide"
+msgstr "Невозможно удалить баннер слайд"
+
+#: application/modules/xbanners/admin.php:222
+msgid "Positions saved"
+msgstr "Позиции сохраняются"
+
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:8
+msgid "Show"
+msgstr "Показать"
+
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:13
+msgid "All"
+msgstr "Все"
+
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:26
+msgid "Add new slide"
+msgstr "Добавить новый слайд"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:43
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:259
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:47
+msgid "Edit"
+msgstr "Редактировать"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:52
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:55
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:67
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:51
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:62
+#: application/modules/xbanners/assets/admin/banner/list.tpl:60
+msgid "px"
+msgstr "px"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:83
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:75
+msgid "Slide name"
+msgstr "Название слайда"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:130
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:136
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:103
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:109
+msgid "choose a date"
+msgstr "выбрать дату"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:97
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:130
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:103
+msgid "from"
+msgstr "от"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:144
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:116
+msgid "Url"
+msgstr "URL-адрес"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:175
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:133
+msgid "Url open type"
+msgstr "Открыть URL-адрес типа"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:188
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:141
+msgid "Open slide link in new window tab"
+msgstr "Открывать страницу перехода с баннера в новой вкладке"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:194
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:146
+msgid "Show in"
+msgstr "Показать в"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:215
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:164
+msgid "Select page"
+msgstr "Выберите страницу"
+
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:170
+msgid "Page where banner's slide should be placed."
+msgstr "Страницы, где баннер слайд должен быть помещен."
+
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:196
+msgid "Add"
+msgstr "Добавить"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:272
+#: application/modules/xbanners/assets/admin/banner/add_slide.tpl:199
+msgid "Cancel"
+msgstr "Отмена"
+
+#: application/modules/xbanners/assets/admin/banner/edit.tpl:7
+msgid "Banner editing"
+msgstr "Редактирования баннера"
+
+#: application/modules/xbanners/assets/admin/banner/edit.tpl:19
+msgid "Add slide"
+msgstr "Добавить слайд"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:270
+#: application/modules/xbanners/assets/admin/banner/edit.tpl:24
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/modules/xbanners/assets/admin/banner/edit.tpl:33
+msgid "Slides"
+msgstr "Слайды"
+
+#: application/modules/xbanners/assets/admin/banner/edit.tpl:34
+msgid "Settings"
+msgstr "Параметры"
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:6
+msgid "Banner managment"
+msgstr "Баннер менеджмент"
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:20
+msgid "Empty banners list"
+msgstr "Пустой список баннеров"
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:27
+msgid "Visualization"
+msgstr "Визуализация"
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:31
+msgid "Banners count"
+msgstr "Количество баннеров"
+
+#: application/modules/xbanners/assets/admin/banner/list.tpl:50
+msgid "Editing"
+msgstr "Редактирование"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:40
+msgid "Effects"
+msgstr "Эффекты"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:82
+msgid "arrows"
+msgstr "Навигация стрелками"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:94
+msgid "If this option enabled arrows navigation through slides will be used."
+msgstr "Если этот параметр включен стрелки навигации по слайдам будут использоваться."
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:100
+msgid "dots"
+msgstr "Буллеты"
+
+#: application/modules/xbanners/assets/admin/banner/settings.tpl:112
+msgid "If this option enabled dots navigation through slides will be used."
+msgstr "Если эта опция включена, навигация по слайдам будет использоваться."
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:264
+msgid "Delete"
+msgstr "Удалить"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:95
+msgid "Active"
+msgstr "Активный"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:107
+msgid "Inactive"
+msgstr "Не активен"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:179
+msgid "no"
+msgstr "нет"
+
+#: application/modules/xbanners/assets/admin/banner/slides_list.tpl:244
+msgid "Statistic"
+msgstr "Статистика"
+
+#: application/modules/xbanners/module_info.php:6
+msgid "Banners"
+msgstr "Баннеры"
+
+#: application/modules/xbanners/module_info.php:7
+msgid "Improved banners module"
+msgstr "Улучшен модуль баннеров"
+
+#: application/modules/xbanners/src/Installers/TemplatePlacesInstaller.php:79
+msgid "Could not find banner settings"
+msgstr "Не смог найти параметры баннера"
+
+#: application/modules/xbanners/src/Managers/BannerPageTypesManager.php:59
+msgid "Page"
+msgstr "Страница"
+
+#: application/modules/xbanners/src/Managers/BannerPageTypesManager.php:67
+msgid "Search page"
+msgstr "Страница поиска"
+
+#: application/modules/xbanners/src/Managers/ImagesManager.php:251
+msgid "You can upload only images"
+msgstr "Вы можете загружать только изображения"
+
+#: application/modules/xbanners/src/Managers/ImagesManager.php:287
+msgid "Images"
+msgstr "Изображения"
+
+#: application/modules/xbanners/src/Managers/ImagesManager.php:310
+#: application/modules/xbanners/src/Managers/ImagesManager.php:321
+msgid "Images without relation"
+msgstr "Изображения без связи"
+
+#: application/modules/xbanners/src/UrlFinder/Finders/Brands.php:22
+msgid "Brands"
+msgstr "Бренды"
+
+#: application/modules/xbanners/src/UrlFinder/Finders/Pages.php:17
+msgid "Pages"
+msgstr "Страницы"

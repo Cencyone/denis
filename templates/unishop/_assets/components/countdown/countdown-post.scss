@@ -1,0 +1,76 @@
+.countdown-post {
+  display: table;
+  color:   #000;
+
+  &__header {
+    background: $countdown-post-header-bg;
+    border:     1px solid $countdown-post-border-color;
+    padding:    rem(5) rem(10);
+  }
+
+  &__footer {
+    margin-top: rem(10);
+  }
+
+  &__title {
+    font-size:   rem(12);
+    font-weight: 700;
+    color:       $countdown-post-title-color;
+  }
+
+  &__content {
+    text-align: center;
+    background: $countdown-post-content-bg;
+    border:     2px dashed $countdown-post-border-color;
+    border-top: 0;
+    padding:    rem(10) rem(4);
+
+    @media (min-width: $screen-md-min) {
+      padding: rem(15);
+    }
+  }
+
+  &__cell {
+    position:       relative;
+
+    display:        inline-block;
+    vertical-align: middle;
+
+    width:          rem(70px);
+    height:         rem(70px);
+    margin:         rem(1);
+    background:     #FFF;
+    border:         1px solid $base-border-color;
+    font-weight:    700;
+    text-align:     center;
+
+    @media (min-width: $screen-md-min) {
+      margin: rem(5);
+    }
+
+  }
+
+  &__number {
+    @include absolute-center-translate;
+    font-size:   rem(35px);
+    line-height: 1;
+  }
+  &__marker {
+    font-size: rem(14);
+  }
+
+  &__icon {
+    display:        inline-block;
+    vertical-align: middle;
+    color:          $theme-main-color;
+    width:          rem(14);
+    height:         rem(14);
+  }
+
+  &__basement {
+    display:        inline-block;
+    font-size:      rem(14);
+    vertical-align: middle;
+  }
+
+}

@@ -1,0 +1,21 @@
+.product-thumb{
+
+  &__photo{
+    width: 100px;
+  }
+
+
+  &__title{
+    padding-top: 5px;
+    font-size: 0.9rem;
+
+    &-link{
+      @include link-main;
+    }
+  }
+
+  &__price{
+    padding-top: 5px;
+  }
+
+}

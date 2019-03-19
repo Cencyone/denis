@@ -1,0 +1,48 @@
+.widget-primary {
+
+  &__header {
+    position: relative;
+    padding: 15px 90px 15px 25px;
+    margin-bottom: 1.2rem;
+    background: $widget-primary-header-bg;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: $widget-primary-title-color;
+  }
+
+  &__arrows {
+    @include position(absolute, 0 0 0 null);
+    font-size: 0;
+  }
+
+  &__arrow {
+    display: inline-block;
+    position: relative;
+    border-left: 1px solid #fff;
+    height: 100%;
+    width: rem(41);
+    cursor: pointer;
+
+    & > .svg-icon {
+      @include absolute-center-margin();
+    }
+
+    /* styles for disabled arrow, when slick carusel infinite is disabled */
+    &.slick-disabled {
+      opacity: .5;
+      cursor: default;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}

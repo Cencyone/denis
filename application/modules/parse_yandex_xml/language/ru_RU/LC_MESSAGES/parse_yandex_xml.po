@@ -1,0 +1,55 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-03 11:48+0200\n"
+"PO-Revision-Date: 2016-02-03 11:48+0200\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/parse_yandex_xml/module_info.php:6
+msgid "Parse_yandex_xml"
+msgstr ""
+
+#: application/modules/parse_yandex_xml/admin.php:30
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: application/modules/parse_yandex_xml/admin.php:30
+msgid "Message"
+msgstr "Сообщение"
+
+#: application/modules/parse_yandex_xml/assets/admin/main.tpl:16
+msgid "parse_yandex_xml management"
+msgstr "Parse Yande XML меннеджер"
+
+#: application/modules/parse_yandex_xml/assets/admin/main.tpl:23
+msgid "Back"
+msgstr "Вернуться"
+
+#: application/modules/parse_yandex_xml/assets/admin/main.tpl:25
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/modules/parse_yandex_xml/assets/admin/main.tpl:37
+msgid "Settings ParsingXMLYandex"
+msgstr "Настройки Parsing Yandex XML"
+
+#: application/modules/parse_yandex_xml/assets/admin/main.tpl:47
+msgid "URL for parsing"
+msgstr "URL для парсинга "
+
+#: application/modules/parse_yandex_xml/assets/admin/main.tpl:70
+msgid "Обновить базу товаров "
+msgstr ""

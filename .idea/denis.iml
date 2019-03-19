@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/application/modules" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/libraries" isTestSource="false" packagePrefix="libraries\" />
+      <sourceFolder url="file://$MODULE_DIR$/hooks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/modules/shop/classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/application/modules/shop/models" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/analog/analog" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/artem_c/emmet" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/filemanager/config" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/filemanager/css" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/filemanager/img" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/filemanager/include" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/filemanager/js" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/filemanager/lang" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/filemanager/uploader" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/gettext/gettext" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/gettext/languages" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/greenlion/php-sql-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/nqxcode/phpmorphy" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/patchwork/jsqueeze" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/phpoffice/phpexcel" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/propel/propel" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/studio-42/elfinder" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/expression-language" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/validator" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/tecnickcom/tcpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/tinymce/tinymce" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/tubalmartin/cssmin" />
+      <excludeFolder url="file://$MODULE_DIR$/application/third_party/twig/twig" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

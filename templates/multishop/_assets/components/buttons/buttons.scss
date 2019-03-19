@@ -1,0 +1,50 @@
+.btn {
+  text-decoration: none;
+
+  & > * {
+    display: inline-block;
+    vertical-align: middle;
+
+    &:not(:last-child) {
+      margin-right: em(5px);
+    }
+  }
+
+  &--main {
+    /* cancel default bootstrap blue outline */
+    outline: 0 !important;
+    /* cancel default bootstrap border */
+    border: 0;
+
+    background: $theme-main-color;
+    color: $btn-main-color;
+
+    &:hover,
+    &:focus {
+      background: $btn-main-bg-hover;
+      color: $btn-main-color-hover;
+    }
+  }
+
+  &__icon {
+    display: block;
+    position: relative;
+
+    &--search {
+      width: rem(17px);
+      height: rem(20px);
+    }
+
+  }
+}
+
+.btn-order {
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-lg;
+  }
+}

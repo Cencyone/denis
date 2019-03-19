@@ -1,0 +1,482 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-04 10:27+0200\n"
+"PO-Revision-Date: 2016-11-04 10:27+0200\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:102
+#: application/modules/smart_filter/assets/admin/create.tpl:113
+#: application/modules/smart_filter/assets/admin/index.tpl:70
+#: application/modules/smart_filter/assets/admin/index.tpl:103
+#: application/modules/smart_filter/assets/admin/edit.tpl:126
+msgid "Active"
+msgstr "Активный"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:15
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:11
+msgid "Additional params for using with category name"
+msgstr "Дополнительные параметры для использования с именем категории"
+
+#: application/modules/smart_filter/admin.php:68
+#: application/modules/smart_filter/admin.php:339
+#: application/modules/smart_filter/admin.php:355
+#: application/modules/smart_filter/admin.php:400
+#: application/modules/smart_filter/assets/admin/index.tpl:101
+#: application/modules/smart_filter/src/Admin/DataProvider.php:113
+#: application/modules/smart_filter/src/Admin/DataProvider.php:131
+msgid "All"
+msgstr "Все"
+
+#: application/modules/smart_filter/module_info.php:7
+msgid "Allows you to change the default online store filter to extended"
+msgstr "Позволяет изменить стандартный фильтр интернет-магазина на расширенный"
+
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:10
+msgid "Array of selected brands"
+msgstr "Массив выбранных брендов"
+
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:9
+msgid "Array of selected properties"
+msgstr "Массив выбранных свойств "
+
+#: application/modules/smart_filter/assets/admin/nothing_here.tpl:9
+msgid "Back"
+msgstr "Вернуться"
+
+#: application/modules/smart_filter/admin.php:454
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:49
+#: application/modules/smart_filter/assets/admin/create.tpl:51
+#: application/modules/smart_filter/assets/admin/edit.tpl:59
+msgid "Brand"
+msgstr "Бренд"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:12
+msgid "Brand name"
+msgstr "Бренд"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:12
+msgid "Cancel"
+msgstr "Отмена"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:44
+msgid "Cancel filter"
+msgstr ""
+
+#: application/modules/smart_filter/assets/main.tpl:6
+msgid "Categories"
+msgstr "Категории"
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:176
+#: application/modules/smart_filter/assets/admin/settings.tpl:119
+#: application/modules/smart_filter/assets/admin/create.tpl:187
+#: application/modules/smart_filter/assets/admin/edit.tpl:204
+msgid "Categories text in main page"
+msgstr "SEO Текст на главной странице категорий"
+
+#: application/modules/smart_filter/admin.php:451
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:36
+#: application/modules/smart_filter/assets/admin/create.tpl:38
+#: application/modules/smart_filter/assets/admin/index.tpl:67
+#: application/modules/smart_filter/assets/admin/edit.tpl:45
+msgid "Category"
+msgstr "Категория"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:4
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:4
+msgid "Category description"
+msgstr "Описание категории"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:2
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:2
+msgid "Category ID"
+msgstr "ID категории"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:3
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:3
+msgid "Category name"
+msgstr "Имя категории"
+
+#: application/modules/smart_filter/admin.php:318
+msgid "Change saved successfully"
+msgstr "Изменения сохранены"
+
+#: application/modules/smart_filter/admin.php:255
+msgid "Count"
+msgstr "Количество"
+
+#: application/modules/smart_filter/assets/admin/create.tpl:12
+#: application/modules/smart_filter/assets/admin/index.tpl:34
+msgid "Create"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/create.tpl:14
+msgid "Create and exit"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/create.tpl:5
+msgid "Create pattern"
+msgstr "Создание паттерна"
+
+#: application/modules/smart_filter/admin.php:257
+msgid "Created patters"
+msgstr "Создано паттернов"
+
+#: application/modules/smart_filter/assets/admin/settings.tpl:25
+msgid "Default templates"
+msgstr "Шаблоны по умолчанию"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:11
+#: application/modules/smart_filter/assets/admin/index.tpl:37
+msgid "Delete"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/edit.tpl:5
+msgid "Edit pattern"
+msgstr "Редактирование паттерна"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:19
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:15
+msgid "Example"
+msgstr "Пример"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:31
+msgid "Filter"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:12
+msgid "Generate"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:10
+#: application/modules/smart_filter/assets/admin/settings.tpl:10
+#: application/modules/smart_filter/assets/admin/create.tpl:10
+#: application/modules/smart_filter/assets/admin/edit.tpl:10
+msgid "Go back"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:116
+#: application/modules/smart_filter/assets/admin/settings.tpl:59
+#: application/modules/smart_filter/assets/admin/create.tpl:127
+#: application/modules/smart_filter/assets/admin/edit.tpl:140
+msgid "H1"
+msgstr "Н1"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:65
+msgid "ID"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:23
+#: application/modules/smart_filter/assets/admin/create.tpl:25
+#: application/modules/smart_filter/assets/admin/edit.tpl:27
+msgid "Information"
+msgstr ""
+
+#: application/modules/smart_filter/admin.php:294
+msgid "Items has been successfully removed"
+msgstr "Паттерны успешно удалены"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:5
+msgid "Items removing"
+msgstr "Удаление"
+
+#: application/modules/smart_filter/assets/filter.tpl:8
+msgid "Javascript is not enabled"
+msgstr "Javascript не включен"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:27
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:23
+msgid "joint use"
+msgstr "Совместное использование"
+
+#: application/modules/smart_filter/assets/filter.tpl:34
+msgid "Manufacturer"
+msgstr "Производитель"
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:5
+#: application/modules/smart_filter/assets/admin/index.tpl:29
+msgid "Mass generation"
+msgstr "Маccовое создание"
+
+#: application/modules/smart_filter/admin.php:255
+msgid "Mass generation patterns"
+msgstr "Массовое создание паттернов"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:8
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:8
+msgid "Maximal price in category"
+msgstr "Максимальная цена в категории"
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:149
+#: application/modules/smart_filter/assets/admin/settings.tpl:92
+#: application/modules/smart_filter/assets/admin/create.tpl:160
+#: application/modules/smart_filter/assets/admin/edit.tpl:175
+msgid "Meta description"
+msgstr "Meta description"
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:165
+#: application/modules/smart_filter/assets/admin/settings.tpl:108
+#: application/modules/smart_filter/assets/admin/create.tpl:176
+#: application/modules/smart_filter/assets/admin/edit.tpl:192
+msgid "Meta keywords"
+msgstr "Meta keywords"
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:132
+#: application/modules/smart_filter/assets/admin/settings.tpl:75
+#: application/modules/smart_filter/assets/admin/create.tpl:143
+#: application/modules/smart_filter/assets/admin/edit.tpl:157
+msgid "Meta title"
+msgstr "Meta title"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:6
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:6
+msgid "Minimal price in category"
+msgstr "Минимальная цена в категории"
+
+#: application/modules/smart_filter/assets/admin/nothing_here.tpl:23
+msgid "Module settings for physical URLs in"
+msgstr "Настройки модуля для физических URL-адресов"
+
+#: application/modules/smart_filter/config/pagination.php:16
+msgid "Next"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/index.tpl:105
+msgid "Not active"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:18
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:14
+msgid "Number case of word"
+msgstr "номер падежа слова"
+
+#: application/modules/smart_filter/assets/filter.tpl:25
+msgid "OK"
+msgstr "ОК"
+
+#: application/modules/smart_filter/assets/filter.tpl:19
+#: application/modules/smart_filter/assets/filter.tpl:22
+msgid "Only numeric"
+msgstr "Только цифры"
+
+#: application/modules/smart_filter/admin.php:135
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: application/modules/smart_filter/admin.php:99
+msgid "Pattern successfully created"
+msgstr "Паттерн успешно создан"
+
+#: application/modules/smart_filter/admin.php:140
+msgid "Pattern successfully edited"
+msgstr "Паттерн успешно отредактирован"
+
+#: application/modules/smart_filter/admin.php:295
+msgid "Patterns has been successfully removed"
+msgstr "Паттерн был успешно удален."
+
+#: application/modules/smart_filter/assets/admin/index.tpl:157
+msgid "Patterns list is empty"
+msgstr "Список паттернов пуст"
+
+#: application/modules/smart_filter/admin.php:317
+msgid "Patterns status was change"
+msgstr "Статус паттерна был изменен"
+
+#: application/modules/smart_filter/config/pagination.php:17
+msgid "Prev"
+msgstr ""
+
+#: application/modules/smart_filter/assets/filter.tpl:6
+msgid "Price"
+msgstr "Цена"
+
+#: application/modules/smart_filter/assets/main.tpl:26
+msgid "Price from"
+msgstr "Цена от"
+
+#: application/modules/smart_filter/assets/main.tpl:23
+#: application/modules/smart_filter/assets/main.tpl:23
+msgid "product"
+msgstr "продукт"
+
+#: application/modules/smart_filter/assets/main.tpl:23
+msgid "products"
+msgstr "продукты"
+
+#: application/modules/smart_filter/admin.php:455
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:61
+#: application/modules/smart_filter/assets/admin/create.tpl:63
+#: application/modules/smart_filter/assets/admin/edit.tpl:72
+msgid "Property"
+msgstr "Свойство"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:9
+msgid "Property name"
+msgstr "Свойство "
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:10
+#: application/modules/smart_filter/assets/admin/create.tpl:75
+#: application/modules/smart_filter/assets/admin/edit.tpl:84
+msgid "Property value"
+msgstr "Значение"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:8
+msgid "Remove selected items?"
+msgstr "Удалить выбранные паттерны?"
+
+#: application/modules/smart_filter/assets/main.tpl:52
+#: application/modules/smart_filter/assets/admin/index.tpl:41
+msgid "Reset filter"
+msgstr "Сбросить фильтр"
+
+#: application/modules/smart_filter/src/Admin/PatternHandler.php:473
+msgid "Same pattern already exists"
+msgstr "Такой паттерн уже существует"
+
+#: application/modules/smart_filter/assets/admin/settings.tpl:12
+#: application/modules/smart_filter/assets/admin/edit.tpl:12
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/modules/smart_filter/assets/admin/edit.tpl:14
+msgid "Save and exit"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/nothing_here.tpl:25
+msgid "Seo Expert"
+msgstr "SEO эксперт"
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:182
+#: application/modules/smart_filter/assets/admin/settings.tpl:125
+#: application/modules/smart_filter/assets/admin/create.tpl:193
+#: application/modules/smart_filter/assets/admin/edit.tpl:210
+msgid "Seo text"
+msgstr "Seo текст"
+
+#: application/modules/smart_filter/assets/admin/settings.tpl:5
+#: application/modules/smart_filter/assets/admin/index.tpl:27
+msgid "Settings"
+msgstr "Настройки"
+
+#: application/modules/smart_filter/admin.php:217
+msgid "Settings has been saved"
+msgstr "Настройки сохранены"
+
+#: application/modules/smart_filter/admin.php:218
+msgid "Settings in the patterns has been saved"
+msgstr "Настройки паттернов были сохранены"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:144
+msgid "show"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/edit.tpl:30
+msgid "Show on site"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/nothing_here.tpl:5
+#: application/modules/smart_filter/assets/admin/index.tpl:22
+#: application/modules/smart_filter/module_info.php:6
+msgid "Smart filter"
+msgstr "Smart filter"
+
+#: application/modules/smart_filter/assets/admin/nothing_here.tpl:19
+msgid "Smart filter has no options here"
+msgstr "Smart filter не имеет никаких настроек здесь"
+
+#: application/modules/smart_filter/src/Admin/PatternHandler.php:229
+msgid "There are no products for this combination"
+msgstr "Нет товаров с такой комбинацией"
+
+#: application/modules/smart_filter/assets/main.tpl:26
+msgid "to"
+msgstr "до"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:17
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:13
+msgid "Translit"
+msgstr "Транслит"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:68
+msgid "URL"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/settings.tpl:45
+msgid "Use default templates for filter pages "
+msgstr "Использовать шаблоны по умолчанию для страниц фильтра"
+
+#: application/modules/smart_filter/assets/admin/index.tpl:66
+msgid "Value"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:111
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:127
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:144
+#: application/modules/smart_filter/assets/admin/mass_generation.tpl:160
+#: application/modules/smart_filter/assets/admin/settings.tpl:54
+#: application/modules/smart_filter/assets/admin/settings.tpl:70
+#: application/modules/smart_filter/assets/admin/settings.tpl:87
+#: application/modules/smart_filter/assets/admin/settings.tpl:103
+#: application/modules/smart_filter/assets/admin/create.tpl:122
+#: application/modules/smart_filter/assets/admin/create.tpl:138
+#: application/modules/smart_filter/assets/admin/create.tpl:155
+#: application/modules/smart_filter/assets/admin/create.tpl:171
+#: application/modules/smart_filter/assets/admin/edit.tpl:135
+#: application/modules/smart_filter/assets/admin/edit.tpl:152
+#: application/modules/smart_filter/assets/admin/edit.tpl:170
+#: application/modules/smart_filter/assets/admin/edit.tpl:187
+msgid "Variables, can use to"
+msgstr "Переменные, которые можно использовать:"
+
+#: application/modules/smart_filter/assets/admin/edit.tpl:224
+#: application/modules/smart_filter/assets/admin/edit.tpl:231
+msgid "View on site"
+msgstr ""
+
+#: application/modules/smart_filter/assets/main.tpl:23
+msgid "with filter"
+msgstr "с фильтром"
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:23
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:19
+msgid "Винительный"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:22
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:18
+msgid "Дательный"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:20
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:16
+msgid "Именительный"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:25
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:21
+msgid "Предложный"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:21
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:17
+msgid "Родительный"
+msgstr ""
+
+#: application/modules/smart_filter/assets/admin/help_text.tpl:24
+#: application/modules/smart_filter/assets/admin/settings_help_text.tpl:20
+msgid "Творительный"
+msgstr ""

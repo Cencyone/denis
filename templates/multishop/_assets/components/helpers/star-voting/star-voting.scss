@@ -1,0 +1,42 @@
+.star-voting {
+
+  &__wrap {
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  &__wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  &__icon {
+    float: right;
+    width: rem(20px);
+    height: rem(20px);
+    padding-left: 2px;
+    cursor: pointer;
+
+    .svg-icon--star {
+      stroke: $star-rating-color;
+      fill: none;
+    }
+  }
+
+  &__ico:last-child {
+    padding-left: 0;
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__icon:hover,
+  &__icon:hover ~ &__icon,
+  &__input:checked ~ &__icon {
+    .svg-icon--star {
+      fill: $star-rating-color;
+    }
+  }
+
+}

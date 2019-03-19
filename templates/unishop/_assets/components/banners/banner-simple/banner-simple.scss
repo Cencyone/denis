@@ -1,0 +1,136 @@
+.banner-simple {
+  $border-color: $base-border-color;
+  $title-color: #000;
+  $desc-color: #000;
+  $arrow-bg: rgba(0, 0, 0, 0.129);
+  $arrow-bg-hover: rgba(0, 0, 0, 0.2);
+  $arrow-color: $theme-main-color;
+  $arrow-color-hover: $theme-main-color;
+  $dots-border-color: $base-border-color;
+  $dots-bg: #DFE4EB;
+  $dots-bg-active: $theme-main-color;
+
+  //border: 1px solid $border-color;
+  position: relative;
+  font-size: 1rem;
+  overflow: hidden;
+
+  /* Only one banner is visible while js is loading */
+  [data-slider-nojs] {
+    [data-slider-slide]:not(:first-child) {
+      display: none;
+    }
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__link {
+    @include position(absolute, 0 0 0 0);
+    opacity: 0;
+    z-index: $z-index-l;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  &__image {
+    display: block;
+    margin: auto;
+  }
+
+  &__content {
+    text-align: center;
+    @include position(absolute, 20px 0 null 0);
+    padding: 10px;
+    color: $desc-color;
+    line-height: 1.1;
+    font-weight: bold;
+
+    @media(min-width: $screen-md-min) {
+      font-size: 1.2em;
+    }
+
+  }
+
+  &__arrow {
+    position: absolute;
+    width: 40px;
+    top: 0;
+    bottom: 0;
+    z-index: $z-index-s;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: $arrow-color;
+
+    &:hover {
+      color: $arrow-color-hover;
+    }
+
+    &.slick-disabled {
+      display: none !important;
+    }
+
+    &--prev {
+      left: 0;
+    }
+
+    &--next {
+      right: 0;
+    }
+  }
+
+  &__ico {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    height: 25px;
+    fill: $theme-main-color;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &--flip {
+      transform: scaleX(-1);
+    }
+
+    svg {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+  }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 2px;
+  }
+  .slick-dots button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    background-color: $dots-bg;
+  }
+  .slick-dots .slick-active button {
+    background-color: $dots-bg-active;
+  }
+}

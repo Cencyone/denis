@@ -1,0 +1,1269 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-31 04:41+0200\n"
+"PO-Revision-Date: 2016-10-31 04:41+0200\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:41
+#: templates/multishop/system_bonus/user_profile.tpl:4
+msgid "Earned points"
+msgstr "Бонусні бали"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:47
+#: templates/multishop/shop/includes/product/variants/radio.tpl:9
+#: templates/multishop/shop/includes/product/variants/select.tpl:11
+#: templates/multishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_1"
+msgstr "бал"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:47
+#: templates/multishop/shop/includes/product/variants/radio.tpl:9
+#: templates/multishop/shop/includes/product/variants/select.tpl:11
+#: templates/multishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_2"
+msgstr "бали"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:47
+#: templates/multishop/shop/includes/product/variants/radio.tpl:9
+#: templates/multishop/shop/includes/product/variants/select.tpl:11
+#: templates/multishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_3"
+msgstr "балів"
+
+#: templates/multishop/system_bonus/cart_input.tpl:10
+msgid "Use points"
+msgstr "Використати бали"
+
+#: templates/multishop/system_bonus/cart_input.tpl:20
+#: templates/multishop/system_bonus/user_profile.tpl:10
+msgid "You can use your points to get discount for purchasing. Each 1 point equals"
+msgstr "Ви можете використовувати бали, щоб отримати знижку на покупку. Кожен 1 бал дорівнює"
+
+#: templates/multishop/system_bonus/system_bonus_product.tpl:8
+msgid "You will earn"
+msgstr "Ви отримаєте"
+
+#: templates/multishop/login.tpl:24
+#: templates/multishop/login_popup.tpl:34
+#: templates/multishop/register.tpl:28
+msgid "Sign in with"
+msgstr "Увійти за допомогою соціальних мереж"
+
+#: templates/multishop/shop/includes/profile/user_data.tpl:15
+msgid "Linked accounts"
+msgstr "Інтеграція з соціальними мережами"
+
+#: templates/multishop/pricespy/button.tpl:34
+msgid "You are following the price changes of this item. You will receive a notification to your contact email when the product price will be changed. Check your personal account to cancel the subscription and view other items that you're following."
+msgstr "Ви вже слідкуєте за зміною ціни цього продукту. Перейдіть в ваш особистий кабінет щоб відмінити підписку та переглянути інші товари за якими ви слідкуєте"
+
+#: templates/multishop/includes/footer_profile.tpl:21
+#: templates/multishop/includes/header_profile.tpl:36
+#: templates/multishop/includes/mobile_profile.tpl:33
+msgid "Tracking price"
+msgstr "Стеження за ціною"
+
+#: templates/multishop/pricespy/button.tpl:26
+msgid "Follow the price and we will send you an email once the product price changes"
+msgstr "Відстежуйте ціну і ми надішлемо вам email, як тільки ціна продукту зміниться"
+
+#: templates/multishop/pricespy/button.tpl:53
+msgid "View items"
+msgstr "Переглянути товари"
+
+#: templates/multishop/pricespy/spys.tpl:19
+msgid "Price reduction"
+msgstr "Зниження ціни"
+
+#: templates/multishop/related_products/related_products.tpl:7
+msgid "Other colors"
+msgstr "Інші кольори"
+
+#: templates/multishop/found_less_expensive/buttonWithForm.tpl:2
+#: templates/multishop/found_less_expensive/modal_form.tpl:5
+msgid "Found cheaper?"
+msgstr "Найшли дешевше?"
+
+#: templates/multishop/found_less_expensive/modal_form.tpl:55
+msgid "Product URL"
+msgstr "Посилання на товар"
+
+#: templates/multishop/found_less_expensive/modal_form.tpl:59
+msgid "Web site url where you find it cheaper"
+msgstr "URL сайту, де ви знайдете товар дешевше"
+
+#: templates/multishop/pricespy/button.tpl:9
+#: templates/multishop/pricespy/button.tpl:17
+#: templates/multishop/pricespy/button.tpl:50
+#: templates/multishop/pricespy/spys.tpl:8
+msgid "Follow price"
+msgstr "Слідкувати за ціною"
+
+#: templates/multishop/pricespy/spys.tpl:20
+#: templates/multishop/pricespy/spys.tpl:51
+msgid "Unsubscribe"
+msgstr "Видалити"
+
+#: templates/multishop/pricespy/spys.tpl:16
+msgid "Product"
+msgstr "Товар"
+
+#: templates/multishop/pricespy/spys.tpl:17
+msgid "New price"
+msgstr "Нова ціна"
+
+#: templates/multishop/pricespy/spys.tpl:18
+msgid "Old price"
+msgstr "Стара ціна"
+
+#: templates/multishop/pricespy/spys.tpl:59
+msgid "Watch list is empty"
+msgstr "Список порожній"
+
+#: templates/multishop/nova_poshta/nova_poshta.tpl:38
+msgid "View on the map"
+msgstr "Подивитися на карті"
+
+#: templates/multishop/nova_poshta/nova_poshta.tpl:9
+msgid "City"
+msgstr "Місто"
+
+#: templates/multishop/nova_poshta/nova_poshta.tpl:15
+msgid "Choose your city"
+msgstr "Виберіть місто"
+
+#: templates/multishop/nova_poshta/nova_poshta.tpl:29
+msgid "Warehouse"
+msgstr "Склад"
+
+#: templates/multishop/one_click_order/button.tpl:12
+#: templates/multishop/one_click_order/form.tpl:5
+msgid "Buy in one click"
+msgstr "Швидке замовлення"
+
+#: templates/multishop/one_click_order/form.tpl:21
+msgid "Thank you for your order! Our manager will contact you as soon as possible."
+msgstr "Дякуємо за ваше замовлення! Наш менеджер зв'яжеться з Вами якомога швидше."
+
+#: templates/multishop/shop/includes/product/product_cut.tpl:112
+#: templates/multishop/shop/includes/product/product_intro.tpl:135
+#: templates/multishop/shop/includes/product/product_snippet.tpl:110
+msgid "Product has been discontinued"
+msgstr "Знятий з виробництва"
+
+#: templates/multishop/shop/bestseller.tpl:11
+msgid "featured_products_all_deals"
+msgstr "Всі пропозиції"
+
+#: templates/multishop/shop/bestseller.tpl:16
+#: templates/multishop/shop/bestseller.tpl:50
+msgid "featured_products_new"
+msgstr "Новинки"
+
+#: templates/multishop/shop/bestseller.tpl:21
+#: templates/multishop/shop/bestseller.tpl:52
+msgid "featured_products_sales"
+msgstr "Акції"
+
+#: templates/multishop/shop/bestseller.tpl:26
+#: templates/multishop/shop/bestseller.tpl:54
+msgid "featured_products_sales_bestsellers"
+msgstr "Хіти продаж"
+
+#: templates/multishop/shop/bestseller.tpl:48
+msgid "featured_products_title"
+msgstr "Спецпропозиції"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:25
+msgid "Order date"
+msgstr "Дата замовлення"
+
+#: templates/multishop/shop/includes/product/product_cut_button.tpl:33
+#: templates/multishop/shop/includes/product/product_purchase.tpl:35
+msgid "Add to Cart"
+msgstr "Купити"
+
+#: templates/multishop/shop/report_appearance.tpl:5
+msgid "In stock reminder"
+msgstr "Повідомити про появу"
+
+#: templates/multishop/category.tpl:43
+msgid "Expiration date"
+msgstr "Дата завершення"
+
+#: templates/multishop/page_full.tpl:19
+#: templates/multishop/shop/includes/product/product_sales.tpl:23
+msgid "Expires after"
+msgstr "Завершується"
+
+#: templates/multishop/page_full.tpl:26
+#: templates/multishop/shop/includes/product/product_sales.tpl:31
+msgid "pluralize day 1"
+msgstr "день"
+
+#: templates/multishop/page_full.tpl:26
+#: templates/multishop/shop/includes/product/product_sales.tpl:31
+msgid "pluralize day 2"
+msgstr "дні"
+
+#: templates/multishop/page_full.tpl:26
+#: templates/multishop/shop/includes/product/product_sales.tpl:31
+msgid "pluralize day 3"
+msgstr "днів"
+
+#: templates/multishop/page_full.tpl:56
+msgid "Product list"
+msgstr "Пов'язані товари"
+
+#: templates/multishop/shop/includes/category/category_toolbar.tpl:34
+msgid "Per page"
+msgstr "На сторінку"
+
+#: templates/multishop/shop/includes/category/category_toolbar.tpl:56
+msgid "View"
+msgstr "Вигляд"
+
+#: templates/multishop/shop/includes/product/product_cut_button.tpl:70
+#: templates/multishop/shop/includes/product/product_purchase.tpl:72
+msgid "Notify when available"
+msgstr "Повідомити про появу"
+
+#: templates/multishop/shop/report_appearance.tpl:14
+msgid "You'll receive a one email when this product arrives in stock"
+msgstr "Ви отримаєте повідомлення на пошту, коли товар надійде на склад"
+
+#: templates/multishop/shop/report_appearance.tpl:50
+msgid "Email when available"
+msgstr "Відправити"
+
+#: templates/multishop/comments/main_form.tpl:29
+#: templates/multishop/comments/reply_form.tpl:24
+msgid "Your comment will be published after moderation"
+msgstr "Ваш відгук буде опублікований після модерації"
+
+#: templates/multishop/comments/comments_api.tpl:10
+msgid "Be the first to review this item. Share your rating and review so that other customers can decide if this is the right item for them."
+msgstr "Поки немає жодного відгуку. Станьте першим!"
+
+#: templates/multishop/comments/main_form.tpl:111
+#: templates/multishop/comments/reply_form.tpl:81
+#: templates/multishop/feedback/feedback.tpl:62
+#: templates/multishop/feedback/feedback_modal.tpl:43
+#: templates/multishop/forgot_password.tpl:50
+#: templates/multishop/login.tpl:52
+#: templates/multishop/login_popup.tpl:60
+#: templates/multishop/register.tpl:108
+msgid "Security code"
+msgstr "Код"
+
+#: templates/multishop/comments/comments_api.tpl:25
+msgid "Write a review"
+msgstr "Написати відгук"
+
+#: templates/multishop/comments/comments_list.tpl:61
+msgid "Reply to this post"
+msgstr "Відповісти"
+
+#: templates/multishop/shop/includes/product/product_full_info.tpl:37
+msgid "Customer Reviews"
+msgstr "Відгуки покупців"
+
+#: templates/multishop/comments/main_form.tpl:59
+#: templates/multishop/comments/reply_form.tpl:56
+#: templates/multishop/feedback/feedback.tpl:32
+#: templates/multishop/feedback/feedback_modal.tpl:26
+#: templates/multishop/forgot_password.tpl:39
+#: templates/multishop/found_less_expensive/modal_form.tpl:47
+#: templates/multishop/login.tpl:33
+#: templates/multishop/login_popup.tpl:43
+#: templates/multishop/one_click_order/form.tpl:45
+#: templates/multishop/one_click_order/form.tpl:50
+#: templates/multishop/register.tpl:46
+#: templates/multishop/shop/includes/cart/cart_checkout.tpl:22
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:73
+#: templates/multishop/shop/includes/profile/user_data.tpl:34
+#: templates/multishop/shop/report_appearance.tpl:29
+msgid "E-mail"
+msgstr "E-mail"
+
+#: templates/multishop/forgot_password.tpl:44
+msgid "Please enter the e-mail associated with your account."
+msgstr "Вкажіть адресу своєї електронної пошти"
+
+#: templates/multishop/change_password.tpl:22
+msgid "Current password"
+msgstr "Введіть поточний пароль"
+
+#: templates/multishop/change_password.tpl:31
+msgid "New password"
+msgstr "Введіть новий пароль"
+
+#: templates/multishop/change_password.tpl:40
+msgid "Reenter new password"
+msgstr "Повторіть новий пароль"
+
+#: templates/multishop/offline.tpl:4
+msgid "Site is offline"
+msgstr "Сайт недоступний"
+
+#: templates/multishop/offline.tpl:15
+msgid "Site is temporarily unavailable"
+msgstr "Сайт тимчасово вимкнено"
+
+#: templates/multishop/offline.tpl:16
+msgid "This site is down for maintenance. We will be back shortly, please check back again soon"
+msgstr "Вибачте, але на даний момент сайт знаходиться на реконструкції. Зайдіть до нас пізніше"
+
+#: templates/multishop/login_popup.tpl:94
+msgid "Logining in..."
+msgstr "Вхід..."
+
+#: templates/multishop/comments/comments_api.tpl:18
+#: templates/multishop/forgot_password.tpl:71
+#: templates/multishop/includes/footer_profile.tpl:4
+#: templates/multishop/includes/header_profile.tpl:21
+#: templates/multishop/includes/mobile_profile.tpl:3
+#: templates/multishop/login.tpl:6
+#: templates/multishop/login_popup.tpl:4
+#: templates/multishop/register.tpl:130
+#: templates/multishop/shop/cart.tpl:35
+msgid "Sign in"
+msgstr "Вхід"
+
+#: templates/multishop/login.tpl:73
+#: templates/multishop/login_popup.tpl:104
+msgid "Don't Have an Account?"
+msgstr "У вас ще немає облікового запису?"
+
+#: templates/multishop/shop/bestseller.tpl:66
+#: templates/multishop/shop/brand.tpl:42
+#: templates/multishop/shop/category.tpl:57
+#: templates/multishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/multishop/shop/search.tpl:27
+msgid "pluralize item 1"
+msgstr "товар"
+
+#: templates/multishop/shop/bestseller.tpl:66
+#: templates/multishop/shop/brand.tpl:42
+#: templates/multishop/shop/category.tpl:57
+#: templates/multishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/multishop/shop/search.tpl:27
+msgid "pluralize item 2"
+msgstr "товари"
+
+#: templates/multishop/shop/bestseller.tpl:66
+#: templates/multishop/shop/brand.tpl:42
+#: templates/multishop/shop/category.tpl:57
+#: templates/multishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/multishop/shop/search.tpl:27
+msgid "pluralize item 3"
+msgstr "товарів"
+
+#: templates/multishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 1"
+msgstr "комплект"
+
+#: templates/multishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 2"
+msgstr "комплекти"
+
+#: templates/multishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 3"
+msgstr "комплектів"
+
+#: templates/multishop/shop/includes/product/product_cut.tpl:54
+#: templates/multishop/shop/includes/product/product_intro.tpl:24
+#: templates/multishop/shop/includes/product/product_snippet.tpl:56
+msgid "Number"
+msgstr "Номер"
+
+#: templates/multishop/shop/includes/product/product_kit.tpl:87
+msgid "You save"
+msgstr "Ви заощаджуєте"
+
+#: templates/multishop/shop/includes/profile/discount_info.tpl:96
+msgid "More than one discount type can be used for your account at the moment. You'll be offered the highest discount rate available for your order."
+msgstr "Ви використовуєте більше двох типів знижок. При покупці буде враховуватися максимальна з них"
+
+#: templates/multishop/shop/includes/search_and_brand/autocomplete.tpl:68
+msgid "Your search did not match any products. Make sure all words are spelled correctly."
+msgstr "На жаль, за вашим запитом нічого не знайдено. Будь ласка, переконайтеся, що запит введено коректно або переформулюйте його"
+
+#: templates/multishop/shop/includes/search_and_brand/autocomplete.tpl:73
+msgid "Please enter two or more characters."
+msgstr "Будь ласка, введіть більше двох символів"
+
+#: templates/multishop/shop/profile.tpl:57
+msgid "You haven't made any orders yet"
+msgstr "У вас ще немає замовлень"
+
+#: templates/multishop/shop/includes/product/product_rating.tpl:22
+#: templates/multishop/star_rating/product_star_rating.tpl:23
+msgid "Reviews"
+msgstr "Відгуки"
+
+#: templates/multishop/wishlist/wishlist.tpl:46
+#: templates/multishop/wishlist/wishlist.tpl:62
+msgid "Once added new items, you'll be able to continue shopping any time and also share the information about the purchase with your friends."
+msgstr "Після додавання товарів, ви можете продовжити покупки в будь-який час, а також ділитися вашим списком обраних з друзями"
+
+#: templates/multishop/components/TColorScheme/assets/admin/main.tpl:6
+#: templates/multishop/components/TColorScheme/TColorScheme.php:97
+msgid "Color scheme"
+msgstr ""
+
+#: templates/multishop/components/TColorScheme/assets/admin/main.tpl:21
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:103
+#: templates/multishop/components/TProperties/assets/admin/main.tpl:4
+msgid "Save"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/TMenuColumn.php:179
+msgid "Menu Column"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:8
+msgid "Category"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:9
+msgid "Show in column"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:15
+msgid "Open all levels"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:14
+msgid "Open second level"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:25
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:51
+msgid "Toggle this category"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:28
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:54
+msgid "Expand Category"
+msgstr ""
+
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:32
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:58
+#: templates/multishop/components/TMenuColumn/assets/admin/main.tpl:78
+msgid "Editing category"
+msgstr ""
+
+#: templates/multishop/components/TProperties/TProperties.php:127
+msgid "Properties"
+msgstr ""
+
+#: templates/multishop/components/TProperties/assets/admin/main.tpl:2
+msgid "Start typing property name here"
+msgstr ""
+
+#: templates/multishop/components/TProperties/assets/admin/main.tpl:13
+#: templates/multishop/shop/includes/profile/order_history.tpl:3
+msgid "Id"
+msgstr "Номер"
+
+#: templates/multishop/components/TProperties/assets/admin/main.tpl:19
+msgid "Type"
+msgstr ""
+
+#: templates/multishop/includes/footer.tpl:7
+msgid "Catalog"
+msgstr "Каталог"
+
+#: templates/multishop/includes/footer.tpl:13
+#: templates/multishop/includes/mobile_frame.tpl:4
+msgid "Store"
+msgstr "Магазин"
+
+#: templates/multishop/includes/footer.tpl:20
+#: templates/multishop/includes/mobile_frame.tpl:6
+msgid "User menu"
+msgstr "Користувач"
+
+#: templates/multishop/includes/footer_profile.tpl:17
+#: templates/multishop/includes/mobile_profile.tpl:23
+#: templates/multishop/wishlist/wishlist_total.tpl:3
+msgid "Wishlist"
+msgstr "Улюблені"
+
+#: templates/multishop/includes/footer_profile.tpl:26
+#: templates/multishop/includes/mobile_profile.tpl:28
+#: templates/multishop/shop/includes/compare/compare_total.tpl:4
+msgid "Compare"
+msgstr "Порівняння"
+
+#: templates/multishop/includes/footer_profile.tpl:30
+#: templates/multishop/includes/header_siteinfo.tpl:18
+msgid "Callback"
+msgstr "Зворотний дзвінок"
+
+#: templates/multishop/includes/header_profile.tpl:3
+msgid "Profile"
+msgstr "Особистий кабінет"
+
+#: templates/multishop/includes/footer_profile.tpl:11
+#: templates/multishop/includes/header_profile.tpl:32
+#: templates/multishop/includes/mobile_profile.tpl:10
+#: templates/multishop/shop/profile.tpl:6
+msgid "Your Account"
+msgstr "Особисті дані"
+
+#: templates/multishop/change_password.tpl:6
+#: templates/multishop/includes/footer_profile.tpl:14
+#: templates/multishop/includes/header_profile.tpl:41
+#: templates/multishop/includes/mobile_profile.tpl:13
+msgid "Change Password"
+msgstr "Змінити пароль"
+
+#: templates/multishop/widgets/mobile_langs.tpl:2
+msgid "Language"
+msgstr "Мови"
+
+#: templates/multishop/includes/mobile_profile.tpl:18
+#: templates/multishop/shop/includes/cart/cart_header.tpl:12
+msgid "Cart"
+msgstr "Кошик"
+
+#: templates/multishop/wishlist/other_list.tpl:8
+#: templates/multishop/wishlist/wishlist.tpl:7
+msgid "Wish list"
+msgstr "Улюблені"
+
+#: templates/multishop/wishlist/wishlist.tpl:23
+msgid "Edit"
+msgstr "Редагувати"
+
+#: templates/multishop/wishlist/wishlist.tpl:26
+msgid "Delete"
+msgstr "Видалити"
+
+#: templates/multishop/wishlist/wishlist.tpl:45
+msgid "This list is empty"
+msgstr "Цей список порожній"
+
+#: templates/multishop/wishlist/wishlist.tpl:58
+msgid "Your wishlist is empty"
+msgstr "Ви ще не додали до улюблених жодного товару"
+
+#: templates/multishop/wishlist/button.tpl:6
+msgid "Add to Wishlist"
+msgstr "Додати в обрані"
+
+#: templates/multishop/wishlist/button.tpl:8
+msgid "Open in Wishlist"
+msgstr "В улюблених"
+
+#: templates/multishop/wishlist/wishlistEdit.tpl:8
+msgid "Edit your list"
+msgstr "Редагування списку"
+
+#: templates/multishop/wishlist/wishlistEdit.tpl:21
+msgid "List name"
+msgstr "Назва списку"
+
+#: templates/multishop/callbacks/callbacks_modal.tpl:55
+#: templates/multishop/feedback/feedback_modal.tpl:61
+#: templates/multishop/found_less_expensive/modal_form.tpl:80
+#: templates/multishop/login_popup.tpl:83
+#: templates/multishop/one_click_order/form.tpl:92
+#: templates/multishop/pricespy/button.tpl:44
+#: templates/multishop/shop/includes/product/product_photo.tpl:12
+#: templates/multishop/shop/report_appearance.tpl:46
+#: templates/multishop/wishlist/wishlistEdit.tpl:38
+#: templates/multishop/wishlist/wishPopup.tpl:69
+msgid "Close"
+msgstr "Закрити"
+
+#: templates/multishop/wishlist/wishlistEdit.tpl:42
+msgid "Edit list"
+msgstr "Редагувати"
+
+#: templates/multishop/wishlist/wishPopup.tpl:5
+msgid "Add to your list"
+msgstr "Додати в улюблені"
+
+#: templates/multishop/wishlist/wishPopup.tpl:27
+msgid "Select a list"
+msgstr "Виберіть список"
+
+#: templates/multishop/wishlist/wishPopup.tpl:37
+msgid "Create a new list"
+msgstr "Створити новий список"
+
+#: templates/multishop/wishlist/wishPopup.tpl:57
+msgid "Item successfuly added to your Wishlist!"
+msgstr "Товар успішно доданий до улюблених!"
+
+#: templates/multishop/wishlist/wishPopup.tpl:74
+msgid "Add to list"
+msgstr "Добавити"
+
+#: templates/multishop/shop/includes/product/product_actions.tpl:19
+#: templates/multishop/wishlist/wishPopup.tpl:77
+msgid "Change list"
+msgstr "Перемістити"
+
+#: templates/multishop/wishlist/wishPopup.tpl:87
+msgid "Go to wishlist"
+msgstr "До улюблених"
+
+#: templates/multishop/register.tpl:129
+msgid "Already Have an Account?"
+msgstr "Вже зареєстровані?"
+
+#: templates/multishop/forgot_password.tpl:71
+msgid "Remembered your password?"
+msgstr "Згадали пароль?"
+
+#: templates/multishop/change_password.tpl:51
+#: templates/multishop/shop/includes/profile/user_data.tpl:91
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#: templates/multishop/smart_filter/includes/filter_results.tpl:12
+#: templates/multishop/smart_filter/main.tpl:15
+msgid "min"
+msgstr "від"
+
+#: templates/multishop/smart_filter/includes/filter_results.tpl:12
+#: templates/multishop/smart_filter/main.tpl:21
+msgid "max"
+msgstr "до"
+
+#: templates/multishop/smart_filter/main.tpl:11
+msgid "Price range"
+msgstr "Ціна"
+
+#: templates/multishop/smart_filter/main.tpl:34
+msgid "Ok"
+msgstr "Ок"
+
+#: templates/multishop/shop/includes/product/product_cut.tpl:45
+#: templates/multishop/shop/includes/product/product_intro.tpl:14
+#: templates/multishop/shop/includes/product/product_snippet.tpl:48
+#: templates/multishop/smart_filter/main.tpl:45
+msgid "Brand"
+msgstr "Бренд"
+
+#: templates/multishop/navs/mobile_nav/level_1/container.tpl:4
+#: templates/multishop/navs/mobile_nav/level_2/container.tpl:4
+#: templates/multishop/navs/mobile_nav/level_3/container.tpl:4
+msgid "Go back"
+msgstr "Назад"
+
+#: templates/multishop/navs/mobile_nav/level_1/container.tpl:10
+#: templates/multishop/navs/mobile_nav/level_2/container.tpl:10
+#: templates/multishop/navs/mobile_nav/level_3/container.tpl:10
+#: templates/multishop/widgets/brands.tpl:8
+#: templates/multishop/widgets/latest_news.tpl:13
+msgid "View all"
+msgstr "Переглянути всі"
+
+#: templates/multishop/callbacks/callback.tpl:6
+#: templates/multishop/callbacks/callbacks_modal.tpl:5
+msgid "Request a Call back"
+msgstr "Замовити зворотній дзвінок"
+
+#: templates/multishop/callbacks/callback.tpl:10
+#: templates/multishop/callbacks/callbacks_modal.tpl:14
+msgid "Leave a number and we will call you back"
+msgstr "Залиште свій номер телефону і ми вам передзвонимо"
+
+#: templates/multishop/callbacks/callback.tpl:34
+#: templates/multishop/callbacks/callbacks_modal.tpl:29
+#: templates/multishop/found_less_expensive/modal_form.tpl:39
+#: templates/multishop/one_click_order/form.tpl:65
+#: templates/multishop/shop/includes/cart/cart_checkout.tpl:31
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:81
+#: templates/multishop/shop/includes/profile/user_data.tpl:41
+msgid "Phone number"
+msgstr "Ваш телефон"
+
+#: templates/multishop/callbacks/callback.tpl:54
+#: templates/multishop/callbacks/callbacks_modal.tpl:59
+msgid "Call back"
+msgstr "Передзвоніть мені"
+
+#: templates/multishop/shop/cart.tpl:11
+#: templates/multishop/shop/order_view.tpl:20
+msgid "Order summary"
+msgstr "Деталі замовлення"
+
+#: templates/multishop/shop/cart.tpl:27
+msgid "One Step Checkout"
+msgstr "Оформлення замовлення"
+
+#: templates/multishop/shop/cart.tpl:33
+msgid "Returning customer?"
+msgstr "Вже тут купували?"
+
+#: templates/multishop/shop/cart.tpl:51
+msgid "Cart is currently empty"
+msgstr "Ваш кошик порожній"
+
+#: templates/multishop/shop/cart.tpl:55
+#: templates/multishop/shop/includes/cart/cart_modal.tpl:21
+msgid "You have no items in your shopping cart"
+msgstr "У кошику немає товарів"
+
+#: templates/multishop/shop/search.tpl:17
+msgid "Result for"
+msgstr "Результати пошуку"
+
+#: templates/multishop/shop/bestseller.tpl:63
+#: templates/multishop/shop/brand.tpl:39
+#: templates/multishop/shop/category.tpl:54
+#: templates/multishop/shop/search.tpl:24
+msgid "of"
+msgstr "серед"
+
+#: templates/multishop/shop/bestseller.tpl:68
+#: templates/multishop/shop/brand.tpl:44
+#: templates/multishop/shop/search.tpl:29
+msgid "in"
+msgstr "в"
+
+#: templates/multishop/shop/includes/profile/order_history.tpl:4
+msgid "Date"
+msgstr "Дата"
+
+#: templates/multishop/shop/includes/profile/order_history.tpl:5
+msgid "Status"
+msgstr "Статус"
+
+#: templates/multishop/shop/includes/profile/order_history.tpl:6
+msgid "Total Price"
+msgstr "До оплати"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:51
+#: templates/multishop/shop/includes/profile/order_history.tpl:9
+msgid "Paid successfully"
+msgstr "Оплачено"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:51
+#: templates/multishop/shop/includes/profile/order_history.tpl:9
+msgid "Not paid"
+msgstr "Не оплачено"
+
+#: templates/multishop/shop/includes/profile/order_history.tpl:13
+msgid "Order"
+msgstr "Замовлення"
+
+#: templates/multishop/shop/includes/cart/cart_checkout.tpl:40
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:89
+#: templates/multishop/shop/includes/profile/user_data.tpl:51
+msgid "Shipping address"
+msgstr "Адреса доставки"
+
+#: templates/multishop/shop/includes/profile/discount_info.tpl:10
+msgid "Paid purchases amount"
+msgstr "Сума оплачених замовлень"
+
+#: templates/multishop/shop/includes/profile/discount_info.tpl:19
+msgid "Your personal discount"
+msgstr "Персональна знижка"
+
+#: templates/multishop/shop/includes/profile/discount_info.tpl:29
+msgid "User goup discount"
+msgstr "Знижка групи користувача"
+
+#: templates/multishop/shop/includes/profile/discount_info.tpl:41
+msgid "Cumulative discount"
+msgstr "Накопичувальна знижка"
+
+#: templates/multishop/shop/includes/profile/discount_info.tpl:78
+msgid "for"
+msgstr "до"
+
+#: templates/multishop/shop/includes/cart/cart_checkout.tpl:53
+msgid "Shipping & payment"
+msgstr "Доставка і оплата"
+
+#: templates/multishop/shop/includes/cart/cart_checkout.tpl:96
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:97
+msgid "Comments about your order"
+msgstr "Коментар до замовлення"
+
+#: templates/multishop/shop/includes/cart/cart_checkout.tpl:111
+msgid "Confirm your order"
+msgstr "Підтвердити заказ"
+
+#: templates/multishop/shop/includes/cart/cart_delivery_radio.tpl:36
+#: templates/multishop/shop/includes/product/product_shipping.tpl:34
+msgid "Price"
+msgstr "Вартість"
+
+#: templates/multishop/shop/includes/cart/cart_delivery_radio.tpl:40
+#: templates/multishop/shop/includes/product/product_shipping.tpl:36
+msgid "Free from"
+msgstr "Безкоштовно від"
+
+#: templates/multishop/shop/includes/cart/cart_delivery_radio.tpl:57
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:43
+msgid "Payment method"
+msgstr "Оплата"
+
+#: templates/multishop/shop/includes/cart/cart_header.tpl:18
+msgid "Empty"
+msgstr "Порожня"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:8
+msgid "Subtotal"
+msgstr "Проміжний підсумок"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:25
+msgid "Your discount"
+msgstr "Ваша знижка"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:59
+msgid "Shipping"
+msgstr "Вартість доставки"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:75
+msgid "Gift card"
+msgstr "Подарунковий сертифікат"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:97
+msgid "Your card was successfully applied"
+msgstr "Ваш сертифікат був успішно застосований!"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:104
+msgid "Enter gift card code"
+msgstr "Подарунковий сертифікат"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:106
+msgid "Apply"
+msgstr "Активувати"
+
+#: templates/multishop/shop/includes/cart/cart_total.tpl:112
+msgid "Code you entered was not valid"
+msgstr "Введено некоректний код"
+
+#: templates/multishop/shop/includes/cart/cart_modal.tpl:5
+msgid "Shopping cart"
+msgstr "Мій кошик"
+
+#: templates/multishop/shop/cart.tpl:58
+#: templates/multishop/shop/includes/cart/cart_modal.tpl:32
+msgid "Continue Shopping"
+msgstr "Продовжити покупки"
+
+#: templates/multishop/shop/includes/cart/cart_modal.tpl:38
+msgid "Proceed to checkout"
+msgstr "Оформити замовлення"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:3
+msgid "Thank you for shopping at"
+msgstr "Дякуємо за покупку на"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:4
+msgid "Your order details are below"
+msgstr "Нижче наведені деталі замовлення"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:13
+msgid "Order ID"
+msgstr "Номер замовлення"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:19
+msgid "Order status"
+msgstr "Статус замовлення"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:35
+msgid "Shipping method"
+msgstr "Спосіб доставки"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:50
+msgid "Payment status"
+msgstr "Оплата"
+
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:111
+msgid "Download"
+msgstr "Завантажити"
+
+#: templates/multishop/shop/includes/compare/compare_button.tpl:8
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: templates/multishop/shop/includes/compare/compare_button.tpl:10
+msgid "Add to compare"
+msgstr "Додати до порівняння"
+
+#: templates/multishop/shop/includes/compare/compare_button.tpl:17
+msgid "Open in compare list"
+msgstr "Перейти у порівняння"
+
+#: templates/multishop/shop/includes/compare/compare_products.tpl:31
+msgid "Delete item"
+msgstr "Видалити"
+
+#: templates/multishop/shop/includes/search_and_brand/autocomplete.tpl:15
+msgid "Search by item name or number"
+msgstr "Пошук товарів"
+
+#: templates/multishop/shop/includes/search_and_brand/autocomplete.tpl:78
+msgid "view all"
+msgstr "Всі результати пошуку"
+
+#: templates/multishop/shop/includes/category/category_toolbar.tpl:10
+msgid "Sort by"
+msgstr "Сортувати за"
+
+#: templates/multishop/shop/includes/product/product_cut_button.tpl:62
+#: templates/multishop/shop/includes/product/product_purchase.tpl:63
+#: templates/multishop/shop/includes/product/variants/radio.tpl:36
+#: templates/multishop/shop/includes/product/variants/select.tpl:35
+msgid "Not available"
+msgstr "Немає в наявност"
+
+#: templates/multishop/shop/includes/product/product_cut_button.tpl:49
+#: templates/multishop/shop/includes/product/product_kit_button.tpl:23
+#: templates/multishop/shop/includes/product/product_purchase.tpl:48
+msgid "View in Cart"
+msgstr "В кошику"
+
+#: templates/multishop/shop/includes/product/product_shipping.tpl:10
+msgid "Shipping methods"
+msgstr "Доставка"
+
+#: templates/multishop/shop/includes/product/product_shipping.tpl:56
+msgid "Payment methods"
+msgstr "Оплата"
+
+#: templates/multishop/shop/includes/product/product_shipping.tpl:85
+msgid "Questions? Ask our experts"
+msgstr "Виникли питання?"
+
+#: templates/multishop/shop/includes/product/product_shipping.tpl:88
+msgid "Call:"
+msgstr "Телефонуйте:"
+
+#: templates/multishop/shop/includes/product/product_shipping.tpl:89
+msgid "or"
+msgstr "або"
+
+#: templates/multishop/shop/includes/product/product_shipping.tpl:90
+msgid "order a callback"
+msgstr "ми самі вам зателефонуємо"
+
+#: templates/multishop/shop/includes/product/product_full_info.tpl:7
+msgid "Details"
+msgstr "Опис"
+
+#: templates/multishop/shop/includes/product/product_full_info.tpl:21
+msgid "Specifications"
+msgstr "Характеристики"
+
+#: templates/multishop/shop/includes/product/product_full_info.tpl:50
+msgid "Accessories"
+msgstr "Аксесуари"
+
+#: templates/multishop/shop/includes/product/product_labels.tpl:3
+msgid "Hit"
+msgstr "Хіт"
+
+#: templates/multishop/shop/includes/product/product_labels.tpl:6
+msgid "New"
+msgstr "Новинка"
+
+#: templates/multishop/shop/includes/product/product_labels.tpl:9
+msgid "Sale"
+msgstr "Акція"
+
+#: templates/multishop/shop/includes/product/product_kit.tpl:4
+msgid "Frequently bought together"
+msgstr "Разом дешевше"
+
+#: templates/multishop/shop/includes/product/product_kit_button.tpl:10
+msgid "Add all to cart"
+msgstr "Купити комплект"
+
+#: templates/multishop/shop/includes/product/product_actions.tpl:14
+msgid "Remove from list"
+msgstr "Видалити"
+
+#: templates/multishop/shop/category.tpl:19
+msgid "Show filter"
+msgstr "Показати фільтр"
+
+#: templates/multishop/shop/category.tpl:25
+msgid "Hide filter"
+msgstr "Приховати фільтр"
+
+#: templates/multishop/shop/bestseller.tpl:58
+#: templates/multishop/shop/brand.tpl:34
+#: templates/multishop/shop/category.tpl:49
+msgid "Result"
+msgstr "Знайдено"
+
+#: templates/multishop/shop/compare.tpl:6
+msgid "Product comparasion"
+msgstr "Порівняння товарів"
+
+#: templates/multishop/shop/compare.tpl:36
+msgid "You have no items to compare"
+msgstr "Недостатньо товарів для порівняння"
+
+#: templates/multishop/shop/brands_images.tpl:6
+msgid "Brands"
+msgstr "Бренди"
+
+#: templates/multishop/shop/profile.tpl:19
+msgid "Discount information"
+msgstr "Ваші знижки"
+
+#: templates/multishop/shop/profile.tpl:36
+msgid "Personal information"
+msgstr "Особисті дані"
+
+#: templates/multishop/shop/profile.tpl:51
+msgid "Order history"
+msgstr "Історія замовлень"
+
+#: templates/multishop/shop/order_view.tpl:10
+msgid "Your order is confirmed"
+msgstr "Ваше замовлення підтверджено"
+
+#: templates/multishop/login_popup.tpl:23
+msgid "You must login to add items to your wishlist"
+msgstr "Ви повинні авторизуватися, щоб додавати товари в улюблені"
+
+#: templates/multishop/login_popup.tpl:71
+msgid "Welcome!"
+msgstr "Ласкаво просимо!"
+
+#: templates/multishop/login_popup.tpl:72
+msgid "You have successfully authenticated as "
+msgstr "Ви успішно увійшли як"
+
+#: templates/multishop/comments/comments_list.tpl:13
+#: templates/multishop/comments/comments_list.tpl:20
+#: templates/multishop/comments/main_form.tpl:98
+#: templates/multishop/shop/includes/product/product_rating.tpl:6
+#: templates/multishop/shop/includes/product/product_rating.tpl:13
+#: templates/multishop/star_rating/product_star_rating.tpl:7
+#: templates/multishop/star_rating/product_star_rating.tpl:14
+msgid "out of 5 stars"
+msgstr "з 5 зірок"
+
+#: templates/multishop/callbacks/callback.tpl:25
+#: templates/multishop/callbacks/callbacks_modal.tpl:20
+#: templates/multishop/comments/main_form.tpl:40
+#: templates/multishop/comments/main_form.tpl:49
+#: templates/multishop/comments/reply_form.tpl:38
+#: templates/multishop/comments/reply_form.tpl:46
+#: templates/multishop/components/TProperties/assets/admin/main.tpl:16
+#: templates/multishop/feedback/feedback.tpl:22
+#: templates/multishop/feedback/feedback_modal.tpl:18
+#: templates/multishop/found_less_expensive/modal_form.tpl:31
+#: templates/multishop/one_click_order/form.tpl:30
+#: templates/multishop/register.tpl:37
+#: templates/multishop/shop/includes/cart/cart_checkout.tpl:13
+#: templates/multishop/shop/includes/cart/order_view_info.tpl:65
+#: templates/multishop/shop/includes/profile/user_data.tpl:24
+#: templates/multishop/shop/report_appearance.tpl:20
+msgid "Name"
+msgstr "Ім'я"
+
+#: templates/multishop/comments/main_form.tpl:85
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: templates/multishop/comments/main_form.tpl:72
+#: templates/multishop/comments/reply_form.tpl:70
+msgid "Review"
+msgstr "Відгук"
+
+#: templates/multishop/feedback/feedback.tpl:42
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/multishop/callbacks/callback.tpl:43
+#: templates/multishop/callbacks/callbacks_modal.tpl:38
+#: templates/multishop/feedback/feedback.tpl:51
+#: templates/multishop/feedback/feedback_modal.tpl:34
+#: templates/multishop/found_less_expensive/modal_form.tpl:64
+#: templates/multishop/one_click_order/form.tpl:76
+msgid "Message"
+msgstr "Повідомлення"
+
+#: templates/multishop/login.tpl:42
+#: templates/multishop/login_popup.tpl:51
+#: templates/multishop/register.tpl:88
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/multishop/register.tpl:97
+msgid "Reenter password"
+msgstr "Повторіть пароль"
+
+#: templates/multishop/contacts.tpl:18
+#: templates/multishop/page_full.tpl:78
+msgid "Comments"
+msgstr "Відгуки"
+
+#: templates/multishop/comments/comments_api.tpl:18
+msgid "You have to log in to leave a comment."
+msgstr "Тільки авторизовані користувачі можуть залишати відгуки"
+
+#: templates/multishop/comments/comments_list.tpl:35
+#: templates/multishop/shop/includes/product/product_intro.tpl:171
+msgid "Like"
+msgstr "Подобається"
+
+#: templates/multishop/comments/comments_list.tpl:47
+msgid "Dislike"
+msgstr "Не подобається"
+
+#: templates/multishop/comments/main_form.tpl:31
+#: templates/multishop/comments/reply_form.tpl:26
+msgid "Your comment has been successfully published"
+msgstr "Ваш відгук був успішно опублікований"
+
+#: templates/multishop/category.tpl:52
+#: templates/multishop/shop/includes/product/product_sales.tpl:15
+#: templates/multishop/widgets/latest_news.tpl:35
+msgid "Read more"
+msgstr "Детальніше"
+
+#: templates/multishop/includes/footer.tpl:26
+msgid "Contacts"
+msgstr "Контакти"
+
+#: templates/multishop/includes/footer.tpl:83
+msgid "ImageCMS"
+msgstr "ImageCMS"
+
+#: templates/multishop/feedback/feedback.tpl:6
+#: templates/multishop/feedback/feedback_modal.tpl:5
+#: templates/multishop/includes/footer.tpl:42
+msgid "Feedback"
+msgstr "Зворотній зв'язок"
+
+#: templates/multishop/feedback/feedback.tpl:16
+#: templates/multishop/feedback/feedback_modal.tpl:13
+#: templates/multishop/found_less_expensive/modal_form.tpl:24
+msgid "Your message has been sent"
+msgstr "Ваше повідомлення успішно відправлено! Ми обов'язково зв'яжемося з Вами найближчим часом."
+
+#: templates/multishop/comments/main_form.tpl:127
+#: templates/multishop/comments/reply_form.tpl:94
+#: templates/multishop/feedback/feedback.tpl:76
+#: templates/multishop/feedback/feedback_modal.tpl:65
+#: templates/multishop/found_less_expensive/modal_form.tpl:84
+#: templates/multishop/one_click_order/form.tpl:95
+msgid "Send"
+msgstr "Надіслати"
+
+#: templates/multishop/forgot_password.tpl:6
+msgid "Request new password"
+msgstr "Знайдіть свій обліковий запис"
+
+#: templates/multishop/forgot_password.tpl:63
+msgid "Send request"
+msgstr "Пошук"
+
+#: templates/multishop/login.tpl:65
+#: templates/multishop/login_popup.tpl:89
+msgid "Log in"
+msgstr "Увійти"
+
+#: templates/multishop/404.tpl:6
+msgid "Page not found!"
+msgstr "Вибачте, ця сторінка не доступна"
+
+#: templates/multishop/404.tpl:11
+msgid "Sorry, the page you’re looking for doesn’t exist!"
+msgstr "Посилання, за яким ви переходили, можливо, пошкоджене або сторінку перенесено."
+
+#: templates/multishop/category.tpl:61
+#: templates/multishop/gallery/album.tpl:65
+#: templates/multishop/gallery/index.tpl:56
+#: templates/multishop/shop/includes/category/category_products.tpl:30
+msgid "There are no items to display. Please come back later!"
+msgstr "На жаль, на сторінці немає елементів для відображення. Будь ласка, зайдіть пізніше!"
+
+#: templates/multishop/reset_password.tpl:6
+msgid "Password retrieval"
+msgstr "Відновлення пароля"
+
+#: templates/multishop/forgot_password.tpl:71
+#: templates/multishop/includes/footer_profile.tpl:7
+#: templates/multishop/includes/header_profile.tpl:26
+#: templates/multishop/includes/mobile_profile.tpl:6
+#: templates/multishop/login.tpl:74
+#: templates/multishop/login_popup.tpl:105
+#: templates/multishop/register.tpl:6
+#: templates/multishop/register.tpl:121
+msgid "Create Account"
+msgstr "Реєстрація"
+
+#: templates/multishop/gallery/index.tpl:4
+msgid "Gallery"
+msgstr "Галерея"
+
+#: templates/multishop/comments/main_form.tpl:116
+#: templates/multishop/comments/reply_form.tpl:86
+#: templates/multishop/feedback/feedback.tpl:67
+#: templates/multishop/feedback/feedback_modal.tpl:48
+#: templates/multishop/forgot_password.tpl:55
+#: templates/multishop/login.tpl:57
+#: templates/multishop/login_popup.tpl:65
+#: templates/multishop/register.tpl:113
+msgid "Type the characters you see in this image."
+msgstr "Введіть символи, які ви бачите на зображенні."
+
+#: templates/multishop/login.tpl:75
+#: templates/multishop/login_popup.tpl:107
+#: templates/multishop/register.tpl:131
+msgid "Forgot password?"
+msgstr "Забули пароль?"
+
+#: templates/multishop/register_success.tpl:6
+msgid "Thank You for Registration!"
+msgstr "Дякуємо за реєстрацію!"
+
+#: templates/multishop/register_success.tpl:10
+msgid "Congratulations! Your registration has been successful."
+msgstr "Вітаємо! Ваша реєстрація пройшла успішно."
+
+#: templates/multishop/widgets/breadcrumbs.tpl:9
+msgid "Home"
+msgstr "Головна"
+
+#: templates/multishop/gallery/includes/gallery_menu.tpl:5
+#: templates/multishop/gallery/includes/gallery_menu.tpl:7
+msgid "All categories"
+msgstr "Всі категорії"
+
+#: templates/multishop/includes/footer_profile.tpl:34
+#: templates/multishop/includes/header_profile.tpl:45
+#: templates/multishop/includes/mobile_profile.tpl:39
+msgid "Sign out"
+msgstr "Вихід"
+
+#: templates/multishop/includes/footer.tpl:82
+msgid "Powered by "
+msgstr "Сайт працює на"
+
+#: templates/multishop/shop/includes/product/product_intro.tpl:179
+msgid "Share"
+msgstr "Поділитись"

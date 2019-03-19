@@ -1,0 +1,76 @@
+.modal{
+	position: relative;	
+	margin: 0 auto;
+	width: 90%;
+	max-width: $modal-size;
+	background: #fff;
+
+	
+	/* Modal elements */
+	&__header{
+		position: relative;
+		padding: 12px $modal-hor-padding;
+		background: $modal-header-bg;
+		border-bottom: 1px solid $modal-header-border;
+
+		&-title{
+			font-size: 1.2rem;
+			line-height: 1;
+			font-weight: bold;
+			color: $modal-header-color;
+			padding-right: 20px;
+		}
+
+		&-close{
+			position: absolute;
+			right: $modal-hor-padding;
+			top: 50%;
+			transform: translateY(-50%);
+			text-transform: uppercase;			
+		}
+
+	}
+
+
+
+	&__content{
+		padding: 15px $modal-hor-padding;
+
+		&-cell{
+			margin-bottom: 15px;
+		}
+	}
+
+
+
+	&__footer{
+		text-align: right;
+		padding: 15px $modal-hor-padding;
+
+		&-row{
+			&:not(:first-child){
+				margin-top: 20px;
+			}
+		}
+
+		&-btn{
+			display: inline-block;
+			margin-left: 15px;
+		}
+	}
+
+	
+
+
+
+
+	/* Modal modifiers */
+	&--sm{
+		max-width: $modal-size-sm;
+	}
+
+	&--lg{
+		max-width: $modal-size-lg;
+	}
+
+}

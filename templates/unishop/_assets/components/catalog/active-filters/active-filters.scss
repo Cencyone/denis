@@ -1,0 +1,30 @@
+.active-filters{
+	$gutter: 10px;
+
+	@include clearfix;
+
+	&__wrapper{
+		margin: (-$gutter) 0 0 (-$gutter);
+	}
+
+	&__item{
+		float: left;
+		margin: $gutter 0 0 $gutter;
+	}
+
+	&__btn{
+		@extend .btn-group;
+
+		&-link{
+			@extend .btn, .btn-default, .btn-sm;
+		}
+
+		&-ico{
+			@extend .btn, .btn-default, .btn-sm;
+			&:before{
+				content: 'x';
+			}
+		}
+	}
+
+}

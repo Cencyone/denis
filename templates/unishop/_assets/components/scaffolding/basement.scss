@@ -1,0 +1,8 @@
+.basement{	
+	text-align: center;
+	color: $basement-text-color;
+
+	&__link{
+		@include link-main;
+	}
+}

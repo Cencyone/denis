@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template label='Unishop' name='Unishop' type="shop" version="1.6">
+
+	<screenshots>
+		<screenshot url="/templates/unishop/_install/screens/main.jpg" main="1" />
+	</screenshots>
+
+	<components>
+		<component handler="TProperties"></component>
+		<component handler="TMenuColumn"></component>
+	</components>
+
+	<brands>
+		<image width="300" height="200"></image>
+	</brands>
+
+</template>

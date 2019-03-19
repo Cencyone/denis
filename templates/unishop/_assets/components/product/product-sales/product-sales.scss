@@ -1,0 +1,42 @@
+.product-sales {
+  margin-bottom: rem(10);
+
+  &__item {
+    width:        100%;
+    border:       $product-sales-border;
+    background:   $product-sales-main-bg;
+
+    & + & {
+      margin-top: rem(15px);
+    }
+  }
+
+  &__cell {
+    display:   block;
+    padding:   2em 1.5em;
+
+    &--accent {
+      background: $product-sales-accent-bg;
+    }
+  }
+
+  &__title {
+    font-size:     1.3em;
+    font-weight:   700;
+    margin-bottom: 0.2em;
+    color:         $product-sales-title-color;
+  }
+
+  &__link {
+    @include link-main;
+    color: $product-sales-title-color;
+  }
+
+  &__desc {
+    font-size: 0.9rem;
+  }
+
+  &__read-more {
+    @include link-main;
+  }
+}

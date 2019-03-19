@@ -1,0 +1,27 @@
+.product-sales{
+  padding: 15px;
+  border: 1px dashed #e2afaf;
+  background: rgba(247, 207, 207, 0.13);
+
+  &__item{
+    &:not(:first-child){
+      margin-top: 15px;
+    }
+  }
+
+  &__title{
+    margin-bottom: 5px;
+  }
+
+  &__link{
+    @include link-main;
+  }
+
+  &__desc{
+    font-size: 0.9rem;
+  }
+
+  &__read-more{
+    @include link-main;
+  }
+}

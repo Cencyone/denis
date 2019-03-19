@@ -1,0 +1,81 @@
+.content {
+
+  &__container {
+    // extending bootstrap container
+    // using when full width frames inside container are needed and there are no page__container active!
+    @extend .container-fluid;
+    max-width: $site-max-width;
+  }
+
+  /* Main banner wrapper */
+  &__main-banner {
+    padding-bottom: 20px;
+  }
+
+  /* Pages header and H1 title group */
+  &__header {
+    padding-bottom: 15px;
+
+    &--xs {
+      padding-bottom: 0;
+    }
+  }
+
+  &__title {
+    display: inline-block;
+    padding-bottom: 8px;
+    padding-right: 6px;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #000;
+  }
+
+  &__quote {
+    color: $base-font-color-secondary;
+  }
+
+  &__hinfo {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #000;
+    white-space: nowrap;
+
+    &-number {
+      font-weight: bold;
+    }
+  }
+
+  /* Content univarsal wrapper for vertical space */
+  &__row {
+    padding-bottom: 50px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &--sm {
+      padding-bottom: 20px;
+    }
+  }
+
+  /* Content pagination wrapper */
+  &__pagination {
+    margin-top: 25px;
+    text-align: center;
+    background: $theme-secondary-color;
+  }
+
+  /* Content toolbar wrapper */
+  &__toolbar {
+    padding-bottom: 20px;
+  }
+
+  /* Content sidebar */
+  &__sidebar {
+
+    &-item {
+      padding-bottom: 20px;
+    }
+  }
+
+}

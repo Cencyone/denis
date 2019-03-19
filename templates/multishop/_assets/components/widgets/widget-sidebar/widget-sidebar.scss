@@ -1,0 +1,26 @@
+.widget-sidebar{
+
+  &__header{
+    padding: 15px 25px;
+    margin-bottom: 1.2rem;
+    background: $theme-secondary-color;
+  }
+
+  &__title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1;
+    color: $widget-primary-title-color;
+  }
+
+  &__inner{
+    padding-right: 40px;
+  }
+
+  &__item{
+
+    &:not(:first-child){
+      padding-top: 30px;
+    }
+  }
+}

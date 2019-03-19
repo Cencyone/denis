@@ -1,0 +1,83 @@
+.product-snippet{
+
+  &__photo{
+  }
+
+  &__rating{
+    padding-top: 10px;
+  }
+
+  &__title {
+
+  }
+  &__title-link{
+    @include link-main;
+  }
+
+  /* SCU, Brand etc... */
+  &__addition {
+    @include clearfix;
+    font-size: 0.9em;
+    color: $base-font-color-secondary;
+
+    &-item {
+      float: left;
+      padding-top: 5px;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      color: $base-font-color-secondary;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  &__price {
+    padding-top: 10px;
+  }
+
+  &__variants{
+    padding-top: 10px;
+    max-width: 200px;
+  }
+
+  &__actions{
+    display: table;
+    padding-top: 10px;
+  }
+  &__action-item{
+    display: table-cell;
+    vertical-align: middle;
+    &:not(:first-child){
+      padding-left: 14px;
+    }
+  }
+
+  &__desc {
+    padding-top: 10px;
+    font-size: 0.9em;
+  }
+
+  &__params{
+    padding-top: 10px;
+  }
+
+  /*  Product is archived */
+  &__archive {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: $theme-secondary-color;
+    color: #000;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+  color: $footer-text-color;
+
+  &__title {
+    font-size: 1.2rem;
+    color: $footer-title-color;
+  }
+
+  &__inner {
+    margin-top: 10px;
+  }
+
+  &__items {
+
+  }
+
+  &__item {
+    margin-top: 5px;
+  }
+
+  &__link {
+    @include link-main;
+  }
+
+}

@@ -1,0 +1,19 @@
+.cart-frame{
+
+	&__header{
+		padding: 15px 25px;
+		border: 1px solid $base-border-color;
+		border-bottom: 0;
+		background: $theme-secondary-color;
+	}
+
+	&__title{
+		color: #000;
+		font-weight: bold;
+	}
+
+	&__inner{
+		border: 1px solid $base-border-color;
+		padding: 20px;
+	}
+}

@@ -1,0 +1,53 @@
+.svg-icon {
+  max-width: 100%;
+  max-height: 100%;
+
+  fill: currentColor;
+
+  &--flip-vertical {
+    transform: scaleY(-1);
+  }
+  &--flip-horizontal {
+    transform: scaleX(-1);
+  }
+
+  &--caret {
+    width: rem(8px);
+    height: rem(8px);
+  }
+
+  &--angle {
+    width: rem(18px);
+    height: rem(40px);
+  }
+
+  &--in-btn {
+    width: rem(14px);
+    height: rem(14px);
+  }
+  &--in-big-btn {
+    width: rem(18px);
+    height: rem(18px);
+  }
+  &--spinner {
+    animation: spinner 1s linear;
+  }
+  &--star {
+    stroke-width: 40;
+    stroke: inherit;
+  }
+  &--view {
+    width: rem(18);
+    height: rem(18);
+  }
+  &--small-angle {
+    width: rem(8);
+    height: rem(8);
+  }
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

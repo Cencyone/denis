@@ -1,0 +1,29 @@
+.brands-widget {
+
+  &__item{
+    padding: 10px;
+    border: 1px solid $bradns-widget-border-color;
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    line-height: 1;
+    overflow: hidden;
+    text-align: center;
+    height: 50px;
+  }
+
+  &__img {
+    @include absolute-center-translate;
+    max-height: 100%;
+    font-size: 35px;
+    color: $bradns-widget-link-color;
+
+    &:hover {
+      color: $bradns-widget-link-color-hover;
+    }
+  }
+
+}

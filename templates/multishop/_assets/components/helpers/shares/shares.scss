@@ -1,0 +1,26 @@
+/* Social buttons reset BEGIN */
+span.b-share{
+	font:  inherit !important;
+	padding: 0px 0px 0px 0px !important;
+}
+a.b-share__handle{
+	padding: 0px 0px 0px 0px !important;
+}
+span.b-share__text{
+	margin: 0;
+}
+span.b-share-btn__wrap{
+	margin: 0 !important;
+}
+
+/* Share buttons rewrite */
+.b-share{
+	margin-left: -5px;
+}
+.b-share__handle{
+	margin-left: 5px;
+}
+
+.b-share__link{
+	border-radius: 0 !important;
+}

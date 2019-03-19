@@ -1,0 +1,38 @@
+.star-voting {
+
+  &__wrap {
+    display: inline-block;
+    font-size: 1rem;
+  }
+
+  &__wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  &__ico {
+    float: right;
+    padding-left: 2px;
+    cursor: pointer;
+
+    width: 21px;
+    height: 21px;
+
+    .svg-icon {
+      color: $star-empty-color;
+    }
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__ico:hover,
+  &__ico:hover ~ &__ico,
+  &__input:checked ~ &__ico {
+    .svg-icon {
+      fill: $star-rating-color;
+    }
+  }
+
+}

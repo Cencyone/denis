@@ -1,0 +1,39 @@
+.catalog-section {
+  $photo-size: 200px;
+
+  display: block;
+  border: 1px solid $base-border-color;
+
+  &, &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+
+  &:hover {
+    .catalog-section__caption {
+      background: $theme-secondary-color;
+    }
+  }
+
+  &__image {
+    height: $photo-size;
+    max-height: $photo-size;
+    position: relative;
+    padding: 10px;
+  }
+
+  &__img {
+    display: block;
+    padding: 10px;
+    max-height: inherit;
+    @include absolute-center-translate;
+  }
+
+  &__caption {
+    border-top: 1px solid $base-border-color;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+}

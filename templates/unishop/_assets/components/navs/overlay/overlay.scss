@@ -1,0 +1,67 @@
+.overlay {
+  padding: 5px 0;
+  border: 1px solid $overlay-border-color;
+  text-align: left;
+  background: $overlay-bg-color;
+  box-shadow: 0 3px 4px $overlay-shadow-color;
+
+  &__item {
+    position: relative;
+
+    &:hover {
+      background: $overlay-link-hover-bg;
+      > .overlay__drop {
+        display: block;
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+    padding: 5px 30px 5px 10px;
+    white-space: nowrap;
+    color: $overlay-link-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $overlay-link-hover-color;
+    }
+  }
+
+  &__ico {
+    float: left;
+    margin-top: -1px;
+    margin-right: 4px;
+  }
+
+  &__arrow {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -8px;
+    display: inline-block;
+    fill: $overlay-link-color;
+
+    &--right{
+      width: 4px;
+      height: 7px;
+    }
+  }
+
+  &__drop {
+    display: none;
+
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+    white-space: nowrap;
+
+    //Element Modifiers
+    &--rtl {
+      right: 100%;
+      left: auto;
+    }
+  }
+
+}

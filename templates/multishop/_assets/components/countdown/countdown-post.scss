@@ -1,0 +1,45 @@
+.countdown-post {
+
+  display: inline-block;
+  border: 1px solid $base-border-color;
+  padding: 15px;
+
+  &__title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: $base-font-color-secondary;
+  }
+
+  &__date {
+    font-size: 1.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  &__item {
+    float: left;
+
+    &::after {
+      content: ':';
+      float: right;
+    }
+
+    &--no-marker {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &__label {
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+}

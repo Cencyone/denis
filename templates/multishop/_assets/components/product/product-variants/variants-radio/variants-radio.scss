@@ -1,0 +1,67 @@
+.variants-radio{  
+
+  &__item{
+    display: table;
+    width: 100%;
+    padding: 5px 0;
+
+    &:not(:first-child){
+      border-top: 1px solid $base-border-color;
+    }
+
+    &--disabled{
+    	.variants-radio__field{
+    		color: $base-font-color-secondary;
+    	}
+    	.variants-radio__price-main{
+    		color: $base-font-color-secondary;
+    	}
+    }
+  }
+
+
+  &__field{
+    @include clearfix;
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+    padding-right: 20px;
+    font-size: 0.9em;
+    color: #000;
+
+    &-inner{
+      display: table;      
+    }
+  }
+
+  &__control{
+    display: table-cell;
+    width: 20px;
+    vertical-align: middle;
+    padding-right: 5px;
+    position: relative;
+    top: -3px;
+  }
+
+  &__title{
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__available{
+    display: block;
+    color: #000;
+  }
+
+  &__price{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+
+    &--left{
+    	text-align: left;
+    }
+  }
+
+
+ }

@@ -1,0 +1,38 @@
+/*
+--------------------------------------------------
+Catalog sidebar menu
+--------------------------------------------------
+*/
+.sidebar-nav {
+  font-size: 0.9rem;
+
+  //Elements
+  &__item {
+    border: 1px solid $base-border-color;
+    border-top: 0;
+
+    &:first-child {
+      border-top: 1px solid $base-border-color;
+    }
+
+    //Element Modifiers
+    &--active {
+      .sidebar-nav__link {
+        @include link-empty;
+      }
+    }
+
+  }
+
+  &__link {
+    display: block;
+    padding: 10px 50px 10px 10px;
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}

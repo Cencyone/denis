@@ -1,0 +1,168 @@
+.product-cut {
+  font-size: 1rem;
+
+  /* Rating */
+  &__photo {
+  }
+
+  /* Rating */
+  &__rating {
+    padding-top: 10px;
+  }
+
+  /* Title */
+  &__title {
+    padding-top: 5px;
+
+    &-link {
+      @include link-main;
+    }
+  }
+
+  /* Sale */
+  &__sale {
+    display: block;
+    padding: 5px 0;
+    color: #cc0000;
+  }
+  &__sale-item{
+    &:not(:first-child){
+      margin-top: 3px;
+    }
+  }
+
+  /* Additional info */
+  &__addition {
+    @include clearfix;
+    font-size: 0.9em;
+    color: $base-font-color-secondary;
+
+    &-item {
+      float: left;
+      padding-top: 5px;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      color: $base-font-color-secondary;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  /* Variants */
+  &__variants {
+    margin-top: 10px;
+  }
+
+  /* Price */
+  &__price {
+    margin-top: 10px;
+  }
+
+  /* Purchase */
+  &__purchase {
+
+    &-wrapper {
+      @include clearfix;
+    }
+
+    &-quantity {
+      float: left;
+      margin-right: 10px;
+      width: 105px;
+      margin-top: 10px;
+    }
+
+    &-btn {
+      float: left;
+      margin-top: 10px;
+    }
+
+  }
+
+  &__not-available {
+    margin-top: 10px;
+
+    &-info {
+      font-size: 0.9em;
+      color: #000;
+    }
+
+    &-notify {
+      margin-top: 2px;
+    }
+
+    &-link {
+      @include link-main;
+      @include link-js;
+    }
+  }
+
+  /*  Wishlist and compare BEGIN */
+  &__actions {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+
+  /* System bonus module */
+  &__bonus{
+    margin-top: 10px;
+  }
+
+
+  /*  Short Description */
+  &__desc {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+
+  /*  Main Params */
+  &__params {
+    margin-top: 10px;
+    font-size: 0.9em;
+
+    &-item {
+      display: table;
+      width: 100%;
+      padding: 5px 0;
+
+      &:not(:first-child) {
+        border-top: 1px solid $base-border-color;
+      }
+    }
+
+    &-key {
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      padding-right: 10px;
+    }
+
+    &-val {
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      text-align: right;
+    }
+  }
+
+  /*  Product is archived */
+  &__archive{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: $theme-secondary-color;
+    color: #000;
+    font-size: 1.2rem;
+  }
+
+}

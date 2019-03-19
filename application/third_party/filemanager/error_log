@@ -1,0 +1,9 @@
+[12-Dec-2017 18:02:20 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581
+[12-Dec-2017 18:03:14 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581
+[12-Dec-2017 18:04:19 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581
+[12-Dec-2017 18:05:32 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581
+[12-Dec-2017 18:06:13 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581
+[10-Jun-2018 11:59:45 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581
+[10-Jun-2018 12:02:52 Europe/Rome] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/user2263/public_html/application/third_party/filemanager/include/php_image_magician.php on line 363
+[10-Jun-2018 12:02:53 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581
+[10-Jun-2018 16:49:24 Europe/Rome] PHP Notice:  getimagesize(): Read error! in /home/user2263/public_html/application/third_party/filemanager/include/utils.php on line 581

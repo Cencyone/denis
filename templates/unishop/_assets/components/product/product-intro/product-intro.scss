@@ -1,0 +1,115 @@
+.product-intro {
+
+  /* Additional information like brand, number */
+  &__addition {
+    @include clearfix;
+    padding: 5px 0 5px 0;
+    font-size: 0.9rem;
+    color: $base-font-color-secondary;
+
+    &-item {
+      float: left;
+      margin-right: 30px;
+      padding-bottom: 5px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      @include link-second;
+    }
+  }
+
+  /* Product variants */
+  &__variants {
+    max-width: 300px;
+  }
+
+  &__purchase{
+    @include clearfix;
+    margin-top: 15px;
+    padding: 15px 15px 0 15px;
+    background: $product-price-bg-color;
+  }
+
+  &__bonus{
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  &__price{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
+
+  /* Product add to cart buttons */
+  &__buy {
+    float: left;
+    padding-bottom: 15px;
+  }
+
+  /*  Product actions like wishlist and compare */
+  &__actions {
+    margin-top: 20px;
+  }
+
+  /*  Short Description and main params */
+  &__short-desc {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    padding-top: 15px;
+    border-top: 1px dashed $base-border-color;
+  }
+
+  &__main-params {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed $base-border-color;
+  }
+
+  /* Product like and share buttons */
+  &__social {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    padding-top: 15px;
+    border-top: 1px dashed $base-border-color;
+
+    &-row {
+      display: table;
+      &:not(:first-child) {
+        margin-top: 20px;
+      }
+    }
+
+    &-title {
+      display: table-cell;
+      vertical-align: middle;
+      padding-right: 15px;
+    }
+
+    &-inner {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+  }
+
+  /*  Product is archived */
+  &__archive{
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px 30px;
+    background: $theme-secondary-color;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  &__colors{
+    margin-bottom: 5px;
+  }
+
+}

@@ -1,0 +1,59 @@
+.brands-widget{
+	border: 1px solid $bradns-widget-border-color;
+	position: relative;
+	padding: 0 40px;
+	
+	&__link{
+		display: block;
+		position: relative;
+		height: 100px;	
+		border-right: 1px solid $bradns-widget-border-color;
+		text-decoration: none;
+		line-height: 1;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	&__item{
+		@include absolute-center-translate;
+		max-width: 100%;
+		padding: 20px;
+		font-size: 35px;
+		color: $bradns-widget-link-color;
+
+		&:hover{
+			color: $bradns-widget-link-color-hover;
+		}
+	}
+
+	&__arrow{
+		position: absolute;
+		width: 40px;
+		top: 0;
+		bottom: 0;
+		z-index: 100;
+		font-size: 20px;
+		text-align: center;
+		cursor: pointer;
+		background-color: $bradns-widget-arrow-bg;
+		color: $bradns-widget-arrow-color;
+
+		&:hover{
+			background-color: $bradns-widget-arrow-bg-hover;
+			color: $bradns-widget-arrow-color-hover;
+		}
+
+		&--prev{
+			left: 0;
+		}
+
+		&--next{
+			right: 0;
+		}
+
+		& > .svg-icon {
+			@include absolute-center-margin();
+		}
+	}
+
+}

@@ -1,0 +1,1 @@
+{view('navs/catalog_tree/level_2/container.tpl')}

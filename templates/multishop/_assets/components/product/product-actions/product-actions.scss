@@ -1,0 +1,35 @@
+.product-actions{
+
+  &__item {
+    background: $theme-secondary-color;
+    height: 30px;
+    line-height: 31px;
+    text-align: center;
+    white-space: nowrap;
+
+    &:not(:first-child) {
+      margin-top: 1px;
+    }
+  }
+
+  @media(min-width: $screen-md-min) {
+    &--inline &__item {
+      display: inline-block;
+      margin-top: 0;
+      padding: 0 1.8em;
+
+      &:not(:first-child) {
+        margin-left: .4em;
+      }
+    }
+  }
+
+  &__link {
+    @include link-main;
+  }
+
+  &__input {
+    position: relative;
+    top: 1px;
+  }
+}

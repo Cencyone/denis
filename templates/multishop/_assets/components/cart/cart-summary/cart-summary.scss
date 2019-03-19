@@ -1,0 +1,183 @@
+.cart-summary {
+  $first-cell-width: 25px;
+
+  &__items {
+    font-size: 0.9rem;
+  }
+
+  &__row {
+    margin-bottom:  15px;
+    padding-bottom: 15px;
+    border-bottom:  1px solid $base-border-color;
+  }
+
+  &__cell {
+    @include clearfix;
+
+
+    &:not(:last-child) {
+      padding-bottom: 5px;
+    }
+
+    &--delete {
+      float:       left;
+      width:       $first-cell-width;
+      margin-left: 0;
+    }
+    &--delete ~ & {
+      margin-left: $first-cell-width;
+    }
+
+  }
+  &__row:first-child &__cell {
+    border-top:  0;
+    padding-top: 0;
+  }
+
+  &__delete {
+    margin-right: 5px;
+  }
+
+  &__product {
+    padding-right: 30px;
+
+    &--kit {
+      &:not(:last-child):after {
+        content:     '+';
+        display:     block;
+        font-size:   20px;
+        color:       #000;
+        margin-left: 25px;
+      }
+    }
+  }
+
+  &__quantity {
+    width: 100px;
+  }
+
+  &__price {
+  }
+
+  &__subtotal {
+
+    &-item {
+      display:    table;
+      width:      100%;
+      border-top: 1px solid $base-border-color;
+      padding:    10px 0;
+
+      &:first-child {
+        border-top: 1px solid $base-border-color;
+      }
+
+    }
+
+    &-title {
+      display:        table-cell;
+      vertical-align: middle;
+    }
+
+    &-value {
+      display:        table-cell;
+      vertical-align: middle;
+      text-align:     right;
+    }
+
+  }
+
+  &__total {
+    padding-top: 20px;
+
+    @media (min-width: $screen-lg-min) {
+      display: table;
+      width:   100%;
+    }
+
+    &-coupon {
+      padding-bottom: 20px;
+
+      @media (min-width: $screen-lg-min) {
+        display:        table-cell;
+        vertical-align: middle;
+        padding:        0 20px 0 0;
+        width:          60%;
+      }
+    }
+
+    &-price {
+      text-align: right;
+
+      @media (min-width: $screen-lg-min) {
+        display:        table-cell;
+        vertical-align: middle;
+        white-space:    nowrap;
+      }
+    }
+
+  }
+
+  @media (min-width: $screen-sm-min) {
+    &--in-modal &__items {
+      display: table;
+      width:   100%;
+    }
+    &--in-modal &__row {
+      display: table-row;
+    }
+    &--in-modal &__cell {
+      display:        table-cell;
+      vertical-align: top;
+      border-top:     1px solid $base-border-color;
+      padding:        20px 0;
+
+      &--delete {
+        float: none;
+      }
+      &--delete ~ & {
+        margin-right: 0;
+      }
+      &:not(:last-child) {
+        padding-bottom: 20px;
+      }
+    }
+    &--in-modal &__price {
+      width:      80px;
+      text-align: right;
+      float:      right;
+    }
+  }
+  @media (min-width: $screen-md-min) {
+    &__items {
+      display: table;
+      width:   100%;
+    }
+    &__row {
+      display: table-row;
+    }
+    &__cell {
+      display:        table-cell;
+      vertical-align: top;
+      border-top:     1px solid $base-border-color;
+      padding:        20px 0;
+
+      &--delete {
+        float: none;
+      }
+      &--delete ~ & {
+        margin-right: 0;
+      }
+      &:not(:last-child) {
+        padding-bottom: 20px;
+      }
+    }
+    &__price {
+      width:      50px;
+      text-align: right;
+      float:      right;
+    }
+  }
+  @media (min-width: $screen-lg-min) {
+  }
+
+}

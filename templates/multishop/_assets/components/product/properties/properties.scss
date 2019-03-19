@@ -1,0 +1,36 @@
+.properties{
+
+	&__item{
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+		padding: 10px 0;
+
+		&:not(:first-child){
+      border-top: 1px solid $base-border-color;
+    }
+	}
+
+	&__header{
+		position: relative;
+		display: table-cell;
+		vertical-align: top;
+		padding-right: 20px;
+	}
+
+	&__wrapper{
+		position: relative;
+		display: inline-block;
+	}
+
+	&__title{
+		display: inline;
+		font-weight: bold;
+		color: #000;
+	}
+
+	&__value{
+		display: table-cell;
+		vertical-align: top;
+	}
+}

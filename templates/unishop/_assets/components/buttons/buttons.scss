@@ -1,0 +1,162 @@
+.btn {
+  text-decoration: none;
+
+  &--main {
+    /* cancel default bootstrap blue outline */
+    outline: 0 !important;
+    /* cancel default bootstrap border */
+    border: 0;
+
+    background: $theme-main-color;
+    color: $btn-main-color;
+
+    &:hover,
+    &:focus {
+      background: $btn-main-bg-hover;
+      color: $btn-main-color-hover;
+    }
+  }
+
+  &--va-m {
+    & > * {
+      display: inline-block;
+      vertical-align: middle;
+
+      &:not(:first-child) {
+        margin-left: 5px;
+      }
+    }
+  }
+
+}
+
+.btn-default{
+  background: linear-gradient(to bottom, #f5f8fb 0%, #ecf1f6 100%);
+  /* cancel default bootstrap blue outline */
+  outline: 0 !important;
+
+  &:hover,
+  &:focus,
+  &:active{
+    background: linear-gradient(to bottom, #f5f8fb 0%, #ecf1f6 100%) !important;
+    border-color: $btn-default-border !important;
+  }
+
+  &__ico{
+    display: inline-block;
+    fill: $theme-main-color;
+    color: $theme-main-color;
+
+    &--search{
+      width: 13px;
+      height: 13px;
+      position: relative;
+      top: 2px;
+    }
+    &--download {
+      width: 15px;
+      height: 15px;
+      fill: #000;
+    }
+    &--down,
+    &--top {
+      width: 8px;
+      height: 8px;
+      fill: $base-font-color-secondary;
+      color: $base-font-color-secondary;
+    }
+  }
+}
+
+.btn-primary{
+
+  /* cancel default bootstrap blue outline */
+  outline: 0 !important;
+  background-color: $btn-primary-bg;
+  border-color: $btn-primary-border;
+
+  &:hover,
+  &:focus,
+  &:active{
+    background-color: $btn-primary-bg-hover !important;
+    border-color: $btn-primary-border-hover !important;
+  }
+}
+
+.btn-order {
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-lg;
+  }
+
+}
+
+.btn-white{
+  @extend .btn;
+  @extend .btn-default;
+  background: #fff;
+
+  &--active{
+    background: #f2f6f9;
+  }
+
+  &__ico{
+    display: inline-block;
+    fill: $theme-third-color;
+    color: $theme-third-color;
+    position: relative;
+    top: 3px;
+
+    &--wishlist {
+      width: 16px;
+      height: 15px;
+    }
+
+    &--compare {
+      width: 13px;
+      height: 15px;
+    }
+  }
+  &--active &__ico{
+    fill: #000;
+    color: #000;
+  }
+
+}
+
+.btn-light{
+  &,
+  &:hover,
+  &:active,
+  &:focus{
+    color: #ba9659;
+    background: #fff8dd !important;
+    border: 1px solid #eedbb2 !important;
+  }
+}
+
+.btn-mobile-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.button {
+
+  &--loader {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    fill: #fff;
+    animation: rotateIcon 1s linear infinite;
+  }
+}
+
+@keyframes rotateIcon {
+  to {
+    transform: rotate(360deg);
+  }
+}

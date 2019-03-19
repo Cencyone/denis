@@ -1,0 +1,54 @@
+.paginator {
+
+  $paginator-size : rem(35);
+  $arrow-size : rem(15);
+
+  height : $paginator-size;
+
+  @include valign-before;
+
+  &__item {
+    width       : rem(20);
+    margin      : 0 rem(5);
+
+    font-weight : bold;
+    text-align  : center;
+    white-space : nowrap;
+
+    &:first-child {
+      margin-left : 0;
+    }
+
+    a {
+      @include link-second;
+      display : inline-block;
+    }
+
+    &--active {
+      color : #999;
+    }
+
+    &--first {
+
+    }
+
+    &--last {
+
+    }
+
+    &--next,
+    &--prev {
+      font-size : 0;
+    }
+
+  }
+
+  &__arrow {
+    display : block;
+
+    height  : $arrow-size;
+    width   : $arrow-size;
+
+  }
+
+}

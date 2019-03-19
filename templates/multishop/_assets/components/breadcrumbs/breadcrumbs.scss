@@ -1,0 +1,34 @@
+.breadcrumbs{	
+	
+	$separator-ico:     '/';
+	$separator-color:   #000;
+	$vertical-gutter:   5px;
+			
+	@include clearfix;
+	margin-top: (-$vertical-gutter);
+	color: $base-font-color-secondary;
+	font-size: 1.2rem;
+
+	@media(min-width: $screen-md-min){
+		font-size: 0.9rem;
+	}
+
+	&__item{		
+		float: left;
+		margin-top: $vertical-gutter;
+
+		/* styles for separator */
+		&:not(:last-child):after{
+			content: $separator-ico;
+			float: left;
+			margin: 0 0.4em;
+			color: $separator-color;
+		}
+	}
+
+	&__link{
+		float: left;
+		@include link-main;
+	}
+
+}

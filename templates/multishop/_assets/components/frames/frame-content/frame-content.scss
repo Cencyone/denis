@@ -1,0 +1,57 @@
+.frame-content{
+	font-size: 1rem;	
+
+	&__header{
+		padding: 1.1em 1.8em;
+		margin-bottom: 1.2em;
+		background: $theme-secondary-color;
+
+		&--sm{
+			padding: 0.85em 1.4em;
+			margin-bottom: 1em;
+		}
+
+		&-nav{
+			display: inline-block;
+			vertical-align: baseline;
+			font-size: 0.9em;
+
+			&:before{
+				content: '/';
+				padding: 0 10px;
+			}
+		}
+
+		&-link{
+			@include link-main;			
+		}
+	}
+
+	&__title{
+		display: inline-block;
+		vertical-align: baseline;
+		font-size: 1.5em;
+		line-height: 1;
+		color: #000;
+
+		&--sm{
+			font-size: 1em;
+			font-weight: bold;
+		}
+
+		&-link{
+			@include link-second;
+		}
+	}
+
+	&__inner{
+
+	}
+
+	&__row{
+		&:not(:last-child){
+			margin-bottom: 20px;
+		}
+	}
+
+}

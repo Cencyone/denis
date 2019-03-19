@@ -1,0 +1,88 @@
+/*
+--------------------------------------------------
+Navigation menus styles
+--------------------------------------------------
+*/
+.mobile-nav {
+
+  &__list {
+    width: 100%;
+    @include transition(transform $mobile-nav-slide-speed);
+
+    //Modifiers
+    &--drop {
+      position: absolute;
+      left: 100%;
+      top: 0;
+    }
+
+    &--is-moving {
+      @include transform(translateX(-100%));
+    }
+
+  }
+
+  &__item {
+    border-bottom: 1px solid $mobile-nav-border-color;
+
+    &--separator {
+      color: #666;
+      padding: 5px 30px;
+      background: #1B1B1B;
+      margin-top: 50px;
+      border-bottom: 0;
+    }
+  }
+
+  &__link {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    color: $mobile-nav-link-color;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    white-space: nowrap;
+    height: 50px;
+    line-height: 50px;
+
+    &--view-all {
+      color: $mobile-nav-viewall-color;
+    }
+
+    &--go-back {
+      padding-left: 40px;
+    }
+
+  }
+
+  &__has-children {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    width: 20px;
+    height: 100%;
+
+    & > .svg-icon {
+      @include absolute-center-margin();
+      width: rem(16px);
+      height: rem(16);
+    }
+  }
+  &__link--go-back &__has-children {
+    left: 10px;
+    right: auto;
+  }
+
+  //Modifiers
+  &--drop {
+    // display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+
+}

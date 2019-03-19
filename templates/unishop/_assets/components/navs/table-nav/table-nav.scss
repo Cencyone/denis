@@ -1,0 +1,101 @@
+/*
+--------------------------------------------------
+Navigation table-navs styles
+--------------------------------------------------
+*/
+.table-nav {
+  $z-intdex: $z-index-s;
+
+  position: relative;
+
+  //Modifiers
+  &--equal {
+    .table-nav__items {
+      table-layout: fixed;
+    }
+  }
+
+  //Elements
+  &__items {
+    display: table;
+    width: 100%;
+    height: 50px;
+  }
+
+  &__item {
+    position: relative;
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: $table-nav-bg-color;
+    border-left: 1px solid $table-nav-border-color;
+
+    &:first-child {
+      border-left: 0;
+    }
+
+    //Element Modifiers
+    &.is-active{
+      .table-nav__link {
+        background-color: $table-nav-bg-active-color;
+      }
+    }
+
+    &:hover {
+      .table-nav__link {
+        background: $table-nav-bg-hover-color;
+        color: $table-nav-link-hover-color;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 0;
+    display: block;
+    height: 100%;
+    color: $table-nav-link-color;
+    text-decoration: none;
+
+    &:before {
+      content: '';
+      height: 100%;
+      padding: 10px 0;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &-helper {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px;
+      font-size: 1rem;
+    }
+  }
+
+  &__drop {
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+
+    visibility: hidden;
+    opacity: 0;
+    height:     1px;
+    overflow:   hidden;
+
+    //Element Modifiers
+    &[data-nav-direction="rtl"] {
+      right: 0;
+      left: auto;
+    }
+  }
+
+  &__item:hover > &__drop {
+    visibility: visible;
+    opacity: 1;
+    height:     auto;
+    overflow:   visible;
+  }
+
+}

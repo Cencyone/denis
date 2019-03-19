@@ -1,0 +1,40 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-19 04:23+0300\n"
+"PO-Revision-Date: 2016-07-19 04:23+0300\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/custom_scripts/admin.php:29
+msgid "Saved"
+msgstr "Збережено"
+
+#: application/modules/custom_scripts/admin.php:29
+msgid "Success"
+msgstr "Успішно"
+
+#: application/modules/custom_scripts/module_info.php:6
+#: application/modules/custom_scripts/assets/admin/main.tpl:6
+msgid "Custom scripts"
+msgstr "Користувальницькі скрипти"
+
+#: application/modules/custom_scripts/assets/admin/main.tpl:13
+msgid "Back"
+msgstr ""
+
+#: application/modules/custom_scripts/assets/admin/main.tpl:15
+msgid "Save"
+msgstr "Зберегти"

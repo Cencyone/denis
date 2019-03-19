@@ -1,0 +1,207 @@
+.product-intro {
+
+  /* Additional information like brand, number */
+  &__addition {
+    @include clearfix;
+    padding: 5px 0 5px 0;
+    font-size: 0.9rem;
+    color: $base-font-color-secondary;
+
+    &-item {
+      float: left;
+      margin-right: 30px;
+      padding-bottom: 5px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      @include link-second;
+    }
+  }
+
+  /* Product variants */
+  &__variants {
+    margin-top: 10px;
+  }
+
+  /* Product price */
+  &__price{
+    padding-top: 20px;
+  }
+  &__price-col{
+    display: inline-block;
+    vertical-align: middle;
+
+    &:not(:first-child){
+      padding-left: 10px;
+    }
+  }
+
+  /* Product add to cart buttons */
+  &__purchase-row{
+    margin-top: 20px;
+  }
+
+  &__purchase-col{
+    display: inline-block;
+    vertical-align: middle;
+
+    &:not(:first-child){
+      padding-left: 10px;
+    }
+  }
+
+  &__purchase {
+
+    &-wrapper {
+      @include clearfix;
+      /* compensate quantity and button extra vertical indention */
+      margin-top: -10px;
+    }
+
+    &-quantity {
+      float: left;
+      margin-right: 10px;
+      /* extra indent to make vertical space on mobile devices when button transit into another row */
+      margin-top: 10px;
+      width: 140px;
+    }
+
+    &-btn{
+      float: left;
+      /* extra indent to make vertical space on mobile devices when button transit into another row */
+      margin-top: 10px;
+    }
+
+    &-not-available {
+      &-info {
+        display: inline-block;
+        margin-right: 5px;
+      }
+
+      &-notify {
+        display: inline-block;
+      }
+
+      &-btn {
+        @extend .btn, .btn-default;
+      }
+    }
+
+  }
+
+  &__bonus{
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  /*  Product actions like wishlist and compare */
+  &__actions {
+    margin-top: 20px;
+
+    &-item {
+      margin-top: 5px;
+      padding: 0 1.5em;
+      height: 30px;
+      line-height: 30px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      background: $theme-secondary-color;
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+
+    &-link {
+      @include link-main;
+      font-size: 0.9rem;
+    }
+
+    &-control {
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  /*  Short Description and main params */
+  &__short-desc {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+
+  &__main-params {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #000;
+
+    &-item {
+      display: table;
+      width: 100%;
+      padding: 5px 0;
+
+      &:not(:first-child) {
+        border-top: 1px solid $base-border-color;
+      }
+    }
+
+    &-key {
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      padding-right: 10px;
+    }
+
+    &-val {
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      text-align: right;
+    }
+  }
+
+  /* Product like and share buttons */
+  &__social {
+    margin-top: 25px;
+    font-size: 0.9rem;
+
+    &-row {
+      display: table;
+      &:not(:first-child) {
+        margin-top: 20px;
+      }
+    }
+
+    &-title {
+      display: table-cell;
+      vertical-align: middle;
+      padding-right: 15px;
+    }
+
+    &-inner {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+  }
+
+  /*  Product is archived */
+  &__archive{
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px 30px;
+    background: $theme-secondary-color;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  &__colors{
+    margin-top: 15px;
+  }
+
+}

@@ -1,0 +1,142 @@
+.product-cut {
+  $overlay-indent: 10px;
+  $overlay-border: 1px solid $base-border-color;
+  $overlay-shadow: 0 3px 10px rgba(57, 93, 132, 0.1);;
+
+  position: relative;
+  font-size: 1rem;
+  text-align: center;
+
+  @media (min-width: $screen-md-min) {
+    &:hover {
+      &::before {
+        content: '';
+        @include position(absolute, (-$overlay-indent) (-$overlay-indent) (-$overlay-indent) (-$overlay-indent));
+        display: block;
+        border: $overlay-border;
+        box-shadow: $overlay-shadow;
+        border-bottom: 0;
+      }
+    }
+  }
+  /* Preventing hover overlay on slider items */
+  .slick-slide &:hover,
+  &--no-overlay:hover{
+    &::before {
+      display: none;
+    }
+  }
+
+  &__main-info {
+    position: relative;
+  }
+  &__extra-info {
+    display: none;
+    @include position(absolute, 100% (-$overlay-indent) null (-$overlay-indent));
+    z-index: $z-index-s;
+    border: $overlay-border;
+    box-shadow: $overlay-shadow;
+    border-top: 0;
+    padding: 0 $overlay-indent;
+    background: $theme-secondary-color;
+
+  }
+  &:hover &__extra-info {
+    @media (min-width: $screen-md-min) {
+      display: block;
+    }
+  }
+  /* Preventing hover overlay on slider items */
+  .slick-slide &:hover &__extra-info,
+  &--no-overlay:hover &__extra-info {
+    display: none;
+  }
+
+  /* Rating */
+  &__photo {
+  }
+
+  /* Rating */
+  &__rating {
+    padding-top: 10px;
+  }
+
+  /* Title */
+  &__title {
+    padding-top: 5px;
+
+    &-link {
+      @include link-main;
+    }
+  }
+
+  /* Sale */
+  &__sale {
+    display: block;
+    padding: 5px 0 0;
+    color: $theme-third-color;
+  }
+  &__sale-item{
+    &:not(:first-child){
+      margin-top: 3px;
+    }
+  }
+
+  &__variants {
+    padding-top: 12px;
+  }
+
+  &__price {
+    margin-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  &__bonus{
+    margin-top: 5px;
+  }
+
+  &__actions {
+    display: table;
+    margin: auto;
+    padding: 12px 0;
+  }
+
+  &__action-item {
+    display: table-cell;
+    vertical-align: middle;
+    &:not(:first-child) {
+      padding-left: 10px;
+    }
+  }
+
+  &__delete {
+    @include position(absolute, 0 0 null null);
+  }
+  &__delete-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    color: #C5CDD8;
+    fill: #C5CDD8;
+  }
+
+  &__move {
+    padding-bottom: 10px;
+    margin-top: -5px;
+  }
+  &__move-link {
+    @include link-main;
+    @include link-js;
+  }
+
+  /*  Product is archived */
+  &__archive {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: $theme-secondary-color;
+    color: #000;
+    font-size: 1.2rem;
+  }
+
+}

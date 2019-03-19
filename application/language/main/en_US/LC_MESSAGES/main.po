@@ -1,0 +1,1393 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-26 10:47+0300\n"
+"PO-Revision-Date: 2016-04-26 10:47+0300\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../../../../../application/core\n"
+"X-Poedit-SearchPath-2: ../../../../../application/errors\n"
+"X-Poedit-SearchPath-3: ../../../../../application/helpers\n"
+"X-Poedit-SearchPath-4: ../../../../../application/libraries\n"
+"X-Poedit-SearchPath-5: ../../../../../application/modules/shop/classes\n"
+"X-Poedit-SearchPath-6: ../../../../../application/modules/shop/helpers\n"
+"X-Poedit-SearchPath-7: ../../../../../system/language/form_validation\n"
+"X-Poedit-SearchPath-8: ../../../../../system/language/email_lang\n"
+"X-Poedit-SearchPath-9: ../../../../../system/language/upload\n"
+"X-Poedit-SearchPath-10: ../../../../../system/libraries\n"
+"X-Poedit-SearchPath-11: ../../../../../templates/administrator/js/jquery-validate\n"
+"X-Poedit-SearchPath-12: ../../../../../application/modules/shop/widgets\n"
+"X-Poedit-SearchPath-13: ../../../../../application/modules/shop/models\n"
+
+#: system/language/form_validation/form_validation.php:35
+msgid "Cannot create order with price less than |currencySymbol| |minPrice|"
+msgstr ""
+
+#: application/libraries/MY_Form_validation.php:13
+msgid "Поле %s должно содержать правильную дату."
+msgstr ""
+
+#: application/libraries/MY_Form_validation.php:14
+msgid "Поле %s должно содержать правильное время."
+msgstr ""
+
+#: application/libraries/MY_Form_validation.php:15
+msgid "Поле %s должно содержать корректный номер."
+msgstr ""
+
+#: application/libraries/MY_Form_validation.php:16
+msgid "Поле %s должно содержать как минимум один символ."
+msgstr ""
+
+#: application/libraries/Update.php:98
+msgid "Cant get status"
+msgstr ""
+
+#: application/libraries/Update.php:138
+msgid "Wrong generate hash code"
+msgstr ""
+
+#: application/libraries/Update.php:164
+msgid "Nothing to create"
+msgstr ""
+
+#: application/libraries/Update.php:179
+#: application/libraries/Update.php:202
+#: application/libraries/Update.php:233
+msgid "Dont have permissions folder backup"
+msgstr ""
+
+#: application/modules/shop/classes/Category/CategoryApi.php:236
+msgid "The Category icon field legth must be smaler than 255 symbols."
+msgstr ""
+
+#: application/modules/shop/classes/SPropertiesRenderer.php:99
+msgid "Cancel"
+msgstr ""
+
+#: application/modules/shop/classes/SPropertiesRenderer.php:99
+#: application/modules/shop/classes/SPropertiesRenderer.php:99
+#: application/modules/shop/classes/SPropertiesRenderer.php:107
+msgid "Add new property value"
+msgstr ""
+
+#: application/modules/shop/classes/CustomFieldsHelper.php:62
+msgid "Select file"
+msgstr ""
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:281
+msgid "Number"
+msgstr ""
+
+#: application/modules/shop/classes/Products/ProductApi.php:148
+msgid "URL field can not contain first symbol: _"
+msgstr ""
+
+#: application/modules/shop/classes/Products/ProductApi.php:235
+msgid "The field Price must be numeric"
+msgstr ""
+
+#: system/language/form_validation/form_validation.php:34
+msgid "Search"
+msgstr ""
+
+#: application/modules/shop/models/SPaymentMethods.php:24
+#: application/modules/shop/models/CustomFields.php:30
+#: application/modules/shop/models/SBrands.php:34
+msgid "Описание"
+msgstr ""
+
+#: application/modules/shop/models/SPaymentMethods.php:25
+#: application/modules/shop/models/SCategory.php:39
+#: application/modules/shop/models/SProperties.php:30
+msgid "Active"
+msgstr ""
+
+#: application/modules/shop/models/SPaymentMethods.php:26
+#: application/modules/shop/models/SProperties.php:31
+msgid "Position"
+msgstr ""
+
+#: application/modules/shop/models/SCategory.php:33
+msgid "Description"
+msgstr ""
+
+#: application/modules/shop/models/SCategory.php:38
+msgid "Parent"
+msgstr ""
+
+#: application/modules/shop/models/SCategory.php:40
+msgid "Category template"
+msgstr ""
+
+#: application/modules/shop/models/SCategory.php:41
+msgid "Sorting method by default"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:26
+msgid "Custom object"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:29
+msgid "Field type"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:31
+msgid "Custom required field"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:32
+msgid "Custom multiple field"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:33
+msgid "Custom posibble list"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:34
+msgid "Validations"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:35
+msgid "Custom active field"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:36
+msgid "Сustom private field"
+msgstr ""
+
+#: application/modules/shop/models/CustomFields.php:37
+msgid "Custom right field"
+msgstr ""
+
+#: application/modules/shop/models/SProducts.php:96
+msgid "Название товара"
+msgstr ""
+
+#: application/modules/shop/models/SCallbacks.php:23
+msgid "Subject"
+msgstr ""
+
+#: application/modules/shop/models/SCallbacks.php:24
+msgid "Comment"
+msgstr ""
+
+#: application/modules/shop/models/SCallbacks.php:35
+msgid "The %s is required"
+msgstr ""
+
+#: application/modules/shop/models/SUserProfile.php:30
+msgid "FIO"
+msgstr ""
+
+#: application/modules/shop/models/SUserProfile.php:33
+msgid "Time register"
+msgstr ""
+
+#: application/modules/shop/models/SUserProfile.php:34
+msgid "Sum purchases"
+msgstr ""
+
+#: application/modules/shop/models/SUserProfile.php:35
+msgid "Role"
+msgstr ""
+
+#: application/modules/shop/models/SBrands.php:33
+msgid "URL"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:26
+msgid "ProductId"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:28
+msgid "CSV column name "
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:29
+msgid "Multiple selection"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:32
+msgid "Value"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:33
+msgid "Show on product page"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:34
+msgid "Main property"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:35
+msgid "Show in product compare"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:36
+msgid "Show in filter"
+msgstr ""
+
+#: application/modules/shop/models/SProperties.php:37
+msgid "Use in categories"
+msgstr ""
+
+#: application/helpers/filesystem_helper.php:20
+msgid "Function needs at least 1 argument"
+msgstr ""
+
+#: application/libraries/MY_Pagination.php:15
+msgid "First"
+msgstr ""
+
+#: application/libraries/MY_Pagination.php:16
+msgid "Last"
+msgstr ""
+
+#: application/libraries/Permitions.php:525
+#: application/libraries/Permitions.php:646
+msgid "Title"
+msgstr ""
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:279
+msgid "Продукт"
+msgstr "Product"
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:280
+msgid "Вариант"
+msgstr "Variant"
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:282
+msgid "Количество"
+msgstr "Quentity"
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:283
+msgid "Цена"
+msgstr "Price"
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:284
+msgid "Cумма"
+msgstr "Total price"
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:323
+msgid "Сумма скидки"
+msgstr "Discount Amount"
+
+#: application/modules/shop/classes/Cart/BaseOrder.php:327
+msgid "Общая сумма"
+msgstr "Total price"
+
+#: application/helpers/html_helper.php:83
+msgid "Unspecified"
+msgstr ""
+
+# ?
+#: system/language/form_validation/form_validation.php:19
+msgid "alpha_dash"
+msgstr "The %s field may only contain alpha-numeric characters, underscores, and dashes"
+
+#: application/modules/shop/classes/Products/ProductApi.php:152
+#: application/modules/shop/classes/Products/ProductApi.php:157
+msgid "URL field can only contain alphanumeric characters and symbols: - , _"
+msgstr ""
+
+# ?
+#: system/language/form_validation/form_validation.php:15
+msgid "max_length"
+msgstr "The %s field can not exceed %s characters in length."
+
+#: application/modules/shop/classes/Products/ProductApi.php:215
+msgid "Invalid brand_id"
+msgstr "Invalid manufacturer_id value"
+
+#: application/modules/shop/classes/Search/BaseSearch.php:35
+msgid "Бренды"
+msgstr "Manufacturers"
+
+#: application/modules/shop/widgets/widgets_info.php:10
+msgid "Brands"
+msgstr "Manufacturers"
+
+#: application/modules/shop/widgets/widgets_info.php:11
+msgid "Displays the unit in the form of a "carousel" with selected brands"
+msgstr "Displays the unit in the form of a "carousel" with selected manufacturers"
+
+#: application/modules/shop/widgets/templates/view_product_form.tpl:31
+#: application/modules/shop/widgets/templates/similar_products_form.tpl:31
+msgid "Рекомендуемое количество 4. Максимальное значение 20"
+msgstr "Recomended 4. Maximum 20"
+
+#: application/modules/shop/widgets/templates/brands_form.tpl:31
+msgid "Показать"
+msgstr "Show"
+
+#: application/modules/shop/widgets/templates/brands_form.tpl:34
+msgid "Только c фото"
+msgstr "Only with image"
+
+#: application/modules/shop/widgets/templates/brands_form.tpl:36
+msgid "Все, в том числе без фото"
+msgstr "All"
+
+#: application/modules/shop/widgets/templates/brands_form.tpl:42
+msgid "Количество брендов для отображения"
+msgstr "Number of manufacturers to display"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:28
+msgid "Популярным"
+msgstr "Popupular"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:29
+msgid "Дате"
+msgstr "Date"
+
+#: application/modules/shop/widgets/templates/view_product_form.tpl:5
+#: application/modules/shop/widgets/templates/brands_form.tpl:5
+#: application/modules/shop/widgets/templates/similar_products_form.tpl:5
+#: application/modules/shop/widgets/templates/products_form.tpl:5
+msgid "Настройки виджета"
+msgstr "Widget settings"
+
+#: application/modules/shop/widgets/templates/view_product_form.tpl:9
+#: application/modules/shop/widgets/templates/brands_form.tpl:10
+#: application/modules/shop/widgets/templates/similar_products_form.tpl:9
+#: application/modules/shop/widgets/templates/products_form.tpl:9
+msgid "Вернуться"
+msgstr "Back"
+
+#: application/modules/shop/widgets/templates/view_product_form.tpl:10
+#: application/modules/shop/widgets/templates/brands_form.tpl:12
+#: application/modules/shop/widgets/templates/similar_products_form.tpl:10
+#: application/modules/shop/widgets/templates/products_form.tpl:10
+msgid "Сохранить"
+msgstr "Save"
+
+#: application/modules/shop/widgets/templates/view_product_form.tpl:11
+#: application/modules/shop/widgets/templates/brands_form.tpl:14
+#: application/modules/shop/widgets/templates/similar_products_form.tpl:11
+#: application/modules/shop/widgets/templates/products_form.tpl:11
+msgid "Сохранить и выйти"
+msgstr "Save and Exit"
+
+#: application/modules/shop/widgets/templates/view_product_form.tpl:18
+#: application/modules/shop/widgets/templates/brands_form.tpl:22
+#: application/modules/shop/widgets/templates/similar_products_form.tpl:18
+#: application/modules/shop/widgets/templates/products_form.tpl:18
+msgid "Настройки"
+msgstr "Settings"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:25
+msgid "Сортировать по:"
+msgstr "Sort by:"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:34
+msgid "Новинки:"
+msgstr "New:"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:44
+msgid "Акции:"
+msgstr "Sale:"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:54
+msgid "Хиты:"
+msgstr "Hot:"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:64
+msgid "Старая цена:"
+msgstr "Old price:"
+
+#: application/modules/shop/widgets/templates/products_form.tpl:74
+msgid "Учитывать категорию:"
+msgstr "Allow category:"
+
+#: application/modules/shop/widgets/templates/view_product_form.tpl:28
+#: application/modules/shop/widgets/templates/similar_products_form.tpl:28
+#: application/modules/shop/widgets/templates/products_form.tpl:87
+msgid "Количество товаров для отображения:"
+msgstr "Number of products to display:"
+
+#: application/libraries/Permitions.php:778
+msgid "Role(s) successfully deleted"
+msgstr ""
+
+#: application/modules/shop/classes/Category/CategoryApi.php:230
+msgid "The tpl field can only contain Latin alpha-numeric characters"
+msgstr "The tpl field can only contain Latin alpha-numeric characters"
+
+#: application/modules/shop/classes/Products/ProductApi.php:303
+msgid "The Main tpl field can only contain Latin alpha-numeric characters"
+msgstr "The "Main tpl" field can only contain Latin alphanumeric characters"
+
+# ?
+#: system/language/form_validation/form_validation.php:18
+msgid "alpha_numeric"
+msgstr "alpha_numeric"
+
+# ?
+#: system/language/form_validation/form_validation.php:20
+msgid "numeric"
+msgstr "The field %s must be numeric"
+
+# ?
+#: system/language/form_validation/form_validation.php:21
+msgid "is_numeric"
+msgstr "is_numeric"
+
+#: application/libraries/Permitions.php:526
+msgid "Важность"
+msgstr "Importance"
+
+#: application/modules/shop/classes/Products/ProductApi.php:307
+msgid "The main template field can not contain more than 250 characters"
+msgstr ""
+
+#: application/modules/shop/widgets/widgets_info.php:5
+msgid "Popular/New/Action products"
+msgstr ""
+
+#: application/modules/shop/widgets/widgets_info.php:6
+msgid "Displays the unit in the form of a "carousel" with selected products"
+msgstr ""
+
+#: application/modules/shop/widgets/widgets_info.php:15
+msgid "Viewed products"
+msgstr ""
+
+#: application/modules/shop/widgets/widgets_info.php:16
+msgid "Displays already viewed by the user products."
+msgstr ""
+
+#: application/modules/shop/widgets/widgets_info.php:20
+msgid "Similar Products"
+msgstr ""
+
+#: application/modules/shop/widgets/widgets_info.php:21
+msgid "Displays on the product page block with similar products."
+msgstr ""
+
+#: application/modules/shop/classes/Fields.php:12
+msgid "Your name"
+msgstr ""
+
+#: application/modules/shop/classes/Fields.php:14
+msgid "Shipping address"
+msgstr ""
+
+#: application/modules/shop/classes/Fields.php:15
+msgid "Your phone"
+msgstr ""
+
+# ?
+#: system/language/form_validation/form_validation.php:10
+msgid "valid_email"
+msgstr "The %s field must contain a valid e-mail address."
+
+# ?
+#: system/language/form_validation/form_validation.php:11
+msgid "valid_emails"
+msgstr "valid_emails"
+
+# ?
+#: system/language/form_validation/form_validation.php:8
+msgid "required"
+msgstr "The %s field is required"
+
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:7
+msgid "This field is required"
+msgstr "This field is required"
+
+#: application/modules/shop/classes/Fields.php:13
+msgid "E-Mail Address"
+msgstr ""
+
+#: application/helpers/admin_helper.php:49
+#: application/helpers/admin_helper.php:67
+msgid "English"
+msgstr ""
+
+#: application/libraries/Permitions.php:551
+msgid "The role is created"
+msgstr ""
+
+#: application/libraries/Permitions.php:686
+msgid "Role was edited"
+msgstr ""
+
+#: application/libraries/Permitions.php:776
+msgid "Role was deleted"
+msgstr ""
+
+#: application/libraries/CustomCache.php:52
+msgid "Interval argument must be integer"
+msgstr ""
+
+#: application/libraries/CustomCache.php:57
+msgid "Cache file name is not valid string. "
+msgstr ""
+
+#: application/libraries/CustomCache.php:60
+msgid "Cache file with such name already exist. Please chose another name"
+msgstr ""
+
+#: application/libraries/template.php:71
+msgid "Main layout file don\"
+msgstr ""
+
+#: application/modules/shop/classes/ShopAdminController.php:33
+#: application/modules/shop/classes/ShopAdminController.php:34
+msgid "Translated field"
+msgstr ""
+
+#: application/helpers/category_helper.php:106
+msgid "No category"
+msgstr "No category"
+
+#: application/helpers/javascript_helper.php:30
+msgid "Message"
+msgstr "Message"
+
+#: application/helpers/javascript_helper.php:32
+msgid "Error"
+msgstr "Error"
+
+#: application/helpers/javascript_helper.php:35
+msgid "Success"
+msgstr "Success"
+
+#: application/helpers/javascript_helper.php:39
+msgid "Requests to the database"
+msgstr "Requests for the database"
+
+#: application/helpers/javascript_helper.php:66
+msgid "Redirecting"
+msgstr "Redirecting"
+
+#: application/helpers/rules_helper.php:59
+msgid "No rights for"
+msgstr "Not enough access rights to"
+
+#: application/helpers/rules_helper.php:71
+msgid "Error checking permissions"
+msgstr "Permissions error"
+
+#: application/helpers/rules_helper.php:108
+msgid "Operation panel"
+msgstr "Operation panel"
+
+#: application/helpers/rules_helper.php:109
+msgid "Languages"
+msgstr "Languages"
+
+#: application/helpers/rules_helper.php:110
+msgid "Cache"
+msgstr "Cache"
+
+#: application/helpers/rules_helper.php:111
+msgid "Pages"
+msgstr "Pages"
+
+#: application/helpers/rules_helper.php:112
+msgid "Categories"
+msgstr "Categories"
+
+#: application/helpers/rules_helper.php:113
+msgid "Modules"
+msgstr "Modules"
+
+#: application/helpers/rules_helper.php:114
+msgid "Widgets"
+msgstr "Widgets"
+
+#: application/helpers/rules_helper.php:115
+msgid "Menu"
+msgstr "Menu"
+
+#: application/helpers/rules_helper.php:116
+msgid "Members"
+msgstr "Members"
+
+#: application/helpers/rules_helper.php:117
+msgid "Group"
+msgstr "Group"
+
+#: application/helpers/rules_helper.php:118
+msgid "Logs"
+msgstr "Logs"
+
+#: application/helpers/rules_helper.php:119
+msgid "Backup copying"
+msgstr "Backup copying"
+
+#: application/helpers/rules_helper.php:120
+msgid "File Editor"
+msgstr "edit files"
+
+#: application/helpers/rules_helper.php:137
+msgid "Access Control Panel"
+msgstr "Access control panel"
+
+#: application/helpers/rules_helper.php:138
+msgid "System update"
+msgstr "update system"
+
+#: application/helpers/rules_helper.php:139
+msgid "Find pages in the control panel"
+msgstr "find pages"
+
+#: application/helpers/rules_helper.php:140
+msgid "Creating a language"
+msgstr "create a language"
+
+#: application/helpers/rules_helper.php:141
+msgid "Changing the language"
+msgstr "change the language"
+
+#: application/helpers/rules_helper.php:142
+msgid "Remove languages"
+msgstr "remove language(s)"
+
+#: application/helpers/rules_helper.php:143
+msgid "Changing site settings"
+msgstr "change site settings"
+
+#: application/helpers/rules_helper.php:144
+msgid "Clearing the cache"
+msgstr "clear cache"
+
+#: application/helpers/rules_helper.php:145
+msgid "Creating pages"
+msgstr "create pages"
+
+#: application/helpers/rules_helper.php:146
+msgid "Editing pages"
+msgstr "edit pages"
+
+#: application/helpers/rules_helper.php:147
+msgid "Delete pages"
+msgstr "delete pages"
+
+#: application/helpers/rules_helper.php:148
+msgid "Creating categories"
+msgstr "create category"
+
+#: application/helpers/rules_helper.php:149
+msgid "Edit Categories"
+msgstr "edit category"
+
+# ?
+#: application/helpers/rules_helper.php:150
+msgid "Category delete"
+msgstr "delete category(ies)"
+
+#: application/helpers/rules_helper.php:151
+msgid "Install Modules"
+msgstr "Install modules"
+
+#: application/helpers/rules_helper.php:152
+msgid "Removing Modules"
+msgstr "remove modules"
+
+#: application/helpers/rules_helper.php:153
+msgid "Administration module"
+msgstr "administrate module"
+
+#: application/helpers/rules_helper.php:154
+msgid "Creating widgets"
+msgstr "create widget"
+
+#: application/helpers/rules_helper.php:155
+msgid "Removing widgets"
+msgstr "remove widget(s)"
+
+#: application/helpers/rules_helper.php:156
+msgid "Access to the widget settings"
+msgstr "change widget settings"
+
+#: application/helpers/rules_helper.php:157
+msgid "Create a menu"
+msgstr "create a menu"
+
+#: application/helpers/rules_helper.php:158
+msgid "Edit menu"
+msgstr "edit menu"
+
+#: application/helpers/rules_helper.php:159
+msgid "Menu deleting"
+msgstr "delete menu "
+
+#: application/helpers/rules_helper.php:160
+msgid "Create users of their group"
+msgstr "create users for this group"
+
+#: application/helpers/rules_helper.php:161
+msgid "Create users of all groups"
+msgstr "create users"
+
+#: application/helpers/rules_helper.php:162
+msgid "Edit Users"
+msgstr "edit user profile"
+
+#: application/helpers/rules_helper.php:163
+msgid "Remove Users"
+msgstr "remove user(s)"
+
+#: application/helpers/rules_helper.php:164
+msgid "Viewing member"
+msgstr "view user profile"
+
+#: application/helpers/rules_helper.php:165
+msgid "Creating Groups"
+msgstr "create group"
+
+#: application/helpers/rules_helper.php:166
+msgid "Editing Groups"
+msgstr "edit group"
+
+#: application/helpers/rules_helper.php:167
+msgid "Deleting Groups"
+msgstr "delete group(s)"
+
+#: application/helpers/rules_helper.php:168
+msgid "View Log"
+msgstr "view log"
+
+#: application/helpers/rules_helper.php:169
+msgid "Backing up"
+msgstr "make backup"
+
+#: application/helpers/rules_helper.php:170
+msgid "Access to the file editor"
+msgstr "access the file editor"
+
+#: application/helpers/rules_helper.php:171
+msgid "Download files"
+msgstr "download files"
+
+#: application/helpers/rules_helper.php:172
+msgid "Editing Files"
+msgstr "edit files"
+
+#: application/helpers/rules_helper.php:173
+msgid "Edit Folders"
+msgstr "edit folders"
+
+#: application/libraries/DX_Auth.php:842
+msgid "auth login incorrect password"
+msgstr "incorrect password"
+
+#: application/libraries/DX_Auth.php:848
+msgid "auth not activated"
+msgstr "account not activated"
+
+#: application/libraries/DX_Auth.php:853
+msgid "auth login username not exist"
+msgstr "username does not exist"
+
+# ?
+#: application/libraries/DX_Auth.php:906
+#: application/libraries/DX_Auth.php:949
+msgid "auth activate subject"
+msgstr "Account activation message"
+
+# ?
+#: application/libraries/DX_Auth.php:964
+msgid "auth account subject"
+msgstr "auth account subject"
+
+#: application/libraries/DX_Auth.php:1052
+msgid "auth request sent"
+msgstr "auth request sent / auth request has been sent"
+
+#: application/libraries/DX_Auth.php:1055
+msgid "auth username or email not exist"
+msgstr "auth username or email does not exist"
+
+#: application/libraries/DX_Auth.php:1160
+msgid "auth incorrect old password"
+msgstr "auth incorrect old password"
+
+#: application/libraries/DX_Auth.php:1192
+msgid "auth incorrect password"
+msgstr "auth incorrect password"
+
+#: application/libraries/DX_Auth.php:1274
+#: application/libraries/DX_Auth.php:1279
+#: application/libraries/DX_Auth.php:1282
+msgid "Improper protection code"
+msgstr "Wrong protection code"
+
+# ?
+#: application/libraries/Permitions.php:552
+#: application/libraries/Permitions.php:607
+#: application/libraries/Permitions.php:687
+#: application/libraries/Permitions.php:862
+msgid "Changes have been saved"
+msgstr "Changes have been saved"
+
+#: application/libraries/Permitions.php:642
+msgid "Role not found"
+msgstr "User group not found "
+
+#: application/libraries/Permitions.php:815
+msgid "Privilege created"
+msgstr "Created successfully"
+
+#: application/libraries/Permitions.php:853
+msgid "The privilege is not found"
+msgstr "Permission error"
+
+#: application/libraries/Update.php:290
+msgid "Can not create a database snapshot, Check the folder {0} on the ability to record"
+msgstr "Can not create a database snapshot, Check the folder {0} on the ability to record"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:110
+#: application/modules/shop/classes/Category/CategoryApi.php:327
+#: application/modules/shop/classes/Category/CategoryApi.php:616
+#: application/modules/shop/classes/Category/CategoryApi.php:678
+#: application/modules/shop/classes/Products/ProductApi.php:110
+#: application/modules/shop/classes/Products/ProductApi.php:1131
+#: application/modules/shop/classes/Products/ProductApi.php:1183
+#: application/modules/shop/classes/Products/ProductApi.php:1228
+#: application/modules/shop/classes/Products/ProductApi.php:1274
+msgid "You did not specified data array"
+msgstr "You did not specified the data array"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:114
+#: application/modules/shop/classes/Category/CategoryApi.php:331
+#: application/modules/shop/classes/Category/CategoryApi.php:620
+#: application/modules/shop/classes/Category/CategoryApi.php:682
+#: application/modules/shop/classes/Products/ProductApi.php:114
+#: application/modules/shop/classes/Products/ProductApi.php:1135
+#: application/modules/shop/classes/Products/ProductApi.php:1187
+#: application/modules/shop/classes/Products/ProductApi.php:1232
+#: application/modules/shop/classes/Products/ProductApi.php:1278
+msgid "Second parameter $data must be array"
+msgstr "Second parameter of variable must be an array"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:323
+#: application/modules/shop/classes/Category/CategoryApi.php:368
+#: application/modules/shop/classes/Category/CategoryApi.php:612
+#: application/modules/shop/classes/Category/CategoryApi.php:674
+msgid "Category(ies) id(s) not specified"
+msgstr "Category(ies) ID(s) not specified / Category(ies) ID(s) has not been specified"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:654
+msgid "Category with such ID not exist"
+msgstr "Category with such ID does not exist"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:552
+msgid "Category(ies) was not found"
+msgstr "Category(ies) was not found"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:445
+msgid "Category(ies) not exists"
+msgstr "Category(ies) does not exist"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:154
+#: application/modules/shop/classes/Category/CategoryApi.php:158
+msgid "Invalid url"
+msgstr "Invalid URL"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:171
+#: application/modules/shop/classes/Category/CategoryApi.php:186
+#: application/modules/shop/classes/Products/ProductApi.php:169
+#: application/modules/shop/classes/Products/ProductApi.php:183
+msgid "This URL is already in use!"
+msgstr "This URL is already in use!"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:194
+#: application/modules/shop/classes/Products/ProductApi.php:191
+msgid "active not 1 or 0"
+msgstr "value must be "1" or "0""
+
+#: application/modules/shop/classes/Category/CategoryApi.php:202
+msgid "showsitetitle not 1 or 0"
+msgstr "value must be "1" or "0""
+
+#: application/modules/shop/classes/Category/CategoryApi.php:210
+msgid "Invalid order method"
+msgstr "Invalid sorting method"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:218
+msgid "Invalid parent_id"
+msgstr "Invalid "parent_id" value"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:226
+msgid "The tpl field legth must be smaler than 250 symbols."
+msgstr "The "tpl" field length must be smaller than 250 symbols"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:240
+msgid "Invalid file type."
+msgstr "Invalid file type"
+
+#: application/modules/shop/classes/Category/CategoryApi.php:595
+msgid "Can not buid category tree"
+msgstr "Category tree can not be built"
+
+#: application/modules/shop/classes/Compare/BaseCompare.php:37
+msgid "Compare list"
+msgstr "Comparison chart"
+
+#: application/modules/shop/classes/MediaManager/Image.php:681
+#: application/modules/shop/classes/MediaManager/Image.php:708
+msgid "Image wasnt loaded"
+msgstr "Image has not been loaded"
+
+#: application/modules/shop/classes/MediaManager/Image.php:689
+#: application/modules/shop/classes/MediaManager/Image.php:717
+msgid "Wrong variant id"
+msgstr "Wrong "Variant ID""
+
+#: application/modules/shop/models/SUserProfile.php:26
+msgid "Login"
+msgstr "Login"
+
+#: application/modules/shop/classes/Fields.php:16
+msgid "Password"
+msgstr "Password"
+
+#: application/modules/shop/classes/Products/ProductApi.php:701
+#: application/modules/shop/classes/Products/ProductApi.php:738
+#: application/modules/shop/classes/Products/ProductApi.php:754
+#: application/modules/shop/classes/Products/ProductApi.php:774
+#: application/modules/shop/classes/Products/ProductApi.php:793
+#: application/modules/shop/classes/Products/ProductApi.php:837
+#: application/modules/shop/classes/Products/ProductApi.php:850
+#: application/modules/shop/classes/Products/ProductApi.php:903
+#: application/modules/shop/classes/Products/ProductApi.php:961
+#: application/modules/shop/classes/Products/ProductApi.php:1127
+#: application/modules/shop/classes/Products/ProductApi.php:1179
+#: application/modules/shop/classes/Products/ProductApi.php:1224
+msgid "You did not specified product id"
+msgstr "You have not specified the product ID"
+
+#: application/modules/shop/classes/Products/ProductApi.php:1151
+msgid "Product with such ID not exist"
+msgstr "Product with such ID does not exist"
+
+#: application/modules/shop/classes/Products/ProductApi.php:1270
+msgid "You did not specified product variant id"
+msgstr "You have not specified product variation ID"
+
+#: application/modules/shop/classes/Products/ProductApi.php:199
+#: application/modules/shop/classes/Products/ProductApi.php:291
+msgid "hit not 1 or 0"
+msgstr "Value must be "1" or "0""
+
+#: application/modules/shop/classes/Products/ProductApi.php:207
+msgid "Invalid stock"
+msgstr "Invalid stock value"
+
+#: application/modules/shop/classes/Products/ProductApi.php:219
+msgid "not specified product_name"
+msgstr "not specified product name"
+
+#: application/modules/shop/classes/Products/ProductApi.php:223
+msgid "currency not specified"
+msgstr "currency has not been specified"
+
+#: application/modules/shop/classes/Products/ProductApi.php:227
+msgid "currency not exist"
+msgstr "currency does not exist"
+
+#: application/modules/shop/classes/Products/ProductApi.php:231
+msgid "price_in_main not specified"
+msgstr "price_in_main not specified"
+
+#: application/modules/shop/classes/Products/ProductApi.php:240
+msgid "Invalid category_id"
+msgstr "Invalid category_id value"
+
+#: application/modules/shop/classes/Products/ProductApi.php:243
+msgid "category_id not specified"
+msgstr "category_id not specified"
+
+#: application/modules/shop/classes/Products/ProductApi.php:263
+msgid "Invalid old_price"
+msgstr "Invalid old_price value"
+
+#: application/modules/shop/classes/Products/ProductApi.php:271
+msgid "Invalid views"
+msgstr "Invalid "views" value"
+
+#: application/modules/shop/classes/Products/ProductApi.php:277
+msgid "Invalid added_to_cart_count"
+msgstr "Invalid added_to_cart_count value"
+
+#: application/modules/shop/classes/Products/ProductApi.php:285
+msgid "hot not 1 or 0"
+msgstr ""hot' value must be "1" or "0""
+
+#: application/modules/shop/classes/Products/ProductApi.php:297
+msgid "action not 1 or 0"
+msgstr ""action" value must be "1" or "0""
+
+#: application/modules/shop/classes/Products/ProductApi.php:917
+msgid "Product category does not exists"
+msgstr "Product category does not exist"
+
+#: application/modules/shop/classes/Products/ProductApi.php:923
+msgid "Product has no properties"
+msgstr "Product has no properties"
+
+#: application/modules/shop/classes/Products/ProductApi.php:926
+msgid "Product has no category"
+msgstr "Product has no category"
+
+#: application/modules/shop/classes/Products/ProductApi.php:929
+msgid "Product that you specified does not exist"
+msgstr "Specified product does not exist"
+
+#: application/modules/shop/classes/Products/ProductApi.php:1041
+msgid "Not multiple property cant set few values"
+msgstr "Only one value can be set for non-multiple properties"
+
+# 22082014
+#: application/modules/shop/classes/Products/ProductApi.php:1059
+msgid "Property that you specified does not exist"
+msgstr "Specified property does not exist"
+
+# ?
+#: application/modules/shop/classes/Products/ProductApi.php:1063
+#: application/modules/shop/classes/Products/ProductApi.php:1080
+msgid "Not valid arguments passed to the method"
+msgstr "Invalid arguments passed to the method"
+
+# ?
+#: application/modules/shop/classes/Products/ProductApi.php:598
+msgid "Additional categories ids must be array"
+msgstr "Additional category IDs must be array / Additional category IDs must be an array"
+
+# ?
+#: application/modules/shop/classes/Products/ProductApi.php:603
+msgid "You did not specified product model"
+msgstr "You did not specified product model / Product model has not been specified"
+
+# ?
+#: application/modules/shop/classes/Products/ProductApi.php:607
+msgid "You did not specified categories array"
+msgstr "You did not specify category array/ Category array has not been specified."
+
+# ?
+#: application/modules/shop/classes/Products/ProductApi.php:966
+msgid "You did not specified image name"
+msgstr "You did not specify the image name / Image can has not been specified."
+
+#: application/modules/shop/classes/Products/ProductApi.php:971
+msgid "You did not specified image position"
+msgstr "You did not specify image position. Image position has not been specified."
+
+#: application/modules/shop/classes/Profile/BaseProfile.php:53
+msgid "Profile"
+msgstr "Profile"
+
+#: application/modules/shop/models/SCallbackStatuses.php:23
+msgid "Name"
+msgstr "Name"
+
+#: application/modules/shop/models/SUserProfile.php:28
+msgid "Email"
+msgstr "E-mail"
+
+#: application/modules/shop/models/SUserProfile.php:32
+msgid "Address"
+msgstr "Address"
+
+#: application/modules/shop/models/SUserProfile.php:31
+msgid "Phone"
+msgstr "Phone"
+
+#: application/modules/shop/classes/SPropertiesRenderer.php:62
+msgid "none"
+msgstr "none"
+
+#: application/modules/shop/widgets/templates/similar_products.tpl:62
+#: application/modules/shop/widgets/templates/products.tpl:75
+#: application/modules/shop/widgets/templates/view_product.tpl:62
+msgid "Buy"
+msgstr "Buy"
+
+# ?
+#: system/language/form_validation/form_validation.php:9
+msgid "isset"
+msgstr "isset"
+
+# ?
+#: system/language/form_validation/form_validation.php:12
+msgid "valid_url"
+msgstr "valid_url"
+
+# ?
+#: system/language/form_validation/form_validation.php:13
+msgid "valid_ip"
+msgstr "valid_ip"
+
+# ?
+#: system/language/form_validation/form_validation.php:14
+msgid "min_length"
+msgstr "min_length"
+
+# ?
+#: system/language/form_validation/form_validation.php:16
+msgid "exact_length"
+msgstr "exact_length"
+
+# ?
+#: system/language/form_validation/form_validation.php:17
+msgid "alpha"
+msgstr "alpha"
+
+# ?
+#: system/language/form_validation/form_validation.php:22
+msgid "integer"
+msgstr "integer"
+
+# ?
+#: system/language/form_validation/form_validation.php:23
+msgid "regex_match"
+msgstr "regex_match"
+
+# ?
+#: system/language/form_validation/form_validation.php:24
+msgid "matches"
+msgstr "matches"
+
+# ?
+#: system/language/form_validation/form_validation.php:25
+msgid "is_unique"
+msgstr "is_unique"
+
+# ?
+#: system/language/form_validation/form_validation.php:26
+msgid "is_natural"
+msgstr "is_natural"
+
+# ?
+#: system/language/form_validation/form_validation.php:27
+msgid "is_natural_no_zero"
+msgstr "is_natural_no_zero"
+
+# ?
+#: system/language/form_validation/form_validation.php:28
+msgid "decimal"
+msgstr "decimal"
+
+# ?
+#: system/language/form_validation/form_validation.php:29
+msgid "less_than"
+msgstr "less_than"
+
+#: system/language/form_validation/form_validation.php:30
+msgid "greater_than"
+msgstr "greater_than"
+
+# ?
+#: system/language/form_validation/form_validation.php:31
+msgid "User profile successfully changed"
+msgstr "User profile successfully changed/ User profile has successfully been changed"
+
+#: system/language/form_validation/form_validation.php:32
+msgid "Cart"
+msgstr "Cart"
+
+# ?
+#: system/language/form_validation/form_validation.php:33
+msgid "Order view"
+msgstr "Order view/ View the order"
+
+# ?
+#: system/language/email_lang/email_validation.php:22
+msgid "email_sent"
+msgstr "email_sent"
+
+# ?
+#: system/language/upload/upload_validation.php:7
+#: system/language/upload/upload_validation.php:17
+msgid "upload_invalid_filetype"
+msgstr "upload_invalid_filetype"
+
+# ?
+#: system/language/upload/upload_validation.php:9
+msgid "upload_userfile_not_set"
+msgstr "upload_userfile_not_set"
+
+# ?
+#: system/language/upload/upload_validation.php:10
+msgid "upload_file_exceeds_limit"
+msgstr "upload_file_exceeds_limit"
+
+# ?
+#: system/language/upload/upload_validation.php:11
+msgid "upload_file_exceeds_form_limit"
+msgstr "upload_file_exceeds_form_limit"
+
+# ?
+#: system/language/upload/upload_validation.php:12
+msgid "upload_file_partial"
+msgstr "upload_file_partial"
+
+# ?
+#: system/language/upload/upload_validation.php:13
+msgid "upload_no_temp_directory"
+msgstr "upload_no_temp_directory"
+
+# ?
+#: system/language/upload/upload_validation.php:14
+msgid "upload_unable_to_write_file"
+msgstr "upload_unable_to_write_file"
+
+# ?
+#: system/language/upload/upload_validation.php:15
+msgid "upload_stopped_by_extension"
+msgstr "upload_stopped_by_extension"
+
+# ?
+#: system/language/upload/upload_validation.php:16
+msgid "upload_no_file_selected"
+msgstr "upload_no_file_selected"
+
+# ?
+#: system/language/upload/upload_validation.php:18
+msgid "upload_invalid_filesize"
+msgstr "upload_invalid_filesize"
+
+# ?
+#: system/language/upload/upload_validation.php:19
+msgid "upload_invalid_dimensions"
+msgstr "upload_invalid_dimensions"
+
+# ?
+#: system/language/upload/upload_validation.php:20
+msgid "upload_destination_error"
+msgstr "upload_destination_error"
+
+# ?
+#: system/language/upload/upload_validation.php:21
+msgid "upload_no_filepath"
+msgstr "upload_no_filepath"
+
+# ?
+#: system/language/upload/upload_validation.php:22
+msgid "upload_no_file_types"
+msgstr "upload_no_file_types"
+
+# ?
+#: system/language/upload/upload_validation.php:23
+msgid "upload_bad_filename"
+msgstr "upload_bad_filename"
+
+# ?
+#: system/language/upload/upload_validation.php:24
+msgid "upload_not_writable"
+msgstr "upload_not_writable"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:8
+msgid "Please fix this field."
+msgstr "Please fix this field"
+
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:9
+msgid "Enter a valid email address."
+msgstr "Enter a valid e-mail address. / Enter a valid email address."
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:10
+msgid "Please enter a valid URL."
+msgstr "Please enter a valid URL. / Please enter a valid URL"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:11
+msgid "Please enter a valid date."
+msgstr "Please enter a valid date. / Please enter a valid date"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:12
+msgid "Please enter a valid date (ISO)."
+msgstr "Please enter a valid date (ISO)./ Please enter a valid date (ISO)"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:13
+msgid "Please enter a valid number."
+msgstr "Please enter a valid number. / Please enter a valid number"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:14
+msgid "Please enter only digits."
+msgstr "Please enter only digits./ Please enter only digits"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:15
+msgid "Please enter a valid credit card number."
+msgstr "Please enter a valid credit card number"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:16
+msgid "Please enter the same value again."
+msgstr "Please enter the same value again. / Please enter the same value again"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:17
+msgid "Please enter a value with a valid extension."
+msgstr "Please enter a value with the valid extension. Please enter a value with the valid extension"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:18
+msgid "Please enter no more than {0} characters."
+msgstr "Please enter no more than {0} characters./ Please enter no more than {0} characters"
+
+# ?
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:19
+msgid "Please enter at least {0} characters."
+msgstr "Please enter at least {0} characters"
+
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:20
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr "Please enter a value between {0} and {1} characters long."
+
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:21
+msgid "Please enter a value between {0} and {1}."
+msgstr "Please enter a value between {0} and {1}."
+
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:22
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Please enter a value less than or equal to {0}."
+
+#: templates/administrator/js/jquery-validate/jquery.validate.i18n.js:23
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Please enter a value greater than or equal to {0}."
+
+#: application/modules/shop/widgets/shop_widgets.php:145
+#: application/modules/shop/widgets/shop_widgets.php:226
+msgid "Widget title"
+msgstr "Widget title"
+
+#: application/modules/shop/widgets/shop_widgets.php:157
+#: application/modules/shop/widgets/shop_widgets.php:241
+#: application/modules/shop/widgets/shop_widgets.php:318
+#: application/modules/shop/widgets/shop_widgets.php:393
+msgid "Successfully saved"
+msgstr "Successfully saved"
+
+#: application/modules/shop/widgets/shop_widgets.php:227
+#: application/modules/shop/widgets/shop_widgets.php:307
+#: application/modules/shop/widgets/shop_widgets.php:383
+msgid "Number of items to display"
+msgstr "Number of items to display"
+
+#: application/modules/shop/widgets/templates/similar_products.tpl:71
+#: application/modules/shop/widgets/templates/products.tpl:84
+#: application/modules/shop/widgets/templates/view_product.tpl:70
+msgid "Report message"
+msgstr "Report message"

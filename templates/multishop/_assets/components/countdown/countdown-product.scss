@@ -1,0 +1,46 @@
+.countdown-product {
+
+  &__row {
+    @include clearfix;
+    display: inline-block;
+    vertical-align: middle;
+
+    @media(min-width: $screen-md-min){
+      display: block;
+    }
+  }
+
+  &__title {
+    margin-right: 10px;
+    font-size: 1rem;
+    color: $base-font-color-secondary;
+
+    @media(min-width: $screen-md-min){
+      margin-right: 0;
+    }
+  }
+
+  &__item {
+    float: left;
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: bold;
+
+    &::after {
+      content: ':';
+      float: right;
+    }
+
+    &--no-marker {
+      &::after {
+        display: none;
+      }
+    }
+
+    &--label{
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+
+}

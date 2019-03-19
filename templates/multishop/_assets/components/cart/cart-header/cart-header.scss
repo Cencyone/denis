@@ -1,0 +1,77 @@
+.cart-header {
+
+  $badge-bg-color: $theme-main-color;
+  $badge-text-color: #FFF;
+  $badge-size: 20px;
+
+  display: table;
+
+  &__aside {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+
+  &__inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__icon {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    color: $site-info-ico-color;
+    background: $site-info-ico-bg;
+
+    & > .svg-icon {
+      @include absolute-center-margin();
+      width: 70%;
+      height: 70%;
+    }
+
+    &--empty {
+      cursor: default;
+      pointer-events: none;
+    }
+
+  }
+
+  &__title {
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: $site-info-title-color;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  &__link {
+    @include link-main;
+
+    &--empty {
+      cursor: default;
+      pointer-events: none;
+      color: $site-info-title-color !important;
+      text-decoration: none;
+    }
+  }
+
+  &__desc {
+    color: $base-font-color;
+  }
+
+  &__badge {
+    @include position(absolute, 0 0 0 100%);
+    margin: (-$badge-size/2) 0 0 (-$badge-size/2);
+    background: $badge-bg-color;
+    width: $badge-size;
+    height: $badge-size;
+    line-height: $badge-size;
+    border-radius: 50%;
+    color: $badge-text-color;
+    font-size: 11px;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,21 @@
+.gallery-album{
+	
+	&__image{
+		
+		&-img{
+
+		}
+	}
+
+	&__title{
+
+		&-link{
+			@include link-main;
+		}
+	}
+
+	&__desc{
+
+	}
+
+}

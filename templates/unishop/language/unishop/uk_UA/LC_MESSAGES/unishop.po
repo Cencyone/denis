@@ -1,0 +1,1337 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 07:39+0200\n"
+"PO-Revision-Date: 2017-03-02 07:39+0200\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:50
+msgid "Accessories"
+msgstr "Аксесуари"
+
+#: templates/unishop/shop/includes/product/product_kit_button.tpl:10
+msgid "Add all to cart"
+msgstr "Купити комплект"
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:34
+msgid "Add to Cart"
+msgstr "Купити"
+
+#: templates/unishop/shop/includes/compare/compare_button.tpl:36
+msgid "Add to compare"
+msgstr "До порівняння"
+
+#: templates/unishop/wishlist/wishPopup.tpl:74
+msgid "Add to list"
+msgstr "Добавити"
+
+#: templates/unishop/wishlist/button.tpl:32
+msgid "Add to Wishlist"
+msgstr "В обрані"
+
+#: templates/unishop/wishlist/wishPopup.tpl:5
+msgid "Add to your list"
+msgstr "Додати в улюблені"
+
+#: templates/unishop/gallery/includes/gallery_menu.tpl:5
+#: templates/unishop/gallery/includes/gallery_menu.tpl:7
+msgid "All categories"
+msgstr "Всі категорії"
+
+#: templates/unishop/register.tpl:129
+msgid "Already Have an Account?"
+msgstr "Вже зареєстровані?"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:105
+msgid "Apply"
+msgstr "Активувати"
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:109
+msgid "Available"
+msgstr "В наявності"
+
+#: templates/unishop/comments/comments_api.tpl:10
+msgid "Be the first to review this item. Share your rating and review so that other customers can decide if this is the right item for them."
+msgstr "Поки немає жодного відгуку. Станьте першим!"
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:16
+#: templates/unishop/shop/includes/product/product_snippet.tpl:52
+#: templates/unishop/smart_filter/main.tpl:44
+msgid "Brand"
+msgstr "Бренд"
+
+#: templates/unishop/shop/brands_images.tpl:6
+msgid "Brands"
+msgstr "Бренди"
+
+#: templates/unishop/one_click_order/button.tpl:12
+#: templates/unishop/one_click_order/form.tpl:5
+msgid "Buy in one click"
+msgstr "Швидке замовлення"
+
+#: templates/unishop/callbacks/callback.tpl:54
+#: templates/unishop/callbacks/callbacks_modal.tpl:59
+msgid "Call back"
+msgstr "Передзвоніть мені"
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:115
+msgid "Call:"
+msgstr "Телефонуйте:"
+
+#: templates/unishop/includes/footer_profile.tpl:30
+#: templates/unishop/includes/header_phone.tpl:17
+msgid "Callback"
+msgstr "Зворотний дзвінок"
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:71
+msgid "Card"
+msgstr "Таблиця"
+
+#: templates/unishop/includes/mobile_profile.tpl:18
+#: templates/unishop/shop/includes/cart/cart_header.tpl:10
+msgid "Cart"
+msgstr "Кошик"
+
+#: templates/unishop/shop/cart.tpl:53
+msgid "Cart is currently empty"
+msgstr "Ваш кошик порожній"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:128
+msgid "Cart modal total price"
+msgstr "Сума"
+
+#: templates/unishop/includes/footer.tpl:14
+msgid "Catalog"
+msgstr "Каталог"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:8
+msgid "Category"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_cut.tpl:89
+#: templates/unishop/wishlist/wishPopup.tpl:77
+msgid "Change list"
+msgstr "Перемістити"
+
+#: templates/unishop/change_password.tpl:6
+#: templates/unishop/includes/footer_profile.tpl:14
+#: templates/unishop/includes/header_profile.tpl:36
+#: templates/unishop/includes/mobile_profile.tpl:13
+msgid "Change Password"
+msgstr "Змінити пароль"
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:15
+msgid "Choose your city"
+msgstr "Виберіть місто"
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:9
+msgid "City"
+msgstr "Місто"
+
+#: templates/unishop/callbacks/callbacks_modal.tpl:55
+#: templates/unishop/feedback/feedback_modal.tpl:61
+#: templates/unishop/found_less_expensive/modal_form.tpl:80
+#: templates/unishop/login_popup.tpl:82
+#: templates/unishop/one_click_order/form.tpl:92
+#: templates/unishop/pricespy/button.tpl:52
+#: templates/unishop/shop/includes/product/product_photo.tpl:12
+#: templates/unishop/shop/report_appearance.tpl:46
+#: templates/unishop/wishlist/wishlistEdit.tpl:38
+#: templates/unishop/wishlist/wishPopup.tpl:69
+msgid "Close"
+msgstr "Закрити"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:111
+msgid "Code you entered was not valid"
+msgstr "Введено некоректний код"
+
+#: templates/unishop/contacts.tpl:18
+#: templates/unishop/page_full.tpl:21
+#: templates/unishop/page_sales.tpl:117
+msgid "Comments"
+msgstr "Відгуки"
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:97
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:94
+msgid "Comments about your order"
+msgstr "Коментар до замовлення"
+
+#: templates/unishop/includes/footer_profile.tpl:26
+#: templates/unishop/includes/mobile_profile.tpl:28
+#: templates/unishop/shop/includes/compare/compare_total.tpl:12
+msgid "Compare"
+msgstr "Порівняння"
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:113
+msgid "Confirm your order"
+msgstr "Підтвердити заказ"
+
+#: templates/unishop/register_success.tpl:10
+msgid "Congratulations! Your registration has been successful."
+msgstr "Вітаємо! Ваша реєстрація пройшла успішно."
+
+#: templates/unishop/includes/footer.tpl:33
+msgid "Contacts"
+msgstr "Контакти"
+
+#: templates/unishop/shop/cart.tpl:60
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:32
+msgid "Continue Shopping"
+msgstr "Продовжити покупки"
+
+#: templates/unishop/wishlist/wishPopup.tpl:37
+msgid "Create a new list"
+msgstr "Створити новий список"
+
+#: templates/unishop/forgot_password.tpl:71
+#: templates/unishop/includes/footer_profile.tpl:7
+#: templates/unishop/includes/header_profile.tpl:22
+#: templates/unishop/includes/mobile_profile.tpl:6
+#: templates/unishop/login.tpl:74
+#: templates/unishop/login_popup.tpl:98
+#: templates/unishop/register.tpl:6
+#: templates/unishop/register.tpl:121
+msgid "Create Account"
+msgstr "Реєстрація"
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:40
+msgid "Cumulative discount"
+msgstr "Накопичувальна знижка"
+
+#: templates/unishop/change_password.tpl:22
+msgid "Current password"
+msgstr "Введіть поточний пароль"
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:37
+msgid "Customer Reviews"
+msgstr "Відгуки покупців"
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:4
+msgid "Date"
+msgstr "Дата"
+
+#: templates/unishop/shop/includes/cart/cart_summary.tpl:18
+#: templates/unishop/wishlist/wishlist.tpl:26
+msgid "Delete"
+msgstr "Видалити"
+
+#: templates/unishop/shop/includes/compare/compare_products.tpl:31
+msgid "Delete item"
+msgstr "Видалити"
+
+#: templates/unishop/page_sales.tpl:84
+msgid "Description"
+msgstr "Опис"
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:7
+msgid "Details"
+msgstr "Опис"
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:51
+msgid "Discount"
+msgstr "Знижка"
+
+#: templates/unishop/shop/profile.tpl:19
+msgid "Discount information"
+msgstr "Ваші знижки"
+
+#: templates/unishop/comments/comments_list.tpl:39
+msgid "Dislike"
+msgstr "Не подобається"
+
+#: templates/unishop/login.tpl:73
+#: templates/unishop/login_popup.tpl:98
+msgid "Don't Have an Account?"
+msgstr "У вас ще немає облікового запису?"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:108
+msgid "Download"
+msgstr "Завантажити"
+
+#: templates/unishop/comments/main_form.tpl:59
+#: templates/unishop/comments/reply_form.tpl:56
+#: templates/unishop/feedback/feedback.tpl:32
+#: templates/unishop/feedback/feedback_modal.tpl:26
+#: templates/unishop/forgot_password.tpl:39
+#: templates/unishop/found_less_expensive/modal_form.tpl:47
+#: templates/unishop/login.tpl:33
+#: templates/unishop/login_popup.tpl:41
+#: templates/unishop/one_click_order/form.tpl:45
+#: templates/unishop/one_click_order/form.tpl:50
+#: templates/unishop/register.tpl:46
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:23
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:70
+#: templates/unishop/shop/includes/profile/user_data.tpl:33
+#: templates/unishop/shop/report_appearance.tpl:29
+msgid "E-mail"
+msgstr "E-mail"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:40
+#: templates/unishop/system_bonus/user_profile.tpl:4
+msgid "Earned points"
+msgstr "Бонусні бали"
+
+#: templates/unishop/wishlist/wishlist.tpl:22
+msgid "Edit"
+msgstr "Редагувати"
+
+#: templates/unishop/wishlist/wishlistEdit.tpl:42
+msgid "Edit list"
+msgstr "Редагувати"
+
+#: templates/unishop/wishlist/wishlistEdit.tpl:8
+msgid "Edit your list"
+msgstr "Редагування списку"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:32
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:58
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:78
+msgid "Editing category"
+msgstr ""
+
+#: templates/unishop/shop/report_appearance.tpl:50
+msgid "Email when available"
+msgstr "Відправити"
+
+#: templates/unishop/shop/includes/cart/cart_header.tpl:16
+msgid "Empty"
+msgstr "Порожня"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:103
+msgid "Enter gift card code"
+msgstr "Подарунковий сертифікат"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:126
+msgid "Estimated Total"
+msgstr "До оплати"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:28
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:54
+msgid "Expand Category"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_sales.tpl:27
+msgid "Expires after"
+msgstr "Залишилося"
+
+#: templates/unishop/shop/bestseller.tpl:11
+msgid "featured_products_all_deals"
+msgstr "Всі пропозиції"
+
+#: templates/unishop/shop/bestseller.tpl:16
+#: templates/unishop/shop/bestseller.tpl:50
+msgid "featured_products_new"
+msgstr "Новинки"
+
+#: templates/unishop/shop/bestseller.tpl:21
+#: templates/unishop/shop/bestseller.tpl:52
+msgid "featured_products_sales"
+msgstr "Акції"
+
+#: templates/unishop/shop/bestseller.tpl:26
+#: templates/unishop/shop/bestseller.tpl:54
+msgid "featured_products_sales_bestsellers"
+msgstr "Хіти продаж"
+
+#: templates/unishop/shop/bestseller.tpl:48
+msgid "featured_products_title"
+msgstr "Спецпропозиції"
+
+#: templates/unishop/feedback/feedback.tpl:6
+#: templates/unishop/feedback/feedback_modal.tpl:5
+#: templates/unishop/includes/footer.tpl:49
+msgid "Feedback"
+msgstr "Зворотній зв'язок"
+
+#: templates/unishop/pricespy/button.tpl:15
+#: templates/unishop/pricespy/button.tpl:25
+#: templates/unishop/pricespy/button.tpl:58
+#: templates/unishop/pricespy/spys.tpl:8
+msgid "Follow price"
+msgstr "Слідкувати за ціною"
+
+#: templates/unishop/pricespy/button.tpl:34
+msgid "Follow the price and we will send you an email once the product price changes"
+msgstr "Отслеживайте цену и мы вышлем вам email, как только цена продукта изменится"
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:79
+msgid "for"
+msgstr "до"
+
+#: templates/unishop/login.tpl:75
+#: templates/unishop/login_popup.tpl:98
+#: templates/unishop/register.tpl:131
+msgid "Forgot password?"
+msgstr "Забули пароль?"
+
+#: templates/unishop/found_less_expensive/buttonWithForm.tpl:10
+#: templates/unishop/found_less_expensive/modal_form.tpl:5
+msgid "Found cheaper?"
+msgstr "Найшли дешевше?"
+
+#: templates/unishop/shop/includes/cart/cart_delivery_radio.tpl:40
+#: templates/unishop/shop/includes/product/product_shipping.tpl:34
+msgid "Free from"
+msgstr "Безкоштовно від"
+
+#: templates/unishop/shop/includes/product/product_kit.tpl:2
+msgid "Frequently bought together"
+msgstr "Разом дешевше"
+
+#: templates/unishop/category_sales.tpl:57
+#: templates/unishop/page_sales.tpl:66
+msgid "From"
+msgstr "з"
+
+#: templates/unishop/gallery/index.tpl:4
+msgid "Gallery"
+msgstr "Галерея"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:74
+msgid "Gift card"
+msgstr "Подарунковий сертифікат"
+
+#: templates/unishop/navs/mobile_nav/level_1/container.tpl:4
+msgid "Go back"
+msgstr "Назад"
+
+#: templates/unishop/wishlist/wishPopup.tpl:86
+msgid "Go to wishlist"
+msgstr "До улюблених"
+
+#: templates/unishop/shop/category.tpl:22
+msgid "Hide filter"
+msgstr "Приховати фільтр"
+
+#: templates/unishop/shop/includes/product/product_labels.tpl:5
+msgid "Hit"
+msgstr "Хіт"
+
+#: templates/unishop/widgets/breadcrumbs.tpl:9
+msgid "Home"
+msgstr "Головна"
+
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:13
+#: templates/unishop/shop/includes/profile/order_history.tpl:3
+msgid "Id"
+msgstr "Номер"
+
+#: templates/unishop/includes/footer.tpl:89
+msgid "ImageCMS"
+msgstr "ImageCMS"
+
+#: templates/unishop/shop/bestseller.tpl:68
+#: templates/unishop/shop/brand.tpl:43
+#: templates/unishop/shop/search.tpl:30
+msgid "in"
+msgstr "в"
+
+#: templates/unishop/shop/report_appearance.tpl:5
+msgid "In stock reminder"
+msgstr "Повідомити про появу"
+
+#: templates/unishop/wishlist/wishPopup.tpl:57
+msgid "Item successfuly added to your Wishlist!"
+msgstr "Товар успішно доданий до улюблених!"
+
+#: templates/unishop/widgets/mobile_langs.tpl:2
+msgid "Language"
+msgstr "Мови"
+
+#: templates/unishop/callbacks/callback.tpl:10
+#: templates/unishop/callbacks/callbacks_modal.tpl:14
+msgid "Leave a number and we will call you back"
+msgstr "Залиште свій номер телефону і ми вам передзвонимо"
+
+#: templates/unishop/category_sales.tpl:40
+msgid "Left"
+msgstr "Залишилось"
+
+#: templates/unishop/comments/comments_list.tpl:26
+#: templates/unishop/shop/includes/product/product_intro.tpl:197
+msgid "Like"
+msgstr "Подобається"
+
+#: templates/unishop/shop/includes/profile/user_data.tpl:14
+msgid "Linked accounts"
+msgstr "Інтеграція з соціальними мережами"
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:77
+msgid "List"
+msgstr "Список"
+
+#: templates/unishop/wishlist/wishlistEdit.tpl:21
+msgid "List name"
+msgstr "Назва списку"
+
+#: templates/unishop/shop/includes/compare/compare_button.tpl:35
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: templates/unishop/login.tpl:65
+#: templates/unishop/login_popup.tpl:86
+msgid "Log in"
+msgstr "Увійти"
+
+#: templates/unishop/login_popup.tpl:89
+msgid "Logining in..."
+msgstr "Вхід..."
+
+#: templates/unishop/404.tpl:14
+msgid "Main page"
+msgstr "Головна сторінка"
+
+#: templates/unishop/smart_filter/includes/filter_results.tpl:12
+msgid "max"
+msgstr "до"
+
+#: templates/unishop/components/TMenuColumn/TMenuColumn.php:179
+msgid "Menu Column"
+msgstr ""
+
+#: templates/unishop/callbacks/callback.tpl:43
+#: templates/unishop/callbacks/callbacks_modal.tpl:38
+#: templates/unishop/feedback/feedback.tpl:51
+#: templates/unishop/feedback/feedback_modal.tpl:34
+#: templates/unishop/found_less_expensive/modal_form.tpl:64
+#: templates/unishop/one_click_order/form.tpl:76
+msgid "Message"
+msgstr "Повідомлення"
+
+#: templates/unishop/smart_filter/includes/filter_results.tpl:12
+msgid "min"
+msgstr "від"
+
+#: templates/unishop/page_sales.tpl:49
+msgid "minutes"
+msgstr "хв"
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:92
+msgid "More than one discount type can be used for your account at the moment. You'll be offered the highest discount rate available for your order."
+msgstr "Ви використовуєте більше двох типів знижок. При покупці буде враховуватися максимальна з них"
+
+#: templates/unishop/callbacks/callback.tpl:25
+#: templates/unishop/callbacks/callbacks_modal.tpl:20
+#: templates/unishop/comments/main_form.tpl:40
+#: templates/unishop/comments/main_form.tpl:49
+#: templates/unishop/comments/reply_form.tpl:38
+#: templates/unishop/comments/reply_form.tpl:46
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:16
+#: templates/unishop/feedback/feedback.tpl:22
+#: templates/unishop/feedback/feedback_modal.tpl:18
+#: templates/unishop/found_less_expensive/modal_form.tpl:31
+#: templates/unishop/one_click_order/form.tpl:30
+#: templates/unishop/register.tpl:37
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:13
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:62
+#: templates/unishop/shop/includes/profile/user_data.tpl:23
+#: templates/unishop/shop/report_appearance.tpl:20
+msgid "Name"
+msgstr "Ім'я"
+
+#: templates/unishop/shop/includes/product/product_labels.tpl:11
+msgid "New"
+msgstr "Новинка"
+
+#: templates/unishop/change_password.tpl:31
+msgid "New password"
+msgstr "Введіть новий пароль"
+
+#: templates/unishop/pricespy/spys.tpl:17
+msgid "New price"
+msgstr "Нова ціна"
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:57
+#: templates/unishop/shop/includes/product/variants/radio.tpl:36
+#: templates/unishop/shop/includes/product/variants/select.tpl:34
+msgid "Not available"
+msgstr "Немає в наявност"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:48
+#: templates/unishop/shop/includes/profile/order_history.tpl:9
+msgid "Not paid"
+msgstr "Не оплачено"
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:65
+msgid "Notify when available"
+msgstr "Повідомити про появу"
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:26
+#: templates/unishop/shop/includes/product/product_snippet.tpl:60
+msgid "Number"
+msgstr "Номер"
+
+#: templates/unishop/system_bonus/user_profile.tpl:14
+msgid "Number of points"
+msgstr "Кількість балів"
+
+#: templates/unishop/shop/bestseller.tpl:63
+#: templates/unishop/shop/brand.tpl:38
+#: templates/unishop/shop/category.tpl:51
+#: templates/unishop/shop/search.tpl:25
+msgid "of"
+msgstr "серед"
+
+#: templates/unishop/category_sales.tpl:32
+msgid "Offer!"
+msgstr "Акція!"
+
+#: templates/unishop/pricespy/spys.tpl:18
+msgid "Old price"
+msgstr "Стара ціна"
+
+#: templates/unishop/wishlist/wishlist.tpl:46
+#: templates/unishop/wishlist/wishlist.tpl:62
+msgid "Once added new items, you'll be able to continue shopping any time and also share the information about the purchase with your friends."
+msgstr "Після додавання товарів, ви можете продовжити покупки в будь-який час, а також ділитися вашим списком обраних з друзями"
+
+#: templates/unishop/shop/cart.tpl:6
+msgid "One Step Checkout"
+msgstr "Оформлення замовлення"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:15
+msgid "Open all levels"
+msgstr ""
+
+#: templates/unishop/shop/includes/compare/compare_button.tpl:41
+msgid "Open in compare list"
+msgstr "Перейти у порівняння"
+
+#: templates/unishop/wishlist/button.tpl:35
+msgid "Open in Wishlist"
+msgstr "В улюблених"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:14
+msgid "Open second level"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:116
+msgid "or"
+msgstr "або"
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:13
+msgid "Order"
+msgstr "Замовлення"
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:117
+msgid "order a callback"
+msgstr "ми самі вам зателефонуємо"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:23
+msgid "Order date"
+msgstr "Дата замовлення"
+
+#: templates/unishop/shop/profile.tpl:57
+msgid "Order history"
+msgstr "Історія замовлень"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:11
+msgid "Order ID"
+msgstr "Номер замовлення"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:17
+msgid "Order status"
+msgstr "Статус замовлення"
+
+#: templates/unishop/shop/cart.tpl:17
+#: templates/unishop/shop/order_view.tpl:17
+msgid "Order summary"
+msgstr "Деталі замовлення"
+
+#: templates/unishop/related_products/related_products.tpl:7
+msgid "Other colors"
+msgstr "Інші кольори"
+
+#: templates/unishop/comments/comments_list.tpl:12
+#: templates/unishop/comments/main_form.tpl:98
+#: templates/unishop/shop/includes/product/product_rating.tpl:6
+msgid "out of 5 stars"
+msgstr "з 5 зірок"
+
+#: templates/unishop/404.tpl:7
+#: templates/unishop/404.tpl:11
+msgid "Page not found!"
+msgstr "Вибачте, ця сторінка не доступна"
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:10
+msgid "Paid purchases amount"
+msgstr "Сума оплачених замовлень"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:48
+#: templates/unishop/shop/includes/profile/order_history.tpl:9
+msgid "Paid successfully"
+msgstr "Оплачено"
+
+#: templates/unishop/login.tpl:42
+#: templates/unishop/login_popup.tpl:50
+#: templates/unishop/register.tpl:88
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/unishop/reset_password.tpl:6
+msgid "Password retrieval"
+msgstr "Відновлення пароля"
+
+#: templates/unishop/shop/includes/cart/cart_delivery_radio.tpl:58
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:40
+msgid "Payment method"
+msgstr "Оплата"
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:73
+msgid "Payment methods"
+msgstr "Оплата"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:47
+msgid "Payment status"
+msgstr "Оплата"
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:37
+msgid "Per page"
+msgstr "На сторінці"
+
+#: templates/unishop/shop/profile.tpl:42
+msgid "Personal information"
+msgstr "Особисті дані"
+
+#: templates/unishop/callbacks/callback.tpl:34
+#: templates/unishop/callbacks/callbacks_modal.tpl:29
+#: templates/unishop/found_less_expensive/modal_form.tpl:39
+#: templates/unishop/one_click_order/form.tpl:65
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:33
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:78
+#: templates/unishop/shop/includes/profile/user_data.tpl:40
+msgid "Phone number"
+msgstr "Ваш телефон"
+
+#: templates/unishop/forgot_password.tpl:44
+msgid "Please enter the e-mail associated with your account."
+msgstr "Вкажіть адресу своєї електронної пошти"
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:79
+msgid "Please enter two or more characters."
+msgstr "Будь ласка, введіть більше двох символів"
+
+#: templates/unishop/category_sales.tpl:45
+#: templates/unishop/page_sales.tpl:36
+#: templates/unishop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 1"
+msgstr "день"
+
+#: templates/unishop/category_sales.tpl:45
+#: templates/unishop/page_sales.tpl:36
+#: templates/unishop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 2"
+msgstr "дня"
+
+#: templates/unishop/category_sales.tpl:45
+#: templates/unishop/page_sales.tpl:36
+#: templates/unishop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 3"
+msgstr "днів"
+
+#: templates/unishop/page_sales.tpl:43
+msgid "pluralize hour 1"
+msgstr "година"
+
+#: templates/unishop/page_sales.tpl:43
+msgid "pluralize hour 2"
+msgstr "години"
+
+#: templates/unishop/page_sales.tpl:43
+msgid "pluralize hour 3"
+msgstr "годин"
+
+#: templates/unishop/shop/bestseller.tpl:66
+#: templates/unishop/shop/brand.tpl:41
+#: templates/unishop/shop/category.tpl:54
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/unishop/shop/search.tpl:28
+msgid "pluralize item 1"
+msgstr "товар"
+
+#: templates/unishop/shop/bestseller.tpl:66
+#: templates/unishop/shop/brand.tpl:41
+#: templates/unishop/shop/category.tpl:54
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/unishop/shop/search.tpl:28
+msgid "pluralize item 2"
+msgstr "товари"
+
+#: templates/unishop/shop/bestseller.tpl:66
+#: templates/unishop/shop/brand.tpl:41
+#: templates/unishop/shop/category.tpl:54
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/unishop/shop/search.tpl:28
+msgid "pluralize item 3"
+msgstr "товарів"
+
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 1"
+msgstr "комплект"
+
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 2"
+msgstr "комплекти"
+
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 3"
+msgstr "комплектів"
+
+#: templates/unishop/includes/footer.tpl:88
+msgid "Powered by "
+msgstr "Сайт працює на"
+
+#: templates/unishop/shop/includes/cart/cart_delivery_radio.tpl:36
+#: templates/unishop/shop/includes/product/product_shipping.tpl:32
+msgid "Price"
+msgstr "Вартість"
+
+#: templates/unishop/smart_filter/main.tpl:11
+msgid "Price range"
+msgstr "Ціна"
+
+#: templates/unishop/pricespy/spys.tpl:19
+msgid "Price reduction"
+msgstr "Зниження ціни"
+
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:38
+msgid "Proceed to checkout"
+msgstr "Оформити замовлення"
+
+#: templates/unishop/pricespy/spys.tpl:16
+msgid "Product"
+msgstr "Товар"
+
+#: templates/unishop/shop/compare.tpl:6
+msgid "Product comparasion"
+msgstr "Порівняння товарів"
+
+#: templates/unishop/shop/includes/product/product_cut.tpl:66
+#: templates/unishop/shop/includes/product/product_intro.tpl:159
+#: templates/unishop/shop/includes/product/product_snippet.tpl:117
+msgid "Product has been discontinued"
+msgstr "Знятий з виробництва"
+
+#: templates/unishop/found_less_expensive/modal_form.tpl:55
+msgid "Product URL"
+msgstr "Посилання на товар"
+
+#: templates/unishop/includes/header_profile.tpl:6
+msgid "Profile"
+msgstr "Особистий кабінет"
+
+#: templates/unishop/components/TProperties/TProperties.php:130
+msgid "Properties"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:52
+msgid "Purchases amount"
+msgstr "Сума замовлення"
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:112
+msgid "Questions? Ask our experts"
+msgstr "Виникли питання?"
+
+#: templates/unishop/comments/main_form.tpl:85
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: templates/unishop/category.tpl:43
+#: templates/unishop/widgets/latest_news.tpl:32
+msgid "Read more"
+msgstr "Детальніше"
+
+#: templates/unishop/change_password.tpl:40
+msgid "Reenter new password"
+msgstr "Повторіть новий пароль"
+
+#: templates/unishop/register.tpl:97
+msgid "Reenter password"
+msgstr "Повторіть пароль"
+
+#: templates/unishop/forgot_password.tpl:71
+msgid "Remembered your password?"
+msgstr "Згадали пароль?"
+
+#: templates/unishop/shop/includes/product/product_cut.tpl:75
+msgid "Remove from list"
+msgstr "Видалити"
+
+#: templates/unishop/comments/comments_list.tpl:54
+msgid "Reply to this post"
+msgstr "Відповісти"
+
+#: templates/unishop/callbacks/callback.tpl:6
+#: templates/unishop/callbacks/callbacks_modal.tpl:5
+msgid "Request a Call back"
+msgstr "Замовити дзвінок"
+
+#: templates/unishop/forgot_password.tpl:6
+msgid "Request new password"
+msgstr "Знайдіть свій обліковий запис"
+
+#: templates/unishop/shop/bestseller.tpl:58
+#: templates/unishop/shop/brand.tpl:33
+#: templates/unishop/shop/category.tpl:46
+msgid "Result"
+msgstr "Знайдено"
+
+#: templates/unishop/shop/search.tpl:18
+msgid "Result for"
+msgstr "Результати пошуку"
+
+#: templates/unishop/shop/cart.tpl:35
+msgid "Returning customer?"
+msgstr "Вже тут купували?"
+
+#: templates/unishop/comments/main_form.tpl:72
+#: templates/unishop/comments/reply_form.tpl:70
+msgid "Review"
+msgstr "Відгук"
+
+#: templates/unishop/shop/includes/product/product_rating.tpl:13
+msgid "Reviews"
+msgstr "Відгуки"
+
+#: templates/unishop/shop/includes/product/product_labels.tpl:17
+msgid "Sale"
+msgstr "Акція"
+
+#: templates/unishop/page_sales.tpl:30
+msgid "Sale expires after"
+msgstr "До закінчення акції залишилося"
+
+#: templates/unishop/page_sales.tpl:65
+msgid "Sales period"
+msgstr "Період проведення акції"
+
+#: templates/unishop/page_sales.tpl:95
+msgid "Sales product list"
+msgstr "Товари, що беруть участь в акції"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:103
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:4
+msgid "Save"
+msgstr ""
+
+#: templates/unishop/change_password.tpl:51
+#: templates/unishop/shop/includes/profile/user_data.tpl:90
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:15
+msgid "Search by item name or number"
+msgstr "Пошук товарів"
+
+#: templates/unishop/page_sales.tpl:55
+msgid "seconds"
+msgstr "сек"
+
+#: templates/unishop/comments/main_form.tpl:111
+#: templates/unishop/comments/reply_form.tpl:81
+#: templates/unishop/feedback/feedback.tpl:62
+#: templates/unishop/feedback/feedback_modal.tpl:43
+#: templates/unishop/forgot_password.tpl:50
+#: templates/unishop/login.tpl:52
+#: templates/unishop/login_popup.tpl:60
+#: templates/unishop/register.tpl:108
+msgid "Security code"
+msgstr "Код"
+
+#: templates/unishop/wishlist/wishPopup.tpl:27
+msgid "Select a list"
+msgstr "Виберіть список"
+
+#: templates/unishop/comments/main_form.tpl:127
+#: templates/unishop/comments/reply_form.tpl:94
+#: templates/unishop/feedback/feedback.tpl:76
+#: templates/unishop/feedback/feedback_modal.tpl:65
+#: templates/unishop/found_less_expensive/modal_form.tpl:84
+#: templates/unishop/one_click_order/form.tpl:95
+msgid "Send"
+msgstr "Надіслати"
+
+#: templates/unishop/forgot_password.tpl:63
+msgid "Send request"
+msgstr "Пошук"
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:205
+msgid "Share"
+msgstr "Поділитись"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:58
+msgid "Shipping"
+msgstr "Вартість доставки"
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:55
+msgid "Shipping & payment"
+msgstr "Доставка і оплата"
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:43
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:86
+#: templates/unishop/shop/includes/profile/user_data.tpl:50
+msgid "Shipping address"
+msgstr "Адреса доставки"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:32
+msgid "Shipping method"
+msgstr "Спосіб доставки"
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:12
+msgid "Shipping methods"
+msgstr "Доставка"
+
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:5
+msgid "Shopping cart"
+msgstr "Мій кошик"
+
+#: templates/unishop/shop/category.tpl:17
+msgid "Show filter"
+msgstr "Показати фільтр"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:9
+msgid "Show in column"
+msgstr ""
+
+#: templates/unishop/comments/comments_api.tpl:18
+#: templates/unishop/forgot_password.tpl:71
+#: templates/unishop/includes/footer_profile.tpl:4
+#: templates/unishop/includes/header_profile.tpl:19
+#: templates/unishop/includes/mobile_profile.tpl:3
+#: templates/unishop/login.tpl:6
+#: templates/unishop/login_popup.tpl:4
+#: templates/unishop/register.tpl:130
+#: templates/unishop/shop/cart.tpl:37
+msgid "Sign in"
+msgstr "Вхід"
+
+#: templates/unishop/login.tpl:24
+#: templates/unishop/login_popup.tpl:32
+#: templates/unishop/register.tpl:28
+msgid "Sign in with"
+msgstr "Увійти за допомогою соціальних мереж"
+
+#: templates/unishop/includes/footer_profile.tpl:34
+#: templates/unishop/includes/header_profile.tpl:39
+#: templates/unishop/includes/mobile_profile.tpl:39
+msgid "Sign out"
+msgstr "Вихід"
+
+#: templates/unishop/offline.tpl:4
+msgid "Site is offline"
+msgstr "Сайт недоступний"
+
+#: templates/unishop/offline.tpl:15
+msgid "Site is temporarily unavailable"
+msgstr "Сайт тимчасово вимкнено"
+
+#: templates/unishop/404.tpl:12
+msgid "Sorry, the page you’re looking for doesn’t exist!"
+msgstr "Посилання, за яким ви переходили, можливо, пошкоджене або сторінку перенесено."
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:10
+msgid "Sort by"
+msgstr "Сортувати за"
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:21
+msgid "Specifications"
+msgstr "Характеристики"
+
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:2
+msgid "Start typing property name here"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:5
+msgid "Status"
+msgstr "Статус"
+
+#: templates/unishop/includes/footer.tpl:20
+#: templates/unishop/includes/mobile_frame.tpl:4
+msgid "Store"
+msgstr "Магазин"
+
+#: templates/unishop/feedback/feedback.tpl:42
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:7
+msgid "Subtotal"
+msgstr "Проміжний підсумок"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:46
+#: templates/unishop/shop/includes/product/variants/radio.tpl:9
+#: templates/unishop/shop/includes/product/variants/select.tpl:11
+#: templates/unishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_1"
+msgstr "бал"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:46
+#: templates/unishop/shop/includes/product/variants/radio.tpl:9
+#: templates/unishop/shop/includes/product/variants/select.tpl:11
+#: templates/unishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_2"
+msgstr "бали"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:46
+#: templates/unishop/shop/includes/product/variants/radio.tpl:9
+#: templates/unishop/shop/includes/product/variants/select.tpl:11
+#: templates/unishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_3"
+msgstr "балів"
+
+#: templates/unishop/register_success.tpl:6
+msgid "Thank You for Registration!"
+msgstr "Дякуємо за реєстрацію!"
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:5
+msgid "Thank you for shopping at"
+msgstr "Дякуємо за покупку на"
+
+#: templates/unishop/one_click_order/form.tpl:21
+msgid "Thank you for your order! Our manager will contact you as soon as possible."
+msgstr "Дякую за Ваше замовлення! Наш менеджер зв'яжеться з Вами якомога швидше."
+
+#: templates/unishop/category.tpl:52
+#: templates/unishop/category_sales.tpl:79
+#: templates/unishop/gallery/album.tpl:70
+#: templates/unishop/gallery/index.tpl:56
+#: templates/unishop/shop/includes/category/category_products.tpl:31
+msgid "There are no items to display. Please come back later!"
+msgstr "На жаль, на сторінці немає елементів для відображення. Будь ласка, зайдіть пізніше!"
+
+#: templates/unishop/wishlist/wishlist.tpl:45
+msgid "This list is empty"
+msgstr "Цей список порожній"
+
+#: templates/unishop/offline.tpl:16
+msgid "This site is down for maintenance. We will be back shortly, please check back again soon"
+msgstr "Вибачте, але на даний момент сайт знаходиться на реконструкції. Зайдіть до нас пізніше"
+
+#: templates/unishop/category_sales.tpl:61
+#: templates/unishop/page_sales.tpl:68
+msgid "to"
+msgstr "до"
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:25
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:51
+msgid "Toggle this category"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:6
+msgid "Total Price"
+msgstr "До оплати"
+
+#: templates/unishop/includes/footer_profile.tpl:21
+#: templates/unishop/includes/header_profile.tpl:31
+#: templates/unishop/includes/mobile_profile.tpl:33
+msgid "Tracking price"
+msgstr "Стеження за ціною"
+
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:19
+msgid "Type"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:116
+#: templates/unishop/comments/reply_form.tpl:86
+#: templates/unishop/feedback/feedback.tpl:67
+#: templates/unishop/feedback/feedback_modal.tpl:48
+#: templates/unishop/forgot_password.tpl:55
+#: templates/unishop/login.tpl:57
+#: templates/unishop/login_popup.tpl:65
+#: templates/unishop/register.tpl:113
+msgid "Type the characters you see in this image."
+msgstr "Введіть символи, які ви бачите на зображенні."
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:120
+msgid "Unavailable"
+msgstr "Немає в наявності"
+
+#: templates/unishop/pricespy/spys.tpl:20
+#: templates/unishop/pricespy/spys.tpl:51
+msgid "Unsubscribe"
+msgstr "Видалити"
+
+#: templates/unishop/system_bonus/cart_input.tpl:10
+msgid "Use points"
+msgstr "Скористатися балами"
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:29
+msgid "User goup discount"
+msgstr "Знижка групи користувача"
+
+#: templates/unishop/includes/footer.tpl:27
+#: templates/unishop/includes/mobile_frame.tpl:6
+msgid "User menu"
+msgstr "Користувач"
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:63
+msgid "View"
+msgstr "Вид"
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:84
+msgid "view all"
+msgstr "Всі результати пошуку"
+
+#: templates/unishop/navs/mobile_nav/level_1/container.tpl:10
+#: templates/unishop/widgets/brands.tpl:6
+#: templates/unishop/widgets/latest_news.tpl:9
+msgid "View all"
+msgstr "Переглянути всі"
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:45
+#: templates/unishop/shop/includes/product/product_kit_button.tpl:21
+msgid "View in Cart"
+msgstr "В кошику"
+
+#: templates/unishop/pricespy/button.tpl:61
+msgid "View items"
+msgstr "Посмотреть товары"
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:38
+msgid "View on the map"
+msgstr "Подивитися на карті"
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:29
+msgid "Warehouse"
+msgstr "Склад"
+
+#: templates/unishop/pricespy/spys.tpl:59
+msgid "Watch list is empty"
+msgstr "Список порожній"
+
+#: templates/unishop/found_less_expensive/modal_form.tpl:59
+msgid "Web site url where you find it cheaper"
+msgstr "URL сайту, де ви знайдете товар дешевше"
+
+#: templates/unishop/login_popup.tpl:72
+msgid "Welcome!"
+msgstr "Ласкаво просимо!"
+
+#: templates/unishop/wishlist/other_list.tpl:8
+#: templates/unishop/wishlist/wishlist.tpl:7
+msgid "Wish list"
+msgstr "Улюблені"
+
+#: templates/unishop/includes/footer_profile.tpl:17
+#: templates/unishop/includes/mobile_profile.tpl:23
+#: templates/unishop/wishlist/wishlist_total.tpl:7
+msgid "Wishlist"
+msgstr "Улюблені"
+
+#: templates/unishop/comments/comments_api.tpl:25
+msgid "Write a review"
+msgstr "Написати відгук"
+
+#: templates/unishop/page_sales.tpl:70
+msgid "year"
+msgstr "року"
+
+#: templates/unishop/pricespy/button.tpl:42
+msgid "You are following the price changes of this item. You will receive a notification to your contact email when the product price will be changed. Check your personal account to cancel the subscription and view other items that you're following."
+msgstr "Вы уже следите за изменением цены этого продукта. Перейдите в ваш личный кабинет чтобы отменить подписку и посмотреть другие товары за которыми вы следите"
+
+#: templates/unishop/system_bonus/cart_input.tpl:20
+#: templates/unishop/system_bonus/user_profile.tpl:22
+msgid "You can use your points to get discount for purchasing. Each 1 point equals"
+msgstr "Ви можете скористатися балами, щоб отримати знижку на покупку. Кожен 1 бал дорівнює"
+
+#: templates/unishop/shop/cart.tpl:57
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:21
+msgid "You have no items in your shopping cart"
+msgstr "У кошику немає товарів"
+
+#: templates/unishop/shop/compare.tpl:36
+msgid "You have no items to compare"
+msgstr "Недостатньо товарів для порівняння"
+
+#: templates/unishop/login_popup.tpl:73
+msgid "You have successfully authenticated as "
+msgstr "Ви успішно увійшли як"
+
+#: templates/unishop/comments/comments_api.tpl:18
+msgid "You have to log in to leave a comment."
+msgstr "Тільки авторизовані користувачі можуть залишати відгуки"
+
+#: templates/unishop/shop/profile.tpl:63
+msgid "You haven't made any orders yet"
+msgstr "У вас ще немає замовлень"
+
+#: templates/unishop/login_popup.tpl:21
+msgid "You must login to add items to your wishlist"
+msgstr "Ви повинні авторизуватися, щоб додавати товари в улюблені"
+
+#: templates/unishop/shop/includes/product/product_kit.tpl:76
+msgid "You save"
+msgstr "Ви заощаджуєте"
+
+#: templates/unishop/system_bonus/system_bonus_product.tpl:8
+msgid "You will earn"
+msgstr "Ви отримаєте"
+
+#: templates/unishop/shop/report_appearance.tpl:14
+msgid "You'll receive a one email when this product arrives in stock"
+msgstr "Ви отримаєте повідомлення на пошту, коли товар надійде на склад"
+
+#: templates/unishop/includes/footer_profile.tpl:11
+#: templates/unishop/includes/header_profile.tpl:27
+#: templates/unishop/includes/mobile_profile.tpl:10
+#: templates/unishop/shop/profile.tpl:6
+msgid "Your Account"
+msgstr "Особисті дані"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:96
+msgid "Your card was successfully applied"
+msgstr "Ваш сертифікат був успішно застосований!"
+
+#: templates/unishop/comments/main_form.tpl:31
+#: templates/unishop/comments/reply_form.tpl:26
+msgid "Your comment has been successfully published"
+msgstr "Ваш відгук був успішно опублікований"
+
+#: templates/unishop/comments/main_form.tpl:29
+#: templates/unishop/comments/reply_form.tpl:24
+msgid "Your comment will be published after moderation"
+msgstr "Ваш відгук буде опублікований після модерації"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:24
+msgid "Your discount"
+msgstr "Ваша знижка"
+
+#: templates/unishop/feedback/feedback.tpl:16
+#: templates/unishop/feedback/feedback_modal.tpl:13
+#: templates/unishop/found_less_expensive/modal_form.tpl:24
+msgid "Your message has been sent"
+msgstr "Ваше повідомлення успішно відправлено! Ми обов'язково зв'яжемося з Вами найближчим часом."
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:5
+msgid "Your order details are below"
+msgstr "Нижче наведені деталі замовлення"
+
+#: templates/unishop/shop/order_view.tpl:5
+msgid "Your order is confirmed"
+msgstr "Ваше замовлення підтверджено"
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:19
+msgid "Your personal discount"
+msgstr "Персональна знижка"
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:74
+msgid "Your search did not match any products. Make sure all words are spelled correctly."
+msgstr "На жаль, за вашим запитом нічого не знайдено. Будь ласка, переконайтеся, що запит введено коректно або переформулюйте його"
+
+#: templates/unishop/wishlist/wishlist.tpl:58
+msgid "Your wishlist is empty"
+msgstr "Ви ще не додали до улюблених жодного товару"

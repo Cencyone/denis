@@ -1,0 +1,326 @@
+//--------------------------------------------------
+//--------------------------------------------------
+//Base
+//--------------------------------------------------
+//--------------------------------------------------
+
+//Size
+$site-max-width:                  1310px;
+
+//Theme
+$theme-main-color:                #000;
+$theme-secondary-color:           #f2f2f2;
+
+//Body
+$base-font-family:                'Arial', sans-serif;
+$base-font-color:                 #666;
+$base-font-color-secondary:       #999;
+$base-font-size:                  14px;
+$base-line-height:                1.3;
+
+//Links
+$base-main-link-color:            #5280b2;
+$base-main-link-hover-color:      #cc0000;
+$base-main-link-decor:            none;
+$base-main-link-decor-hover:      none;
+
+$base-second-link-color:          #000;
+$base-second-link-hover-color:    #000;
+$base-second-link-decor:          none;
+$base-second-link-decor-hover:    underline;
+
+//Helpers
+$base-border-color:               #c7c7c7;
+$base-box-shadow-color:           rgba(0, 0, 0, 0.15);
+
+
+//Bootstrap override
+$border-radius-base: 0;
+
+// Bourbon override
+$em-base: $base-font-size;
+
+
+//--------------------------------------------------
+//Scaffolding
+//--------------------------------------------------
+
+
+// ----- Page ----- //
+$page-fgroup-height:              360px;
+$page-fgroup-bg:                  #f2f2f2;
+$page-ovarlay-z-index:            9999;
+
+$page-mobile-width:               250px;
+$page-mobile-bg:                  $theme-main-color;
+$page-mobile-color:               #fff;
+$page-mobile-speed:								0.3s;
+$page-overlay-color:              rgba(11,11,11,0.6);
+
+
+// ----- Headline ----- //
+$headline-border-color:           $base-border-color;
+
+
+// ----- Footer ----- //
+$footer-border-color:             $base-border-color;
+$footer-text-color:               $base-font-color;
+$footer-title-color:              $theme-main-color;
+$footer-link-color:               $base-main-link-color;
+$footer-link-hover-color:         $base-main-link-hover-color;
+
+
+// ----- Basement ----- //
+$basement-text-color:             $base-font-color;
+$basement-link-color:             $base-main-link-color;
+$basement-link-hover-color:       $base-main-link-hover-color;
+
+
+//--------------------------------------------------
+//Z Indexes
+//--------------------------------------------------
+$z-index-xs:  10;
+$z-index-s:   100;
+$z-index-m:   1000;
+$z-index-l:   10000;
+$z-index-xl:  100000;
+
+
+//--------------------------------------------------
+//Grid
+//--------------------------------------------------
+$grid-col-mobile-spacer:          20px;
+
+
+
+//--------------------------------------------------
+// Forms
+//--------------------------------------------------
+//Bootstrap override
+
+$input-group-addon-bg: 						#efefef;
+$input-border:										$base-border-color;
+$input-border-radius:             0;
+$input-border-radius-small:       0;
+$input-border-radius-large:       0;
+
+
+
+//--------------------------------------------------
+// Buttons
+//--------------------------------------------------
+
+// ----- Bootstrap override ----- //
+$btn-default-border:							$base-border-color;
+$btn-border-radius-base:          0;
+$btn-border-radius-small:         0;
+$btn-border-radius-large:         0;
+
+// ----- Main button ----- //
+$btn-main-bg:                     $theme-main-color;
+$btn-main-bg-hover:               lighten($btn-main-bg, 20%);
+$btn-main-color:                  #fff;
+$btn-main-color-hover:            #fff;
+
+
+
+//--------------------------------------------------
+// Site info
+//--------------------------------------------------
+$site-info-title-color:           #000;
+$site-info-ico-color:             $theme-main-color; 
+$site-info-ico-bg:                #f3f3f3;
+
+
+
+//--------------------------------------------------
+// Overlay
+//--------------------------------------------------
+$overlay-bg-color:                #fff;
+$overlay-border-color:            $base-border-color;
+$overlay-shadow-color:            $base-box-shadow-color;
+
+$overlay-link-color:              $base-main-link-color;
+$overlay-link-hover-color:        $base-main-link-color;
+$overlay-link-hover-bg:           #F2F2F2;
+
+
+//--------------------------------------------------
+// Navigation
+//--------------------------------------------------
+
+// ----- table nav ----- //
+$table-nav-bg-color:              $theme-main-color;
+$table-nav-bg-hover-color:        lighten($table-nav-bg-color, 20%);
+$table-nav-bg-active-color:       lighten($table-nav-bg-color, 50%);
+$table-nav-link-color:            #fff;
+$table-nav-link-hover-color:      #fff;
+$table-nav-border-color:          #3d3b3b;
+
+// ----- tree nav ----- //
+$tree-nav-bg-color:               #fff;
+$tree-nav-border-color:           $base-border-color;
+$tree-nav-shadow-color:           $base-box-shadow-color;
+
+$tree-nav-link-color:             $base-second-link-color;
+$tree-nav-link-hover-color:       $base-second-link-hover-color;
+$tree-nav-link-hover-bg:          #F2F2F2;
+
+
+// ----- cols nav ----- //
+$cols-nav-bg-color:               #fff;
+$cols-nav-border-color:           $base-border-color;
+$cols-nav-shadow-color:           $base-box-shadow-color;
+$cols-subnav-col-width:           200px;
+
+
+// ----- mobile nav ----- //
+$mobile-nav-slide-speed:          $page-mobile-speed;
+$mobile-nav-border-color:         $table-nav-border-color;
+$mobile-nav-link-color:           $table-nav-link-color;
+$mobile-nav-viewall-color:   	    $mobile-nav-link-color;
+
+
+
+// ----- board nav ----- //
+$board-nav-bg-color:              $theme-secondary-color;
+$board-nav-link-1-color:          #000;
+$board-nav-link-1-color-hover:    #000;
+
+
+
+//--------------------------------------------------
+// Benefits
+//--------------------------------------------------
+$benefits-bg-color:               #fafafa;
+$benefits-border-color:           $base-border-color;
+$benefits-title-color:            #000;
+$benefits-ico-color:              #000;
+$benefits-desc-color:             #999;
+
+
+//--------------------------------------------------
+// Widgets
+//--------------------------------------------------
+
+// ----- Widget primary ----- //
+$widget-primary-header-bg:            $theme-secondary-color;
+$widget-primary-title-color:          #000;
+
+
+// ----- Widget secondary ----- //
+$widget-secondary-title-color:        #000;
+
+
+// ----- Brands widget ----- //
+$bradns-widget-border-color:        $base-border-color;
+
+$bradns-widget-arrow-bg:            rgba(0, 0, 0, 0.129);
+$bradns-widget-arrow-bg-hover:      rgba(0, 0, 0, 0.2);
+$bradns-widget-arrow-color:         rgb(144, 144, 143);
+$bradns-widget-arrow-color-hover:   rgb(144, 144, 143);
+
+$bradns-widget-link-color:          rgba(0,0,0,1);
+$bradns-widget-link-color-hover:    rgba(0,0,0,0.7);
+
+
+// ----- Brands image ----- //
+$bradns-image-height:         120px;
+
+
+// ----- SEO text ----- //
+$seo-text-title-color:          #000;
+
+
+// ----- Breadcrumbs ----- //
+
+
+
+// ----- Star rating ----- //
+$star-voting-color:             #FFB300;
+$star-rating-color:             #FFB300;
+
+
+// ----- Message ----- //
+$message-success-color:         #dff0d8;
+$message-success-border:        #dff0d8;
+
+$message-error-color:           #ffefe8;
+$message-error-border:          #e89b88;
+
+$message-info-color:            #FCF8E3;
+$message-info-border:           #efe4ae;
+
+
+
+//--------------------------------------------------
+// Product
+//--------------------------------------------------
+$product-photo-border-color:   $base-border-color;
+
+
+$product-photo-fluid-height:    75%;
+
+$product-photo-fix-height-xs:   60px;
+$product-photo-fix-height-sm:   100px;
+$product-photo-fix-height-md:   200px;
+$product-photo-fix-height-lg:   300px;
+
+$product-photo-zoom-width:  400px;
+$product-photo-zoom-height: $product-photo-fix-height-lg;
+
+
+$product-photo-thumbs-number:   5;
+$product-photo-thumb-height:    60px;
+
+$product-label-bg-default:         rgba(0, 0, 0, 0.5);
+$product-label-bg-hit:             rgba(255, 153, 0, 0.5);
+$product-label-bg-hot:             rgba(54, 109, 25, 0.5);
+$product-label-bg-action:          rgba(196, 80, 35, 0.5);
+$product-label-bg-discount:        rgba(119, 15, 95, 0.5);
+
+
+
+//--------------------------------------------------
+// Compare products
+//--------------------------------------------------
+$compare-product-height:            220px;
+$compare-product-bg:                #f2f2f2;
+
+
+
+//--------------------------------------------------
+// Modal window
+//--------------------------------------------------
+$modal-size:                        500px;
+$modal-size-sm:                     300px;
+$modal-size-lg:                     800px;
+$modal-hor-padding:                 15px;                   
+$modal-header-bg:                   #f2f2f2;
+$modal-header-border:               $base-border-color;
+$modal-header-color:                #000;
+
+
+
+//--------------------------------------------------
+// Ajax Loaders
+//--------------------------------------------------
+$spinner-fa-size:                   45px;
+$spinner-fa-color:                  #000;
+$spinner-fa-image:                  '\f110';
+
+$spinner-circle_speed:              .675s;
+$spinner-circle_radius:             80%;
+$spinner-circle_fill_radius:        90px;
+
+$spinner-circle_size:               40px;
+$spinner-circle_thickness:          10px;
+$spinner-circle_inner_circle:       $spinner-circle_size - $spinner-circle_thickness;
+
+$spinner-circle_color:              black;
+$spinner-circle_bg:                 lightgray;
+$spinner-circle_inner_bg:           white;
+
+
+$mfp-image-background: #fff;
+$mfp-controls-color: #fff;

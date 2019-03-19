@@ -1,0 +1,48 @@
+.range-slider{
+  $handle-width: 8px;
+  $handle-height: 20px;
+  $handle-color: #000;
+  
+  $slider-height: 4px;
+  $slider-color: #fff;
+  $slider-border-color: $base-font-color-secondary;
+
+  $range-bg-color: $base-font-color;
+  
+  &__wrapper{
+    position: relative;
+    height: $handle-height;
+    /* cancel &__control margin collaps */
+    @include clearfix;
+  }
+
+  &__control{
+    background: $slider-color;
+    border: 1px solid $base-border-color;
+    height: $slider-height;
+    margin-top: ($handle-height - $slider-height)/2;
+
+    .ui-slider-handle{
+      display: block;
+      @include position(absolute, 0 null null null);
+      width: $handle-width;
+      height: $handle-height;      
+      background: $handle-color;
+      cursor: pointer;
+      -ms-touch-action: none;
+      touch-action: none;
+
+      &:last-of-type{
+        margin-left: (-$handle-width);
+      }
+    }
+
+    .ui-slider-range{
+      position: absolute;
+      top: 50%;
+      margin-top: -($slider-height/2);
+      height: $slider-height;
+      background: $base-font-color-secondary;
+    }
+  }
+}

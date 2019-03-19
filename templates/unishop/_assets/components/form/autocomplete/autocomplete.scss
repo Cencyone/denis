@@ -1,0 +1,88 @@
+.autocomplete {
+  $autocomplete-border-color: $base-border-color;
+  $autocomplete-shadow-color: $base-box-shadow-color;
+  $autocomplete-bg-color: #fff;
+
+  $frame-z-intdex: $z-index-m;
+  $frame-bg: #fff;
+
+  $item-bg-hover: $theme-secondary-color;
+
+  position: relative;
+
+  &__element {
+
+  }
+
+  &__input {
+    font-size: 1.144rem;
+    @media (min-width: $screen-md-min){
+      font-size: 1rem;
+    }
+  }
+
+  &__frame {
+    background: $frame-bg;
+
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: $frame-z-intdex;
+
+    border: 1px solid $autocomplete-border-color;
+    border-top: 0;
+    background: $autocomplete-bg-color;
+    box-shadow: 0 3px 4px $autocomplete-shadow-color;
+  }
+
+  &__item {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: $base-font-color;
+
+    &:not(:first-child){
+      border-top: 1px solid $base-border-color;
+    }
+
+    &:hover {
+      background: $item-bg-hover;
+    }
+  }
+
+  &__product {
+    @include clearfix;
+    font-size: 0.9rem;
+
+    &-photo {
+      float: left;
+      padding-right: 10px;
+    }
+
+    &-info {
+      overflow: hidden;
+    }
+
+    &-title{
+      color: $base-main-link-color;
+    }
+
+    &-brand {
+      display: inline;
+      color: $base-font-color-secondary;
+    }
+
+    &-option {
+      color: $base-font-color-secondary;
+    }
+  }
+
+  &__message {
+    padding: 20px;
+
+    &--noitems {
+
+    }
+  }
+}

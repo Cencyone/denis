@@ -1,0 +1,45 @@
+.countdown {
+  $date-font-size: 1.4rem;
+  display: inline-block;
+  border:  1px solid $base-border-color;
+  padding: 15px;
+
+  &__title {
+    display:        inline-block;
+    vertical-align: middle;
+    margin-right:   10px;
+    font-size:      1rem;
+    color:          $base-font-color-secondary;
+  }
+
+  &__date {
+    display:        inline-block;
+    vertical-align: middle;
+    color:          #000;
+    font-weight:    bold;
+    white-space:    nowrap;
+    font-size:      0;
+  }
+
+  &__item {
+    font-size: $date-font-size;
+
+    &::after {
+      content: ':';
+    }
+
+    &--no-marker {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &__label {
+    font-size:    $date-font-size;
+    display:      inline-block;
+    margin-right: 10px;
+    margin-left:  5px;
+  }
+
+}

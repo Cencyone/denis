@@ -1,0 +1,64 @@
+.search-nav{
+
+	&__item{
+		&:last-child{
+			.search-nav__inner{
+				border-bottom: 1px solid $base-border-color;
+			}
+		}
+	}
+
+	&__title{
+		display: block;
+		padding: 10px 15px;
+		border: 1px solid $base-border-color;	
+		color: #000;
+		font-weight: bold;
+		background: $theme-secondary-color;
+
+		&:not(:first-child){
+			border-top: 0;
+		}
+	}
+
+	&__inner{
+		padding: 10px 15px 20px;
+		border-left: 1px solid $base-border-color;
+		border-right: 1px solid $base-border-color;
+		font-size: 0.9rem;
+
+		&:not(:last-child){
+			border-top: 0;
+		}
+
+		&-item{
+			display: table;
+
+			&:not(:first-child){
+		    padding-top: 8px;
+		  }
+
+		}
+
+		&-link{
+			@include link-main;
+			display: table-cell;
+			vertical-align: middle;
+      padding-right: 4px;
+      padding-left: 4px;
+      line-height: 1;
+
+      &--active{
+      	color: $base-font-color-secondary;
+      }		
+		}
+
+		&-count{
+			display: table-cell;
+			vertical-align: middle;
+			color: $base-font-color-secondary;
+			font-size: 0.9em;
+		}
+	}
+
+}

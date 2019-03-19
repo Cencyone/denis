@@ -1,0 +1,19 @@
+.pay-icons{
+	margin-left: -5px;
+	@include clearfix;
+	
+	&__ico{
+		display: inline-block;
+		padding: 5px;
+		line-height: 20px;
+		margin-left: 5px;		
+		text-align: center;
+		color: #fff;
+		background: #000;
+		text-decoration: none;
+
+		&:hover{
+			color: #fff;
+		}
+	}
+}

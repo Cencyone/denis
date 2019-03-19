@@ -1,0 +1,53 @@
+.delivery-radio {
+
+  &__field {
+    display: table;
+
+    &:not(:first-child) {
+      padding-top: 15px;
+    }
+  }
+
+  &__control {
+    display: table-cell;
+    width: 20px;
+    vertical-align: top;
+    position: relative;
+    top: -2px;
+  }
+
+  &__content {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  &__title {
+    color: #000;
+    line-height: 1.2;
+  }
+
+  &__info {
+    font-size: 0.9em;
+    position: relative;
+    margin-top: 3px;
+    color: $base-font-color-secondary;
+  }
+
+  &__spoiler{
+    display: table;
+    padding-bottom: 20px;
+  }
+
+  &__spoiler-row {
+    display: table-row;
+  }
+  &__spoiler-col {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10px;
+
+    &:not(:first-child) {
+      padding-left: 15px;
+    }
+  }
+}

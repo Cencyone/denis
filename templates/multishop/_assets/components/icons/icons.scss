@@ -1,0 +1,23 @@
+//Countries flags icons
+.ico-flag {
+  display: inline-block;
+
+  &--ru {
+    @include sprite($-russia);
+  }
+
+  &--en {
+    @include sprite($-united-states);
+  }
+
+  &--ua {
+    @include sprite($-ukraine);
+  }
+}
+
+//Toggle mobile frame icons
+.ico-mobile {
+  color: black;
+  width: rem(25px);
+  height: rem(25px);
+}

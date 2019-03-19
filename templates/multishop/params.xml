@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template label='Multishop' name='Multishop' type="shop" version="1.5">
+
+	<screenshots>
+		<screenshot url="/templates/multishop/_install/screens/main.jpg" main="1" />
+		<screenshot url="/templates/multishop/_install/screens/catalog.jpg" main="0" />
+		<screenshot url="/templates/multishop/_install/screens/product.jpg" main="0" />
+		<screenshot url="/templates/multishop/_install/screens/cart.jpg" main="0" />
+	</screenshots>
+
+	<components>
+		<component handler='TColorScheme'>
+			<param name="color_scheme" value="default" />
+		</component>
+		<component handler="TMenuColumn"></component>
+		<component handler="TProperties"></component>
+	</components>
+
+	<dependencies>
+		<dependence entityName="widget" name="popular_products_category" type="add" widgetType="module" module="shop" method="products" description="Популярные товары категории">
+			<settings>
+				<productsType>hit,category</productsType>
+				<productsCount>5</productsCount>
+				<subpath>widgets</subpath>
+			</settings>
+		</dependence>
+	</dependencies>
+
+	<brands>
+		<image width="300" height="200"></image>
+	</brands>
+
+</template>

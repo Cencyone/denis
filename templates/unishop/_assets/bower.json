@@ -1,0 +1,53 @@
+{
+  "name": "multishop",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "jquery": "^2.2.4",
+    "magnific-popup": "~1.0.0",
+    "slick-carousel": "1.5.8",
+    "jquery-ui": "^1.11.4",
+    "doubletaptogo": "^0.4.1",
+    "jquery-zoom": "^1.7.15",
+    "svg4everybody": "^2.1.4"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "dist/jquery.js"
+      ],
+      "ignore": false
+    },
+    "bootstrap-sass": {
+      "main": [
+        "assets/javascripts/bootstrap.js"
+      ],
+      "ignore": true
+    },
+    "slick-carousel": {
+      "main": [
+        "slick/slick.js",
+        "slick/slick.css"
+      ],
+      "ignore": false
+    },
+    "magnific-popup": {
+      "main": [
+        "dist/jquery.magnific-popup.js"
+      ],
+      "ignore": false
+    },
+    "jquery-ui": {
+      "main": [
+        "jquery-ui.js"
+      ],
+      "ignore": false
+    },
+    "doubletaptogo": {
+      "main": [
+        "jquery.doubletaptogo.js"
+      ],
+      "ignore": false
+    }
+  }
+}

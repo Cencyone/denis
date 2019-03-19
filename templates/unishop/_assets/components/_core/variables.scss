@@ -1,0 +1,355 @@
+//--------------------------------------------------
+//--------------------------------------------------
+//Base
+//--------------------------------------------------
+//--------------------------------------------------
+
+//Size
+$site-max-width:                  1470px;
+
+//Theme
+$theme-main-color:                #5280b2;
+$theme-secondary-color:           #f2f6f9;
+$theme-third-color:               #ff8001;
+
+//Font
+$base-font-family:                'Arial', sans-serif;
+$base-font-color:                 #666;
+$base-font-color-secondary:       #9aa1ab;
+$base-font-size:                  14px;
+$base-line-height:                1.3;
+
+//Links
+$base-main-link-color:            #487ebb;
+$base-main-link-hover-color:      #ff8001;
+$base-main-link-decor:            none;
+$base-main-link-decor-hover:      none;
+
+$base-second-link-color:          #000;
+$base-second-link-hover-color:    #000;
+$base-second-link-decor:          none;
+$base-second-link-decor-hover:    underline;
+
+//Helpers
+$base-border-color:               #dfe4eb;
+$second-border-color:             #c8cfd9;
+$base-box-shadow-color:           rgba(0, 0, 0, 0.15);
+
+$em-base: $base-font-size;
+
+
+//Bootstrap override
+$border-radius-base: 0;
+
+
+
+//--------------------------------------------------
+//Scaffolding
+//--------------------------------------------------
+
+
+// ----- Page ----- //
+$page-fgroup-height:              360px;
+$page-fgroup-bg:                  $theme-secondary-color;
+$page-fgroup-border:              1px solid $base-border-color;
+$page-ovarlay-z-index:            9999;
+
+$page-mobile-width:               250px;
+$page-mobile-bg:                  $theme-main-color;
+$page-mobile-color:               #fff;
+$page-mobile-speed:				  0.3s;
+$page-overlay-color:              rgba(11,11,11,0.6);
+
+
+// ----- Headline ----- //
+$headline-border-color:           $base-border-color;
+
+
+// ----- Footer ----- //
+$footer-border-color:             $base-border-color;
+$footer-text-color:               $base-font-color;
+$footer-title-color:              #000;
+$footer-link-color:               $base-main-link-color;
+$footer-link-hover-color:         $base-main-link-hover-color;
+
+
+// ----- Basement ----- //
+$basement-text-color:             $base-font-color;
+$basement-link-color:             $base-main-link-color;
+$basement-link-hover-color:       $base-main-link-hover-color;
+
+
+//--------------------------------------------------
+//Z Indexes
+//--------------------------------------------------
+$z-index-xs:  10;
+$z-index-s:   100;
+$z-index-m:   1000;
+$z-index-l:   10000;
+$z-index-xl:  100000;
+
+
+//--------------------------------------------------
+//Grid
+//--------------------------------------------------
+$grid-col-mobile-spacer:          20px;
+
+
+
+//--------------------------------------------------
+// Forms
+//--------------------------------------------------
+//Bootstrap override
+
+$input-group-addon-bg:            #efefef;
+$input-border:                    $second-border-color;
+$input-border-radius:             2px;
+$input-border-radius-small:       2px;
+$input-border-radius-large:       2px;
+
+
+
+//--------------------------------------------------
+// Buttons
+//--------------------------------------------------
+
+// ----- Bootstrap override ----- //
+$btn-default-border:			  $second-border-color;
+$btn-border-radius-base:          2px;
+$btn-border-radius-small:         2px;
+$btn-border-radius-large:         2px;
+$btn-default-bg:                  $theme-secondary-color;
+
+$btn-primary-bg:                   $theme-third-color;
+$btn-primary-border:               darken($btn-primary-bg, 5%);
+$btn-primary-bg-hover:             lighten($btn-primary-bg, 3%);
+$btn-primary-border-hover:         lighten($btn-primary-border, 3%);
+$btn-primary-border-radius:         2px;
+
+// ----- Main button ----- //
+$btn-main-bg:                     $theme-main-color;
+$btn-main-bg-hover:               lighten($btn-main-bg, 20%);
+$btn-main-color:                  #fff;
+$btn-main-color-hover:            #fff;
+
+
+
+//--------------------------------------------------
+// Site info
+//--------------------------------------------------
+$site-info-title-color:           #000;
+$site-info-ico-color:             $theme-main-color; 
+$site-info-ico-bg:                $theme-third-color;
+
+
+
+//--------------------------------------------------
+// Overlay
+//--------------------------------------------------
+$overlay-bg-color:                #fff;
+$overlay-border-color:            $base-border-color;
+$overlay-shadow-color:            $base-box-shadow-color;
+
+$overlay-link-color:              $base-main-link-color;
+$overlay-link-hover-color:        $base-main-link-color;
+$overlay-link-hover-bg:           $theme-secondary-color;
+
+
+//--------------------------------------------------
+// Navigation
+//--------------------------------------------------
+
+// ----- table nav ----- //
+$table-nav-bg-color:              $theme-main-color;
+$table-nav-bg-hover-color:        $theme-third-color;
+$table-nav-bg-active-color:       #5b90ce;
+$table-nav-link-color:            #fff;
+$table-nav-link-hover-color:      #fff;
+$table-nav-border-color:          #6996c7;
+
+// ----- tree nav ----- //
+$tree-nav-bg-color:               #fff;
+$tree-nav-bg-active-color:        #5b90ce;
+$tree-nav-border-color:           $table-nav-bg-hover-color;
+$tree-nav-shadow-color:           $base-box-shadow-color;
+
+$tree-nav-link-color:             $base-main-link-color;
+$tree-nav-link-hover-color:       #fff;
+$tree-nav-link-hover-bg:          $table-nav-bg-color;
+
+
+// ----- cols nav ----- //
+$cols-nav-bg-color:               #fff;
+$cols-nav-border-color:           $table-nav-bg-hover-color;
+$cols-nav-shadow-color:           $base-box-shadow-color;
+$cols-subnav-col-width:           200px;
+
+
+// ----- mobile nav ----- //
+$mobile-nav-slide-speed:          $page-mobile-speed;
+$mobile-nav-border-color:         $table-nav-border-color;
+$mobile-nav-link-color:           $table-nav-link-color;
+$mobile-nav-viewall-color:   	  $mobile-nav-link-color;
+$mobile-nav-separator-bg:         darken($theme-main-color, 10%);
+$mobile-nav-separator-color:      #fff;
+
+
+
+// ----- board nav ----- //
+$board-nav-bg-color:              $theme-secondary-color;
+$board-nav-link-1-color:          #000;
+$board-nav-link-1-color-hover:    #000;
+
+
+
+//--------------------------------------------------
+// Benefits
+//--------------------------------------------------
+$benefits-bg-color:               #fafafa;
+$benefits-border-color:           $base-border-color;
+$benefits-title-color:            #000;
+$benefits-ico-color:              #000;
+$benefits-desc-color:             #999;
+
+
+//--------------------------------------------------
+// Widgets
+//--------------------------------------------------
+
+// ----- Widget primary ----- //
+$widget-primary-header-bg:            $theme-secondary-color;
+$widget-primary-title-color:          #000;
+
+
+// ----- Widget secondary ----- //
+$widget-secondary-title-color:        #000;
+
+
+// ----- Brands widget ----- //
+$bradns-widget-border-color:        $base-border-color;
+
+$bradns-widget-arrow-bg:            rgba(0, 0, 0, 0.129);
+$bradns-widget-arrow-bg-hover:      rgba(0, 0, 0, 0.2);
+$bradns-widget-arrow-color:         rgb(144, 144, 143);
+$bradns-widget-arrow-color-hover:   rgb(144, 144, 143);
+
+$bradns-widget-link-color:          rgba(0,0,0,1);
+$bradns-widget-link-color-hover:    rgba(0,0,0,0.7);
+
+
+// ----- Brands image ----- //
+$bradns-image-height:         120px;
+
+
+// ----- SEO text ----- //
+$seo-text-title-color:          #000;
+
+
+// ----- Breadcrumbs ----- //
+
+
+
+// ----- Star rating ----- //
+$star-rating-color:             #FFB300;
+$star-empty-color:              rgba($star-rating-color, 0.3);
+
+
+// ----- Message ----- //
+$message-success-color:         #dff0d8;
+$message-success-border:        #dff0d8;
+
+$message-error-color:           #ffefe8;
+$message-error-border:          #e89b88;
+
+$message-info-color:            #FCF8E3;
+$message-info-border:           #efe4ae;
+
+
+
+//--------------------------------------------------
+// Product
+//--------------------------------------------------
+$product-photo-border-color:   $base-border-color;
+
+
+$product-photo-fluid-height:    90%;
+
+$product-photo-fix-height-xs:   60px;
+$product-photo-fix-height-sm:   100px;
+$product-photo-fix-height-md:   200px;
+$product-photo-fix-height-lg:   300px;
+
+$product-photo-zoom-width:  400px;
+$product-photo-zoom-height: $product-photo-fix-height-lg;
+
+
+$product-price-bg-color:        #fff4c7;
+
+$product-photo-thumbs-number:   5;
+$product-photo-thumb-height:    60px;
+
+$product-label-size:            rem(50);
+$product-label-size--small:     rem(30);
+$product-label-bg-hit:          #FFAD2D;
+$product-label-bg-hot:          #62B12E;
+$product-label-bg-action:       #FF2C2C;
+$product-label-bg-discount:     #FF8001;
+
+$product-available-color:       #75b24d;
+$product-unavailable-color:     #aeaeae;
+
+$product-sales-fz:          16px;
+$product-sales-border:      1px dashed $theme-main-color;
+$product-sales-main-bg:     #fff;
+$product-sales-accent-bg:   $theme-secondary-color;
+$product-sales-title-color: #000;
+
+
+//--------------------------------------------------
+// Compare products
+//--------------------------------------------------
+$compare-product-height:            140px;
+$compare-product-bg:                #f8f9fa;
+
+
+
+//--------------------------------------------------
+// Modal window
+//--------------------------------------------------
+$modal-size:                        700px;
+$modal-size-sm:                     500px;
+$modal-size-lg:                     900px;
+$modal-hor-padding:                 15px;                   
+$modal-bg:                   $theme-secondary-color;
+$modal-border:               $base-border-color;
+$modal-color:                #000;
+
+
+
+//--------------------------------------------------
+// Ajax Loaders
+//--------------------------------------------------
+$spinner-fa-size:                   45px;
+$spinner-fa-color:                  #000;
+$spinner-fa-image:                  '\f110';
+
+$spinner-circle_speed:              .675s;
+$spinner-circle_radius:             80%;
+$spinner-circle_fill_radius:        90px;
+
+$spinner-circle_size:               40px;
+$spinner-circle_thickness:          10px;
+$spinner-circle_inner_circle:       $spinner-circle_size - $spinner-circle_thickness;
+
+$spinner-circle_color:              black;
+$spinner-circle_bg:                 lightgray;
+$spinner-circle_inner_bg:           white;
+
+
+$mfp-image-background: #fff;
+$mfp-controls-color: #fff;
+
+$countdown-post-header-bg:       $theme-main-color;
+$countdown-post-title-color:    #fff;
+$countdown-post-content-bg:   $theme-secondary-color;
+$countdown-post-border-color: $theme-main-color

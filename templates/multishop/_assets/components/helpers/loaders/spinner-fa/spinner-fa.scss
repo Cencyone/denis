@@ -1,0 +1,16 @@
+.spinner-fa{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -#{$spinner-fa-size/2} 0 0 -#{$spinner-fa-size/2};
+	font: normal normal normal #{$spinner-fa-size}/1 FontAwesome;
+  animation: fa-spin 1s infinite steps(8);  
+
+  &:after{
+		display: block;
+		content: $spinner-fa-image;
+		color: $spinner-fa-color;
+		z-index: 200;
+  	opacity: 0.7;
+	}
+}

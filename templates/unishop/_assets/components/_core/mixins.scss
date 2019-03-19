@@ -1,0 +1,68 @@
+//Link primary
+@mixin link-main {
+  color: $base-main-link-color;
+  text-decoration: $base-main-link-decor;
+
+  &:hover {
+    color: $base-main-link-hover-color;
+    text-decoration: $base-main-link-decor-hover;
+  }
+}
+
+//Link second
+@mixin link-second {
+  color: $base-second-link-color;
+  text-decoration: $base-second-link-decor;
+
+  &:hover {
+    color: $base-second-link-hover-color;
+    text-decoration: $base-second-link-decor-hover;
+  }
+}
+
+@mixin link-js {
+  text-decoration: none;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+//Link empty, not clickable
+@mixin link-empty {
+  &, &:hover {
+    color: $base-font-color !important;
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+@mixin grid-vetical-gutter($gutter) {
+  margin-bottom: -$gutter;
+
+  & > [class*="col-"],
+  .slick-track > [class*="col-"]{
+    padding-bottom: $gutter;
+  }
+}
+
+//vertical alignment
+@mixin absolute-center-translate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// absolute vertical and horizontal align. elemet's height should be set
+@mixin absolute-center-margin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

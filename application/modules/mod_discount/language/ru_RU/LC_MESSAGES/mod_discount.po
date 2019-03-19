@@ -1,0 +1,492 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-04 12:26+0200\n"
+"PO-Revision-Date: 2016-01-04 12:26+0200\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/mod_discount/admin.php:62
+msgid "Discount ID:"
+msgstr ""
+
+#: application/modules/mod_discount/assets/js/adminScripts.js:243
+msgid "Message"
+msgstr "Сообщение"
+
+#: application/modules/mod_discount/assets/js/adminScripts.js:243
+msgid "Discount was successfully deleted"
+msgstr "Скидка успешно удалена"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:425
+msgid "Values `from` and `to` can not be equal"
+msgstr "Значения << от >> и << до >> не могут быть равны"
+
+#: application/modules/mod_discount/admin.php:139
+msgid "Discount was edited"
+msgstr "Скидка была отредактирована"
+
+#: application/modules/mod_discount/admin.php:222
+msgid "Status discount was changed"
+msgstr "Статус скидки был изменен"
+
+#: application/modules/mod_discount/admin.php:236
+msgid "Discount was removed"
+msgstr "Скидка была удалена"
+
+#: application/modules/mod_discount/admin.php:62
+#: application/modules/mod_discount/admin.php:63
+msgid "Discount successfully created!"
+msgstr "Скидка успешно создана"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:269
+#: application/modules/mod_discount/assets/admin/create.tpl:251
+msgid "ID / Name / Number"
+msgstr "ID / Название / Артикул"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:336
+msgid "Error creating discount"
+msgstr "Ошибка при создании скидки"
+
+#: application/modules/mod_discount/admin.php:201
+#: application/modules/mod_discount/admin.php:209
+#: application/modules/mod_discount/admin.php:214
+msgid "Error"
+msgstr "Ошибка"
+
+#: application/modules/mod_discount/admin.php:201
+msgid "Discount don't exists"
+msgstr "Скидка не существует"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:397
+#: application/modules/mod_discount/admin.php:214
+msgid "This group of users already have active discount"
+msgstr "У этой группы пользователей уже есть действующая скидка"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:221
+#: application/modules/mod_discount/assets/admin/create.tpl:206
+msgid "ID / Name / E-mail"
+msgstr "ID / Имя / Электронная почта"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:41
+msgid "Active"
+msgstr "Активен"
+
+#: application/modules/mod_discount/classes/BaseDiscount.php:275
+#: application/modules/mod_discount/assets/admin/edit.tpl:143
+#: application/modules/mod_discount/assets/admin/create.tpl:139
+#: application/modules/mod_discount/assets/admin/list.tpl:25
+msgid "Brand"
+msgstr "Бренд"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:389
+msgid "Enter the user who is in the database"
+msgstr "Введите пользователя, который находится в базе данных"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:385
+msgid "Enter a product that is in the database"
+msgstr "Введите продукт, который находится в базе данных"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:14
+#: application/modules/mod_discount/assets/admin/create.tpl:14
+msgid "Back"
+msgstr "Вернуться"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:39
+msgid "Beggining time"
+msgstr "Время начала"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:40
+msgid "End time"
+msgstr "Время окончания"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:18
+msgid "All"
+msgstr "Все"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:96
+#: application/modules/mod_discount/assets/admin/create.tpl:91
+msgid "Choose method"
+msgstr "Выберите метод"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:133
+#: application/modules/mod_discount/assets/admin/create.tpl:128
+msgid "Choose type"
+msgstr "Выберите тип"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:15
+msgid "Choose discount type"
+msgstr "Выберите тип скидки"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:140
+#: application/modules/mod_discount/assets/admin/list.tpl:22
+msgid "User group"
+msgstr "Группа пользователей"
+
+#: application/modules/mod_discount/classes/BaseDiscount.php:272
+#: application/modules/mod_discount/assets/admin/create.tpl:136
+msgid "Users group"
+msgstr "Группа пользователей"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:79
+#: application/modules/mod_discount/assets/js/adminScripts.js:324
+#: application/modules/mod_discount/assets/js/adminScripts.js:326
+msgid "Yes"
+msgstr "Да"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:30
+#: application/modules/mod_discount/assets/admin/create.tpl:29
+msgid "Discount details"
+msgstr "Детали скидки"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:192
+#: application/modules/mod_discount/assets/admin/edit.tpl:318
+#: application/modules/mod_discount/assets/admin/create.tpl:184
+#: application/modules/mod_discount/assets/admin/create.tpl:300
+msgid "to"
+msgstr "до"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:299
+#: application/modules/mod_discount/assets/admin/create.tpl:281
+msgid "Allowed time for discounts"
+msgstr "Допустимое время для скидок"
+
+#: application/modules/mod_discount/models/discount_model_admin.php:529
+#: application/modules/mod_discount/models/discount_model_admin.php:541
+msgid "Value"
+msgstr "Значение"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:377
+msgid "Value must be numeric"
+msgstr "Значение должно быть числовым"
+
+#: application/modules/mod_discount/admin.php:140
+msgid "Changes saved"
+msgstr "Изменения сохранены"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:38
+msgid "Used"
+msgstr "Использований"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:4
+msgid "Maximum possible discount is using"
+msgstr "Используется максимально возможная скидка"
+
+#: application/modules/mod_discount/classes/BaseDiscount.php:273
+#: application/modules/mod_discount/assets/admin/edit.tpl:141
+#: application/modules/mod_discount/assets/admin/create.tpl:137
+#: application/modules/mod_discount/assets/admin/list.tpl:23
+msgid "Category"
+msgstr "Категория"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:35
+msgid "Key"
+msgstr "Ключ"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:13
+msgid "discount key"
+msgstr "ключ скидки"
+
+#: application/modules/mod_discount/assets/gift_succes.tpl:3
+#: application/modules/mod_discount/assets/gift.tpl:3
+msgid "Certificate code"
+msgstr "Код сертификата"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:44
+#: application/modules/mod_discount/assets/admin/create.tpl:43
+msgid "Discount code"
+msgstr "Код скидки"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:381
+msgid "Amount <<from>> can not be greater than the sum <<to>>"
+msgstr "Количество << от >> не может быть больше, чем << до >>"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:57
+#: application/modules/mod_discount/assets/admin/create.tpl:56
+msgid "Count of usage"
+msgstr "Количество использования"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:357
+msgid "End value must be numeric"
+msgstr "Конечноезначение должено быть числовым"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:37
+msgid "Limit"
+msgstr "Лимит"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:373
+msgid "Max apply must be numeric"
+msgstr "Максимальное количество применений должено быть числовым"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:202
+#: application/modules/mod_discount/assets/admin/create.tpl:194
+msgid "Maximum"
+msgstr "Максимальный"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:87
+#: application/modules/mod_discount/assets/admin/create.tpl:81
+msgid "Method of calculation"
+msgstr "Метод подсчета"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:401
+msgid "There can be more than one discount with said upper threshold as a <<maximum>>!"
+msgstr "Может быть только одна накопительная скидка с максимальным верхним порогом"
+
+#: application/modules/mod_discount/assets/gift_succes.tpl:6
+msgid "on amount"
+msgstr "на сумму"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:36
+msgid "Name"
+msgstr "Название"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:12
+msgid "discount name"
+msgstr "Название скидки"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:40
+#: application/modules/mod_discount/assets/admin/create.tpl:39
+msgid "Discount name"
+msgstr "Название скидки"
+
+#: application/modules/mod_discount/classes/BaseDiscount.php:270
+#: application/modules/mod_discount/assets/admin/edit.tpl:138
+#: application/modules/mod_discount/assets/admin/create.tpl:134
+#: application/modules/mod_discount/assets/admin/list.tpl:20
+msgid "Cumulative discount"
+msgstr "Накопительная скидка"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:361
+#: application/modules/mod_discount/classes/DiscountManager.php:365
+#: application/modules/mod_discount/classes/DiscountManager.php:369
+msgid "Begin value must be numeric"
+msgstr "Начальное значение должно быть числовым"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:413
+#: application/modules/mod_discount/classes/DiscountManager.php:417
+#: application/modules/mod_discount/classes/DiscountManager.php:421
+msgid "Invalid date range!"
+msgstr "Неверный диапазон дат!"
+
+#: application/modules/mod_discount/discount_api.php:78
+msgid "Invalid code try again"
+msgstr "Неверный код, попробуйте еще раз"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:405
+#: application/modules/mod_discount/classes/DiscountManager.php:409
+msgid "Invalid type value!"
+msgstr "Недопустимый тип значения!"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:72
+#: application/modules/mod_discount/assets/admin/create.tpl:66
+msgid "Unlimit"
+msgstr "Неограниченно"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:58
+msgid "Unlimited"
+msgstr "Неограниченно"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:353
+msgid "Wrong type discount"
+msgstr "Неправильный тип скидки"
+
+#: application/modules/mod_discount/assets/admin/create.tpl:131
+#: application/modules/mod_discount/assets/admin/list.tpl:81
+#: application/modules/mod_discount/assets/js/adminScripts.js:318
+#: application/modules/mod_discount/assets/js/adminScripts.js:319
+msgid "No"
+msgstr "Нет"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:184
+#: application/modules/mod_discount/assets/admin/create.tpl:179
+msgid "from"
+msgstr "от"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:309
+#: application/modules/mod_discount/assets/admin/create.tpl:291
+msgid "Period of the discount from"
+msgstr "Период действия скидки от"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:136
+#: application/modules/mod_discount/assets/admin/create.tpl:132
+msgid "Gift Certificate"
+msgstr "Подарочный сертификат"
+
+#: application/modules/mod_discount/classes/BaseDiscount.php:271
+#: application/modules/mod_discount/assets/admin/edit.tpl:139
+#: application/modules/mod_discount/assets/admin/create.tpl:135
+#: application/modules/mod_discount/assets/admin/list.tpl:21
+msgid "User"
+msgstr "Пользователь"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:218
+msgid "User does not exist"
+msgstr "Пользователь не существует"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:333
+#: application/modules/mod_discount/assets/admin/create.tpl:313
+msgid "Constant discount"
+msgstr "Постоянная скидка"
+
+#: application/modules/mod_discount/assets/gift.tpl:6
+msgid "Apply sertificate"
+msgstr "Применить сертификат"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:100
+#: application/modules/mod_discount/assets/admin/create.tpl:95
+msgid "Percents"
+msgstr "Проценты"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:16
+msgid "discount size"
+msgstr "размер скидки"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:7
+#: application/modules/mod_discount/assets/discount_order.tpl:17
+msgid "discount amount"
+msgstr "размер скидки"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:10
+msgid "Discount editing"
+msgstr "Редактирование скидки"
+
+#: application/modules/mod_discount/admin.php:159
+msgid "Discount not found"
+msgstr "Скидка не найден"
+
+#: application/modules/mod_discount/module_info.php:8
+#: application/modules/mod_discount/assets/admin/list.tpl:5
+msgid "Discounts of online store"
+msgstr "Скидки интернет-магазина"
+
+#: application/modules/mod_discount/assets/admin/create.tpl:10
+msgid "Discount creating"
+msgstr "Создание скидки"
+
+#: application/modules/mod_discount/assets/admin/create.tpl:16
+msgid "Create"
+msgstr "Создать"
+
+#: application/modules/mod_discount/assets/admin/create.tpl:19
+msgid "Create and exit"
+msgstr "Создать и выйти"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:16
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:19
+msgid "Save and exit"
+msgstr "Сохранить и выйти"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:101
+msgid "Discounts list is empty"
+msgstr "Список скидок пуст"
+
+#: application/modules/mod_discount/admin.php:223
+msgid "Status changed"
+msgstr "Статус изменен"
+
+#: application/modules/mod_discount/classes/BaseDiscount.php:269
+#: application/modules/mod_discount/assets/admin/edit.tpl:137
+#: application/modules/mod_discount/assets/admin/create.tpl:133
+#: application/modules/mod_discount/assets/admin/list.tpl:19
+msgid "Order amount of more than"
+msgstr "Сумма заказа на больше чем"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:57
+#: application/modules/mod_discount/classes/DiscountManager.php:88
+#: application/modules/mod_discount/classes/DiscountManager.php:119
+#: application/modules/mod_discount/classes/DiscountManager.php:149
+#: application/modules/mod_discount/classes/DiscountManager.php:179
+msgid "Entity does not exists!"
+msgstr "Сущность не существует!"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:214
+msgid "Current user"
+msgstr "Текущий пользователь"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:266
+msgid "Current product"
+msgstr "Текущий товар"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:122
+#: application/modules/mod_discount/assets/admin/create.tpl:117
+msgid "Discount type"
+msgstr "Тип скидки"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:15
+msgid "discount charge type"
+msgstr "тип скидки"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:14
+msgid "discount type"
+msgstr "тип скидки"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:6
+msgid "discount type: product"
+msgstr "тип скидки: наименования"
+
+#: application/modules/mod_discount/classes/BaseDiscount.php:274
+#: application/modules/mod_discount/assets/admin/edit.tpl:142
+#: application/modules/mod_discount/assets/admin/create.tpl:138
+#: application/modules/mod_discount/assets/admin/list.tpl:24
+msgid "Product"
+msgstr "Товар"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:175
+#: application/modules/mod_discount/assets/admin/create.tpl:170
+msgid "Only for registered"
+msgstr "Только для зарегистрированных"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:393
+#: application/modules/mod_discount/admin.php:209
+msgid "This user already have active discount"
+msgstr "У этого пользователя уже есть действующая скидка"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:42
+msgid "Delete"
+msgstr "Удалить"
+
+#: application/modules/mod_discount/classes/DiscountManager.php:283
+#: application/modules/mod_discount/classes/DiscountManager.php:430
+msgid "Has been already created with the cumulative discount value"
+msgstr "Уже создана накопительная скидка с таким значением"
+
+#: application/modules/mod_discount/module_info.php:9
+msgid "Manage all discounts of online store"
+msgstr "Управление всеми скидками интернет-магазина"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:257
+#: application/modules/mod_discount/assets/admin/create.tpl:242
+msgid "Change child category"
+msgstr "Учитывать дочерние категории"
+
+#: application/modules/mod_discount/assets/admin/edit.tpl:101
+#: application/modules/mod_discount/assets/admin/create.tpl:96
+msgid "Fixed"
+msgstr "Фиксированный"
+
+#: application/modules/mod_discount/assets/discount_order.tpl:10
+msgid "number"
+msgstr "число"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:11
+msgid "Create discount"
+msgstr "Создать скидку"
+
+#: application/modules/mod_discount/assets/admin/list.tpl:49
+msgid "Edit discount"
+msgstr "Редактировать скидку"

@@ -1,0 +1,95 @@
+.content {
+  margin-top: 20px;
+
+  &__container {
+    // extending bootstrap container
+    // using when full width frames inside container are needed and there are no page__container active!
+    @extend .container-fluid;
+    max-width: $site-max-width;
+  }
+
+  /* Pages header and H1 title group */
+  &__header {
+    padding-bottom: 15px;
+
+    &--xs {
+      padding-bottom: 0;
+    }
+  }
+
+  &__title {
+    display:        inline-block;
+    padding-bottom: 8px;
+    padding-right:  6px;
+    font-size:      2rem;
+    line-height:    1.1;
+    color:          #000;
+  }
+
+  &__quote {
+    color: $base-font-color-secondary;
+  }
+
+  &__hinfo {
+    display:     inline-block;
+    font-size:   0.9em;
+    color:       #000;
+    white-space: nowrap;
+
+    &-number {
+      font-weight: bold;
+    }
+  }
+
+  /* Content univarsal wrapper for vertical space */
+  &__row {
+    padding-bottom: 50px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &--sm {
+      padding-bottom: 20px;
+    }
+
+    &--top-md {
+      padding-top: 30px;
+    }
+  }
+
+  /* Content pagination wrapper */
+  &__pagination {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  /* Content toolbar wrapper */
+  &__toolbar {
+    padding-bottom: 20px;
+  }
+
+  /* Content sidebar */
+  &__sidebar {
+    border-left:  1px solid $base-border-color;
+    padding-left: $grid-gutter-width;
+
+    &-item {
+      padding-bottom: 20px;
+    }
+  }
+  &__img {
+    display:       block;
+    padding:       1em;
+    border:        1px solid $base-border-color;
+    max-width:     100%;
+    max-height:    100%;
+
+    margin-bottom: rem(20px);
+
+    @media (min-width: $screen-md-min) {
+      margin-bottom: 0;
+    }
+  }
+
+}

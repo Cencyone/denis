@@ -1,0 +1,117 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-19 04:21+0300\n"
+"PO-Revision-Date: 2016-07-19 04:21+0300\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/navigation/navigation_widgets.php:99
+msgid "Order details"
+msgstr "Деталі замовлення"
+
+#: application/modules/navigation/navigation_widgets.php:110
+msgid "Callbacks"
+msgstr "Зворотні виклики"
+
+#: application/modules/navigation/navigation_widgets.php:116
+msgid "Wishlist"
+msgstr "Список побажань"
+
+#: application/modules/navigation/navigation_widgets.php:122
+msgid "Feedback"
+msgstr "Зворотній звязок"
+
+#: application/modules/navigation/navigation_widgets.php:125
+msgid "Action type"
+msgstr "Спецпропозиції"
+
+#: application/modules/navigation/navigation_widgets.php:234
+msgid "Login"
+msgstr "Вхід"
+
+#: application/modules/navigation/navigation_widgets.php:241
+msgid "Registration"
+msgstr "Реєстрація"
+
+#: application/modules/navigation/navigation_widgets.php:248
+msgid "Activation"
+msgstr "Активація"
+
+#: application/modules/navigation/navigation_widgets.php:255
+msgid "Remind password"
+msgstr "Нагадати пароль"
+
+#: application/modules/navigation/navigation_widgets.php:262
+msgid "Reset password"
+msgstr "Скидання пароля"
+
+#: application/modules/navigation/navigation_widgets.php:269
+msgid "Change password"
+msgstr "Зміна пароля"
+
+#: application/modules/navigation/navigation_widgets.php:193
+msgid "Gallery"
+msgstr "Галерея"
+
+#: application/modules/navigation/navigation_widgets.php:216
+msgid "All albums"
+msgstr "Всі альбоми"
+
+#: application/modules/navigation/widgets_info.php:5
+msgid "Site navigation"
+msgstr "Навігація по сайту"
+
+#: application/modules/navigation/widgets_info.php:6
+msgid "Displays the current location of the user on the site."
+msgstr "Відображає поточне місцезнаходження користувача на сайті."
+
+#: application/modules/navigation/navigation_widgets.php:80
+#: application/modules/navigation/navigation_widgets.php:92
+msgid "Brands"
+msgstr "Бренди"
+
+#: application/modules/navigation/navigation_widgets.php:97
+#: application/modules/navigation/navigation_widgets.php:113
+msgid "Compare"
+msgstr "Порівняти"
+
+#: application/modules/navigation/navigation_widgets.php:101
+msgid "Wish list"
+msgstr "Список побажань"
+
+#: application/modules/navigation/navigation_widgets.php:104
+msgid "Profile"
+msgstr "Профіль"
+
+#: application/modules/navigation/navigation_widgets.php:107
+msgid "Search"
+msgstr "Пошук"
+
+#: application/modules/navigation/navigation_widgets.php:119
+msgid "Cart"
+msgstr "Кошик"
+
+#: application/modules/navigation/module_info.php:8
+msgid "Site Navigation"
+msgstr "Навігація по сайту"
+
+#: application/modules/navigation/module_info.php:9
+msgid "Displays the current user location on the site."
+msgstr "Відображає поточне місце розташування користувача на сайті"
+
+#: application/modules/navigation/templates/widget_navigation.tpl:3
+msgid "Navigation"
+msgstr "Навігація"

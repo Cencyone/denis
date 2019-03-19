@@ -1,0 +1,47 @@
+.site-info {
+  display: table;
+
+  &__aside {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: rem(10px);
+  }
+
+  &__inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__icon {
+    position: relative;
+    width: rem(35px);
+    height: rem(35px);
+    color: $site-info-ico-color;
+    background: $site-info-ico-bg;
+
+    & > .svg-icon {
+      @include absolute-center-margin;
+      width: 65%;
+      height: 65%;
+    }
+  }
+
+  &__title {
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: $site-info-title-color;
+    font-weight: bold;
+
+    &-link {
+      @include link-main;
+    }
+  }
+
+  &__desc {
+    color: $base-font-color;
+  }
+
+  &__link {
+    @include link-main;
+  }
+}

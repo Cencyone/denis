@@ -1,0 +1,1 @@
+{$menu} - {if $tpl_folder}{$THEME}{$e.user_template}{else:}{$e.system_template}{/if}

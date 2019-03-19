@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<yml_catalog date="2016-08-04 19:00">
+    <shop>
+        <name>Unishop</name>
+        <company>Unishop - Бесплатный интернет магазин онлайн покупок</company>
+        <url>http://imagedev.loc/</url>
+        <platform>ImageCMS</platform>
+        <version>4.11 Premium</version>
+        <email>info@fullmarket.com</email>
+        <currencies>
+            <currency id="RUR" rate="1.000"/>
+            <currency id="USD" rate="56.000"/>
+            <currency id="EUR" rate="1.300"/>
+        </currencies>
+        <categories>
+            <category id="3014">Электроника</category>
+            <category id="3015" parentId="3014">Планшеты</category>
+            <category id="3017" parentId="3014">Аудио</category>
+            <category id="3018" parentId="3023">Ноутбуки</category>
+        </categories>
+        <offers>
+            <offer
+                    id="17937"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/koss-bt540i</url>
+                <price>40.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3017</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/b775166a4945013ff8a34ac0c5758f30.jpg</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/6c76d37a5e2ecd7dea408ffa00e9ca85.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/98a5800558f62f54cbc98048713565ee.jpg
+                </picture>
+                <name>Наушники профессиональные Koss BT540i проводное соединение</name>
+                <vendor>Koss</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Модель имеет съёмный кабель и складную конструкцию, что удобно для хранения и
+                    транспортировки. Наушники отличаются комфортной посадкой за счет удобного оголовья, покрытого мягкой
+                    кожей сверху и приятным велюром с внутренней стороны.&lt;/p&gt;
+                    &lt;p&gt;Ещё один важный момент: KOSS BT540i &amp;mdash; не просто наушники, а гарнитура. На съёмном
+                    кабеле микрофонов нет, они находятся на правой чаше. Микрофонов два, что помогает отсекать внешний
+                    шум и повышает качество передачи речи. Основной микрофон &amp;mdash; голосовой &amp;mdash;
+                    расположен на чаше рядом с входом micro-USB. Второй, используемый в паре с основным для подавления
+                    внешних шумов, находится рядом с креплением чаши и выглядит, как небольшая полость в правом
+                    наушнике.&lt;br /&gt;&lt;br /&gt;&lt;iframe src=&quot;//www.youtube.com/embed/lahJlYdVbTw&quot;
+                    width=&quot;625&quot; height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Материал корпуса">Пластик, Другое</param>
+                <param name="Минимальная частота, Гц  ">11-15</param>
+                <param name="Цвет">Черный</param>
+                <param name="Соединительный разъем">USB</param>
+                <param name="Способ подключения">Проводной, Беспроводной</param>
+                <param name="Максимальная частота, кГц">26-30</param>
+                <param name="Поддержка объемного звука  ">5.1</param>
+                <param name="Тип устройства">Наушники с микрофоном</param>
+            </offer>
+            <offer
+                    id="17938"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/koss-bt540i</url>
+                <price>40.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3017</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/93a112b70456573a0b4ec737e17982a2.jpg</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/6c76d37a5e2ecd7dea408ffa00e9ca85.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/98a5800558f62f54cbc98048713565ee.jpg
+                </picture>
+                <name>Наушники профессиональные Koss BT540i беспроводное соединение</name>
+                <vendor>Koss</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Модель имеет съёмный кабель и складную конструкцию, что удобно для хранения и
+                    транспортировки. Наушники отличаются комфортной посадкой за счет удобного оголовья, покрытого мягкой
+                    кожей сверху и приятным велюром с внутренней стороны.&lt;/p&gt;
+                    &lt;p&gt;Ещё один важный момент: KOSS BT540i &amp;mdash; не просто наушники, а гарнитура. На съёмном
+                    кабеле микрофонов нет, они находятся на правой чаше. Микрофонов два, что помогает отсекать внешний
+                    шум и повышает качество передачи речи. Основной микрофон &amp;mdash; голосовой &amp;mdash;
+                    расположен на чаше рядом с входом micro-USB. Второй, используемый в паре с основным для подавления
+                    внешних шумов, находится рядом с креплением чаши и выглядит, как небольшая полость в правом
+                    наушнике.&lt;br /&gt;&lt;br /&gt;&lt;iframe src=&quot;//www.youtube.com/embed/lahJlYdVbTw&quot;
+                    width=&quot;625&quot; height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Материал корпуса">Пластик, Другое</param>
+                <param name="Минимальная частота, Гц  ">11-15</param>
+                <param name="Цвет">Черный</param>
+                <param name="Соединительный разъем">USB</param>
+                <param name="Способ подключения">Проводной, Беспроводной</param>
+                <param name="Максимальная частота, кГц">26-30</param>
+                <param name="Поддержка объемного звука  ">5.1</param>
+                <param name="Тип устройства">Наушники с микрофоном</param>
+            </offer>
+            <offer
+                    id="17955"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/impad-0314</url>
+                <price>100.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3015</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/81a236507173638e57ed45e29c631c0d.jpg</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/ed02236bb764da34cd05810d37a35287.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/dc5b5ef9970c9c0967eed42f1cc2fc6f.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/c972fc5d308c4a56d5ea1b27602e1935.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/01f3c1ec765a3f0e84662532b22ac62c.jpg
+                </picture>
+                <name>Планшет на базе Android - Impression ImPAD 0314 Android 4.4.2</name>
+                <vendor>Impression</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Планшет Impression ImPAD 5214 7&quot; IPS (1024x600)//двухъядерный Rockchip 3026
+                    (ядро ARM Cortex-A9) 1.0 ГГц//1024 MB DDR3//8 ГБ//Wi-Fi//Веб-камера 0.3 Мп, 2.0 Мп//Android 4.4.2//&lt;/p&gt;
+                    &lt;p&gt;Гарантия 12 месяцев&lt;/p&gt;
+                    &lt;p&gt;&lt;iframe src=&quot;//www.youtube.com/embed/rDj0empJ3vY&quot; width=&quot;625&quot;
+                    height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Цвет">Черный</param>
+                <param name="Интерфейс">USB 2.0, micro-USB, Wi-Fi</param>
+                <param name="Операционная система">Android 4.X</param>
+                <param name="Диагональ экрана">10" - 10,8"</param>
+                <param name="Oбъем жесткого диска Гб">32</param>
+            </offer>
+            <offer
+                    id="17956"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/impad-0314</url>
+                <price>130.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3015</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/5d5a2b56fc621827f733789e68d127e3.jpg</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/ed02236bb764da34cd05810d37a35287.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/dc5b5ef9970c9c0967eed42f1cc2fc6f.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/c972fc5d308c4a56d5ea1b27602e1935.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/01f3c1ec765a3f0e84662532b22ac62c.jpg
+                </picture>
+                <name>Планшет на базе Android - Impression ImPAD 0314 android 5.0 lollipop</name>
+                <vendor>Impression</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Планшет Impression ImPAD 5214 7&quot; IPS (1024x600)//двухъядерный Rockchip 3026
+                    (ядро ARM Cortex-A9) 1.0 ГГц//1024 MB DDR3//8 ГБ//Wi-Fi//Веб-камера 0.3 Мп, 2.0 Мп//Android 4.4.2//&lt;/p&gt;
+                    &lt;p&gt;Гарантия 12 месяцев&lt;/p&gt;
+                    &lt;p&gt;&lt;iframe src=&quot;//www.youtube.com/embed/rDj0empJ3vY&quot; width=&quot;625&quot;
+                    height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Цвет">Черный</param>
+                <param name="Интерфейс">USB 2.0, micro-USB, Wi-Fi</param>
+                <param name="Операционная система">Android 4.X</param>
+                <param name="Диагональ экрана">10" - 10,8"</param>
+                <param name="Oбъем жесткого диска Гб">32</param>
+            </offer>
+            <offer
+                    id="17957"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/impad-0314</url>
+                <price>140.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3015</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/4bc1db6ff23b031c769de11879f15ee8.jpg</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/ed02236bb764da34cd05810d37a35287.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/dc5b5ef9970c9c0967eed42f1cc2fc6f.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/c972fc5d308c4a56d5ea1b27602e1935.jpg
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/01f3c1ec765a3f0e84662532b22ac62c.jpg
+                </picture>
+                <name>Планшет на базе Android - Impression ImPAD 0314 android 6.0 milkshake</name>
+                <vendor>Impression</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Планшет Impression ImPAD 5214 7&quot; IPS (1024x600)//двухъядерный Rockchip 3026
+                    (ядро ARM Cortex-A9) 1.0 ГГц//1024 MB DDR3//8 ГБ//Wi-Fi//Веб-камера 0.3 Мп, 2.0 Мп//Android 4.4.2//&lt;/p&gt;
+                    &lt;p&gt;Гарантия 12 месяцев&lt;/p&gt;
+                    &lt;p&gt;&lt;iframe src=&quot;//www.youtube.com/embed/rDj0empJ3vY&quot; width=&quot;625&quot;
+                    height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Цвет">Черный</param>
+                <param name="Интерфейс">USB 2.0, micro-USB, Wi-Fi</param>
+                <param name="Операционная система">Android 4.X</param>
+                <param name="Диагональ экрана">10" - 10,8"</param>
+                <param name="Oбъем жесткого диска Гб">32</param>
+            </offer>
+            <offer
+                    id="17958"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/ipad-air</url>
+                <price>1600.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3015</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/407105a45a4b7877fd11eec3a2001f43.png</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/5952400eaa237b5844270ca9f39c55c8.png
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/9edf0863463eca8088a3de2c6d48c328.png
+                </picture>
+                <name>Высокопроизводительный планшет на Mac OS - iPad Air Серебристый</name>
+                <vendor>Apple</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Первое, на что обращаешь внимание &amp;mdash; насколько тонкое и лёгкое устройство
+                    у вас в руках. Толщина iPad Air 2 &amp;mdash; всего 6,1 миллиметра. Это наш самый тонкий iPad. А
+                    весит он менее 450 грамм. Его ещё легче держать одной рукой и брать с собой повсюду.&lt;/p&gt;
+                    &lt;p&gt;Самый первый iPad, представленный четыре года назад, задал стандарты толщины и веса. И с
+                    каждым разом мы делаем iPad ещё тоньше и ещё легче. Но при этом, благодаря алюминиевому корпусу iPad
+                    Air 2 остаётся таким же прочным. Стоит взять устройство в руки &amp;mdash; и вы сразу поймёте,
+                    насколько он крепкий и монолитный.&lt;br /&gt;&lt;br /&gt;&lt;iframe src=&quot;//www.youtube.com/embed/BCqJGoCMlVc&quot;
+                    width=&quot;625&quot; height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Интерфейс">USB 3.0, USB 2.0, UHS 1, Проприетарный разъем Apple iPad, iPod</param>
+                <param name="Объем встроенной памяти, ГБ">32</param>
+                <param name="Операционная система">Apple iOS</param>
+                <param name="Диагональ экрана">11,6" и больше</param>
+                <param name="Oбъем жесткого диска Гб">350</param>
+                <param name="Цвет">Серебряный/Серый</param>
+            </offer>
+            <offer
+                    id="17959"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/ipad-air</url>
+                <price>1600.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3015</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/71be5c23123fd09f5926416f82b1a09a.png</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/5952400eaa237b5844270ca9f39c55c8.png
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/9edf0863463eca8088a3de2c6d48c328.png
+                </picture>
+                <name>Высокопроизводительный планшет на Mac OS - iPad Air Золотистый</name>
+                <vendor>Apple</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Первое, на что обращаешь внимание &amp;mdash; насколько тонкое и лёгкое устройство
+                    у вас в руках. Толщина iPad Air 2 &amp;mdash; всего 6,1 миллиметра. Это наш самый тонкий iPad. А
+                    весит он менее 450 грамм. Его ещё легче держать одной рукой и брать с собой повсюду.&lt;/p&gt;
+                    &lt;p&gt;Самый первый iPad, представленный четыре года назад, задал стандарты толщины и веса. И с
+                    каждым разом мы делаем iPad ещё тоньше и ещё легче. Но при этом, благодаря алюминиевому корпусу iPad
+                    Air 2 остаётся таким же прочным. Стоит взять устройство в руки &amp;mdash; и вы сразу поймёте,
+                    насколько он крепкий и монолитный.&lt;br /&gt;&lt;br /&gt;&lt;iframe src=&quot;//www.youtube.com/embed/BCqJGoCMlVc&quot;
+                    width=&quot;625&quot; height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Интерфейс">USB 3.0, USB 2.0, UHS 1, Проприетарный разъем Apple iPad, iPod</param>
+                <param name="Объем встроенной памяти, ГБ">32</param>
+                <param name="Операционная система">Apple iOS</param>
+                <param name="Диагональ экрана">11,6" и больше</param>
+                <param name="Oбъем жесткого диска Гб">350</param>
+                <param name="Цвет">Серебряный/Серый</param>
+            </offer>
+            <offer
+                    id="17960"
+                    available="true">
+                <url>http://imagedev.loc/shop/product/ipad-air</url>
+                <price>1600.00000</price>
+                <currencyId>USD</currencyId>
+                <categoryId>3015</categoryId>
+                <picture>http://imagedev.loc/uploads/shop/products/main/c4e28c9cb4275e6c48fadd2a440b293a.png</picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/5952400eaa237b5844270ca9f39c55c8.png
+                </picture>
+                <picture>http://imagedev.loc/uploads/shop/products/additional/9edf0863463eca8088a3de2c6d48c328.png
+                </picture>
+                <name>Высокопроизводительный планшет на Mac OS - iPad Air Серый космос</name>
+                <vendor>Apple</vendor>
+                <vendorCode></vendorCode>
+                <description>&lt;p&gt;Первое, на что обращаешь внимание &amp;mdash; насколько тонкое и лёгкое устройство
+                    у вас в руках. Толщина iPad Air 2 &amp;mdash; всего 6,1 миллиметра. Это наш самый тонкий iPad. А
+                    весит он менее 450 грамм. Его ещё легче держать одной рукой и брать с собой повсюду.&lt;/p&gt;
+                    &lt;p&gt;Самый первый iPad, представленный четыре года назад, задал стандарты толщины и веса. И с
+                    каждым разом мы делаем iPad ещё тоньше и ещё легче. Но при этом, благодаря алюминиевому корпусу iPad
+                    Air 2 остаётся таким же прочным. Стоит взять устройство в руки &amp;mdash; и вы сразу поймёте,
+                    насколько он крепкий и монолитный.&lt;br /&gt;&lt;br /&gt;&lt;iframe src=&quot;//www.youtube.com/embed/BCqJGoCMlVc&quot;
+                    width=&quot;625&quot; height=&quot;515&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+                <sales_notes></sales_notes>
+                <cpa>1</cpa>
+                <adult>true</adult>
+                <param name="Интерфейс">USB 3.0, USB 2.0, UHS 1, Проприетарный разъем Apple iPad, iPod</param>
+                <param name="Объем встроенной памяти, ГБ">32</param>
+                <param name="Операционная система">Apple iOS</param>
+                <param name="Диагональ экрана">11,6" и больше</param>
+                <param name="Oбъем жесткого диска Гб">350</param>
+                <param name="Цвет">Серебряный/Серый</param>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>

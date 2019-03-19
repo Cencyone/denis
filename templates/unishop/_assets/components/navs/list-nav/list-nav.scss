@@ -1,0 +1,130 @@
+/*
+--------------------------------------------------
+Navigation menus styles
+--------------------------------------------------
+*/
+.list-nav {
+  $list-nav-hor-offset: 20px;
+  $list-nav-ver-offset: 8px;
+
+  //Modifiers
+  &--align {
+
+    &-center {
+      text-align: center;
+    }
+
+    &-right {
+      text-align: right;
+    }
+
+  }
+
+  &--valign {
+
+    &-middle {
+      .list-nav__item {
+        vertical-align: middle;
+      }
+    }
+
+    &-bottom {
+      .list-nav__item {
+        vertical-align: bottom;
+      }
+    }
+
+  }
+
+  //Elements
+  &__items {
+    font-size: 0;
+    margin-top: -$list-nav-ver-offset;
+    margin-left: -$list-nav-hor-offset;
+  }
+
+  &__item {
+    display: inline-block;
+    font-size: 0.9rem;
+    vertical-align: top;
+
+    position: relative;
+
+    margin-left: $list-nav-hor-offset;
+    margin-top: $list-nav-ver-offset;
+
+    &:hover {
+      .list-nav__drop {
+        display: block;
+      }
+      .list-nav__link {
+        color: $base-main-link-hover-color;
+      }
+    }
+
+    //Element Modifiers
+    &--active {
+      .list-nav__link {
+        color: $base-font-color-secondary;
+      }
+      .list-nav__arrow{
+        fill: $base-font-color-secondary;
+      }
+    }
+
+  }
+
+  &__link {
+    @include link-main;
+    border: 0;
+
+    &--empty {
+      @include link-empty;
+    }
+  }
+
+  &__ico {
+    float: left;
+    margin-right: 3px;
+
+    &--caret-down {
+      width: 8px;
+      height: 8px;
+      fill: $base-font-color-secondary;
+
+      svg {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  &__arrow{
+    display: inline-block;
+    fill: $base-main-link-color;
+    color: $base-main-link-color;
+    position: relative;
+    top: -1px;
+
+    &--down{
+      width: 8px;
+      height: 5px;
+    }
+  }
+
+  &__drop {
+    display: none;
+
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+
+    //Element Modifiers
+    &--rtl {
+      right: 0;
+      left: auto;
+    }
+  }
+
+}

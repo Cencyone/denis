@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/application/third_party/nqxcode/phpmorphy" />
+      <path value="$PROJECT_DIR$/application/third_party/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/application/third_party/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/application/third_party/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/application/third_party/doctrine/collections" />
+      <path value="$PROJECT_DIR$/application/third_party/doctrine/common" />
+      <path value="$PROJECT_DIR$/application/third_party/doctrine/cache" />
+      <path value="$PROJECT_DIR$/application/third_party/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/application/third_party/patchwork/jsqueeze" />
+      <path value="$PROJECT_DIR$/application/third_party/monolog/monolog" />
+      <path value="$PROJECT_DIR$/application/third_party/studio-42/elfinder" />
+      <path value="$PROJECT_DIR$/application/third_party/twig/twig" />
+      <path value="$PROJECT_DIR$/application/third_party/tinymce/tinymce" />
+      <path value="$PROJECT_DIR$/application/third_party/tubalmartin/cssmin" />
+      <path value="$PROJECT_DIR$/application/third_party/psr/log" />
+      <path value="$PROJECT_DIR$/application/third_party/psr/cache" />
+      <path value="$PROJECT_DIR$/application/third_party/gettext/gettext" />
+      <path value="$PROJECT_DIR$/application/third_party/gettext/languages" />
+      <path value="$PROJECT_DIR$/application/third_party/artem_c/emmet" />
+      <path value="$PROJECT_DIR$/application/third_party/greenlion/php-sql-parser" />
+      <path value="$PROJECT_DIR$/application/third_party/composer" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/yaml" />
+      <path value="$PROJECT_DIR$/application/third_party/propel/propel" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/config" />
+      <path value="$PROJECT_DIR$/application/third_party/filemanager/config" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/application/third_party/filemanager/lang" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/translation" />
+      <path value="$PROJECT_DIR$/application/third_party/filemanager/js" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/application/third_party/filemanager/uploader" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/application/third_party/filemanager/img" />
+      <path value="$PROJECT_DIR$/application/third_party/analog/analog" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/finder" />
+      <path value="$PROJECT_DIR$/application/third_party/filemanager/css" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/application/third_party/filemanager/include" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/validator" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/debug" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/cache" />
+      <path value="$PROJECT_DIR$/application/third_party/symfony/console" />
+      <path value="$PROJECT_DIR$/application/third_party/tecnickcom/tcpdf" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+</project>

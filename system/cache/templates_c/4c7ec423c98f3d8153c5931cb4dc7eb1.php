@@ -1,0 +1,1 @@
+<?php $mabilis_ttl=1552752263; $mabilis_last_modified=1491903758; //./templates/unishop/wishlist/jsLangs.tpl ?>

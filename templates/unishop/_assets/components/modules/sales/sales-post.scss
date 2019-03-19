@@ -1,0 +1,100 @@
+.sales-post {
+  width: 100%;
+
+  $label-width: 121px;
+  $label-height: 27px;
+  $label-bg: #FF2C2C;
+
+  &__global-link {
+    width:           100%;
+    display:         block;
+    text-decoration: none;
+    color:           #000;
+  }
+
+  &__photo {
+    position: relative;
+    overflow: hidden;
+    border:   1px solid $base-border-color;
+  }
+  &__img {
+    display:    block;
+    width:      100%;
+    max-height: 100%;
+  }
+  &__label {
+    position:    absolute;
+    top:         0;
+    left:        0;
+
+    width:       $label-width;
+    height:      $label-height;
+    line-height: $label-height;
+
+    font-size:   rem(11px);
+    font-weight: 700;
+    text-align:  center;
+    color:       #FFF;
+    background:  $label-bg;
+
+    transform:   rotate(-45deg) translate(-33px, -5px);
+  }
+
+  &__content {
+    width:      100%;
+    display:    table;
+    border:     1px solid $base-border-color;
+    border-top: 0;
+  }
+  &__cell {
+    display: table-cell;
+    padding: rem(8);
+
+    &:not(:first-child) {
+      border-left: 1px solid $base-border-color;
+    }
+
+    &--ta-center {
+      text-align: center;
+    }
+
+    &--w70 {
+      width: rem(70);
+    }
+  }
+
+  &__info {
+  }
+
+  &__headline {
+    margin-bottom: rem(3px);
+    text-align:    left;
+    color:         $base-font-color-secondary;
+    font-size:     rem(12);
+
+    & > * {
+      vertical-align: middle;
+    }
+  }
+  &__icon {
+    display:        inline-block;
+    vertical-align: middle;
+    width:          rem(14);
+    height:         rem(14);
+  }
+  &__title {
+    color: $base-main-link-color;
+  }
+  &:hover &__title {
+    color: $base-main-link-hover-color;
+  }
+
+  &__days {
+    font-weight: 700;
+
+    &--big {
+      font-size:   rem(35);
+      line-height: 1;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.post {
+
+  &__image {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  @media (min-width: $screen-sm-min) {
+
+    display: table;
+
+    //firefox max-width for table-cell hack
+    //table-layout: fixed;
+
+    &__image {
+      display: table-cell;
+      vertical-align: top;
+      padding-right: 10px;
+      margin-bottom: 0;
+
+      img {
+        max-width: 250px;
+      }
+    }
+
+    &__inner {
+      display: table-cell;
+      vertical-align: top;
+    }
+  }
+
+  &__date {
+    display: block;
+    color: $base-font-color-secondary;
+    padding-bottom: 3px;
+  }
+
+  &__title {
+
+    font-size: 1.3em;
+
+    &-link {
+      @include link-main;
+    }
+  }
+
+  &__desc {
+    padding-top: 5px;
+  }
+
+  &__readmore {
+    @include link-main;
+    display: block;
+    margin-top: 5px;
+    white-space: nowrap;
+
+    &:after {
+      content: '>';
+      margin-left: 5px;
+    }
+
+  }
+
+  &__expire{
+    display: block;
+    padding: 5px 0;
+    color: #cc0000;
+  }
+}

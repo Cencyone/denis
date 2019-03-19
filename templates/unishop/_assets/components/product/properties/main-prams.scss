@@ -1,0 +1,24 @@
+.main-params {
+  font-size: 0.9em;
+  @include clearfix;
+
+  &__item {
+    float: left;
+
+    &:not(:first-child){
+      &::after {
+        content: '/';
+        float: left;
+        margin: 0 4px;
+      }
+    }
+  }
+
+  &__key {
+    font-weight: bold;
+  }
+
+  &__val {
+
+  }
+}

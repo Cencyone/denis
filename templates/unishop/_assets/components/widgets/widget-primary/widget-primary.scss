@@ -1,0 +1,65 @@
+.widget-primary {
+  $title-color:   #1c1c1c;
+  $arrow-color:   $second-border-color;
+  $title-indent:  13px;
+  $arrow-height:  82px;
+
+  border: 1px solid $base-border-color;
+  margin-top: $title-indent;
+  position: relative;
+
+  &__header {
+    //margin-bottom: 1.2rem;
+  }
+
+  &__title {
+    padding: 0 20px;
+    background: #fff;
+    position: relative;
+    margin-left: 30px;
+    top: -($title-indent);
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: $title-color;
+  }
+
+  &__inner{
+    position: relative;
+    padding: 30px 50px 35px 50px;
+  }
+
+  &__arrows {
+
+  }
+
+  &__arrow {
+    @include position(absolute, calc(50% - #{$arrow-height/2}) null null null);
+    display: inline-block;
+    cursor: pointer;
+    width: 15px;
+    height: $arrow-height;
+    padding: 15px 0;
+    fill: $arrow-color;
+    color: $arrow-color;
+    background: #fff;
+
+    /* styles for disabled arrow, when slick carusel infinite is disabled */
+    &.slick-disabled {
+      visibility: hidden;
+      cursor: default;
+    }
+
+    &--left{
+      left: -10px;
+    }
+
+    &--right{
+      right: -10px;
+    }
+  }
+
+}

@@ -1,0 +1,58 @@
+.pricespy-table{
+  display: table;
+  width: 100%;
+}
+
+
+/* row element */
+.pricespy-table__row{
+  display: table-row;
+}
+
+
+/* col element */
+.pricespy-table__col{
+  display: table-cell;
+  vertical-align: middle;
+  border-bottom: 1px dashed #999;
+  padding: 10px 10px;
+}
+.pricespy-table__col--header{
+  border-bottom: 2px solid #999;
+  font-weight: bold;
+}
+.pricespy-table__col--decrease{
+  color: #288c5a;
+  font-weight: bold;
+}
+
+
+/* product element */
+.pricespy-table__product{
+  font-size: 0;
+}
+
+/* product-image element */
+.pricespy-table__product-image{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+  margin-right: 5px;
+  border: 1px solid #c7c7c7;
+  padding: 5px;
+}
+
+
+/* product-image element */
+.pricespy-table__product-img{
+  display: block;
+  max-width: 30px;
+}
+
+
+/* product-title element */
+.pricespy-table__product-title{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+}

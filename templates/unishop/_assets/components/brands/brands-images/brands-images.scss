@@ -1,0 +1,29 @@
+.brand-image{
+	display: block;
+	border: 1px solid $base-border-color;
+	text-decoration: none;
+
+	&__photo{
+		display: block;
+		position: relative;
+		width: 100%;
+		height: $bradns-image-height;		
+	}
+
+	&__img{
+		@include absolute-center-translate;
+		display: block;
+		max-height: $bradns-image-height;
+		padding: 20px;		
+	}
+
+	&__title{
+		display: block;
+		padding: 10px;
+		border-top:  1px solid $base-border-color;
+		text-align: center;
+		font-weight: bold;
+		color: #000;
+		background: $theme-secondary-color;
+	}
+}

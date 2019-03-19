@@ -1,0 +1,148 @@
+.comments {
+  $form-header-bg: $theme-secondary-color;
+  $form-body-bg: $theme-secondary-color;
+  $form-parent-bg: $theme-secondary-color;
+  $reply-form-bg: $form-body-bg;
+  $form-hor-padding: 15px;
+
+  &__list {
+    padding-bottom: 40px;
+  }
+
+  &__post {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid $base-border-color;
+
+    &:first-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+  &__post-header {
+    padding-bottom: 5px;
+  }
+  &__post-author {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000;
+  }
+  &__post-date {
+    display: inline-block;
+    margin-right: 5px;
+    color: $base-font-color-secondary;
+  }
+  &__post-rate {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+  }
+  &__post-text {
+    margin-bottom: 10px;
+    color: $base-font-color;
+  }
+  &__post-footer {
+    @include clearfix;
+  }
+  &__post-vote {
+    float: left;
+    font-size: 0;
+    color: $base-font-color-secondary;
+  }
+  &__post-vote-item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    color: $base-font-color-secondary;
+    text-decoration: none;
+
+    &:not(:first-child) {
+      margin-left: 15px;
+    }
+  }
+  &__post-vote-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+  }
+  &__post-reply {
+    float: left;
+    font-size: .9rem;
+    margin-left: 25px;
+  }
+  &__post-reply-link {
+    @include link-main;
+    @include link-js;
+  }
+
+  &-reply-form {
+    margin-top: 10px;
+    padding: 0 20px 20px 20px;
+    background-color: $reply-form-bg;
+  }
+
+  &__form {
+
+    &-header {
+      background-color: $form-header-bg;
+      margin-bottom: 1px;
+      padding: 15px $form-hor-padding 15px $form-hor-padding;
+      color: #000;
+      font-weight: bold;
+    }
+
+    &-body {
+      background-color: $form-body-bg;
+      padding: 0 $form-hor-padding 15px $form-hor-padding;
+    }
+  }
+
+  &__parent {
+    margin-top: 10px;
+
+    &-item {
+      padding: 20px;
+      background: $form-parent-bg;
+      &:not(:first-child) {
+        margin-top: 1px;
+      }
+    }
+
+    &-header {
+      @extend .comments__post-header;
+    }
+
+    &-author {
+      @extend .comments__post-author;
+      font-size: 0.9rem;
+    }
+
+    &-date {
+      @extend .comments__post-date;
+      font-size: 0.9rem;
+    }
+
+    &-text {
+      color: $base-font-color;
+    }
+  }
+
+  /* scrolling to form place on the page after non Ajax submit */
+  #comments-anchor {
+    position: absolute;
+    margin-top: -50px;
+
+    @media(min-width: $screen-sm-min) {
+      margin-top: -250px;
+    }
+  }
+
+}
+
+#comments-list {
+  position: absolute;
+  margin-top: -50px;
+}

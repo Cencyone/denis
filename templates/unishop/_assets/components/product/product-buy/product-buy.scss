@@ -1,0 +1,56 @@
+.product-buy{
+
+  &__available{
+    @include clearfix;
+    /* compensate quantity and button extra vertical indention */
+    margin-top: -10px;
+  }
+
+  &__quantity {
+    float: left;
+    margin-right: 10px;
+    /* extra indent to make vertical space on mobile devices when button transit into another row */
+    margin-top: 10px;
+    width: 140px;
+  }
+
+  &__buttons {
+    float: left;
+    /* extra indent to make vertical space on mobile devices when button transit into another row */
+    margin-top: 10px;
+  }
+
+  &__btn{
+    @extend .btn;
+    &--buy{
+      @extend .btn-primary;
+      @extend .btn--va-m;
+    }
+    &--in-cart{
+      @extend .btn-default;
+    }
+  }
+  &--product &__btn{
+    @extend .btn-lg;
+  }
+  &--product &__btn--in-cart{
+    @extend .btn-light;
+  }
+
+  &__unavailable {
+    margin-top: 10px;
+  }
+  &__unavailable-info{
+    font-size: 0.9em;
+    color: #000;
+  }
+  &__unavailable-notify{
+    margin-top: 2px;
+  }
+  &__unavailable-link{
+    @include link-main;
+    @include link-js;
+    font-size: 0.9em;
+  }
+
+}

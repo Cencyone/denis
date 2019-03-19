@@ -1,0 +1,31 @@
+.likes{
+	$gutter-vert: 10px;
+	$gutter-hor: 15px;
+
+	
+	margin: (-$gutter-vert) 0 0 (-$gutter-hor);
+	font-size: 0; //inline-block extra spaces
+	
+	&__item{
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 1rem;
+		margin: $gutter-vert 0 0 $gutter-hor;
+
+		&--vk{			
+		}
+
+		&--fb{
+			
+		}
+
+		&--gp{
+			width: 58px;
+			height: 20px;
+		}
+
+		&--tw{
+			height: 20px;	
+		}
+	}
+}

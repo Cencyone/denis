@@ -1,0 +1,67 @@
+.tree-nav {
+  position: relative;
+
+  border: 1px solid $tree-nav-border-color;
+  text-align: left;
+  background: $tree-nav-bg-color;
+  box-shadow: 0 3px 4px $tree-nav-shadow-color;
+
+  &__item {
+    position: relative;
+    border-top: 1px solid $tree-nav-border-color;
+
+    &:first-child {
+      border-top: 0;
+    }
+
+    &:hover {
+      background: $tree-nav-link-hover-bg;
+      color: $tree-nav-link-hover-color;
+    }
+
+    &--top-drop {
+      position: static;
+    }
+  }
+
+  &__link {
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    padding: 10px 30px 10px 10px;
+    color: $tree-nav-link-color;
+    text-decoration: none;
+  }
+
+  &__ico {
+    float: left;
+    margin-top: -1px;
+    margin-right: 4px;
+  }
+
+  &__arrow {
+    position: absolute;
+    right: 5px;
+  }
+
+  &__drop {
+    visibility: hidden;
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+    //Element Modifiers
+    &[data-nav-direction="rtl"] {
+      right: 100%;
+      left: auto;
+    }
+  }
+  &__item:hover > &__drop{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -1px;
+  }
+
+}

@@ -1,0 +1,47 @@
+
+
+.star-rating {
+  @include clearfix;
+  display: inline-block;
+  font-size: 1rem;
+
+  &__stars {
+    float: left;
+  }
+
+  &__star {
+    float: left;
+    margin-left: 1px;
+    color: $star-rating-color;
+    width: 14px;
+    height: 14px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    .svg-icon {
+      fill: $star-empty-color;
+    }
+
+    &--active {
+      .svg-icon {
+        fill: $star-rating-color;
+      }
+    }
+  }
+
+  &__votes {
+    float: left;
+    font-size: 0.9em;
+    margin-left: 5px;
+    color: $base-font-color-secondary;
+  }
+
+  &__votes-link {
+    @include link-js;
+    color: $base-font-color-secondary;
+    border-bottom: 0;
+  }
+
+}

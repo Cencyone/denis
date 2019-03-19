@@ -1,0 +1,46 @@
+.site-info {
+  display: table;
+
+  &__aside {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+
+  &__inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__ico {
+    color: $site-info-ico-bg;
+
+    &--phone-big {
+      width: 32px;
+      height: 32px;
+    }
+    &--clock-big{
+      width: 36px;
+      height: 36px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: $site-info-title-color;
+    font-weight: bold;
+
+    &-link {
+      @include link-main;
+    }
+  }
+
+  &__desc {
+    color: $base-font-color;
+  }
+
+  &__link {
+    @include link-main;
+  }
+}

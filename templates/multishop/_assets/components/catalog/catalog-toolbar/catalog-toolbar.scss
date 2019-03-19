@@ -1,0 +1,25 @@
+.catalog-toolbar{
+	background: $theme-secondary-color;	
+	font-size: 0.9rem;
+	padding: 5px;
+
+	&__item{
+		display: table;
+		padding: 10px;
+	}
+
+	&__label{
+		display: table-cell;		
+		padding-right: 10px;
+		vertical-align: middle;
+		white-space: nowrap;
+	}
+
+	&__field{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&__control{
+	}
+}

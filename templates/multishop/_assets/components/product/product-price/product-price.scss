@@ -1,0 +1,119 @@
+.product-price{
+  font-size: 0;
+
+  &__old{
+    @include clearfix;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1;
+    color: $base-font-color;
+    white-space: nowrap;
+
+    /* line-through */
+    &:after{
+      content: '';
+      height: 1px;
+      width: 100%;
+      background: $base-font-color;
+      position: absolute;
+      top: 50%;
+    }
+
+    &-value{
+      float: left;
+    }
+
+    &-coins{
+      float: left;
+    }
+
+    &-cur{
+      float: left;
+    }
+  }
+  &--lg &__old{
+    font-size: 1.4rem;
+    margin-right: 10px;
+  }
+
+  &__main{
+    @include clearfix;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: bold;
+    white-space: nowrap;
+    color: $theme-main-color;
+
+    &--vertical{
+      width: 100%;
+      margin-left: 0;
+    }
+
+    &--small{
+      font-size: 1rem;
+    }
+
+    &--lg{
+      font-size: 1.5rem;
+    }
+
+    &-value{
+      float: left;
+    }
+
+    &-coins{
+      float: left;
+    }
+
+    &-cur{
+      float: left;
+    }
+  }
+  &--lg &__main{
+    font-size: 1.8rem;
+  }
+
+  &__addition{
+    @include clearfix;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    line-height: 1;
+    color: $base-font-color-secondary;
+
+    &-item{
+      float: left;
+
+      &:not(:first-child){
+        &:before{
+          content: '/';
+          float: left;
+          margin: 1px 5px 0 5px;
+        }
+      }
+    }
+
+    &-value{
+      float: left;
+    }
+
+    &-coins{
+      float: left;
+    }
+
+    &-cur{
+      float: left;
+    }
+  }
+  &--lg &__addition{
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+}

@@ -1,0 +1,103 @@
+/*
+--------------------------------------------------
+Navigation menus styles
+--------------------------------------------------
+*/
+.list-nav {
+  $list-nav-hor-offset: 20px;
+  $list-nav-ver-offset: 5px;
+
+  //Modifiers
+  &--align {
+
+    &-center {
+      text-align: center;
+    }
+
+    &-right {
+      text-align: right;
+    }
+
+  }
+
+  &--valign {
+
+    &-middle {
+      .list-nav__item {
+        vertical-align: middle;
+      }
+    }
+
+    &-bottom {
+      .list-nav__item {
+        vertical-align: bottom;
+      }
+    }
+
+  }
+
+  //Elements
+  &__items {
+    font-size: 0;
+    margin-top: -$list-nav-ver-offset;
+    margin-left: -$list-nav-hor-offset;
+  }
+
+  &__item {
+    display: inline-block;
+    font-size: 0.9rem;
+    vertical-align: top;
+
+    position: relative;
+
+    margin-left: $list-nav-hor-offset;
+    margin-top: $list-nav-ver-offset;
+  }
+
+  &__link {
+    @include link-main;
+    border: 0;
+
+    & > * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &--empty {
+      @include link-empty;
+    }
+  }
+  &__item:hover &__link,
+  &__item--active &__link {
+    color: $base-main-link-hover-color;
+  }
+
+  &__icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__item:hover &__icon,
+  &__item--active &__icon{
+    fill: $base-main-link-hover-color;
+  }
+
+  &__drop {
+    display: none;
+
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+
+    //Element Modifiers
+    &--rtl {
+      right: 0;
+      left: auto;
+    }
+  }
+  &__item:hover &__drop {
+    display: block;
+  }
+
+}

@@ -1,0 +1,186 @@
+.form {
+  $label-hor-width: 100px;
+  $label-hor-width-lg: 150px;
+  $require-mark-color: #e89b88;
+
+  &--bg {
+    padding: 15px;
+    @media(min-width: $screen-lg-min) {
+      padding: 20px 35px;
+    }
+    background: $theme-secondary-color;
+  }
+
+  &__messages {
+    padding-top: 20px;
+  }
+
+  &__row {
+    padding-top: 20px;
+
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+
+  &__field {
+    padding-top: 20px;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+
+    //modifiers
+    &--hor {
+      display: table;
+      width: 100%;
+    }
+  }
+
+  /*
+  * Form field title
+  */
+  &__label {
+    padding-bottom: 8px;
+    color: $base-font-color;
+  }
+
+  @media(min-width: $screen-lg-min) {
+    &__field--hor &__label {
+      display: table-cell;
+      width: $label-hor-width;
+      vertical-align: top;
+      padding-top: 8px;
+      padding-bottom: 0;
+    }
+    &__field--hor-lg &__label {
+      width: $label-hor-width-lg;
+    }
+    &__field--static &__label {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  /*
+  * Form field mark if field is required
+  */
+  &__require-mark::before {
+    content: '*';
+    font-size: 16px;
+    position: relative;
+    left: 2px;
+    color: $require-mark-color;
+  }
+
+  /*
+  * Form field inner control
+  */
+  &__inner {
+    @include clearfix;
+  }
+
+  @media(min-width: $screen-lg-min) {
+    &__field--hor &__inner {
+      display: table-cell;
+      vertical-align: top;
+      width: calc(100% - #{$label-hor-width});
+      padding-left: 10px;
+    }
+    &__field--hor-lg &__inner {
+      width: calc(100% - #{$label-hor-width-lg});
+    }
+  }
+
+  &__desc {
+    line-height: 1.6;
+    color: $base-font-color-secondary;
+  }
+
+  &__tooltip{
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 5px;
+  }
+
+  &__info {
+    font-size: 0.9em;
+
+    position: relative;
+    margin-top: 3px;
+
+    &--error {
+      color: #E89B88;
+    }
+
+    &--help {
+      color: $base-font-color-secondary;
+    }
+  }
+
+  &__link {
+    @include link-main;
+  }
+
+  &__checkbox {
+    display: table;
+
+    &:not(:first-child) {
+      padding-top: 10px;
+    }
+
+    &-field {
+      display: table-cell;
+      width: 20px;
+      vertical-align: middle;
+      position: relative;
+    }
+
+    &-inner {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    &-title {
+      color: #000;
+      line-height: 1.1;
+
+      &--disabled {
+        color: $base-font-color-secondary;
+      }
+    }
+
+    &-select {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__select {
+    @extend .form-control;
+  }
+
+  &__capcha {
+    display: inline-block;
+    height: 34px;
+    border: 1px solid $base-border-color;
+    overflow: hidden;
+
+    @media (min-width: $screen-sm-min) {
+      border-left: 0;
+    }
+
+    img {
+      max-height: 34px;
+    }
+  }
+}
+
+/* bootstrap default styles cancel */
+label {
+  font-weight: normal;
+  display: block;
+  max-width: auto;
+  margin-bottom: 0;
+}

@@ -1,0 +1,41 @@
+.socauth{
+  display: block;
+  font-size: 0;
+}
+
+
+/* link element */
+.socauth__link{
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.socauth__link:hover{
+  opacity: .7;
+}
+
+
+/* icon element */
+.socauth__icon{
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  line-height: 30px;
+  color: #fff;
+}
+.socauth__icon--active{
+  opacity: .5;
+}
+.socauth__icon--gp{
+  background: #D95032;
+}
+.socauth__icon--vk{
+  background: #54769B;
+}
+.socauth__icon--fb{
+  background: #3A5BA0;
+}
+.socauth__icon--yandex{
+  background: #f00;
+}

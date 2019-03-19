@@ -1,0 +1,11 @@
+.start-page{
+
+  &__container{
+    @extend .container-fluid;
+    max-width: $site-max-width;
+  }
+
+  &__row{
+    padding-top: 40px;
+  }
+}

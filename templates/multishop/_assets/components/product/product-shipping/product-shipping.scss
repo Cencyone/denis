@@ -1,0 +1,96 @@
+.product-shipping {
+
+  $text-color: $base-font-color;
+  $tooltip-size: 20px;
+
+  font-size: 1rem;
+  color: $text-color;
+
+  &__row {
+    padding: 15px;
+    background: $theme-secondary-color;
+    &:not(:last-child) {
+      margin-bottom: 1px;
+    }
+  }
+
+  &__header {
+    display: table;
+    margin-bottom: 0.8em;
+  }
+
+  &__icon {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+
+    & > .svg-icon {
+      width: rem(18px);
+      height: rem(18px);
+    }
+  }
+
+  &__title {
+    display: table-cell;
+    vertical-align: top;
+    color: #000;
+    font-weight: bold;
+  }
+
+  &__list {
+    font-size: 0.9em;
+  }
+
+  &__item {
+    position: relative;
+    line-height: 1.1;
+    padding-left: 18px;
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+    &:before {
+      content: '\2014';
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    &:hover {
+      .product-shipping__tooltip-wrapper {
+        display: block;
+      }
+      .product-shipping__tooltip-link {
+        color: #000;
+      }
+    }
+  }
+
+  &__desc {
+
+  }
+
+  &__phone {
+    font-weight: bold;
+  }
+
+  &__tooltip {
+    display: inline;
+    position: relative;
+
+    &-link {
+      border-bottom: 1px dashed $text-color;
+      cursor: default;
+    }
+
+    &-wrapper {
+      display: none;
+      @include position(absolute, null null 50% 70%);
+      z-index: 10;
+      width: 200px;
+      padding: 10px;
+      border: 1px solid $base-border-color;
+      background: #FFF;
+      line-height: 1.3;
+    }
+  }
+
+}

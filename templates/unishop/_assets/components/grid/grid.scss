@@ -1,0 +1,208 @@
+/*
+--------------------------------------------------
+Bootstrap default grid styles modificators
+--------------------------------------------------
+*/
+
+/* Inline-block grid modifier */
+.row {
+
+  &--ib {
+    font-size: 0;
+
+    & > [class*="col-"] {
+      float: none;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 1rem;
+    }
+
+    &-mid {
+      [class*="col-"] {
+        vertical-align: middle;
+      }
+    }
+
+    &-bot {
+      [class*="col-"] {
+        vertical-align: bottom;
+      }
+    }
+
+  }
+
+  &--scroll {
+    white-space: nowrap;
+    overflow: auto;
+    padding-bottom: 10px;
+
+    [class*="col-"] {
+      white-space: normal;
+    }
+  }
+
+  &--gutter-collapse {
+    margin: 0;
+    > [class*="col-"] {
+      padding: 0;
+    }
+  }
+
+  //vertical indents for flow cols
+  &--vindent {
+
+    &-s {
+      @include grid-vetical-gutter(20px);
+
+      &-sm {
+        @media(min-width: $screen-sm-min) {
+          @include grid-vetical-gutter(20px);
+        }
+      }
+      &-md {
+        @media(min-width: $screen-md-min) {
+          @include grid-vetical-gutter(20px);
+        }
+      }
+      &-lg {
+        @media(min-width: $screen-lg-min) {
+          @include grid-vetical-gutter(20px);
+        }
+      }
+    }
+
+    &-m {
+      @include grid-vetical-gutter(40px);
+
+      &-sm {
+        @media(min-width: $screen-sm-min) {
+          @include grid-vetical-gutter(40px);
+        }
+      }
+      &-md {
+        @media(min-width: $screen-md-min) {
+          @include grid-vetical-gutter(40px);
+        }
+      }
+      &-lg {
+        @media(min-width: $screen-lg-min) {
+          @include grid-vetical-gutter(40px);
+        }
+      }
+    }
+
+    &-l {
+      @include grid-vetical-gutter(60px);
+
+      &-sm {
+        @media(min-width: $screen-sm-min) {
+          @include grid-vetical-gutter(60px);
+        }
+      }
+      &-md {
+        @media(min-width: $screen-md-min) {
+          @include grid-vetical-gutter(60px);
+        }
+      }
+      &-lg {
+        @media(min-width: $screen-lg-min) {
+          @include grid-vetical-gutter(60px);
+        }
+      }
+    }
+  }
+}
+
+.col {
+
+  //Vertical indents between static cols
+  &--spacer {
+    padding-top: $grid-col-mobile-spacer;
+
+    &-xs {
+      @media(max-width: $screen-xs-max) {
+        padding-top: $grid-col-mobile-spacer;
+      }
+    }
+    &-sm {
+      @media(max-width: $screen-sm-max) {
+        padding-top: $grid-col-mobile-spacer;
+      }
+    }
+    &-md {
+      @media(max-width: $screen-md-max) {
+        padding-top: $grid-col-mobile-spacer;
+      }
+    }
+  }
+
+  &--align {
+    &-center {
+      text-align: center;
+
+      &-sm {
+        @media(min-width: $screen-sm-min) {
+          text-align: center;
+        }
+      }
+      &-md {
+        @media(min-width: $screen-md-min) {
+          text-align: center;
+        }
+      }
+      &-lg {
+        @media(min-width: $screen-lg-min) {
+          text-align: center;
+        }
+      }
+    }
+
+    &-left {
+      text-align: left;
+
+      &-sm {
+        @media(min-width: $screen-sm-min) {
+          text-align: left;
+        }
+      }
+      &-md {
+        @media(min-width: $screen-md-min) {
+          text-align: left;
+        }
+      }
+      &-lg {
+        @media(min-width: $screen-lg-min) {
+          text-align: left;
+        }
+      }
+    }
+
+    &-right {
+      text-align: right;
+
+      &-sm {
+        @media(min-width: $screen-sm-min) {
+          text-align: right;
+        }
+      }
+      &-md {
+        @media(min-width: $screen-md-min) {
+          text-align: right;
+        }
+      }
+      &-lg {
+        @media(min-width: $screen-lg-min) {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+}
+
+
+/* Debug */
+/*
+*[class*="col-"]{
+	outline: 1px solid #800;
+}*/

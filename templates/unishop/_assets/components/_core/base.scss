@@ -1,0 +1,20 @@
+/*
+--------------------------------------------------
+Body, Html and other base styles
+--------------------------------------------------
+*/
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  font-family: $base-font-family;
+  color: $base-font-color;
+  line-height: $base-line-height;
+  background-color: #fff;
+
+  overflow-x: hidden;
+  @media (min-width: $screen-md-min) {
+    overflow-x: visible;
+  }
+}

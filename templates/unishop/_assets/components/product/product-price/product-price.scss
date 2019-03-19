@@ -1,0 +1,105 @@
+.product-price{
+  $main-price-color:    #000;
+  $old-price-color:     $theme-third-color;
+  $add-price-color:     $base-font-color-secondary;
+
+  font-size: 0;
+
+  &__item{
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+    &:not(:last-child){
+      margin-right: 5px;
+    }
+  }
+  &--bg &__item{
+    margin: 0;
+    padding: 3px 15px;
+    background: $product-price-bg-color;
+    border-bottom: 1px solid #fff;
+    &:not(:first-child){
+      border-left: 1px solid #fff;
+    }
+  }
+  &--lg &__item{
+    font-size: 2.2rem;
+    &:not(:last-child){
+      margin-right: 15px;
+    }
+  }
+  &--sm &__item{
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  &--md &__item{
+    font-size: 1.2rem;
+    margin: 0 5px;
+  }
+
+  &__item-value{
+    display: inline-block;
+    vertical-align: baseline;
+  }
+
+  &__item-coins{
+    display: inline-block;
+    vertical-align: baseline;
+  }
+
+  &__item-cur{
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 0.7em;
+  }
+  .product-price--lg &__item-cur{
+    font-size: 0.5em;
+    padding: 0 3px;
+  }
+
+  &__old{
+    @include clearfix;
+    position: relative;
+    font-size: 1.2em;
+    color: $old-price-color;
+    white-space: nowrap;
+
+    /* line-through */
+    &:before{
+      content: '';
+      height: 1px;
+      width: 100%;
+      background: $old-price-color;
+      position: absolute;
+      top: 50%;
+      left: 0;
+    }
+
+  }
+
+  &__main{
+    @include clearfix;
+    font-size: 1.2em;
+    white-space: nowrap;
+    color: $main-price-color;
+  }
+
+  &__addition{
+    @include clearfix;
+    font-size: 0.9em;
+    color: $add-price-color;
+
+    &-item{
+      float: left;
+
+      &:not(:first-child){
+        &:before{
+          content: '/';
+          float: left;
+          margin: 1px 5px 0 5px;
+        }
+      }
+    }
+  }
+
+}

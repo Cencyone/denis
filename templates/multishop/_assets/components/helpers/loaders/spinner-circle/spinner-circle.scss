@@ -1,0 +1,48 @@
+.spinner-circle{
+  border-radius: 80%;
+  display: block;
+  height: $spinner-circle_size;
+  width: $spinner-circle_size;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: (-$spinner-circle_size/2) 0 0 (-$spinner-circle_size/2);
+  animation: tcon-spin360 $spinner-circle_speed linear infinite forwards;
+  background: $spinner-circle_bg;
+  z-index: 200;
+  opacity: 0.7;
+
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+
+  &:before {
+    border-radius: 0 $spinner-circle_fill_radius $spinner-circle_fill_radius 0;
+    height: $spinner-circle_size;
+    width: 50%;
+    top: 0; right: 0;
+    z-index: 1;
+    background: $spinner-circle_color;
+    background-image: linear-gradient($spinner-circle_bg, $spinner-circle_color);
+  }
+
+  &:after {
+    border-radius: $spinner-circle_radius;
+    height: $spinner-circle_inner_circle;
+    width: $spinner-circle_inner_circle;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background: $spinner-circle_inner_bg;
+  }
+}
+
+@keyframes tcon-spin360 {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,17 @@
+.cart-frame {
+
+  &__header {
+    padding: 15px 25px;
+    border-bottom: 0;
+    background: $theme-secondary-color;
+  }
+
+  &__title {
+    color: #000;
+    font-weight: bold;
+  }
+
+  &__inner {
+    padding: 20px 0;
+  }
+}

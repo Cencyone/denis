@@ -1,0 +1,58 @@
+.board-nav{
+	padding: 15px;
+	background: $board-nav-bg-color;
+	font-size: 1rem;
+
+	&__header{
+		display: block;
+		@include clearfix;
+		text-decoration: none;
+
+		&:hover{
+			.board-nav__title{
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&__imagebox{
+		float: left;
+		padding: 0 5px 0 0;
+	}
+
+	&__img{
+			max-width: 20px;
+			max-height: 20px;
+		}
+
+	&__title{
+		display: block;
+		overflow: hidden;
+		font-size: 1.3em;
+		color: #000;
+	}
+	
+	&__inner{
+		display: none;
+		
+		/* Submenu visible only on tablets or higher */
+		@media(min-width: $screen-sm-min){
+			display: block;
+			padding-top: 5px;		
+
+			&-item{
+				margin-top: 5px;
+
+				&:first-child{
+					margin-top: 0;
+				}
+			}
+
+			&-link{
+				@include link-main;
+			}
+		}
+
+	}
+
+}

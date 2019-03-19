@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="Shop" defaultIdMethod="native" package="smart_filter" namespace="smart_filter\models">
+
+    <!--table banners-->
+    <table name="smart_filter_patterns" phpName="SFilterPattern">
+        <vendor type="mysql">
+            <parameter name="Engine" value="MYISAM"/>
+            <parameter name="Charset" value="utf8"/>
+        </vendor>
+
+        <column name="id" size="11" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="category_id" type="integer" size="11" required="true"/>
+        <column name="active" type="boolean"/>
+        <column name="url_pattern" type="varchar"/>
+        <column name="data" type="varchar"/>
+        <column name="meta_index" type="enum" valueSet="index,noindex" defaultExpr="null"/>
+        <column name="meta_follow" type="enum" valueSet="follow,nofollow" defaultExpr="null"/>
+        <column name="created" type="integer" size="11"/>
+        <column name="updated" type="integer" size="11"/>
+
+        <!--i18n columns-->
+        <column name="h1" type="longvarchar"/>
+        <column name="meta_title" type="longvarchar"/>
+        <column name="meta_description" type="longvarchar"/>
+        <column name="meta_keywords" type="longvarchar"/>
+        <column name="seo_text" type="longvarchar"/>
+        <column name="name" type="varchar"/>
+        <!--/i18n columns-->
+
+        <unique>
+            <unique-column name="category_id"/>
+            <unique-column name="url_pattern"/>
+        </unique>
+
+        <behavior name="i18n">
+            <parameter name="i18n_columns" value="h1, meta_title, meta_description, meta_keywords, seo_text, name"/>
+            <parameter name="default_locale" value="ru"/>
+        </behavior>
+
+        <behavior name="timestampable">
+            <parameter name="create_column" value="created" />
+            <parameter name="update_column" value="updated" />
+        </behavior>
+
+        <foreign-key foreignTable="shop_category" phpName="Category" onDelete="CASCADE" onUpdate="CASCADE">
+            <reference local="category_id" foreign="id"/>
+        </foreign-key>
+    </table>
+
+    <table name="smart_filter_patterns_i18n" phpName="SFilterPatternI18n">
+        <vendor type="mysql">
+            <parameter name="Engine" value="MYISAM"/>
+            <parameter name="Charset" value="utf8"/>
+        </vendor>
+    </table>
+
+</database>

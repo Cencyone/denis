@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2018-12-15 12:17">
+  <shop>
+    <name>ADX.IN.UA</name>
+    <company>ADX.IN.UA</company>
+    <url>https://adx.in.ua/</url>
+    <currencies>
+      <currency id="USD" rate="28"/>
+      <currency id="RUR" rate="CB"/>
+      <currency id="UAH" rate="1"/>
+      <currency id="BYN" rate="CB"/>
+      <currency id="KZT" rate="CB"/>
+      <currency id="EUR" rate="33.5"/>
+    </currencies>
+    <categories>
+      <category id="13742597" parentId="2188675">Перчатки боксерские VENUM</category>
+      <category id="4864989" parentId="2188675">Перчатки боксерские TWINS</category>
+      <category id="4723351" parentId="2188675">Перчатки боксерские BWS</category>
+      <category id="3955426" parentId="2188675">Перчатки боксерские ZELART</category>
+      <category id="4837986" parentId="2188675">Перчатки боксерские  Boxer</category>
+      <category id="2770679" parentId="2188675">Перчатки боксерские RIVAL</category>
+      <category id="5378160" parentId="2188675">Перчатки боксерские ЛЕВ (LEV)</category>
+      <category id="4495531" parentId="2188675">Перчатки боксерские WOLF</category>
+      <category id="4387906" parentId="2188675">Перчатки боксерские RDX</category>
+      <category id="2198551" parentId="2188675">Боксерские перчатки VELO</category>
+      <category id="2190263" parentId="2188675">Перчатки боксёрские  LEADER</category>
+      <category id="44877095" parentId="2188675">Перчатки боксерские LONSDALE </category>
+      <category id="4950724" parentId="1869619">Сумки, рюкзаки, торбочки для таэквондо ИТФ</category>
+      <category id="2188892" parentId="1869619">Футы для таэквондо ИТФ</category>
+      <category id="4950718" parentId="1869619">Защита голени для таэквон-до ИТФ</category>
+      <category id="4950713" parentId="1869619">Шлемы для таэквон-до ИТФ</category>
+      <category id="2206722" parentId="1869619">Перчатки  таэквондо ИТФ</category>
+      <category id="4373382" parentId="4748042">Пояса и эмблемы Taekwondo WTF</category>
+      <category id="4865138" parentId="4748042">Защита предплечья тхэквондо ВТФ</category>
+      <category id="4865154" parentId="4748042">Защита голени Тхэквондо ВТФ</category>
+      <category id="4865161" parentId="4748042">Защита голени и стопы для  тхэквондо ВТФ</category>
+      <category id="4950729" parentId="4748042">Футболки с символикой тхэквондо ВТФ</category>
+      <category id="4748042">Экипировка и оборудование для  World Taekwondo (ТХЭКВОНДО WT) </category>
+      <category id="4865383" parentId="4748042">Сумки и рюкзаки Тхэквондо ВТФ</category>
+      <category id="4372849" parentId="4748042">Инвентарь, лапы, рокетки, макивары для Тхэквондо ВТФ</category>
+      <category id="37028439">Хиты от бренда ADX</category>
+      <category id="31057668">Наградная атрибутика</category>
+      <category id="31057651">Туризм</category>
+      <category id="31057650">Спорт инвентарь</category>
+      <category id="31057649">Водный спорт</category>
+      <category id="31057648">Тренажеры и фитнес</category>
+      <category id="11768440">Скейтборды</category>
+      <category id="7688051">Товары тактические, для пейнтбола, страйкбола</category>
+      <category id="7251057">TOP TEN</category>
+      <category id="5681796">Йога</category>
+      <category id="5363074">Мотоэкиперовка</category>
+      <category id="4385930">Распродажа!!! огромные скидки!!!</category>
+      <category id="4064827">Велоспорт</category>
+      <category id="3999211">Водное поло</category>
+      <category id="3995425">Гандбол</category>
+      <category id="3995334">Все для футбола</category>
+      <category id="3995302">Волейбол</category>
+      <category id="3814934">Баскетбол</category>
+      <category id="3681202">Регбийные мячи</category>
+      <category id="3681142">Флаг Украины</category>
+      <category id="3681136">Суппорты</category>
+      <category id="3681134">Секундомер</category>
+      <category id="3681133">Ролики, скейты, самокаты</category>
+      <category id="3681132">Пляж и отдых</category>
+      <category id="3681131">Плавание и дайвинг</category>
+      <category id="3681127">Игры</category>
+      <category id="3681126">Зимний спорт</category>
+      <category id="3681123">Большой теннис</category>
+      <category id="3681122">Бильярд</category>
+      <category id="3681120">Бейсбол</category>
+      <category id="3681118">Бадминтон</category>
+      <category id="3650229">Айкидо</category>
+      <category id="3650227">Джиу-джитсу</category>
+      <category id="3650226">КАРАТЕ</category>
+      <category id="3650225">Дзюдо и Самбо</category>
+      <category id="3650221">Тайландский бокс (Муай Тай)</category>
+      <category id="3650215">ММА (Смешанные боевые искусства)</category>
+      <category id="3087967">Новые поступления</category>
+      <category id="3086098">Шиповки беговые</category>
+      <category id="2818704">УСЛУГИ</category>
+      <category id="2206573">Покрытия для спортзалов: МАТЫ, ТАТАМИ, ДОЯНГ</category>
+      <category id="2188677">Лапы боксерские, тай педы, макивары и щиты</category>
+      <category id="2188676">Мешки боксерские, груши, крепления и другие снаряды</category>
+      <category id="2188675">БОКСЕРСКИЕ ПЕРЧАТКИ</category>
+      <category id="2188662">Сумки, рюкзаки, торбочки.</category>
+      <category id="2188659">Тяжелая атлетика</category>
+      <category id="2188653">Наградная атрибутика</category>
+      <category id="2188650">Настольный Теннис</category>
+      <category id="2188645">Фитнесс товары</category>
+      <category id="1861695">СПОРТИВНЫЕ КУРТКИ</category>
+      <category id="1861294">СПОРТИВНЫЕ КОСТЮМЫ</category>
+      <category id="4547190" parentId="2198521">Кожаные Боксерские перчатки EVERLAST</category>
+      <category id="4865225" parentId="4748042">Футы, Перчатки на ноги для Тхэквондо ВТФ</category>
+      <category id="4865144" parentId="4748042">Капа для тхэквондо ВТФ</category>
+      <category id="4865130" parentId="4748042">Перчатки Taekwondo WTF</category>
+      <category id="4865074" parentId="4748042">Шлемы для тхэквондо ВТФ</category>
+      <category id="4792647" parentId="4748042">Жилеты  для тхэквондо ВТФ (Taekwondo WTF)</category>
+      <category id="3650322" parentId="4748042">Добок для Taekwondo WTF</category>
+      <category id="3093760" parentId="4748042">Степки - обувь для TAEKWONDO</category>
+      <category id="17022708">Экипировка для кунг-фу, ушу</category>
+      <category id="4836866">БОКС - Экипировка и форма для Бокса</category>
+      <category id="2188628">ТРЕНАЖЕРЫ</category>
+      <category id="1869619">ТАЭКВОН-ДО ИТФ (TAEKWONDO ITF)</category>
+      <category id="1869610">Рукопашный бой</category>
+      <category id="2188894">Аксессуары для Боевых Искусств</category>
+      <category id="31057820" parentId="31057731">Мячи футбольные</category>
+      <category id="31057819" parentId="31057720">Турники, канаты, скамьи для зала</category>
+      <category id="31057818" parentId="31057720">Стойки, гиперэкстензия</category>
+      <category id="31057817" parentId="31057720">Скамьи для пресса</category>
+      <category id="31057816" parentId="31057720">Силовые станции</category>
+      <category id="31057815" parentId="31057666">Степдоски, баланс платформы</category>
+      <category id="31057814" parentId="31057666">Орбитреки</category>
+      <category id="31057813" parentId="31057666">Велотренажеры</category>
+      <category id="31057812" parentId="31057666">Беговые дорожки</category>
+      <category id="31057811" parentId="31057715">Стулья, шезлонги, раскладушки</category>
+      <category id="31057810" parentId="31057715">Столы</category>
+      <category id="31057809" parentId="31057714">Аксессуары</category>
+      <category id="31057808" parentId="31057714">Ракетки</category>
+      <category id="31057807" parentId="31057714">Мячи теннисные</category>
+      <category id="31057806" parentId="31057664">Суппорта, фиксаторы IM</category>
+      <category id="31057805" parentId="31057664">Скакалки</category>
+      <category id="31057804" parentId="31057664">Мячи медбольные</category>
+      <category id="31057803" parentId="31057664">Кроссфит</category>
+      <category id="31057802" parentId="31057705">Наколенники</category>
+      <category id="31057801" parentId="31057696">Мячи для художественной гимнастики</category>
+      <category id="31057800" parentId="31057696">Чешки, купальники</category>
+      <category id="31057799" parentId="31057706">Лото, домино, зарики</category>
+      <category id="31057798" parentId="31057706">Шашки, шахматы</category>
+      <category id="31057797" parentId="31057681">Бильярд</category>
+      <category id="31057796" parentId="31057682">Туристические</category>
+      <category id="31057795" parentId="31057718">Коньки</category>
+      <category id="31057794" parentId="31057674">Для большой компании</category>
+      <category id="31057793" parentId="31057674">Одноместные</category>
+      <category id="31057792" parentId="31057668">Кубки Италии</category>
+      <category id="31057791" parentId="31057668">Медали</category>
+      <category id="31057790" parentId="31057674">Тенты, шатры, душ</category>
+      <category id="31057789" parentId="31057710">Гантели, штанги, гири</category>
+      <category id="31057788" parentId="31057674">Четырехместные</category>
+      <category id="31057787" parentId="31057657">TV-SHOP</category>
+      <category id="31057786" parentId="31057675">Чехлы для ракеток</category>
+      <category id="31057785" parentId="31057675">Столы теннисные</category>
+      <category id="31057784" parentId="31057675">Ракетки, наборы</category>
+      <category id="31057783" parentId="31057718">Клюшки хоккейные</category>
+      <category id="31057782" parentId="31057705">Мячи волейбольные, сетки </category>
+      <category id="31057781" parentId="31057696">Ленты, булавы, скакалки</category>
+      <category id="31057780" parentId="31057698">Подводные</category>
+      <category id="31057779" parentId="31057698">Налобные</category>
+      <category id="31057778" parentId="31057698">Кемпинг, вело</category>
+      <category id="31057777" parentId="31057698">Ручные</category>
+      <category id="31057776" parentId="31057682">Термосумки</category>
+      <category id="31057775" parentId="31057682">Рюкзаки для пикника</category>
+      <category id="31057774" parentId="31057681">Настольный теннис</category>
+      <category id="31057773" parentId="31057681">Для мячей</category>
+      <category id="31057772" parentId="31057681">Большой теннис</category>
+      <category id="31057771" parentId="31057681">Гандбол, футзал</category>
+      <category id="31057770" parentId="31057681">Футбол</category>
+      <category id="31057769" parentId="31057681">Баскетбол</category>
+      <category id="31057768" parentId="31057681">Волейбол</category>
+      <category id="31057767" parentId="31057679">Мячи гандбольные</category>
+      <category id="31057766" parentId="31057675">Шарики</category>
+      <category id="31057765" parentId="31057675">Сетки для настольного тенниса</category>
+      <category id="31057764" parentId="31057671">Сетки футбольные</category>
+      <category id="31057763" parentId="31057707">Аксессуары</category>
+      <category id="31057762" parentId="31057707">Кии. чехлы для кия </category>
+      <category id="31057761" parentId="31057707">Шары бильярдные</category>
+      <category id="31057760" parentId="31057665">Мячи для фитнеса</category>
+      <category id="31057759" parentId="31057665">Диски здоровья, ролики пресса </category>
+      <category id="31057758" parentId="31057665">Перчатки для фитнеса, атлетические </category>
+      <category id="31057757" parentId="31057665">Йога, пилатес, коврики </category>
+      <category id="31057756" parentId="31057665">Упоры для отжиманий</category>
+      <category id="31057755" parentId="31057665">Кроссфит</category>
+      <category id="31057754" parentId="31057674">Палатки GREEN CAMP</category>
+      <category id="31057753" parentId="31057674">Палочки, колышки, ремкомплект</category>
+      <category id="31057752" parentId="31057674">Трехместные</category>
+      <category id="31057751" parentId="31057674">Двухместные</category>
+      <category id="31057750" parentId="31057671">Обувь футбольная</category>
+      <category id="31057749" parentId="31057671">Щитки футбольные</category>
+      <category id="31057748" parentId="31057671">Перчатки вратарские</category>
+      <category id="31057747" parentId="31057671">Гетры, манишки</category>
+      <category id="31057746" parentId="31057708">Мячи баскетбольные</category>
+      <category id="31057745" parentId="31057671">Мяч футбольный №4</category>
+      <category id="31057744" parentId="31057671">Мячи футзальные</category>
+      <category id="31057743" parentId="31057668">Фигурки, статуэтки</category>
+      <category id="31057742" parentId="31057668">Кубки</category>
+      <category id="31057741" parentId="31057711">Скакалки</category>
+      <category id="31057740" parentId="31057711">Эспандеры</category>
+      <category id="31057739" parentId="31057667">Воланы</category>
+      <category id="31057738" parentId="31057667">Ракетки</category>
+      <category id="31057737" parentId="31057711">Рупоры</category>
+      <category id="31057736" parentId="31057711">Обручи</category>
+      <category id="31057735" parentId="31057709">Мячи медбольные</category>
+      <category id="31057734" parentId="31057664">Эспандеры</category>
+      <category id="31057733" parentId="31057664">Гантели, гири, штанги, бодибары</category>
+      <category id="31057732" parentId="31057664">Мячи фитнес, пилатес, фитнес-батут</category>
+      <category id="31057731" parentId="31057671">Мячи футбольные</category>
+      <category id="31057730" parentId="31057664">Коврики, йогаматы</category>
+      <category id="31057729" parentId="31057664">Баланс аэробика, степплатформы </category>
+      <category id="31057728" parentId="31057708">Щиты, кольца, стойки, сетки </category>
+      <category id="31057727" parentId="31057710">Напульсники</category>
+      <category id="31057726" parentId="31057710">Утяжелители</category>
+      <category id="31057725" parentId="31057718">Очки лыжные</category>
+      <category id="31057724" parentId="31057657">Массажеры</category>
+      <category id="31057723" parentId="31057657">Для похудения</category>
+      <category id="31057722" parentId="31057657">Весы электронные</category>
+      <category id="31057721" parentId="31057651">Гамаки</category>
+      <category id="31057720" parentId="31057648">Силовые тренажеры</category>
+      <category id="31057719" parentId="31057651">Ролики, защита</category>
+      <category id="31057718" parentId="31057650">Зимний спорт</category>
+      <category id="31057717" parentId="31057651">Коврики, сидушки</category>
+      <category id="31057716" parentId="31057651">Скейты, самокаты</category>
+      <category id="31057715" parentId="31057651">Туристическая мебель</category>
+      <category id="31057714" parentId="31057650">Большой теннис</category>
+      <category id="31057713" parentId="31057649">Разные мелочи</category>
+      <category id="31057712" parentId="31057648">TOGU</category>
+      <category id="31057711" parentId="31057648">Разное</category>
+      <category id="31057710" parentId="31057648">Вес</category>
+      <category id="31057709" parentId="31057650">Медбол</category>
+      <category id="31057708" parentId="31057650">Баскетбол</category>
+      <category id="31057707" parentId="31057650">Бильярд</category>
+      <category id="31057706" parentId="31057650">Интеллектуальные игры</category>
+      <category id="31057705" parentId="31057650">Волейбол</category>
+      <category id="31057704" parentId="31057651">Бутылки для воды</category>
+      <category id="31057703" parentId="31057650">Дартс, гольф, бейсбол</category>
+      <category id="31057702" parentId="31057647">Защита ноги</category>
+      <category id="31057701" parentId="31057647">Бинты, капы, напульсники </category>
+      <category id="31057700" parentId="31057650">Суппорта, фиксаторы</category>
+      <category id="31057699" parentId="31057651">Разные мелочи</category>
+      <category id="31057698" parentId="31057651">Фонари</category>
+      <category id="31057697" parentId="31057649">Dolvor</category>
+      <category id="31057696" parentId="31057650">Художественная гимнастика</category>
+      <category id="31057695" parentId="31057649">Жилеты страховочные</category>
+      <category id="31057694" parentId="31057649">Перчатки, боты, шлемы</category>
+      <category id="31057693" parentId="31057649">Досточки, лопатки</category>
+      <category id="31057692" parentId="31057649">Маски</category>
+      <category id="31057691" parentId="31057649">Фонари</category>
+      <category id="31057690" parentId="31057649">Шапочки для плавания</category>
+      <category id="31057689" parentId="31057651">Компасы</category>
+      <category id="31057688" parentId="31057651">Посуда туристическая</category>
+      <category id="31057687" parentId="31057654">Боксерские перчатки</category>
+      <category id="31057686" parentId="31057654">Перчатки карате, тхеквондо</category>
+      <category id="31057685" parentId="31057649">Гидрокостюмы</category>
+      <category id="31057684" parentId="31057649">Трубки, наборы</category>
+      <category id="31057683" parentId="31057649">Technisub</category>
+      <category id="31057682" parentId="31057651">Рюкзаки</category>
+      <category id="31057681" parentId="31057650">Сетки для игровых видов</category>
+      <category id="31057680" parentId="31057649">Ласты</category>
+      <category id="31057679" parentId="31057650">Гандбол</category>
+      <category id="31057678" parentId="31057650">Батуты</category>
+      <category id="31057677" parentId="31057649">Очки для плавания</category>
+      <category id="31057676" parentId="31057651">Бинокли</category>
+      <category id="31057675" parentId="31057650">Настольный теннис</category>
+      <category id="31057674" parentId="31057651">Палатки</category>
+      <category id="31057673" parentId="31057650">Насосы</category>
+      <category id="31057672" parentId="31057650">Секундомеры, шагомеры</category>
+      <category id="31057671" parentId="31057650">Футбол</category>
+      <category id="31057670" parentId="31057649">Finis</category>
+      <category id="31057669" parentId="31057654">Снарядки, шингарты, смешанные бои</category>
+      <category id="31057667" parentId="31057650">Бадминтон</category>
+      <category id="31057666" parentId="31057648">Кардиотренажеры</category>
+      <category id="31057665" parentId="31057648">Фитнес</category>
+      <category id="31057664" parentId="31057648">Фитнес Iron Master </category>
+      <category id="31057663" parentId="31057651">Спальники</category>
+      <category id="31057662" parentId="31057647">Шлемы</category>
+      <category id="31057661" parentId="31057647">Защита паха</category>
+      <category id="31057660" parentId="31057647">Защита груди</category>
+      <category id="31057659" parentId="31057650">Свистки</category>
+      <category id="31057658" parentId="31057650">Бутылки для воды</category>
+      <category id="31057657" parentId="31057648">Красота и здоровье</category>
+      <category id="31057656" parentId="31056296">Лапы макивары, маты </category>
+      <category id="31057655" parentId="31056296">Груши, мешки</category>
+      <category id="31057654" parentId="31056296">Перчатки</category>
+      <category id="31057653" parentId="31056296">Пояса атлетические</category>
+      <category id="31057652" parentId="31056296">Манекены, маты</category>
+      <category id="31057647" parentId="31056296">Защита</category>
+      <category id="31056304" parentId="31056297">Кимоно дзюдо</category>
+      <category id="31056303" parentId="31056297">Борцовки, боксерки</category>
+      <category id="31056302" parentId="31056297">Бокс, борьба</category>
+      <category id="31056301" parentId="31056297">Пояса для кимоно</category>
+      <category id="31056300" parentId="31056297">Самбо</category>
+      <category id="31056299" parentId="31056297">Кимоно тхэквондо</category>
+      <category id="31056298" parentId="31056297">Кимоно карате</category>
+      <category id="31056297" parentId="31056296">Кимоно, трико, обувь </category>
+      <category id="3681257" parentId="2188645">Тренажёры</category>
+      <category id="27860016" parentId="27859912">Оборудование для Кроссфита</category>
+      <category id="27859912">Кроссфит и воркаут</category>
+      <category id="24684443" parentId="2188659">Коврики под тренажер</category>
+      <category id="4863452" parentId="2188678">Шлема с забралом или решеткой</category>
+      <category id="4863447" parentId="2188678">Шлем КУДО</category>
+      <category id="2188641">Товары для БОЕВЫХ ИСКУССТВ</category>
+      <category id="26146712">Термокостюмы</category>
+      <category id="4950726" parentId="1869619">Капа для таэквондо ИТФ</category>
+      <category id="5007868" parentId="2188675">Перчатки боксерсие Reebok</category>
+      <category id="4862973" parentId="2188675">Перчатки боксерские ADIDAS</category>
+      <category id="23288891" parentId="2188675">Перчатки боксерские HAYABUSA KANPEKI</category>
+      <category id="22514513" parentId="3681133">Фитнес джамперы (ботинки на пружинах)</category>
+      <category id="3650353" parentId="3650237">Обувь</category>
+      <category id="3650352" parentId="3650237">Борцовские комбинизоны</category>
+      <category id="3093773" parentId="3650237">Борцовки и самбетки - обувь для борьбы и самбо</category>
+      <category id="5013953" parentId="3650221">Бандажи, бинты, капы, скакалки для тайского бокса</category>
+      <category id="4865527" parentId="4748042">Бандаж, защита паха тхэквондо ВТФ</category>
+      <category id="22416876" parentId="2188659">Грифы для штанги</category>
+      <category id="22093796" parentId="3681138">Батуты</category>
+      <category id="21066082" parentId="4064827">Велосумки</category>
+      <category id="20302210" parentId="5363074">Мотошлемы</category>
+      <category id="3650237">Борьба</category>
+      <category id="3650222">Кикбоксинг</category>
+      <category id="2188669">Разное</category>
+      <category id="21902124" parentId="3995302">Аксессуары для волейбола</category>
+      <category id="18122293" parentId="7688051">Фляги, котелки</category>
+      <category id="21341648" parentId="3681138">Рюкзаки туристические</category>
+      <category id="12693721" parentId="3681131">Товары для отдыха на воде</category>
+      <category id="4863436" parentId="4836866">Шлема турнирные боксерские</category>
+      <category id="4863438" parentId="4836866">Шлема тренировочные</category>
+      <category id="21767054" parentId="3814934">Защита для баскетболистов, аксессуары.</category>
+      <category id="21368326" parentId="3681138">Гамаки</category>
+      <category id="3650313" parentId="4836866">Боксерки</category>
+      <category id="3650307" parentId="4836866">Защита паха для бокса</category>
+      <category id="2206532" parentId="3650221">Защита голеностопа для тайского бокса МТ и ММА</category>
+      <category id="2198521" parentId="2188675">Боксерские перчатки EVERLAST</category>
+      <category id="18370629" parentId="4836866">REYVEL Шлем одобренные Федерацией бокса Украины (ФБУ)</category>
+      <category id="2198560" parentId="2188675">Боксерские перчатки TOP TEN</category>
+      <category id="2206515" parentId="3650215">Перчатки для ММА, смешанных единоборств и фри-файт</category>
+      <category id="2206526" parentId="3650222">Защита голени, голеностопа для Кикбоксинга</category>
+      <category id="2682709" parentId="2188645">Скакалки</category>
+      <category id="2682722" parentId="2188645">Перчатки для фитнеca</category>
+      <category id="2682827" parentId="2188676">LEADER мешки, груши, снаряды</category>
+      <category id="2781611" parentId="2682795">Мешки боксерские БЕЗ НАБИВКИ Reyvel</category>
+      <category id="2781614" parentId="2682795">Кожаные Мешки боксерские Reyvel</category>
+      <category id="2781616" parentId="2682795">Мешки боксерские PVC 680 Reyvel</category>
+      <category id="2781683" parentId="2188676">Груши боксерские и Снаряды и устройства Разные</category>
+      <category id="2818716" parentId="2818704">Занятия и тренировки по боевым искусствам в Одессе</category>
+      <category id="2873605" parentId="2188641">Добок Таэквондо ГТФ</category>
+      <category id="2969027" parentId="2188653">МЕДАЛИ</category>
+      <category id="2969363" parentId="2188653">Кубки</category>
+      <category id="3086093" parentId="3995334">Футбольные бутсы</category>
+      <category id="3086103" parentId="3995334">Форма футбольная</category>
+      <category id="3093633" parentId="3995334">Щитки футболные</category>
+      <category id="3093651" parentId="3995334">Вратарские перчатки</category>
+      <category id="2188658" parentId="2188645">Утяжелители</category>
+      <category id="2188664" parentId="3995302">Волейбольная форма</category>
+      <category id="2188678" parentId="1869610">Шлема с забралом или решеткой</category>
+      <category id="2188679" parentId="2188641">Сумки, рюкзаки, торбочки с символикой единоборств</category>
+      <category id="2188685" parentId="1869619">Добок ИТФ таэквондо</category>
+      <category id="2188688" parentId="3650237">Форма для борьбы</category>
+      <category id="2189605" parentId="2188641">Добок Хапкидо</category>
+      <category id="2189612" parentId="3650227">Кимоно Джиу-Джицу (дзю-дзюцу)</category>
+      <category id="2189762" parentId="3650222">Форма, штаны, брюки для кикбоксинга</category>
+      <category id="2190200" parentId="2188675">Перчатки боксёрские  REYVEL</category>
+      <category id="2190321" parentId="2190200">Виниловые Перчатки боксёрские REYVEL</category>
+      <category id="2190419" parentId="2190200">Кожаные Перчатки боксёрские REYVEL</category>
+      <category id="2190460" parentId="2190200">Кожаные ПРО Перчатки боксёрские REYVEL</category>
+      <category id="2190579" parentId="2190200">Кожаные ПРО с застежкой на липучке Перчатки боксёрские REYVEL</category>
+      <category id="2198806" parentId="2188641">Жилеты, нагрудники, тренерские пояса.</category>
+      <category id="2206508" parentId="1869610">Перчатки для рукопашного боя</category>
+      <category id="2206511" parentId="2188641">Перчатки и рукавицы Снарядные</category>
+      <category id="4411915" parentId="4360975">Рашгарды</category>
+      <category id="2206550" parentId="2188641">Медболы REYVEL</category>
+      <category id="2781625" parentId="2682795">Мешки боксерские Детские Reyvel</category>
+      <category id="2198891" parentId="3650221">Жилеты для тайского бокса, саньшоу, карате.</category>
+      <category id="3681259" parentId="2188645">Фитболы</category>
+      <category id="3995322" parentId="3995302">Мячи волейбольные</category>
+      <category id="12642579" parentId="3681131">Товары для аквааэробики</category>
+      <category id="3681206" parentId="2188650">Аксессуары</category>
+      <category id="3681249" parentId="2188645">Аксессуары</category>
+      <category id="3650295" parentId="3650215">Защита голеностопа  ММА, фрифайта, смешанных единоборств</category>
+      <category id="3650297" parentId="3650215">Шлемы для ММА, фри-файта, смешанных единоборств</category>
+      <category id="3650304" parentId="4836866">Перчатки боксерские одобренные AIBA для соревнований</category>
+      <category id="3650312" parentId="4836866">Форма боксера (майки, трусы)</category>
+      <category id="3650318" parentId="3650222">Защита паха, бандаж для кикбоксинга</category>
+      <category id="3650321" parentId="3650222">Шлемы для кикбоксинга</category>
+      <category id="3650329" parentId="3650225">Татами, резина, захваты</category>
+      <category id="3650336" parentId="3650226">Защитная маска, шлемы для карате</category>
+      <category id="3681144" parentId="3681118">Воланы</category>
+      <category id="3681147" parentId="3681120">Биты</category>
+      <category id="3681148" parentId="3681122">Аксессуары</category>
+      <category id="3681149" parentId="3681122">Кии</category>
+      <category id="3681151" parentId="3681122">Мел для бильярда</category>
+      <category id="3681152" parentId="3681122">Шары</category>
+      <category id="3681156" parentId="3681123">Гасители</category>
+      <category id="3681157" parentId="3681123">Мячи</category>
+      <category id="3681177" parentId="3681126">Лыжи</category>
+      <category id="3681178" parentId="3681126">Маски горнолыжные, шлемы</category>
+      <category id="3681180" parentId="3681126">Хоккей</category>
+      <category id="3681183" parentId="3681127">Аксессуары</category>
+      <category id="3681184" parentId="3681127">Дартс</category>
+      <category id="3681185" parentId="3681127">Домино</category>
+      <category id="3681187" parentId="3681127">Зарики</category>
+      <category id="3681188" parentId="3681127">Нарды</category>
+      <category id="3681189" parentId="3681127">Русское лото</category>
+      <category id="3681190" parentId="3681127">Фингерборд</category>
+      <category id="3681193" parentId="3681127">Шашки</category>
+      <category id="3681200" parentId="3995425">Гандбольные мячи</category>
+      <category id="3681207" parentId="2188650">Наборы</category>
+      <category id="3681209" parentId="2188650">Ракетки</category>
+      <category id="3681210" parentId="2188650">Сетки</category>
+      <category id="3681212" parentId="2188650">Шарики</category>
+      <category id="3681216" parentId="3681131">Ласты</category>
+      <category id="3681219" parentId="3681131">Маски</category>
+      <category id="3681220" parentId="3681131">Наборы</category>
+      <category id="3681221" parentId="3681131">Очки</category>
+      <category id="3681222" parentId="3681131">Трубки</category>
+      <category id="3681225" parentId="3681132">Аксессуары</category>
+      <category id="3681227" parentId="3681132">Надувные изделия</category>
+      <category id="3681235" parentId="3681133">Самокаты</category>
+      <category id="3681238" parentId="3681136">Для рук</category>
+      <category id="3681239" parentId="3681138">Аксессуары</category>
+      <category id="3681240" parentId="3681138">Каримат</category>
+      <category id="3681241" parentId="3681138">Компасы</category>
+      <category id="3681242" parentId="3681138">Палатки</category>
+      <category id="3681251" parentId="2188645">Штанги, гантели, блины, грифы</category>
+      <category id="3681254" parentId="2188645">Наборы</category>
+      <category id="3681255" parentId="2188645">Обручи</category>
+      <category id="3681261" parentId="2188645">Эспандеры</category>
+      <category id="3696005" parentId="3681221">Arena</category>
+      <category id="3681252">Художественная гимнастика</category>
+      <category id="4371996" parentId="4369841">Униформа (кимано) для каратэ</category>
+      <category id="4984458" parentId="2188653">Наградные статуэтки</category>
+      <category id="5007359" parentId="2188628">Орбитреки и тренажеры элептические</category>
+      <category id="5007395" parentId="2188628">СКАМЬИ атлетические, для пресса и другие</category>
+      <category id="5007404" parentId="2188628">Турники</category>
+      <category id="5007416" parentId="2188628">Фитнес станции, многофункциональные силовые тренажеры, миниспортзалы</category>
+      <category id="5007651" parentId="2188628">Различные тренажеры</category>
+      <category id="5013945" parentId="1869610">Шлемы для рукопашного боя</category>
+      <category id="5013950" parentId="1869610">Кимоно для рукопашного боя</category>
+      <category id="5013951" parentId="1869610">Капы и бандажи для рукопашного боя</category>
+      <category id="5013954" parentId="3650221">Перчатки для тайского бокса (боксерские)</category>
+      <category id="5013955" parentId="3650221">Налокотники для тайского бокса</category>
+      <category id="5013958" parentId="3650222">Футы для кикбоксинга</category>
+      <category id="5209185" parentId="3650222">Капа для кикбоксинга</category>
+      <category id="5552724" parentId="3681138">Спальные мешки</category>
+      <category id="5363084" parentId="5363074">Мотозащита, черепахи</category>
+      <category id="5440981" parentId="5363074">Мотоочки</category>
+      <category id="31056296">Единоборства</category>
+      <category id="25186520">Распродажа спорттоваров - последняя пара, остатки на складе.</category>
+      <category id="19651437">Оборудование для спортзалов, спортивных площадок и стадионов</category>
+      <category id="3681138">Туризм</category>
+      <category id="29548139" parentId="2188645">Мяч медицинский (медбол)</category>
+      <category id="3996251" parentId="2188645">Степ-платформы</category>
+      <category id="3996226" parentId="2188645">Товары для похудения</category>
+      <category id="3995861" parentId="2188645">Body bar для фитнеса</category>
+      <category id="6662012" parentId="3681138">Бинокли</category>
+      <category id="7014555" parentId="2188676">Боксерские мешки</category>
+      <category id="7181542" parentId="3681252">Купальники гимнастические (трико)</category>
+      <category id="3681158" parentId="3681123">Ракетки</category>
+      <category id="3681154" parentId="3681123">Аксессуары</category>
+      <category id="4393204" parentId="3650215">Защита паха и торса для ММА</category>
+      <category id="4403755" parentId="2188641">Наколенники и налокотники</category>
+      <category id="4411668" parentId="2188677">Лапы, пэды, макивары RDX</category>
+      <category id="4413881" parentId="3650215">Компрессионное белье</category>
+      <category id="4421144" parentId="2188676">Крепления, цепи для мешков, груш</category>
+      <category id="4424249" parentId="3681127">Настольные игры</category>
+      <category id="4488646" parentId="2188677">Лапы гнутые</category>
+      <category id="4488669" parentId="2188677">Лапы прямые</category>
+      <category id="4488672" parentId="2188677">Макивары</category>
+      <category id="4488677" parentId="2188677">Ракетки</category>
+      <category id="4547199" parentId="2198521">Виниловые Боксерские перчатки EVERLAST</category>
+      <category id="2781619" parentId="2682795">Мешки боксерские С ЦЕНТРОВИКОМ PVC 900</category>
+      <category id="3681233" parentId="3681133">Защита</category>
+      <category id="3681237" parentId="3681136">Для ног</category>
+      <category id="3681253" parentId="2188645">Коврик для фитнеса и йоги</category>
+      <category id="3681192" parentId="3681127">Шахматы</category>
+      <category id="3681143" parentId="3681118">Бадминтонные ракетки</category>
+      <category id="3681176" parentId="3681126">Коньки</category>
+      <category id="3681214" parentId="3681131">Аксессуары</category>
+      <category id="3681223" parentId="3681131">Шапочки</category>
+      <category id="3681231" parentId="3681133">Аксессуары</category>
+      <category id="3696006" parentId="3681221">Speedo</category>
+      <category id="3696008" parentId="3681221">Другие</category>
+      <category id="3995951" parentId="2188645">Ролики для преса</category>
+      <category id="2781615" parentId="2682795">Мешки боксерские PVC 900 Reyvel</category>
+      <category id="2781641" parentId="2682795">Груши боксерские Reyvel</category>
+      <category id="2781645" parentId="2682795">Макивары и подушки настенные</category>
+      <category id="3681211" parentId="2188650">Столы теннисные</category>
+      <category id="3999176" parentId="2188662">Сумки</category>
+      <category id="3999178" parentId="2188662">Рюкзаки</category>
+      <category id="3995617" parentId="2188659">Трико для тяжелой атлетики</category>
+      <category id="3681217" parentId="3681131">Лопатки</category>
+      <category id="3681215" parentId="3681131">Досточки для плавания</category>
+      <category id="3681236" parentId="3681133">Скейтборды</category>
+      <category id="3093641" parentId="3995334">Сетка футбольная</category>
+      <category id="3995379" parentId="3995334">Аксесуры для футбола</category>
+      <category id="3086099" parentId="3995334">Гетры</category>
+      <category id="3086100" parentId="3995334">Форма вратарская</category>
+      <category id="3681203" parentId="3995334">Футбольные мячи</category>
+      <category id="3681179" parentId="3681126">Санки</category>
+      <category id="3681234" parentId="3681133">Роликовые коньки</category>
+      <category id="13466115" parentId="4064827">Велоформа</category>
+      <category id="2188899" parentId="3650221">Шорты для тайского бокса (муай тай)</category>
+      <category id="2206528" parentId="1869610">Защита голеностопа</category>
+      <category id="3650332" parentId="3650225">Дзюдоги</category>
+      <category id="3652940" parentId="3650332">Кимоно Adidas</category>
+      <category id="4420932" parentId="2188676">Боксерские мешки RDX</category>
+      <category id="4950714" parentId="1869619">Нагрудники, Бандажи и защита паха для таэквондо ИТФ (ITF)</category>
+      <category id="19830953" parentId="2188675">Перчатки боксерские BAD BOY</category>
+      <category id="2198651" parentId="2188675">Боксерские перчатки  MATSA</category>
+      <category id="2198641" parentId="2188675">Боксерские перчатки GRANT</category>
+      <category id="12799959" parentId="3681261">Эспандеры, жгуты, ленты латексные</category>
+      <category id="4360975" parentId="3650215">Рашгарды (лонгсливы) и шорты для ММА и смешанных единоборств</category>
+      <category id="5013952" parentId="3650221">Шлемы для тайского бокса</category>
+      <category id="4383457" parentId="4369841">Экипировка для каратэ</category>
+      <category id="2682795" parentId="2188676">REYVEL мешки, груши, снаряды</category>
+      <category id="4389617" parentId="2206511">Перчатки снарядные</category>
+      <category id="2191034" parentId="2190200">Кожа+Винил    Перчатки боксёрские REYVEL</category>
+      <category id="1929202" parentId="2188641">Футболки и Майки</category>
+      <category id="4875326" parentId="3650215">Капа для ММА, фри-файта, смешанных единоборств</category>
+      <category id="5007624" parentId="2188628">Вибромассажеры</category>
+      <category id="20302124" parentId="5363074">Моторюкзаки/сумки</category>
+      <category id="3650309" parentId="4836866">Бинты, внутренние перчатки. Перчатки с утяжелителем. Гелевые бинты.</category>
+      <category id="4836881" parentId="4836866">Капы боксерские.</category>
+      <category id="4488674" parentId="2188677">Пэды Муай Тай</category>
+      <category id="5007349" parentId="2188628">Велотренажеры</category>
+      <category id="5007355" parentId="2188628">Беговые дорожки</category>
+      <category id="5007469" parentId="2188628">Шведские стенки</category>
+      <category id="5007594" parentId="2188628">Министеперы</category>
+      <category id="11768456" parentId="11768440">Запчасти и аксессуары для скейтбордов</category>
+      <category id="5209183" parentId="3650222">Бинты для кикбоксинга</category>
+      <category id="5209189" parentId="3650222">Перчатки для кикбоксинга (боксерские)</category>
+      <category id="5209193" parentId="3650222">Перчатки Семиконтакт (поинт файтинг) кикбоксинг</category>
+      <category id="2190613" parentId="4836866">REYVEL Перчатки боксерские одобренные Федерацией бокса Украины (ФБУ)</category>
+      <category id="21325029" parentId="3650222">Оборудвание для тренировок</category>
+      <category id="21325044" parentId="4836866">Оборудование для тренировок</category>
+      <category id="21325072" parentId="3650215">Оборудование для тренировок</category>
+      <category id="7252451" parentId="7251057">Перчатки семиконтакт (поинт файтинг) кикбоксинг TOP TEN</category>
+      <category id="5372374" parentId="5363074">Мотоперчатки</category>
+      <category id="7689947" parentId="7688051">Рюкзаки тактические</category>
+      <category id="5882085" parentId="4064827">Велоочки</category>
+      <category id="7688054" parentId="7688051">Защита тактическая</category>
+      <category id="11773235" parentId="11768440">Лонгборды</category>
+      <category id="11775324" parentId="11768440">Пенни скейтборды</category>
+      <category id="13497031" parentId="3995302">Волейбольная обувь</category>
+      <category id="13742972" parentId="13742597">Перчатки боксерские VENUM FLEX (кожзам)</category>
+      <category id="13744035" parentId="13742597">Перчатки боксерские VENUM кожа</category>
+      <category id="12005330" parentId="3681131">Аквашузы (коралловые тапочки)</category>
+      <category id="2188684" parentId="3650226">Кимоно карате</category>
+      <category id="2198878" parentId="3650226">Жилеты, нагрудники, бандажи тренировочные, турнирные для карате</category>
+      <category id="2206512" parentId="3650226">Перчатки Карате</category>
+      <category id="2206533" parentId="3650226">Защита голени, стопы, футы для карате</category>
+      <category id="5222070" parentId="3650226">Капы для карате</category>
+      <category id="4430462">Релакс</category>
+      <category id="4866099" parentId="2188676">Мешки боксерские Boxer</category>
+      <category id="4950723" parentId="1869619">Пояса для таэквондо ИТФ</category>
+      <category id="4950725" parentId="1869619">Степки - обувь для taekwondo ITF</category>
+      <category id="7951243" parentId="2188653">Дипломы, грамоты</category>
+      <category id="11976702" parentId="11768440">Рипстики</category>
+      <category id="11989736" parentId="11768440">Скейтборды</category>
+      <category id="12164543" parentId="3681131">Товары для подводного плавания и охоты</category>
+      <category id="12690966" parentId="3681131">Жилеты спасательные</category>
+      <category id="13459507" parentId="4064827">Велоперчатки</category>
+      <category id="3955736" parentId="2198806">Нагрудники, тренерские пояса и др.</category>
+      <category id="3995313" parentId="3995302">Наколенники волейбольные</category>
+      <category id="3995386" parentId="3995334">Манишки</category>
+      <category id="3995622" parentId="2188659">Ремень тяжелоатлетический</category>
+      <category id="3995626" parentId="2188659">Гантели</category>
+      <category id="3999180" parentId="2188662">Торбочки</category>
+      <category id="4050518" parentId="2188641">Пояса для единоборств</category>
+      <category id="4057340" parentId="4064827">Велошлемы</category>
+      <category id="4335424" parentId="3650221">TWINS -  Товары для тайского бокса (Муай тай)</category>
+      <category id="4864970" parentId="2188677">Лапы, педы, макивары - ADIDAS</category>
+      <category id="7251065" parentId="7251057">Перчатки боксерские TOP TEN</category>
+      <category id="7252158" parentId="7251057">Перчатки снарядные TOP TEN</category>
+      <category id="7252622" parentId="7251057">Шлемы для кикбоксинга, бокса, таэквон-до TOP TEN</category>
+      <category id="7255231" parentId="7251057">Защита голени, футы TOP TEN</category>
+      <category id="7256998" parentId="7251057">Мужская защита паха TOP TEN</category>
+      <category id="7257031" parentId="7251057">TOP TEN Лапы,  Пэды, макивары, для единоборств</category>
+      <category id="7319033" parentId="7251057">Детская экипировка для кикбоксинга TOP TEN</category>
+      <category id="7319346" parentId="7251057">Детская форма для кикбоксинга TOP TEN</category>
+      <category id="7321065" parentId="7251057">Костюмы и форма для кикбоксинга TOP TEN</category>
+      <category id="7321266" parentId="7251057">Экипировка кикбоксинг TOP TEN для девушек</category>
+      <category id="3086089" parentId="3814934">Кроссовки баскетбольные</category>
+      <category id="3086106" parentId="3814934">Форма баскетбольная</category>
+      <category id="3815449" parentId="3814934">Мячи баскетбольные</category>
+      <category id="3815389" parentId="3814934">Баскетбольные кольца, щиты, сетки</category>
+      <category id="4488754" parentId="3650332">Кимоно для ДЗЮДО по доступным ценам</category>
+      <category id="4488752" parentId="3650225">Кимоно для САМБО</category>
+      <category id="17803870" parentId="2188684">Кимоно карате</category>
+      <category id="3650337" parentId="2188684">Кимоно ADIDAS</category>
+      <category id="4369841" parentId="2188684">Daedo International - кимоно для каратэ</category>
+      <category id="4383785" parentId="2188684">Pine Tree кимоно карате</category>
+      <category id="18093699" parentId="7688051">Перчатки тактические</category>
+    </categories>
+  <offers>
+<offer available="true" group_id="304020997" id="636869805">
+    <url>https://adx.in.ua/p636869805-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809169_w640_h640_cid127977_pid636869805-0bf7dc36.png</picture>
+    <picture>https://images.ua.prom.st/1026809170_w640_h640_cid127977_pid636869805-0a2399ad.jpg</picture>
+    <picture>https://images.ua.prom.st/1026809171_w640_h640_cid127977_pid636869805-81178d66.jpg</picture>
+    <picture>https://images.ua.prom.st/1026809172_w640_h640_cid127977_pid636869805-09d80b6d.jpg</picture>
+    <picture>https://images.ua.prom.st/1026809173_w640_h640_cid127977_pid636869805-18830151.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[<h2><strong>Защита для голени и стопы чулочного типа c фиксатором Everlast</strong></h2> <p>Материал: хлопок, эластан</p> <p>Цвет: белый, черный</p> <p>Защита для ног чулочного типа с фиксатором. Защита голени и стопы &ndash; универсальный аксессуар, который полностью покрывает ногу от пальцев стоп до коленей. Плотная набивка из пены поглощает самые жесткие удары и надежно защищает ударную часть голени и голеностопа. Продуманная анатомическая (заокругленная) конструкция обеспечивает идеальную посадку на ноге. За счет легкого веса, защита не отягощает ногу. В добавок застежка на липучке и плотный чулок, что не позволит защите сдвигаться или сползать даже в самые жесткие моменты боя. Отлично подходит как для тренировок, так и выступлений на соревнованиях. Незаменимая вещь в таких видах спорта как: фри-файт, ММА, боевое самбо, панкратион, кикбоксинг, тайский бокс, ушу-саньда, карате и др</p> <p><img alt="" src="https://images.ua.prom.st/875342837_w640_h2048_6.png?PIMAGE_ID=875342837" style="width:525px;height:85px" /></p> <p>&nbsp;</p>]]></description>
+    <param name="Цвет">Черный</param>
+    <param name="Тип">Защита голени/стопы</param>
+    <param name="Материал" unit="">Х/Б+эластан</param>
+    <param name="Цвет " unit="">черный</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869806">
+    <url>https://adx.in.ua/p636869806-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809174_w640_h640_cid127977_pid636869806-25624f4a.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Черный, S</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Черный</param>
+    <param name="Размер">S</param>
+    <param name="Цвет " unit="">Черный</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869807">
+    <url>https://adx.in.ua/p636869807-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809378_w640_h640_cid127977_pid636869807-36097504.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Черный, M</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Черный</param>
+    <param name="Размер">M</param>
+    <param name="Цвет " unit="">Черный</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869808">
+    <url>https://adx.in.ua/p636869808-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809374_w640_h640_cid127977_pid636869808-820c30a4.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Черный, L</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Черный</param>
+    <param name="Размер">L</param>
+    <param name="Цвет " unit="">Черный</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869809">
+    <url>https://adx.in.ua/p636869809-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809375_w640_h640_cid127977_pid636869809-7e2fbb74.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Черный, XL</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Черный</param>
+    <param name="Размер">XL</param>
+    <param name="Цвет " unit="">Черный</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869810">
+    <url>https://adx.in.ua/p636869810-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809376_w640_h640_cid127977_pid636869810-75e87412.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Белый, S</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Белый</param>
+    <param name="Размер">S</param>
+    <param name="Цвет " unit="">Белый</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869811">
+    <url>https://adx.in.ua/p636869811-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809377_w640_h640_cid127977_pid636869811-a2268ee8.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Белый, M</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Белый</param>
+    <param name="Размер">M</param>
+    <param name="Цвет " unit="">Белый</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869812">
+    <url>https://adx.in.ua/p636869812-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809443_w640_h640_cid127977_pid636869812-510fee39.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Белый, L</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Белый</param>
+    <param name="Размер">L</param>
+    <param name="Цвет " unit="">Белый</param>
+  </offer>
+  <offer available="true" group_id="304020997" id="636869813">
+    <url>https://adx.in.ua/p636869813-zaschita-dlya-goleni.html</url>
+    <oldprice>393</oldprice>
+    <price>353.7</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4865161</categoryId>
+    <picture>https://images.ua.prom.st/1026809444_w640_h640_cid127977_pid636869813-b246d642.png</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Защита для голени и стопы чулочного типа c фиксатором Everlast Белый, XL</name>
+    <vendorCode>MA-4613</vendorCode>
+    <description><![CDATA[]]></description>
+    <param name="Цвет">Белый</param>
+    <param name="Размер">XL</param>
+    <param name="Цвет " unit="">Белый</param>
+  </offer>
+
+  </offers>
+</shop>
+</yml_catalog>

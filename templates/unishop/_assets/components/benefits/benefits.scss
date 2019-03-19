@@ -1,0 +1,31 @@
+.benefits{
+	font-size: 1rem;
+
+	&__item{
+		display: table;
+	}
+
+	&__ico{
+		display: table-cell;
+		vertical-align: middle;
+		color: $benefits-ico-color;
+		padding-right: 0.7em;	
+	}
+
+	&__inner{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&__title{
+		margin-bottom: 0.2em;
+		color: $benefits-title-color;
+		font-size: 1.2em;
+		line-height: 1;
+		font-weight: bold;		
+	}
+
+	&__desc{
+		color: $benefits-desc-color;
+	}
+}

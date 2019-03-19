@@ -1,0 +1,26 @@
+.gallery-menu{
+	font-size: 1rem;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	
+	&__list{
+		@include clearfix;		
+	}
+
+	&__item{
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 5px 10px;
+
+		&:first-child{
+			margin-left: 0;
+		}
+	}
+
+	&__link{
+		@include link-main;
+	}
+
+	&__active{
+	}
+}

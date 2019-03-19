@@ -1,0 +1,81 @@
+.paginator {
+
+  $item-text-color:           #000;
+  $item-text-color-active:    #fff;
+  $item-width:                40px;
+  $item-height:               35px;
+  $item-bg:                   #fff;
+  $item-bg-active:            #c5cdd8;
+  $item-border:               $base-border-color;
+  $item-border-active:        #c5cdd8;
+  $item-link-color:           #000;
+  $item-border-radius:        2px;
+
+  &__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: $item-width;
+    height: $item-height;
+    line-height: $item-height;
+    background: $item-bg;
+    border: 1px solid $item-border;
+    border-radius: 2px;
+    color: $item-text-color;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+
+    &:not(:first-child) {
+      margin-left: 5px;
+    }
+
+    a {
+      @include link-main;
+      color: $item-link-color;
+      @include position(absolute, 0 0 0 0);
+    }
+
+    &--active {
+      color: $item-text-color-active;
+      border-color: $item-border-active;
+      background-color: $item-bg-active;
+    }
+
+    &--ellipsis{
+      border: 0;
+    }
+
+    &--first {
+
+    }
+
+    &--last {
+
+    }
+
+    &--next {
+
+    }
+
+    &--prev {
+
+    }
+
+  }
+
+  &__arrow {
+    display: block;
+    //position: absolute;
+    //top: 0;
+    //bottom: 0;
+    margin: 0 auto;
+
+    width: 20px;
+
+    &--left {
+      transform: scaleX(-1);
+    }
+  }
+
+}

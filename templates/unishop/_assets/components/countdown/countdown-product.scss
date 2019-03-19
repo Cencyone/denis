@@ -1,0 +1,60 @@
+.countdown-product {
+  text-align: center;
+
+  &__title {
+    display:        inline-block;
+    vertical-align: middle;
+    font-size:      1rem;
+    margin-right:   1em;
+    padding:        1em 0;
+    color:          $base-main-link-color;
+
+    &:after {
+      content: ":"
+    }
+
+  }
+
+  &__time {
+    display:        inline-block;
+    vertical-align: middle;
+    text-align:     center;
+
+    width:          100%;
+
+    font-size:      rem(36);
+    font-weight:    700;
+    padding:        0.5em 1.2em;
+    color:          #000;
+    border:         1px solid $base-border-color;
+    background:     #FFF;
+
+    @media (min-width: $screen-sm-min) {
+      width: rem(325);
+    }
+  }
+  &__time-row {
+    @extend .clearfix;
+    display:       inline-table;
+    white-space:   nowrap;
+    word-wrap:     normal;
+    overflow-wrap: normal;
+  }
+
+  &__item {
+    display: table-cell;
+
+    &:not(:last-child)::after {
+      content: ':';
+    }
+    &--no-marker {
+      &::after {
+        content: "" !important;
+      }
+    }
+    &--small {
+      font-size: .4em;
+    }
+  }
+
+}

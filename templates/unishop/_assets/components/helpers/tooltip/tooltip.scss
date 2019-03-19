@@ -1,0 +1,78 @@
+.tooltip {
+  $ico-size:        14px;
+  $ico-bg-color:    $theme-main-color;
+  $ico-color:       #fff;
+  $desc-width:      200px;
+  $desc-width-md:   300px;
+  $desc-width-lg:   400px;
+  $drop-bg-color:   $second-border-color;
+
+  display: inline;
+  position: relative;
+
+  &__label {
+    display: inline;
+  }
+
+  &__position {
+    position: absolute;
+    bottom: 1px;
+    right: -($ico-size + 5);
+  }
+
+  &__ico {
+    position: relative;
+    width: $ico-size;
+    height: $ico-size;
+    fill: $ico-bg-color;
+    color: $ico-bg-color;
+
+    &:hover {
+      .tooltip__drop {
+        display: block;
+      }
+    }
+
+  }
+
+  &__drop {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    left: 100%;
+    top: -5px;
+    padding-left: 3px;
+
+    &--rtl{
+      left: auto;
+      right: 100%;
+      padding-left: 0;
+      padding-right: 3px;
+    }
+  }
+
+  &__desc {
+    border: 1px solid $drop-bg-color;
+    box-shadow: 0 3px 10px rgba(57, 93, 132, 0.2);
+    background: #fff;
+    font-size: .9rem;
+    padding: 15px;
+    width: $desc-width;
+    font-family: $base-font-family;
+    font-weight: normal;
+    font-style: normal;
+    color: $base-font-color;
+    text-transform: none;
+    line-height: $base-line-height;
+    text-decoration: none;
+
+    &--md{
+      width: $desc-width-md;
+    }
+
+    &--lg{
+      width: $desc-width-lg;
+    }
+  }
+
+}

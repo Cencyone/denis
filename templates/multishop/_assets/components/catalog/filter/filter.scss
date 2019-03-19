@@ -1,0 +1,142 @@
+.filter {
+  $header-title-color: #000;
+  $header-handle-color: #000;
+  $chechbox-label-color: #000;
+
+  font-size: 0.9rem;
+
+  & .disabled {
+    color: $base-font-color-secondary;
+  }
+
+  &__item {
+    border: 1px solid $base-border-color;
+    border-top: 0;
+    padding: 10px;
+
+    &:first-child {
+      border-top: 1px solid $base-border-color;
+    }
+
+  }
+
+  /* Property header BEGIN */
+
+  &__header {
+    display: table;
+    width: 100%;
+
+    //make whole header clickable. Using if property has dropDown type
+    &[data-filter-drop-handle] {
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: $header-title-color;
+  }
+
+  &__handle {
+    position: relative;
+    display: table-cell;
+    width: 20px;
+    text-align: right;
+    vertical-align: middle;
+
+    cursor: pointer;
+
+    & > .svg-icon {
+      @include absolute-center-margin();
+      width: rem(16px);
+      height: rem(16px);
+    }
+  }
+  &__handle-icon {
+    display: block;
+
+
+    /* to prevent mismatch in title sizes between properties with dropdown and without*/
+    @include position(absolute, -4px 0 null null);
+
+    &--plus {
+    }
+
+    &--minus {
+    }
+  }
+
+  /* END Property header */
+
+  &__inner {
+    margin: 0.8em 0;
+
+    &--js-hidden {
+      display: none;
+    }
+
+    &--scroll {
+      height: 180px;
+      overflow: auto;
+      padding-right: 5px;
+    }
+  }
+
+  &__checkgroup {
+    display: table;
+
+    &:not(:first-child) {
+      padding-top: 3px;
+    }
+
+    &-control {
+      display: table-cell;
+      vertical-align: top;
+      position: relative;
+      top: -2px;
+    }
+
+    &-title {
+      display: table-cell;
+      vertical-align: top;
+      padding-right: 4px;
+      padding-left: 4px;
+      color: $chechbox-label-color;
+      text-decoration: none;
+    }
+
+    &-count {
+      display: table-cell;
+      vertical-align: top;
+      color: $base-font-color-secondary;
+      font-size: 0.9em;
+    }
+
+  }
+
+  &__range {
+
+    &-field {
+      @extend .input-group;
+      @extend .input-group-sm;
+      padding-bottom: 10px;
+    }
+
+    &-label {
+      @extend .input-group-addon;
+    }
+
+    &-control {
+      @extend .form-control;
+    }
+
+    &-slider {
+      margin-bottom: 10px;
+    }
+
+  }
+
+}

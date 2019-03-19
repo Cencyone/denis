@@ -1,0 +1,99 @@
+//Link primary
+@mixin link-main {
+  color: $base-main-link-color;
+  text-decoration: $base-main-link-decor;
+
+  &:hover {
+    color: $base-main-link-hover-color;
+    text-decoration: $base-main-link-decor-hover;
+  }
+}
+
+//Link second
+@mixin link-second {
+  color: $base-second-link-color;
+  text-decoration: $base-second-link-decor;
+
+  &:hover {
+    color: $base-second-link-hover-color;
+    text-decoration: $base-second-link-decor-hover;
+  }
+}
+
+@mixin link-js {
+  text-decoration: none;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+//Link empty, not clickable
+@mixin link-empty {
+  &, &:hover {
+    color: $base-font-color !important;
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+//Bootstrap grid cols vertical gutter
+@mixin grid-vetical-gutter($gutter) {
+
+  $break-points: (
+          'xs': '(max-width: #{$screen-xs-max}) ',
+          'sm': '(min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max})',
+          'md': '(min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max})',
+          'lg': '(min-width: #{$screen-lg-min})'
+  );
+
+  @each $key, $val in $break-points {
+    @media #{$val}{
+      @for $i from 1 through $grid-columns {
+        $nth-element: floor(($grid-columns / $i) + 1);
+        & > [class~="col-#{$key}-#{$i}"]:nth-child(n+#{$nth-element}) {
+          padding-top: $gutter;
+        }
+      }
+    }
+  }
+
+}
+
+// vertical and horizontal alignment
+@mixin absolute-center-translate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// absolute vertical and horizontal align. elemet's height should be set
+@mixin absolute-center-margin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+// vertical align items in block via before
+@mixin valign-before {
+
+  &:before {
+    display        : inline-block;
+    content        : "";
+    height         : 100%;
+
+    vertical-align : middle;
+  }
+
+  & > * {
+    display        : inline-block;
+    vertical-align : middle;
+  }
+}

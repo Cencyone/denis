@@ -1,0 +1,135 @@
+.page{
+
+
+	/* Mobile sidebar slide panel */
+	&__mobile{
+		position: fixed;
+		width: $page-mobile-width;    
+		height: 100%;
+		top: 0;
+		left: -$page-mobile-width;
+		z-index: $page-ovarlay-z-index + 1;
+		background: $page-mobile-bg;
+		color: $page-mobile-color;
+		overflow-y: auto;
+		overflow-x: hidden;
+		transition: transform $page-mobile-speed;
+
+		/* enables momentum scrolling in iOS overflow elements */
+		-webkit-overflow-scrolling: touch;
+
+		&--js-open{
+			transform: translateX($page-mobile-width);
+		}
+
+	}
+
+
+	/* Page overlay visible if mobile panes is open */
+	&__overlay{
+		display: block;
+		@include position(fixed, 0 0 0 0);
+		z-index: $page-ovarlay-z-index;
+		background-color: $page-overlay-color;
+		animation: fade 500ms;
+		
+		@keyframes fade{
+			 0%   { opacity: 0; }
+			 100% { opacity: 1; }
+		}
+	}
+
+
+	/* 
+		* Main site content frame
+		* Shifting to right when mobile menu is siliding.
+		* Adding via javascript by clicking on mobile menu btn
+	*/
+	&__body{
+		@include transition(transform $page-mobile-speed);
+
+		&--js-pushed{
+			@include transform(translateX($page-mobile-width));
+			/* Disable scrolling while mobile bar is opened */
+			height: 100vh;
+			overflow: hidden;
+		}
+	}
+
+	&__mainframe{
+		@extend .container-fluid;
+		max-width: $site-max-width;
+	}
+
+	/* Main container inside wrapper for sticky footer */
+	&__wrapper{
+	}
+	
+	/* Container for static width frames */
+	&__container{
+		//extending bootstrap container
+		@extend .container-fluid;
+		max-width: $site-max-width;
+	}
+
+	/* Header line and main header wrapper */
+	&__hgroup{
+	}
+	
+	/* Header line on top */
+	&__headline{
+		font-size: 0.9em;
+		padding: 6px 0;
+		border-bottom: 1px solid $headline-border-color;
+	}
+	
+	/* Main header */
+	&__header{
+		padding: 20px 0;
+	}
+
+    /* Page content wrapper */
+    &__content{
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+
+    /* Main horisontal navigation wrapper */
+    &__mainnav-hor {
+      //padding-bottom: 20px;
+    }
+
+    /* Breadcrumbs wrapper */
+    &__breadcrumbs{
+      padding-top: 10px;
+    }
+
+    /* Site benefits wrapper */
+    &__benefits{
+      background: $benefits-bg-color;
+      border-top: 1px solid $benefits-border-color;
+      padding: 20px 0;
+    }
+	
+	/* Page viewed wrapper */
+	&__viewed{
+		padding-bottom: 50px;
+	}
+
+	/* Content Sticky footer */
+	&__fgroup{
+		position: relative;
+		background: $page-fgroup-bg;
+	}
+	
+	/* Main footer wrapper */
+	&__footer{
+		padding: 30px 0;
+		border-top: 1px solid $footer-border-color;
+	}
+	
+	/* Footer line in the bottom */
+	&__basement{
+		padding-bottom: 20px;
+	}
+}

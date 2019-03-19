@@ -1,0 +1,42 @@
+.star-rating {
+  $star-color: #FFB300;
+
+  @include clearfix;
+  font-size: 1rem;
+
+  &__stars {
+    float: left;
+  }
+
+  &__star {
+    float: left;
+    width: rem(14);
+    height: rem(14);
+    margin-left: 1px;
+    color: $star-rating-color;
+    stroke: $star-rating-color;
+
+    &--empty {
+      .svg-icon--star {
+        fill: none
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &__votes {
+    float: left;
+    font-size: 0.9em;
+    margin-left: 5px;
+    color: $base-font-color-secondary;
+  }
+
+  &__votes-link {
+    @include link-js;
+    color: $base-font-color-secondary;
+  }
+
+}

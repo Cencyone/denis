@@ -1,0 +1,55 @@
+.soc-groups {
+
+  $gutter: 10px;
+  $border-radius: 0;
+
+  $area-size: 38px;
+  $icon-size: 75%;
+
+  $icon-color: #fff;
+  $default-bg: #000;
+
+  $backgrounds: (
+          vkontakte: #54769B,
+          facebook: #3A5BA0,
+          google-plus: #D95032,
+          twitter: #2CA7E0,
+          instagram: linear-gradient(45deg, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 100%, #515ECF),
+          odnoklassniki: #F2720C
+  );
+
+  margin-left: - rem($gutter);
+  margin-bottom: - rem($gutter);
+  @include clearfix;
+
+  &__ico {
+    position: relative;
+
+    float: left;
+    margin-left: rem($gutter);
+    margin-bottom: rem($gutter);
+    width: rem($area-size);
+    height: rem($area-size);
+
+    border-radius: $border-radius;
+    color: $icon-color;
+    background: $default-bg;
+
+    @each $modificator, $bg in $backgrounds {
+      &--#{$modificator} {
+        background: $bg;
+      }
+    }
+
+    svg {
+      @include absolute-center-margin();
+
+      max-width: $icon-size;
+      max-height: $icon-size;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.related-products {
+  display: table;
+}
+
+.related-products__label {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+
+.related-products__list {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 0;
+}
+
+.related-products__item {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #c7c7c7;
+  padding: 2px;
+  margin: 5px 10px 5px 0;
+}
+
+.related-products__item:hover {
+  border-color: #818181;
+}
+
+.related-products__item:active {
+  box-shadow: inset 0 0 2px #818181;
+}
+
+.related-products__ico {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.related-products__color {
+  float: left;
+  height: 100%;
+}
+

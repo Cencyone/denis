@@ -1,0 +1,1337 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 07:38+0200\n"
+"PO-Revision-Date: 2017-03-02 07:38+0200\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:50
+msgid "Accessories"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_kit_button.tpl:10
+msgid "Add all to cart"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:34
+msgid "Add to Cart"
+msgstr ""
+
+#: templates/unishop/shop/includes/compare/compare_button.tpl:36
+msgid "Add to compare"
+msgstr ""
+
+#: templates/unishop/wishlist/wishPopup.tpl:74
+msgid "Add to list"
+msgstr ""
+
+#: templates/unishop/wishlist/button.tpl:32
+msgid "Add to Wishlist"
+msgstr ""
+
+#: templates/unishop/wishlist/wishPopup.tpl:5
+msgid "Add to your list"
+msgstr ""
+
+#: templates/unishop/gallery/includes/gallery_menu.tpl:5
+#: templates/unishop/gallery/includes/gallery_menu.tpl:7
+msgid "All categories"
+msgstr ""
+
+#: templates/unishop/register.tpl:129
+msgid "Already Have an Account?"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:105
+msgid "Apply"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:109
+msgid "Available"
+msgstr ""
+
+#: templates/unishop/comments/comments_api.tpl:10
+msgid "Be the first to review this item. Share your rating and review so that other customers can decide if this is the right item for them."
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:16
+#: templates/unishop/shop/includes/product/product_snippet.tpl:52
+#: templates/unishop/smart_filter/main.tpl:44
+msgid "Brand"
+msgstr ""
+
+#: templates/unishop/shop/brands_images.tpl:6
+msgid "Brands"
+msgstr ""
+
+#: templates/unishop/one_click_order/button.tpl:12
+#: templates/unishop/one_click_order/form.tpl:5
+msgid "Buy in one click"
+msgstr ""
+
+#: templates/unishop/callbacks/callback.tpl:54
+#: templates/unishop/callbacks/callbacks_modal.tpl:59
+msgid "Call back"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:115
+msgid "Call:"
+msgstr ""
+
+#: templates/unishop/includes/footer_profile.tpl:30
+#: templates/unishop/includes/header_phone.tpl:17
+msgid "Callback"
+msgstr ""
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:71
+msgid "Card"
+msgstr ""
+
+#: templates/unishop/includes/mobile_profile.tpl:18
+#: templates/unishop/shop/includes/cart/cart_header.tpl:10
+msgid "Cart"
+msgstr ""
+
+#: templates/unishop/shop/cart.tpl:53
+msgid "Cart is currently empty"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:128
+msgid "Cart modal total price"
+msgstr "Total"
+
+#: templates/unishop/includes/footer.tpl:14
+msgid "Catalog"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:8
+msgid "Category"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_cut.tpl:89
+#: templates/unishop/wishlist/wishPopup.tpl:77
+msgid "Change list"
+msgstr ""
+
+#: templates/unishop/change_password.tpl:6
+#: templates/unishop/includes/footer_profile.tpl:14
+#: templates/unishop/includes/header_profile.tpl:36
+#: templates/unishop/includes/mobile_profile.tpl:13
+msgid "Change Password"
+msgstr ""
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:15
+msgid "Choose your city"
+msgstr ""
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:9
+msgid "City"
+msgstr ""
+
+#: templates/unishop/callbacks/callbacks_modal.tpl:55
+#: templates/unishop/feedback/feedback_modal.tpl:61
+#: templates/unishop/found_less_expensive/modal_form.tpl:80
+#: templates/unishop/login_popup.tpl:82
+#: templates/unishop/one_click_order/form.tpl:92
+#: templates/unishop/pricespy/button.tpl:52
+#: templates/unishop/shop/includes/product/product_photo.tpl:12
+#: templates/unishop/shop/report_appearance.tpl:46
+#: templates/unishop/wishlist/wishlistEdit.tpl:38
+#: templates/unishop/wishlist/wishPopup.tpl:69
+msgid "Close"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:111
+msgid "Code you entered was not valid"
+msgstr ""
+
+#: templates/unishop/contacts.tpl:18
+#: templates/unishop/page_full.tpl:21
+#: templates/unishop/page_sales.tpl:117
+msgid "Comments"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:97
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:94
+msgid "Comments about your order"
+msgstr ""
+
+#: templates/unishop/includes/footer_profile.tpl:26
+#: templates/unishop/includes/mobile_profile.tpl:28
+#: templates/unishop/shop/includes/compare/compare_total.tpl:12
+msgid "Compare"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:113
+msgid "Confirm your order"
+msgstr ""
+
+#: templates/unishop/register_success.tpl:10
+msgid "Congratulations! Your registration has been successful."
+msgstr ""
+
+#: templates/unishop/includes/footer.tpl:33
+msgid "Contacts"
+msgstr ""
+
+#: templates/unishop/shop/cart.tpl:60
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:32
+msgid "Continue Shopping"
+msgstr ""
+
+#: templates/unishop/wishlist/wishPopup.tpl:37
+msgid "Create a new list"
+msgstr ""
+
+#: templates/unishop/forgot_password.tpl:71
+#: templates/unishop/includes/footer_profile.tpl:7
+#: templates/unishop/includes/header_profile.tpl:22
+#: templates/unishop/includes/mobile_profile.tpl:6
+#: templates/unishop/login.tpl:74
+#: templates/unishop/login_popup.tpl:98
+#: templates/unishop/register.tpl:6
+#: templates/unishop/register.tpl:121
+msgid "Create Account"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:40
+msgid "Cumulative discount"
+msgstr ""
+
+#: templates/unishop/change_password.tpl:22
+msgid "Current password"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:37
+msgid "Customer Reviews"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:4
+msgid "Date"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_summary.tpl:18
+#: templates/unishop/wishlist/wishlist.tpl:26
+msgid "Delete"
+msgstr ""
+
+#: templates/unishop/shop/includes/compare/compare_products.tpl:31
+msgid "Delete item"
+msgstr ""
+
+#: templates/unishop/page_sales.tpl:84
+msgid "Description"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:7
+msgid "Details"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:51
+msgid "Discount"
+msgstr ""
+
+#: templates/unishop/shop/profile.tpl:19
+msgid "Discount information"
+msgstr ""
+
+#: templates/unishop/comments/comments_list.tpl:39
+msgid "Dislike"
+msgstr ""
+
+#: templates/unishop/login.tpl:73
+#: templates/unishop/login_popup.tpl:98
+msgid "Don't Have an Account?"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:108
+msgid "Download"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:59
+#: templates/unishop/comments/reply_form.tpl:56
+#: templates/unishop/feedback/feedback.tpl:32
+#: templates/unishop/feedback/feedback_modal.tpl:26
+#: templates/unishop/forgot_password.tpl:39
+#: templates/unishop/found_less_expensive/modal_form.tpl:47
+#: templates/unishop/login.tpl:33
+#: templates/unishop/login_popup.tpl:41
+#: templates/unishop/one_click_order/form.tpl:45
+#: templates/unishop/one_click_order/form.tpl:50
+#: templates/unishop/register.tpl:46
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:23
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:70
+#: templates/unishop/shop/includes/profile/user_data.tpl:33
+#: templates/unishop/shop/report_appearance.tpl:29
+msgid "E-mail"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:40
+#: templates/unishop/system_bonus/user_profile.tpl:4
+msgid "Earned points"
+msgstr ""
+
+#: templates/unishop/wishlist/wishlist.tpl:22
+msgid "Edit"
+msgstr ""
+
+#: templates/unishop/wishlist/wishlistEdit.tpl:42
+msgid "Edit list"
+msgstr ""
+
+#: templates/unishop/wishlist/wishlistEdit.tpl:8
+msgid "Edit your list"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:32
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:58
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:78
+msgid "Editing category"
+msgstr ""
+
+#: templates/unishop/shop/report_appearance.tpl:50
+msgid "Email when available"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_header.tpl:16
+msgid "Empty"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:103
+msgid "Enter gift card code"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:126
+msgid "Estimated Total"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:28
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:54
+msgid "Expand Category"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_sales.tpl:27
+msgid "Expires after"
+msgstr ""
+
+#: templates/unishop/shop/bestseller.tpl:11
+msgid "featured_products_all_deals"
+msgstr "All deals"
+
+#: templates/unishop/shop/bestseller.tpl:16
+#: templates/unishop/shop/bestseller.tpl:50
+msgid "featured_products_new"
+msgstr "New arrivals"
+
+#: templates/unishop/shop/bestseller.tpl:21
+#: templates/unishop/shop/bestseller.tpl:52
+msgid "featured_products_sales"
+msgstr "Special offers"
+
+#: templates/unishop/shop/bestseller.tpl:26
+#: templates/unishop/shop/bestseller.tpl:54
+msgid "featured_products_sales_bestsellers"
+msgstr "Best sellers"
+
+#: templates/unishop/shop/bestseller.tpl:48
+msgid "featured_products_title"
+msgstr "Featured products"
+
+#: templates/unishop/feedback/feedback.tpl:6
+#: templates/unishop/feedback/feedback_modal.tpl:5
+#: templates/unishop/includes/footer.tpl:49
+msgid "Feedback"
+msgstr ""
+
+#: templates/unishop/pricespy/button.tpl:15
+#: templates/unishop/pricespy/button.tpl:25
+#: templates/unishop/pricespy/button.tpl:58
+#: templates/unishop/pricespy/spys.tpl:8
+msgid "Follow price"
+msgstr ""
+
+#: templates/unishop/pricespy/button.tpl:34
+msgid "Follow the price and we will send you an email once the product price changes"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:79
+msgid "for"
+msgstr ""
+
+#: templates/unishop/login.tpl:75
+#: templates/unishop/login_popup.tpl:98
+#: templates/unishop/register.tpl:131
+msgid "Forgot password?"
+msgstr ""
+
+#: templates/unishop/found_less_expensive/buttonWithForm.tpl:10
+#: templates/unishop/found_less_expensive/modal_form.tpl:5
+msgid "Found cheaper?"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_delivery_radio.tpl:40
+#: templates/unishop/shop/includes/product/product_shipping.tpl:34
+msgid "Free from"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_kit.tpl:2
+msgid "Frequently bought together"
+msgstr ""
+
+#: templates/unishop/category_sales.tpl:57
+#: templates/unishop/page_sales.tpl:66
+msgid "From"
+msgstr ""
+
+#: templates/unishop/gallery/index.tpl:4
+msgid "Gallery"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:74
+msgid "Gift card"
+msgstr ""
+
+#: templates/unishop/navs/mobile_nav/level_1/container.tpl:4
+msgid "Go back"
+msgstr ""
+
+#: templates/unishop/wishlist/wishPopup.tpl:86
+msgid "Go to wishlist"
+msgstr ""
+
+#: templates/unishop/shop/category.tpl:22
+msgid "Hide filter"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_labels.tpl:5
+msgid "Hit"
+msgstr ""
+
+#: templates/unishop/widgets/breadcrumbs.tpl:9
+msgid "Home"
+msgstr ""
+
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:13
+#: templates/unishop/shop/includes/profile/order_history.tpl:3
+msgid "Id"
+msgstr ""
+
+#: templates/unishop/includes/footer.tpl:89
+msgid "ImageCMS"
+msgstr ""
+
+#: templates/unishop/shop/bestseller.tpl:68
+#: templates/unishop/shop/brand.tpl:43
+#: templates/unishop/shop/search.tpl:30
+msgid "in"
+msgstr ""
+
+#: templates/unishop/shop/report_appearance.tpl:5
+msgid "In stock reminder"
+msgstr ""
+
+#: templates/unishop/wishlist/wishPopup.tpl:57
+msgid "Item successfuly added to your Wishlist!"
+msgstr ""
+
+#: templates/unishop/widgets/mobile_langs.tpl:2
+msgid "Language"
+msgstr ""
+
+#: templates/unishop/callbacks/callback.tpl:10
+#: templates/unishop/callbacks/callbacks_modal.tpl:14
+msgid "Leave a number and we will call you back"
+msgstr ""
+
+#: templates/unishop/category_sales.tpl:40
+msgid "Left"
+msgstr ""
+
+#: templates/unishop/comments/comments_list.tpl:26
+#: templates/unishop/shop/includes/product/product_intro.tpl:197
+msgid "Like"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/user_data.tpl:14
+msgid "Linked accounts"
+msgstr ""
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:77
+msgid "List"
+msgstr ""
+
+#: templates/unishop/wishlist/wishlistEdit.tpl:21
+msgid "List name"
+msgstr ""
+
+#: templates/unishop/shop/includes/compare/compare_button.tpl:35
+msgid "Loading..."
+msgstr ""
+
+#: templates/unishop/login.tpl:65
+#: templates/unishop/login_popup.tpl:86
+msgid "Log in"
+msgstr ""
+
+#: templates/unishop/login_popup.tpl:89
+msgid "Logining in..."
+msgstr ""
+
+#: templates/unishop/404.tpl:14
+msgid "Main page"
+msgstr ""
+
+#: templates/unishop/smart_filter/includes/filter_results.tpl:12
+msgid "max"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/TMenuColumn.php:179
+msgid "Menu Column"
+msgstr ""
+
+#: templates/unishop/callbacks/callback.tpl:43
+#: templates/unishop/callbacks/callbacks_modal.tpl:38
+#: templates/unishop/feedback/feedback.tpl:51
+#: templates/unishop/feedback/feedback_modal.tpl:34
+#: templates/unishop/found_less_expensive/modal_form.tpl:64
+#: templates/unishop/one_click_order/form.tpl:76
+msgid "Message"
+msgstr ""
+
+#: templates/unishop/smart_filter/includes/filter_results.tpl:12
+msgid "min"
+msgstr ""
+
+#: templates/unishop/page_sales.tpl:49
+msgid "minutes"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:92
+msgid "More than one discount type can be used for your account at the moment. You'll be offered the highest discount rate available for your order."
+msgstr ""
+
+#: templates/unishop/callbacks/callback.tpl:25
+#: templates/unishop/callbacks/callbacks_modal.tpl:20
+#: templates/unishop/comments/main_form.tpl:40
+#: templates/unishop/comments/main_form.tpl:49
+#: templates/unishop/comments/reply_form.tpl:38
+#: templates/unishop/comments/reply_form.tpl:46
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:16
+#: templates/unishop/feedback/feedback.tpl:22
+#: templates/unishop/feedback/feedback_modal.tpl:18
+#: templates/unishop/found_less_expensive/modal_form.tpl:31
+#: templates/unishop/one_click_order/form.tpl:30
+#: templates/unishop/register.tpl:37
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:13
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:62
+#: templates/unishop/shop/includes/profile/user_data.tpl:23
+#: templates/unishop/shop/report_appearance.tpl:20
+msgid "Name"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_labels.tpl:11
+msgid "New"
+msgstr ""
+
+#: templates/unishop/change_password.tpl:31
+msgid "New password"
+msgstr ""
+
+#: templates/unishop/pricespy/spys.tpl:17
+msgid "New price"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:57
+#: templates/unishop/shop/includes/product/variants/radio.tpl:36
+#: templates/unishop/shop/includes/product/variants/select.tpl:34
+msgid "Not available"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:48
+#: templates/unishop/shop/includes/profile/order_history.tpl:9
+msgid "Not paid"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:65
+msgid "Notify when available"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:26
+#: templates/unishop/shop/includes/product/product_snippet.tpl:60
+msgid "Number"
+msgstr ""
+
+#: templates/unishop/system_bonus/user_profile.tpl:14
+msgid "Number of points"
+msgstr ""
+
+#: templates/unishop/shop/bestseller.tpl:63
+#: templates/unishop/shop/brand.tpl:38
+#: templates/unishop/shop/category.tpl:51
+#: templates/unishop/shop/search.tpl:25
+msgid "of"
+msgstr ""
+
+#: templates/unishop/category_sales.tpl:32
+msgid "Offer!"
+msgstr ""
+
+#: templates/unishop/pricespy/spys.tpl:18
+msgid "Old price"
+msgstr ""
+
+#: templates/unishop/wishlist/wishlist.tpl:46
+#: templates/unishop/wishlist/wishlist.tpl:62
+msgid "Once added new items, you'll be able to continue shopping any time and also share the information about the purchase with your friends."
+msgstr ""
+
+#: templates/unishop/shop/cart.tpl:6
+msgid "One Step Checkout"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:15
+msgid "Open all levels"
+msgstr ""
+
+#: templates/unishop/shop/includes/compare/compare_button.tpl:41
+msgid "Open in compare list"
+msgstr ""
+
+#: templates/unishop/wishlist/button.tpl:35
+msgid "Open in Wishlist"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:14
+msgid "Open second level"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:116
+msgid "or"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:13
+msgid "Order"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:117
+msgid "order a callback"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:23
+msgid "Order date"
+msgstr ""
+
+#: templates/unishop/shop/profile.tpl:57
+msgid "Order history"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:11
+msgid "Order ID"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:17
+msgid "Order status"
+msgstr ""
+
+#: templates/unishop/shop/cart.tpl:17
+#: templates/unishop/shop/order_view.tpl:17
+msgid "Order summary"
+msgstr ""
+
+#: templates/unishop/related_products/related_products.tpl:7
+msgid "Other colors"
+msgstr ""
+
+#: templates/unishop/comments/comments_list.tpl:12
+#: templates/unishop/comments/main_form.tpl:98
+#: templates/unishop/shop/includes/product/product_rating.tpl:6
+msgid "out of 5 stars"
+msgstr ""
+
+#: templates/unishop/404.tpl:7
+#: templates/unishop/404.tpl:11
+msgid "Page not found!"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:10
+msgid "Paid purchases amount"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:48
+#: templates/unishop/shop/includes/profile/order_history.tpl:9
+msgid "Paid successfully"
+msgstr ""
+
+#: templates/unishop/login.tpl:42
+#: templates/unishop/login_popup.tpl:50
+#: templates/unishop/register.tpl:88
+msgid "Password"
+msgstr ""
+
+#: templates/unishop/reset_password.tpl:6
+msgid "Password retrieval"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_delivery_radio.tpl:58
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:40
+msgid "Payment method"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:73
+msgid "Payment methods"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:47
+msgid "Payment status"
+msgstr ""
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:37
+msgid "Per page"
+msgstr ""
+
+#: templates/unishop/shop/profile.tpl:42
+msgid "Personal information"
+msgstr ""
+
+#: templates/unishop/callbacks/callback.tpl:34
+#: templates/unishop/callbacks/callbacks_modal.tpl:29
+#: templates/unishop/found_less_expensive/modal_form.tpl:39
+#: templates/unishop/one_click_order/form.tpl:65
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:33
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:78
+#: templates/unishop/shop/includes/profile/user_data.tpl:40
+msgid "Phone number"
+msgstr ""
+
+#: templates/unishop/forgot_password.tpl:44
+msgid "Please enter the e-mail associated with your account."
+msgstr ""
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:79
+msgid "Please enter two or more characters."
+msgstr ""
+
+#: templates/unishop/category_sales.tpl:45
+#: templates/unishop/page_sales.tpl:36
+#: templates/unishop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 1"
+msgstr "day"
+
+#: templates/unishop/category_sales.tpl:45
+#: templates/unishop/page_sales.tpl:36
+#: templates/unishop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 2"
+msgstr "days"
+
+#: templates/unishop/category_sales.tpl:45
+#: templates/unishop/page_sales.tpl:36
+#: templates/unishop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 3"
+msgstr "days"
+
+#: templates/unishop/page_sales.tpl:43
+msgid "pluralize hour 1"
+msgstr "hour"
+
+#: templates/unishop/page_sales.tpl:43
+msgid "pluralize hour 2"
+msgstr "hours"
+
+#: templates/unishop/page_sales.tpl:43
+msgid "pluralize hour 3"
+msgstr "hours"
+
+#: templates/unishop/shop/bestseller.tpl:66
+#: templates/unishop/shop/brand.tpl:41
+#: templates/unishop/shop/category.tpl:54
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/unishop/shop/search.tpl:28
+msgid "pluralize item 1"
+msgstr "item"
+
+#: templates/unishop/shop/bestseller.tpl:66
+#: templates/unishop/shop/brand.tpl:41
+#: templates/unishop/shop/category.tpl:54
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/unishop/shop/search.tpl:28
+msgid "pluralize item 2"
+msgstr "items"
+
+#: templates/unishop/shop/bestseller.tpl:66
+#: templates/unishop/shop/brand.tpl:41
+#: templates/unishop/shop/category.tpl:54
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/unishop/shop/search.tpl:28
+msgid "pluralize item 3"
+msgstr "items"
+
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 1"
+msgstr "kit"
+
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 2"
+msgstr "kits"
+
+#: templates/unishop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 3"
+msgstr "kits"
+
+#: templates/unishop/includes/footer.tpl:88
+msgid "Powered by "
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_delivery_radio.tpl:36
+#: templates/unishop/shop/includes/product/product_shipping.tpl:32
+msgid "Price"
+msgstr ""
+
+#: templates/unishop/smart_filter/main.tpl:11
+msgid "Price range"
+msgstr ""
+
+#: templates/unishop/pricespy/spys.tpl:19
+msgid "Price reduction"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:38
+msgid "Proceed to checkout"
+msgstr ""
+
+#: templates/unishop/pricespy/spys.tpl:16
+msgid "Product"
+msgstr ""
+
+#: templates/unishop/shop/compare.tpl:6
+msgid "Product comparasion"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_cut.tpl:66
+#: templates/unishop/shop/includes/product/product_intro.tpl:159
+#: templates/unishop/shop/includes/product/product_snippet.tpl:117
+msgid "Product has been discontinued"
+msgstr ""
+
+#: templates/unishop/found_less_expensive/modal_form.tpl:55
+msgid "Product URL"
+msgstr ""
+
+#: templates/unishop/includes/header_profile.tpl:6
+msgid "Profile"
+msgstr ""
+
+#: templates/unishop/components/TProperties/TProperties.php:130
+msgid "Properties"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:52
+msgid "Purchases amount"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:112
+msgid "Questions? Ask our experts"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:85
+msgid "Rating"
+msgstr ""
+
+#: templates/unishop/category.tpl:43
+#: templates/unishop/widgets/latest_news.tpl:32
+msgid "Read more"
+msgstr ""
+
+#: templates/unishop/change_password.tpl:40
+msgid "Reenter new password"
+msgstr ""
+
+#: templates/unishop/register.tpl:97
+msgid "Reenter password"
+msgstr ""
+
+#: templates/unishop/forgot_password.tpl:71
+msgid "Remembered your password?"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_cut.tpl:75
+msgid "Remove from list"
+msgstr ""
+
+#: templates/unishop/comments/comments_list.tpl:54
+msgid "Reply to this post"
+msgstr ""
+
+#: templates/unishop/callbacks/callback.tpl:6
+#: templates/unishop/callbacks/callbacks_modal.tpl:5
+msgid "Request a Call back"
+msgstr ""
+
+#: templates/unishop/forgot_password.tpl:6
+msgid "Request new password"
+msgstr ""
+
+#: templates/unishop/shop/bestseller.tpl:58
+#: templates/unishop/shop/brand.tpl:33
+#: templates/unishop/shop/category.tpl:46
+msgid "Result"
+msgstr ""
+
+#: templates/unishop/shop/search.tpl:18
+msgid "Result for"
+msgstr ""
+
+#: templates/unishop/shop/cart.tpl:35
+msgid "Returning customer?"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:72
+#: templates/unishop/comments/reply_form.tpl:70
+msgid "Review"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_rating.tpl:13
+msgid "Reviews"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_labels.tpl:17
+msgid "Sale"
+msgstr ""
+
+#: templates/unishop/page_sales.tpl:30
+msgid "Sale expires after"
+msgstr ""
+
+#: templates/unishop/page_sales.tpl:65
+msgid "Sales period"
+msgstr ""
+
+#: templates/unishop/page_sales.tpl:95
+msgid "Sales product list"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:103
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:4
+msgid "Save"
+msgstr ""
+
+#: templates/unishop/change_password.tpl:51
+#: templates/unishop/shop/includes/profile/user_data.tpl:90
+msgid "Save changes"
+msgstr ""
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:15
+msgid "Search by item name or number"
+msgstr ""
+
+#: templates/unishop/page_sales.tpl:55
+msgid "seconds"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:111
+#: templates/unishop/comments/reply_form.tpl:81
+#: templates/unishop/feedback/feedback.tpl:62
+#: templates/unishop/feedback/feedback_modal.tpl:43
+#: templates/unishop/forgot_password.tpl:50
+#: templates/unishop/login.tpl:52
+#: templates/unishop/login_popup.tpl:60
+#: templates/unishop/register.tpl:108
+msgid "Security code"
+msgstr ""
+
+#: templates/unishop/wishlist/wishPopup.tpl:27
+msgid "Select a list"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:127
+#: templates/unishop/comments/reply_form.tpl:94
+#: templates/unishop/feedback/feedback.tpl:76
+#: templates/unishop/feedback/feedback_modal.tpl:65
+#: templates/unishop/found_less_expensive/modal_form.tpl:84
+#: templates/unishop/one_click_order/form.tpl:95
+msgid "Send"
+msgstr ""
+
+#: templates/unishop/forgot_password.tpl:63
+msgid "Send request"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:205
+msgid "Share"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:58
+msgid "Shipping"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:55
+msgid "Shipping & payment"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_checkout.tpl:43
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:86
+#: templates/unishop/shop/includes/profile/user_data.tpl:50
+msgid "Shipping address"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:32
+msgid "Shipping method"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_shipping.tpl:12
+msgid "Shipping methods"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:5
+msgid "Shopping cart"
+msgstr ""
+
+#: templates/unishop/shop/category.tpl:17
+msgid "Show filter"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:9
+msgid "Show in column"
+msgstr ""
+
+#: templates/unishop/comments/comments_api.tpl:18
+#: templates/unishop/forgot_password.tpl:71
+#: templates/unishop/includes/footer_profile.tpl:4
+#: templates/unishop/includes/header_profile.tpl:19
+#: templates/unishop/includes/mobile_profile.tpl:3
+#: templates/unishop/login.tpl:6
+#: templates/unishop/login_popup.tpl:4
+#: templates/unishop/register.tpl:130
+#: templates/unishop/shop/cart.tpl:37
+msgid "Sign in"
+msgstr ""
+
+#: templates/unishop/login.tpl:24
+#: templates/unishop/login_popup.tpl:32
+#: templates/unishop/register.tpl:28
+msgid "Sign in with"
+msgstr ""
+
+#: templates/unishop/includes/footer_profile.tpl:34
+#: templates/unishop/includes/header_profile.tpl:39
+#: templates/unishop/includes/mobile_profile.tpl:39
+msgid "Sign out"
+msgstr ""
+
+#: templates/unishop/offline.tpl:4
+msgid "Site is offline"
+msgstr ""
+
+#: templates/unishop/offline.tpl:15
+msgid "Site is temporarily unavailable"
+msgstr ""
+
+#: templates/unishop/404.tpl:12
+msgid "Sorry, the page you’re looking for doesn’t exist!"
+msgstr ""
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:10
+msgid "Sort by"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_full_info.tpl:21
+msgid "Specifications"
+msgstr ""
+
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:2
+msgid "Start typing property name here"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:5
+msgid "Status"
+msgstr ""
+
+#: templates/unishop/includes/footer.tpl:20
+#: templates/unishop/includes/mobile_frame.tpl:4
+msgid "Store"
+msgstr ""
+
+#: templates/unishop/feedback/feedback.tpl:42
+msgid "Subject"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:7
+msgid "Subtotal"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:46
+#: templates/unishop/shop/includes/product/variants/radio.tpl:9
+#: templates/unishop/shop/includes/product/variants/select.tpl:11
+#: templates/unishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_1"
+msgstr "points"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:46
+#: templates/unishop/shop/includes/product/variants/radio.tpl:9
+#: templates/unishop/shop/includes/product/variants/select.tpl:11
+#: templates/unishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_2"
+msgstr "points"
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:46
+#: templates/unishop/shop/includes/product/variants/radio.tpl:9
+#: templates/unishop/shop/includes/product/variants/select.tpl:11
+#: templates/unishop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_3"
+msgstr "points"
+
+#: templates/unishop/register_success.tpl:6
+msgid "Thank You for Registration!"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:5
+msgid "Thank you for shopping at"
+msgstr ""
+
+#: templates/unishop/one_click_order/form.tpl:21
+msgid "Thank you for your order! Our manager will contact you as soon as possible."
+msgstr ""
+
+#: templates/unishop/category.tpl:52
+#: templates/unishop/category_sales.tpl:79
+#: templates/unishop/gallery/album.tpl:70
+#: templates/unishop/gallery/index.tpl:56
+#: templates/unishop/shop/includes/category/category_products.tpl:31
+msgid "There are no items to display. Please come back later!"
+msgstr ""
+
+#: templates/unishop/wishlist/wishlist.tpl:45
+msgid "This list is empty"
+msgstr ""
+
+#: templates/unishop/offline.tpl:16
+msgid "This site is down for maintenance. We will be back shortly, please check back again soon"
+msgstr ""
+
+#: templates/unishop/category_sales.tpl:61
+#: templates/unishop/page_sales.tpl:68
+msgid "to"
+msgstr ""
+
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:25
+#: templates/unishop/components/TMenuColumn/assets/admin/main.tpl:51
+msgid "Toggle this category"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/order_history.tpl:6
+msgid "Total Price"
+msgstr ""
+
+#: templates/unishop/includes/footer_profile.tpl:21
+#: templates/unishop/includes/header_profile.tpl:31
+#: templates/unishop/includes/mobile_profile.tpl:33
+msgid "Tracking price"
+msgstr ""
+
+#: templates/unishop/components/TProperties/assets/admin/main.tpl:19
+msgid "Type"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:116
+#: templates/unishop/comments/reply_form.tpl:86
+#: templates/unishop/feedback/feedback.tpl:67
+#: templates/unishop/feedback/feedback_modal.tpl:48
+#: templates/unishop/forgot_password.tpl:55
+#: templates/unishop/login.tpl:57
+#: templates/unishop/login_popup.tpl:65
+#: templates/unishop/register.tpl:113
+msgid "Type the characters you see in this image."
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_intro.tpl:120
+msgid "Unavailable"
+msgstr ""
+
+#: templates/unishop/pricespy/spys.tpl:20
+#: templates/unishop/pricespy/spys.tpl:51
+msgid "Unsubscribe"
+msgstr ""
+
+#: templates/unishop/system_bonus/cart_input.tpl:10
+msgid "Use points"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:29
+msgid "User goup discount"
+msgstr ""
+
+#: templates/unishop/includes/footer.tpl:27
+#: templates/unishop/includes/mobile_frame.tpl:6
+msgid "User menu"
+msgstr ""
+
+#: templates/unishop/shop/includes/category/category_toolbar.tpl:63
+msgid "View"
+msgstr ""
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:84
+msgid "view all"
+msgstr ""
+
+#: templates/unishop/navs/mobile_nav/level_1/container.tpl:10
+#: templates/unishop/widgets/brands.tpl:6
+#: templates/unishop/widgets/latest_news.tpl:9
+msgid "View all"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_buy.tpl:45
+#: templates/unishop/shop/includes/product/product_kit_button.tpl:21
+msgid "View in Cart"
+msgstr ""
+
+#: templates/unishop/pricespy/button.tpl:61
+msgid "View items"
+msgstr ""
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:38
+msgid "View on the map"
+msgstr ""
+
+#: templates/unishop/nova_poshta/nova_poshta.tpl:29
+msgid "Warehouse"
+msgstr ""
+
+#: templates/unishop/pricespy/spys.tpl:59
+msgid "Watch list is empty"
+msgstr ""
+
+#: templates/unishop/found_less_expensive/modal_form.tpl:59
+msgid "Web site url where you find it cheaper"
+msgstr ""
+
+#: templates/unishop/login_popup.tpl:72
+msgid "Welcome!"
+msgstr ""
+
+#: templates/unishop/wishlist/other_list.tpl:8
+#: templates/unishop/wishlist/wishlist.tpl:7
+msgid "Wish list"
+msgstr ""
+
+#: templates/unishop/includes/footer_profile.tpl:17
+#: templates/unishop/includes/mobile_profile.tpl:23
+#: templates/unishop/wishlist/wishlist_total.tpl:7
+msgid "Wishlist"
+msgstr ""
+
+#: templates/unishop/comments/comments_api.tpl:25
+msgid "Write a review"
+msgstr ""
+
+#: templates/unishop/page_sales.tpl:70
+msgid "year"
+msgstr ""
+
+#: templates/unishop/pricespy/button.tpl:42
+msgid "You are following the price changes of this item. You will receive a notification to your contact email when the product price will be changed. Check your personal account to cancel the subscription and view other items that you're following."
+msgstr ""
+
+#: templates/unishop/system_bonus/cart_input.tpl:20
+#: templates/unishop/system_bonus/user_profile.tpl:22
+msgid "You can use your points to get discount for purchasing. Each 1 point equals"
+msgstr ""
+
+#: templates/unishop/shop/cart.tpl:57
+#: templates/unishop/shop/includes/cart/cart_modal.tpl:21
+msgid "You have no items in your shopping cart"
+msgstr ""
+
+#: templates/unishop/shop/compare.tpl:36
+msgid "You have no items to compare"
+msgstr ""
+
+#: templates/unishop/login_popup.tpl:73
+msgid "You have successfully authenticated as "
+msgstr ""
+
+#: templates/unishop/comments/comments_api.tpl:18
+msgid "You have to log in to leave a comment."
+msgstr ""
+
+#: templates/unishop/shop/profile.tpl:63
+msgid "You haven't made any orders yet"
+msgstr ""
+
+#: templates/unishop/login_popup.tpl:21
+msgid "You must login to add items to your wishlist"
+msgstr ""
+
+#: templates/unishop/shop/includes/product/product_kit.tpl:76
+msgid "You save"
+msgstr ""
+
+#: templates/unishop/system_bonus/system_bonus_product.tpl:8
+msgid "You will earn"
+msgstr ""
+
+#: templates/unishop/shop/report_appearance.tpl:14
+msgid "You'll receive a one email when this product arrives in stock"
+msgstr ""
+
+#: templates/unishop/includes/footer_profile.tpl:11
+#: templates/unishop/includes/header_profile.tpl:27
+#: templates/unishop/includes/mobile_profile.tpl:10
+#: templates/unishop/shop/profile.tpl:6
+msgid "Your Account"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:96
+msgid "Your card was successfully applied"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:31
+#: templates/unishop/comments/reply_form.tpl:26
+msgid "Your comment has been successfully published"
+msgstr ""
+
+#: templates/unishop/comments/main_form.tpl:29
+#: templates/unishop/comments/reply_form.tpl:24
+msgid "Your comment will be published after moderation"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/cart_total.tpl:24
+msgid "Your discount"
+msgstr ""
+
+#: templates/unishop/feedback/feedback.tpl:16
+#: templates/unishop/feedback/feedback_modal.tpl:13
+#: templates/unishop/found_less_expensive/modal_form.tpl:24
+msgid "Your message has been sent"
+msgstr ""
+
+#: templates/unishop/shop/includes/cart/order_view_info.tpl:5
+msgid "Your order details are below"
+msgstr ""
+
+#: templates/unishop/shop/order_view.tpl:5
+msgid "Your order is confirmed"
+msgstr ""
+
+#: templates/unishop/shop/includes/profile/discount_info.tpl:19
+msgid "Your personal discount"
+msgstr ""
+
+#: templates/unishop/shop/includes/search_and_brand/autocomplete.tpl:74
+msgid "Your search did not match any products. Make sure all words are spelled correctly."
+msgstr ""
+
+#: templates/unishop/wishlist/wishlist.tpl:58
+msgid "Your wishlist is empty"
+msgstr ""

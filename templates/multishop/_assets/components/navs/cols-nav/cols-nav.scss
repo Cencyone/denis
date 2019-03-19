@@ -1,0 +1,71 @@
+/*
+--------------------------------------------------
+Navigation table-navs styles
+--------------------------------------------------
+*/
+
+.cols-nav {
+
+  &__row {
+    display: inline-flex;
+    border: 1px solid $cols-nav-border-color;
+    text-align: left;
+    background: $cols-nav-bg-color;
+    box-shadow: 0 3px 4px $cols-nav-shadow-color;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  & [data-megamenu-wrap="true"] {
+    flex-wrap: wrap;
+  }
+
+  & [data-megamenu-wrap="false"] {
+    flex-wrap: nowrap;
+  }
+
+  &__col {
+    max-width: $cols-subnav-col-width;
+    min-width: 186px;
+    padding: 5px;
+  }
+
+  &__item {
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    @include link-second;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+}
+
+.cols-subnav {
+  margin-top: 3px;
+
+  &__item {
+    padding-top: 5px;
+
+    &--level-2 {
+      font-size: .9em;
+
+      &::before {
+        content: '-';
+      }
+    }
+  }
+
+  &__link {
+    @include link-main;
+    line-height: 1;
+  }
+  &__item--level-2 &__link {
+    color: #666;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

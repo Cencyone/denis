@@ -1,0 +1,59 @@
+/* Bootstrap rewrite */
+.form-input {
+  font-size: 1rem;
+
+  &__group {
+    @extend .input-group;
+  }
+  &--product-base &__group{
+    @extend .input-group-lg;
+  }
+  &__group-item{
+    @extend .input-group-btn;
+  }
+  &__group-btn{
+    @extend .btn, .btn-default;
+  }
+  &--product-base &__group-btn{
+    @extend .btn, .btn-light;
+  }
+
+
+
+  &__control {
+    @extend .form-control;
+
+    &--quantity {
+      text-align: center;
+    }
+
+    &--sm {
+      @extend .input-sm;
+    }
+  }
+  &--product-base &__control{
+    border: 1px solid #eedbb2;
+    &:focus{
+      box-shadow: none;
+    }
+  }
+
+
+
+  &__info{
+    position: relative;
+    margin-top: 3px;
+    font-size: 0.9em;
+  }
+
+
+
+  &__link{
+    @include link-main;
+
+    &--js{
+      @include link-js;
+    }
+  }
+
+}

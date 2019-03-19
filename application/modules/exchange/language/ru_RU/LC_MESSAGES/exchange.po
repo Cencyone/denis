@@ -1,0 +1,232 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-25 05:06+0300\n"
+"PO-Revision-Date: 2015-09-25 05:06+0300\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/exchange/assets/admin/settings.tpl:144
+msgid "Purchase price id"
+msgstr "Id закупочной цены"
+
+#: application/modules/exchange/admin.php:20
+msgid "Description"
+msgstr "описания:"
+
+#: application/modules/exchange/assets/admin/settings.tpl:136
+msgid "Email Administrator for sending important safety mistakes"
+msgstr "E-mail администратора для отправки важных ошибок безопасности:"
+
+#: application/modules/exchange/assets/admin/settings.tpl:172
+msgid "Debugging mode"
+msgstr "Режим отладки:"
+
+#: application/modules/exchange/assets/admin/settings.tpl:228
+msgid "Not update existing"
+msgstr "Не обновлять существующие"
+
+#: application/modules/exchange/admin.php:22
+msgid "Properties"
+msgstr "свойства товаров:"
+
+#: application/modules/exchange/assets/admin/settings.tpl:16
+msgid "Fix"
+msgstr "Исправить категории товаров"
+
+#: application/modules/exchange/admin.php:21
+msgid "Categories"
+msgstr "категории:"
+
+#: application/modules/exchange/admin.php:129
+msgid "1C additional categories was started"
+msgstr "1С дополнительные категории запущены"
+
+#: application/modules/exchange/admin.php:19
+msgid "Products"
+msgstr "товары:"
+
+#: application/modules/exchange/assets/admin/settings.tpl:12
+#: application/modules/exchange/assets/admin/Log.tpl:37
+msgid "Back"
+msgstr "Вернуться"
+
+#: application/modules/exchange/assets/admin/settings.tpl:220
+msgid "For existing items updating will be disabled"
+msgstr "Для существующих элементов обновление будет отключено"
+
+#: application/modules/exchange/assets/admin/settings.tpl:172
+msgid "Server credentials will not be considered and errors will be written to the file"
+msgstr "Доступа к серверу не будут учитываться. Ошибки будут записаны в файл логов:"
+
+#: application/modules/exchange/assets/admin/settings.tpl:135
+msgid "and security  will be sent to administrator"
+msgstr "и безопасности будут отправлены администратору"
+
+#: application/modules/exchange/assets/admin/settings.tpl:134
+msgid "If you specify an email errors when incorrect password"
+msgstr "Если вы укажите адрес электронной почты, ошибки при неверном пароле"
+
+#: application/modules/exchange/assets/admin/settings.tpl:215
+msgid "Update settings"
+msgstr "Настройки обновления"
+
+#: application/modules/exchange/admin.php:68
+msgid "No config data provided"
+msgstr ""
+
+#: application/modules/exchange/assets/admin/Log.tpl:48
+msgid "Empty list"
+msgstr "Пусто"
+
+#: application/modules/exchange/assets/admin/settings.tpl:5
+msgid "Integration with 1C - settings "
+msgstr "Интеграция с 1С - настройки"
+
+#: application/modules/exchange/assets/admin/settings.tpl:52
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: application/modules/exchange/assets/admin/settings.tpl:162
+msgid "Security settings"
+msgstr "Настройки безопасности"
+
+#: application/modules/exchange/assets/admin/settings.tpl:219
+msgid "Only new items will be inserted"
+msgstr "Импортироваться будут только новые элементы"
+
+#: application/modules/exchange/exchange.php:139
+msgid "Can not create a database snapshot, check the folder {0} on writing possibility"
+msgstr "Не возможно создать снимок базы данных, проверьте папку {0} на возможность записи"
+
+#: application/modules/exchange/admin.php:81
+msgid "1C settings was edited"
+msgstr "1С настройки были отредактированы"
+
+#: application/modules/exchange/admin.php:185
+msgid "1C log was cleared"
+msgstr "1С журнал был очищен"
+
+#: application/modules/exchange/assets/admin/settings.tpl:33
+#: application/modules/exchange/assets/admin/Log.tpl:23
+#: application/modules/exchange/admin.php:170
+msgid "Query log"
+msgstr "Журнал запросов"
+
+#: application/modules/exchange/assets/admin/settings.tpl:86
+msgid "Select order status"
+msgstr "Выбор статуса заказа"
+
+#: application/modules/exchange/assets/admin/settings.tpl:119
+msgid "Run automatically resize images?"
+msgstr "Выполнить автоматически ресайз изображений?"
+
+#: application/modules/exchange/assets/admin/settings.tpl:61
+msgid "Yes"
+msgstr "Да"
+
+#: application/modules/exchange/assets/admin/settings.tpl:36
+#: application/modules/exchange/assets/admin/Log.tpl:26
+#: application/modules/exchange/admin.php:181
+msgid "Time log"
+msgstr "Журнал времени"
+
+#: application/modules/exchange/assets/admin/settings.tpl:30
+#: application/modules/exchange/assets/admin/Log.tpl:20
+#: application/modules/exchange/admin.php:159
+msgid "Errors log"
+msgstr "Журнал ошибок"
+
+#: application/modules/exchange/assets/admin/settings.tpl:25
+#: application/modules/exchange/assets/admin/Log.tpl:15
+msgid "Logs"
+msgstr "Журналы"
+
+#: application/modules/exchange/assets/admin/settings.tpl:195
+msgid "Set up a login to access the server 1C"
+msgstr "Задать логин для доступа к серверу 1С"
+
+#: application/modules/exchange/admin.php:88
+msgid "Images saved"
+msgstr "Изображения сохранены"
+
+#: application/modules/exchange/assets/admin/settings.tpl:184
+msgid "Use server password"
+msgstr "Использование пароля сервера"
+
+#: application/modules/exchange/assets/admin/settings.tpl:58
+msgid "Use commpres"
+msgstr "Использовать сжатие"
+
+#: application/modules/exchange/admin.php:83
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: application/modules/exchange/exchange.php:235
+msgid "Wrong password"
+msgstr "Неправильный пароль"
+
+#: application/modules/exchange/assets/admin/settings.tpl:62
+msgid "No"
+msgstr "Нет"
+
+#: application/modules/exchange/assets/admin/Log.tpl:12
+msgid "Clear log"
+msgstr "Очистить журнал"
+
+#: application/modules/exchange/exchange.php:279
+#: application/modules/exchange/exchange.php:280
+msgid "Security Error!!!"
+msgstr "Ошибка безопасности!"
+
+#: application/modules/exchange/exchange.php:431
+msgid "Import error"
+msgstr "Ошибка при импорте"
+
+#: application/modules/exchange/assets/admin/settings.tpl:202
+msgid "Server password"
+msgstr "Пароль сервера"
+
+#: application/modules/exchange/module_info.php:9
+msgid "Allows you to synchronize online store database with 1C Trade Management database"
+msgstr "Позволяет синхронизировать базу данных интернет-магазина с базой данных 1С Управление Торговлей"
+
+#: application/modules/exchange/assets/admin/settings.tpl:68
+msgid "Size"
+msgstr "Размер"
+
+#: application/modules/exchange/admin.php:73
+msgid "Size of the file being loaded at the same time"
+msgstr "Размер файла, загружаемого в то же время"
+
+#: application/modules/exchange/assets/admin/settings.tpl:75
+msgid "Database backup"
+msgstr "Резервное копирование базы данных"
+
+#: application/modules/exchange/assets/admin/settings.tpl:99
+msgid "Property, which will be mean like brand"
+msgstr "Свойство, которое будет применено как бренд"
+
+#: application/modules/exchange/module_info.php:8
+msgid "Synchronization with 1C"
+msgstr "Синхронизация с 1С"
+
+#: application/modules/exchange/assets/admin/settings.tpl:22
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/modules/exchange/assets/admin/settings.tpl:106
+msgid "Order status after export"
+msgstr "Статус заказа после экспорта"

@@ -1,0 +1,104 @@
+.product-shipping {
+
+  $text-color: $base-font-color;
+  $tooltip-size: 20px;
+
+  font-size: 1rem;
+  color: $text-color;
+
+  &__row {
+    &:not(:first-child){
+      padding-top: 15px;
+    }
+    &:not(:last-child) {
+      margin-bottom: 1px;
+      padding-bottom: 15px;
+      border-bottom: 1px dashed $base-border-color;
+    }
+  }
+
+  &__header {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  &__ico {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+    fill: #c5ccd3;
+    color: #c5ccd3;
+
+    &--delivery{
+      width: 30px;
+      height: 20px;
+    }
+
+    &--payment{
+      width: 27px;
+      height: 22px;
+    }
+
+    &--phone{
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__title {
+    display: inline-block;
+    vertical-align: middle;
+    color: $theme-main-color;
+    text-transform: uppercase;
+    font-size: .9rem;
+  }
+
+  &__list {
+    font-size: .9em;
+  }
+
+  &__item {
+    position: relative;
+    line-height: 1.1;
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+    &:hover {
+      .product-shipping__tooltip-wrapper {
+        display: block;
+      }
+      .product-shipping__tooltip-link {
+        color: #000;
+      }
+    }
+  }
+
+  &__desc {
+
+  }
+
+  &__phone {
+    font-weight: bold;
+  }
+
+  &__tooltip {
+    display: inline;
+    position: relative;
+
+    &-link {
+      cursor: default;
+    }
+
+    &-wrapper {
+      display: none;
+      @include position(absolute, null null 50% 70%);
+      z-index: 10;
+      width: 200px;
+      padding: 10px;
+      border: 1px solid $base-border-color;
+      background: #fff;
+      line-height: 1.3;
+    }
+  }
+
+}

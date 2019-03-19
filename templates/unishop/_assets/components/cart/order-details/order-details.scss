@@ -1,0 +1,42 @@
+.order-details {
+
+  padding: 15px;
+  @media(min-width: $screen-lg-min) {
+    padding: 30px 45px;
+  }
+  background: $theme-secondary-color;
+
+  &__group {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding: 15px 0;
+    border-bottom: 1px dashed $base-border-color;
+    &:first-child{
+      padding-top: 0;
+    }
+    &:last-child{
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+  }
+
+  &__list {
+    display: table-row;
+  }
+
+  &__item {
+    display: table-cell;
+    vertical-align: top;
+    padding-bottom: 10px;
+
+    &:not(:first-child) {
+      padding-left: 30px;
+    }
+
+    &--title {
+      font-weight: bold;
+    }
+
+  }
+}

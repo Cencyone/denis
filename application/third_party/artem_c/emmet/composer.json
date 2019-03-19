@@ -1,0 +1,18 @@
+{
+    "name": "artem_c/emmet",
+    "description": "emmet implementation for php",
+    "keywords": ["emmet", "php", "html"],
+    "type": "library",
+    "license": "free",
+    "authors": [
+        {
+            "name": "Artem Bilik",
+            "email": "artem.bilik@gmail.com"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "artem_c\\emmet\\": "src/" }
+    }
+}

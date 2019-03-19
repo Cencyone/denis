@@ -1,0 +1,35 @@
+.product-thumb {
+  display: table;
+  width: 100%;
+
+  @media (min-width: $screen-lg-min) {
+    &__photo {
+      display: table-cell;
+      vertical-align: top;
+      width: 80px;
+      padding-right: 10px;
+    }
+
+    &__inner {
+      display: table-cell;
+      vertical-align: top;
+    }
+  }
+
+  &__title {
+    font-size: 0.9rem;
+
+    @media (min-width: $screen-lg-min) {
+      padding-top: 5px;
+    }
+  }
+
+  &__title-link{
+    @include link-main;
+  }
+
+  &__price {
+    padding-top: 5px;
+  }
+
+}
